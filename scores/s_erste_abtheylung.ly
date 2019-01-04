@@ -22,6 +22,7 @@
 		\header {
 			movement = "1.1 CHORAL: Jeſu, deine Paſsion"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new ChoirStaff <<
@@ -65,8 +66,8 @@
 					\JesuDeineBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 120 }
+% 			\layout { }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 % 	\bookpart {

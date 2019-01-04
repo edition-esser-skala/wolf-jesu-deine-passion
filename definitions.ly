@@ -9,7 +9,7 @@
 \paper {
 	#(set-paper-size "a4" 'landscape)
 	two-sided = ##t
-	top-margin = 1\cm
+	top-margin = .8\cm
 	bottom-margin = .5\cm
 	outer-margin = 2\cm
 	inner-margin = 1.5\cm
@@ -45,8 +45,8 @@
        (stretchability . 0))
 		
 	markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
+    #'((basic-distance . 10)
+       (minimum-distance . 10)
        (padding . -100)
        (stretchability . 0))
 	
