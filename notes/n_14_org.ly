@@ -44,8 +44,8 @@ JesuDeineOrgano = {
 }
 
 JesuDeineBassFigures = \figuremode {
+	r2 <[6]>
 	r1
-	r
 	r2 <6\\>
 	r1
 	<6 5> %5
@@ -53,7 +53,7 @@ JesuDeineBassFigures = \figuremode {
 	<6 5>2 <5 3>
 	r1
 	r2 <4 2>
-	<6> <4 2> %10
+	<6> <[4+] 2> %10
 	<6> <7 5>
 	<_+>1
 	r
@@ -65,7 +65,7 @@ JesuDeineBassFigures = \figuremode {
 	r1
 	r %20
 	r2 <6>
-	r <6>4 <6 5>
+	<5>4 <[6\\]> <6> <6 5>
 	<5 4>2 <7 5 _+>
 	r1
 	<6> %25
