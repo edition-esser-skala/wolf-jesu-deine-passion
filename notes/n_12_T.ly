@@ -89,6 +89,18 @@ JesuDeineTenoreLyrics = \lyricmode {
 	zen.] %32 finis
 }
 
+OWelchTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoOWelch
+		
+	}
+}
+
+OWelchTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

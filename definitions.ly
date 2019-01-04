@@ -110,6 +110,20 @@ partTitle = #(define-scheme-function
 		}
 	#}
 )
+
+movementTitle = #(define-scheme-function
+  (parser location number title subtitle)
+  (string? string? string?)
+  #{
+		 \markup {
+			 \with-color #(rgb-color .8313 0 0) #title
+			 \hspace #3
+			 #number
+			 \hspace #1
+			 #subtitle
+		 }
+	#}
+)
 %
 %
 
@@ -197,6 +211,7 @@ tempoMarkup =
 %
 
 tempoJesuDeine = \tempoMarkup "[Tempo deest]"
+tempoOWelch = \tempoMarkup "[Tempo deest]"
 
 
 

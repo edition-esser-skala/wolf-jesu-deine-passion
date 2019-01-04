@@ -78,9 +78,22 @@ JesuDeineBassFigures = \figuremode {
 	r1 %32 finis
 }
 
+OWelchOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoOWelch
+		\partial 8 \mvTr g'8\p-\soloE g g g g g g g g
+	}
+}
+
+OWelchBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
+% 		
 % 		
 % 	}
 % }
