@@ -39,7 +39,7 @@ JesuDeineOrgano = {
 		g2 h,
 		c g' %30
 		d1
-		g,\fermata \bar "||" %32 finis
+		g,\fermata \bar "|." %32 finis
 	}
 }
 

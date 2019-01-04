@@ -14,10 +14,10 @@
 #(set-global-staff-size 15.87)
 
 \book {
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "1" "E R T E   A B T H E Y L U N G"
-	}
+% 	\bookpart {
+% 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+% 		\partTitle "1" "E R T E   A B T H E Y L U N G"
+% 	}
 	\bookpart {
 		\header {
 			movement = "1.1 CHORAL: Jeſu, deine Paſsion"
