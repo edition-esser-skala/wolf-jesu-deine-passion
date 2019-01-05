@@ -186,9 +186,9 @@ HeiligerOrgano = {
 		as8(-. as-. b-. b-. d-. d-.)
 		es4 es, g'
 		as b b,
-		es4. es,8 g b %25
-		es g[-! g-! g-! g-! g-!]
-		as as\mfE as as a a
+		es4. es,8\fE g b %25
+		es \slurDashed g[(-!\pE g-! g-! g-! g-!])
+		as(-. as-.\mfE as-. as-. a-. a-.) \slurSolid
 		b\pE b( d,) d( es) es
 		b'4 b,\f b
 		a a\pE a %30
@@ -226,7 +226,7 @@ HeiligerOrgano = {
 		b b as!
 		g2 r4
 		h2.\fp
-		r8 c\f c( d) d( es) %65
+		r8 c\mfE c( d) d( es) %65
 		es\pE es es es e e
 		f2 r4
 		a,2.\fp
@@ -236,7 +236,7 @@ HeiligerOrgano = {
 		\once \slurDashed b(-. b-. b-. b-. b-. b-.)
 		es es, es( f) f( g)
 		g(-. g-. g-. g-. g-. g-.)
-		a(-. a-. a-.\mfE a-. a-. a-.) %75
+		as?(-. as-. as-.\mfE as-. a-. a-.) %75
 		b(-.\pE b-. d-. d-. es-. es-.)
 		b-! b-! b( c) c( des)
 		des(-. des-. des-.\mfE des-. des-. des-.)
