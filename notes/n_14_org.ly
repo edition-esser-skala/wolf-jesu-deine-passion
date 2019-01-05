@@ -188,8 +188,8 @@ HeiligerOrgano = {
 		as b b,
 		es4. es,8 g b %25
 		es g[-! g-! g-! g-! g-!]
-		as as as as a a
-		b\mfE b( d,) d( es) es
+		as as\mfE as as a a
+		b\pE b( d,) d( es) es
 		b'4 b,\f b
 		a a\pE a %30
 		b b c
@@ -227,10 +227,10 @@ HeiligerOrgano = {
 		g2 r4
 		h2.\fp
 		r8 c\f c( d) d( es) %65
-		es es es es e e
+		es\pE es es es e e
 		f2 r4
 		a,2.\fp
-		r8 b b( as) as(\mfE g)
+		r8 b\mfE b( as) as( g)
 		\once \slurDashed g(-.\pE g-. g-. g-. g-. g-.) %70
 		as(-. as-. as-. as-. as-. as-.)
 		\once \slurDashed b(-. b-. b-. b-. b-. b-.)
@@ -263,10 +263,10 @@ HeiligerOrgano = {
 		b b b
 		b b b %100
 		h8(-. h-. c-. c-. b-. b-.)
-		r as!(-. as-. as-. as-. as-.)
+		r as!(-. as-.\mfE as-. as-. as-.)
 		a4\f b2\p
 		es, r4
-		c'2 r4 %105
+		c'2\mfE r4 %105
 		a\f a a
 		b2.\fermata
 		es,4 g es
@@ -277,9 +277,9 @@ HeiligerOrgano = {
 		b2\p r4
 		f'8\fE f, r f' d b
 		es4 r g %115
-		as b\p b,
+		as\p b b,
 		es r g\f
-		as b b, \noBreak
+		as\pE b b, \noBreak
 		es2\fermata r4 \bar "||"
 		\time 3/8 \tempoSchauZumEndlichen \newSpacingSection
 			c4\pE d8 \noBreak %120
@@ -340,7 +340,7 @@ HeiligerOrgano = {
 		es4\fermata-\critnote r8
 		R4.*5 \bar "||" %182
 		\time 3/4 \tempoHeiliger \newSpacingSection
-			es4\f g es
+			es4\f g es \noBreak
 		b d b
 		es r g %185
 		as b\p b,

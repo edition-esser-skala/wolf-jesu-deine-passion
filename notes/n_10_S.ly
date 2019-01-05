@@ -242,7 +242,7 @@ HeiligerSopranoNotes = {
 		d'8([ es)] d
 		d([ b)] g
 		c4.\trill %180
-		d\trill
+		d\trill \noBreak
 		g,4 r8 \bar "||"
 		\time 3/4 \tempoHeiliger \newSpacingSection
 		R2.*6 \bar "S-S" %188 finis
