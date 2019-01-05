@@ -74,6 +74,7 @@
 		\header {
 			movement = \movementTitle "1.2" "RECITATIV" "O welch ein kläglich Bild"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -92,7 +93,7 @@
 						\OWelchViola
 					>>
 				>>
-				\new ChoirStaff <<
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \OWelchTenoreNotes }

@@ -6,7 +6,7 @@
 
 OWelchViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \major \time 4/4 \tempoOWelch
 		\partial 8 g8\p g g g g g g g g
 		a'1\rfzE

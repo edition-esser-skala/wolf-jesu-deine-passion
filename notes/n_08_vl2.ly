@@ -12,7 +12,7 @@ OWelchViolinoII = {
 		c1\rfz
 		b2\p g
 		fis4 r8 d16( e!) e( fis) fis( g) g( gis) gis( a)
-		a( c) c( h!) h( a( a( g) g2~\p %5
+		a( c) c( h!) h( a) a( g) g2~\p %5
 		g r16 g(-. g-. g-.) r g(-. g-. g-.)
 		g2\rfz r16 g(-.\p g-. g-.) r c(-. c-. c-.)
 		e!2\mfE r16 cis(-.\pE cis-. cis-.) r \once \slurDashed cis(-. cis-. cis-.)
