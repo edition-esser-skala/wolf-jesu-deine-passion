@@ -539,6 +539,34 @@ MeinHerzOrgano = {
 		\clef bass
 		\key b \major \time 4/4 \tempoMeinHerz
 		\mvTr b8\fE-\tuttiE b d c16 b f'4 r
+		f8 f a g16 f b4 r
+		r2 r4 r16 b, c d
+		es f g f es f es d c4 r
+		r r16 c d e f g a g f g f es? %5
+		d4 r r r16 d e? fis
+		g a b g c c, d e f g a f b b, c d
+		e f g e a a, b c d e f d g g, a b
+		c8 c' c, c' c, c' c, c'
+		c, c' c, c' c, c' c, c' %10
+		c, b' a b c b c c,
+		f a b a16 g f8 a b a16 g
+		f4 r r16 d c b a b a g
+		f4 r r2
+		r16 e' d c h c h a g4 r %15
+		r2 r16 f' e d cis d cis h
+		a4 r16 a h cis d e f d g g, a b
+		c d e c f f, g a b c d c e e, f g
+		a b c a d d, e? f g a b g c c, d e
+		f8 f' f, f' f, f' f, f' %20
+		f, f' f, f' f, f' f, f'
+		f, es'! d es f es f f,
+		b4 b' r8 as g f16 es
+		b'8 as g f16 es b'4 r8 b16 as
+		g8 es a f b d, f f, %25
+		b4 r r2
+		r r16 b' a g f g f es
+		d g f es d es d c b c d es f8 f,
+		b4 r r2\fermata \bar "|." %29 finis
 	}
 }
 
