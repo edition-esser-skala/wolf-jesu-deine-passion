@@ -158,6 +158,18 @@ OWelchBassFigures = \figuremode {
 	r8 <_-> <6 [_-]> <3> r2 %35 finis
 }
 
+HeiligerOrgano = {
+	\relative c {
+		\clef bass
+		\key es \major \time 3/4 \tempoHeiliger
+		\mvTr es4\fE-\soloE g es
+	}
+}
+
+HeiligerBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

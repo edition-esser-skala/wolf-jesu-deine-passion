@@ -89,6 +89,18 @@ JesuDeineSopranoLyrics = \lyricmode {
 	zen.] %32 finis
 }
 
+HeiligerSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoHeiliger
+		
+	}
+}
+
+HeiligerSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

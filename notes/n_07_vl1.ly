@@ -29,9 +29,18 @@ OWelchViolinoI = {
 	}
 }
 
+HeiligerViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoHeiliger
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
+% 		
 % 		
 % 	}
 % }

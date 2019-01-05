@@ -28,3 +28,11 @@ OWelchViola = {
 		R1\fermataMarkup \bar "|." %35 finis
 	}
 }
+
+HeiligerViola = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoHeiliger
+		
+	}
+}

@@ -94,7 +94,7 @@ OWelchTenoreNotes = {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoOWelch
 		\partial 8 r8 R1
-		r4 es\pE^\soloE es8 es es d
+		r4 \mvTr es\pE^\soloE es8 es es d
 		\appoggiatura c b8 r r16 b b g c8 g g fis
 		a a r4 r2
 		r r4 r8 g %5

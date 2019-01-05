@@ -70,44 +70,88 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.2" "RECITATIV" "O welch ein kläglich Bild"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\OWelchViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\OWelchViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\OWelchViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \OWelchTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \OWelchTenoreLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\OWelchOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\OWelchBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.2" "RECITATIV" "O welch ein kläglich Bild"
+			movement = \movementTitle "1.3" "ARIA" "Heiliger, auch ich bin Erde"
 		}
-		\paper { systems-per-page = #2 }
+% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\OWelchViolinoI
+							\HeiligerViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\OWelchViolinoII
+							\HeiligerViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\OWelchViola
+						\HeiligerViola
 					>>
 				>>
 				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \OWelchTenoreNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \HeiligerSopranoNotes }
 					}
-					\new Lyrics \lyricsto Tenore \OWelchTenoreLyrics
+					\new Lyrics \lyricsto Soprano \HeiligerSopranoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\OWelchOrgano
+						\HeiligerOrgano
 					}
 				>>
 				\new FiguredBass {
-					\OWelchBassFigures
+					\HeiligerBassFigures
 				}
 			>>
 			\layout { }
