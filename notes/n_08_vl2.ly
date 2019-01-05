@@ -33,6 +33,195 @@ HeiligerViolinoII = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 3/4 \tempoHeiliger
-		
+		r8 \mvTr b(-.\fE-\markup { \remark "con sordino" } b-. b-.) b( es)
+		d \once \slurDashed b(-. b-. b-.) b( f')
+		es es16( d) f( es) es( d) f( es) as( g)
+		g4( b) \appoggiatura b8 as4\trill
+		g8-! es16(\pE d) f( es) g( f) as( g) b( g) %5
+		g4 b \appoggiatura b8 as4
+		g8 g4\fE f4 es8
+		\appoggiatura f8 es4\trill d r
+		r8 f(-. f-. f-.) as( f)
+		r \once\slurDashed g(-. g-. g-.) b( g) %10
+		f8. f'16 f2
+		\slurDashed es16( g) b( g) \slurSolid g( es) es( b) b( g) g( es)
+		c8 as'[ as( g) g( f)]
+		es b''16( g) g( es) es( b) b( g) g( es)
+		c8 f es( g) d( f) \bar "S-|" %15
+		es8\pE \once \slurDashed b(-. b-. b-.) b( es)
+		d \once \slurDashed b(-. b-. b-.) b( f')
+		es es16( d) f( es) es( d) f( es) as( g)
+		g4 b \appoggiatura b8 as4\trill
+		g8-\parenthesize-! es[(-. es-. es-. d-. d-.)] %20
+		r es(-. es-. es-. es-. es-.)
+		es4( d) f
+		f( es8) es'16( b) b( g) g( es)
+		c8 as' as( g) g( f)
+		\appoggiatura as16 \tuplet 3/2 4 { g8 f es } es4 r %25
+		es2( e4)
+		f4 f\mfE es
+		d8.(\pE es16) f4 es
+		es\trill d r
+		r8 es[(-. es-. es-. es-. es-.)] %30
+		r \once \slurDashed d(-. d-. d-. es-. es-.)
+		d8. es16 f8 as r g
+		f d' r4 b~
+		b8. as16 as2\mf
+		r8 es16(\p d) f( es) g( f) as( g) b( g) %35
+		g8( es d es d b)
+		es4 r b'~
+		b8. b16 b2\mf
+		r8 a,?16(\pE g) b( a) f'( e) g( f) b( a)
+		a?8( f) e( f) e( c) %40
+		f a,16([\mf c)] c( a') a8 a16( c) c( f)
+		d8 f,([\p-. f-. f-. f-. f-.)]
+		r g(-. g-. g-. g-. g-.)
+		g8. b16 b2\sf
+		r8 a(-. a-. a-.) c( a) %45
+		a?8. c16 c2
+		r8 b(-. b-. b-.) d( b)
+		b8. d16 d2
+		c8. es16 es2
+		r8 d(-. d-. d-.) f( d) %50
+		r d(-. d-. d-.) b'( d,)
+		r es4 d c8
+		b4 d f,
+		\appoggiatura fis g2 c4
+		b8.( c32 d) \appoggiatura b4 a2\trill %55
+		b8\f f(-. f-. f-.) f( b)
+		a f-. f-. f-. f( c')
+		b16( d) f( d) d( b) b( f) f( d) d( b)
+		g8 es'[\p es( d) d( c)]
+		b \once \slurDashed f''16([\f d)] d( b) b( f) f( d) d( b) %60
+		g8 c'[\p b( d) c,( es)]
+		d8 d(-. d-. d-. d-. d-.)
+		d h16([\f d)] d( f) f( h) h( d) d( f)
+		f8 f,[\p f( es) es( d)]
+		\appoggiatura d16 \tuplet 3/2 4 { c8-\critnote h c } c4 r %65
+		r b'!2
+		a8 a,16([\f c)] c( es) es( a) a( c) c( es)
+		es8 es,[\p es( d) d( c)]
+		\appoggiatura c16 \tuplet 3/2 4 { b8-\critnote a b } b4 r
+		es2( e4) %70
+		f2 es4
+		d8. as'16 g4 f
+		f\trill es r
+		es2( e4)
+		f2 es4\mf %75
+		d8.\pE es16 f4 es\trill
+		d8 f r4 b~
+		b8. f16 b2\mf
+		b8\p \slurDashed b16( as) c( b) g( f) \slurSolid as( g) b( as)
+		as8 f e( f) e( c) %80
+		f4 r f~
+		f8. es!16 es2\mf
+		d8\pE-! d16( c) es( d) f( es) \slurDashed g( f) as( g) \slurSolid
+		g8 es d( es) d( b)
+		es2 r4 %85
+		g2 es4
+		es2 es4
+		d8. f16 f2
+		r8 es(-. es-. es-.) g( es)
+		g8. b16 b2 %90
+		r8 c,(-. c-. c-.) es( c)
+		as'8. c16 c2
+		r8 b g(-. g-.) b( g)
+		b8. des16 des2
+		c8. es,16 es2\f %95
+		d!8\p f(-. f-. f-.) as( f)
+		r g(-. g-. g-.) es'( g,)
+		f8 as4 g f8
+		es g4 g g8^\critnote
+		f as4 g f8 %100
+		f4 es2~
+		es4 es\mf f
+		g\f \appoggiatura g f2\trill
+		es8 g(-. g-. g-.) b( g)
+		r g(-.\mf g-. g-.) es'( g,) %105
+		r a,16(\fE c) \slurDashed c( es) es( a) \slurSolid a( c) c( es)
+		es4 r\fermata r
+		r8 b,(-. b-. b-.) b( es)
+		d-! b(-. b-. b-.) b( f')
+		es g4 f es8 %110
+		\appoggiatura f8 es4\trill d r
+		r8 f(-. f-. f-.) as( f)
+		r g(-.\pE g-. g-.) b( g)
+		f8.\f f'16 f2
+		es16( g) b( g) g( es) es( b) b( g) g( es) %115
+		c8\p as' \slurDashed as( g) g( f) \slurSolid
+		es b''16(\f g) g( es) es( b) b( g) g( es)
+		c8\p f es( g) d( f) \noBreak
+		\appoggiatura f4 es2\fermata r4 \bar "||"
+		\time 3/8 \tempoSchauZumEndlichen \newSpacingSection
+			es4\p h8 \noBreak %120
+		c4 es8
+		d c h
+		c16 h c8 r
+		c4 h8
+		c4 f8 %125
+		es( g) c-!
+		\appoggiatura d16 c8[ h?] es~\f
+		es h( c)
+		\appoggiatura f,16 es8 d r
+		b'\pE g as %130
+		g b c
+		b4 c8
+		b( as)\trill g
+		b c des
+		c g as %135
+		b4 c8
+		b( as\trill g)
+		f( g as)
+		g( as b)
+		as( f g) %140
+		g4 f8
+		\once \slurDashed es( h') h
+		h( c f,)-\critnote
+		es( g) r
+		d f r %145
+		es ges4~\f
+		ges8 d'( es)
+		\slurDashed d( f) r
+		es( g!) \slurSolid r
+		g, g( f\trill) %150
+		es( g) c-!\p
+		c4.
+		b!8( as g)
+		\appoggiatura as16 g8 fis r
+		c'4.~ %155
+		c
+		b8 d, g
+		\appoggiatura a16 g8[ fis] a~\f
+		a b g
+		\appoggiatura a16 g8 fis? r %160
+		d4\p g8
+		es( d) g
+		es( d) fis
+		a( g) fis
+		d4. %165
+		es
+		es4 fis8
+		a( g) fis\trill
+		g( h c)
+		h( c h) %170
+		c( h c)
+		c4( h8)
+		c( g) a
+		f!4 g8
+		\slurDashed as!( es) r %175
+		fis( a) \slurSolid r
+		es4\fermata r8
+		b'( c b)
+		b es g,
+		c,4. %180
+		d4 r8 \noBreak
+		g,4 r8 \bar "||"
+		\time 3/4 \tempoHeiliger \newSpacingSection
+			g8\fE b(-. b-. b-.) b( es) \noBreak
+		d b(-. b-. b-.) b( f')
+		es b''16([ g)] g( es) es( b) b( g) g( es) %185
+		c8 as' as\p g g f
+		es b''16([\fE g)] g( es) es( b) b( g) g( es)
+		c8 f[\pE \slurDashed es( g) d( f)] \bar "S-S" %188 finis
 	}
 }

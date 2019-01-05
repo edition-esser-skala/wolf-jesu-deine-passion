@@ -176,8 +176,8 @@ HeiligerOrgano = {
 		es4 r g
 		as b b,
 		es r g
-		as b b, %15
-		\inStaffSegno es\pE g es
+		as b b, \bar "S-|" %15
+		es\pE g es
 		b d b
 		es2 r4
 		r8 es d( es) d( b)

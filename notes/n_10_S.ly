@@ -93,7 +93,7 @@ HeiligerSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 3/4 \autoBeamOff \tempoHeiliger
-		R2.*15 \inStaffSegno %15
+		R2.*15 \bar "S-|" %15
 		\mvTr b'2.~\pE^\soloE
 		b2 \appoggiatura b8 as4\trill
 		g r r

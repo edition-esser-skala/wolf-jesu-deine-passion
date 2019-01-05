@@ -47,7 +47,7 @@ HeiligerViolinoI = {
 		g16( b) b( g) g( es) es( b) b( g) g( es)
 		c8 c'[ c( b) b( as)]
 		g b'16( g) g( es) es( b) b( g) g( es)
-		c8 as' g( b) d,( as') \inStaffSegno %15
+		c8 as' g( b) d,( as') \bar "S-|" %15
 		g8\pE \once \slurDashed b,(-. b-. b-.) b( g')
 		f \once \slurDashed b,(-. b-. b-.) b( as')
 		g es16( d) f( es) g( f) as( g) c( b)
@@ -115,7 +115,7 @@ HeiligerViolinoI = {
 		c8 as g( as) g( e) %80
 		f c r4 f~
 		f8. c'16 c2\mf
-		b8\pE f16( es) g( f) as( g) b( as) c( b)
+		b8\pE-! f16( es) g( f) as( g) b( as) c( b)
 		b8 g' f( g) f( d)
 		es4 es, r %85
 		b'2 es,4
@@ -191,7 +191,7 @@ HeiligerViolinoI = {
 		es'4. %155
 		es8( d) d
 		d g, b
-		\appoggiatura c16 b8 a fis'~\f
+		\appoggiatura c16 b8[ a] fis'~\f
 		fis g b,
 		\appoggiatura c16 b8 a r %160
 		g(\p fis g)
