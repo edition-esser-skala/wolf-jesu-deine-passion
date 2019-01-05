@@ -92,13 +92,312 @@ JesuDeineSopranoLyrics = \lyricmode {
 HeiligerSopranoNotes = {
 	\relative c' {
 		\clef treble
-		\key es \major \time 3/4 \tempoHeiliger
-		
+		\key es \major \time 3/4 \autoBeamOff \tempoHeiliger
+		R2.*15 \inStaffSegno %15
+		\mvTr b'2.~\pE^\soloE
+		b2 \appoggiatura b8 as4\trill
+		g r r
+		R2.
+		b2 g4 %20
+		es2 r8 es
+		f8.([ c'16] b4) as
+		as\trill g r
+		r8 c c( b4) as8
+		\appoggiatura as16 \tuplet 3/2 4 { g8([ f es)] } es4 r %25
+		r es e
+		\appoggiatura { e?16[ g] } f2 f4
+		f8.([ g16] as4) g
+		\appoggiatura as8 g4\trill f r
+		r c' f, %30
+		f2 f4
+		f8.([ g16] as4) \appoggiatura as8 g4
+		f b2~
+		b4 as8([ g] as4)
+		g8.[ f16] as([ g) b( as)] c([ b)] es([ b)] %35
+		b2 \appoggiatura b8 as4\trill
+		\appoggiatura as16 \tuplet 3/2 4 { g8([ f es)] } es4 r
+		r c' b
+		a( g16[ f a g] b[ a)] d([ c)]
+		c2 \appoggiatura c8 b4\trill %40
+		\appoggiatura b16 \tuplet 3/2 4 { a8([ g f)] } f4 r
+		b2 f4
+		\appoggiatura fis g2 g4
+		g8[ c,16 d] e[ f g a] b[ a b g]
+		a2.~ %45
+		a8[ d,16 e] fis[ g a? b] c[ b c a]
+		\once \tieDashed b2.~
+		b8[ es,!16 f!] g[ a? b c] d[ c d h]
+		c8[ f,16 g] a[ b c d] es[ d es c]
+		d2.~ %50
+		d~
+		d8 es4 d c8
+		b4 d f,
+		\appoggiatura fis g2 es'4
+		d8.([ es32 f)] \appoggiatura b,4 a2\trill %55
+		b r4
+		R2.*5 %61
+		f2 \appoggiatura d'16 \tuplet 3/2 4 { c8([ h c)] }
+		h2 r4
+		r8 as! as( g4) f8
+		\appoggiatura f16 \tuplet 3/2 4 { es8([ d c)] } c4 r %65
+		c'2 \appoggiatura c16 \tuplet 3/2 4 { b8([ a b)] }
+		a2 r4
+		r8 g g( f4) es8
+		\appoggiatura es16 \tuplet 3/2 4 { d8([ c b)] } b4 r
+		es2 e4 %70
+		\appoggiatura { e16[ g] } f2 f4
+		f8.([ c'16] b4) as
+		as\trill g r
+		r es e
+		f2 f4 %75
+		f8.([ g16] as4) \appoggiatura as8 g4\trill
+		f b2~
+		b4 f( b)
+		b as16([ g) b( as)] c([ b)] des([ c)]
+		c2 \appoggiatura c8 b4\trill %80
+		\appoggiatura b16 \tuplet 3/2 4 { as8([ g f)] } f4 r
+		r f es
+		d8[( f16 es] g[ f as g] b[ as)] c([ b)]
+		b2 \appoggiatura b8 as4\trill
+		\appoggiatura as16 \tuplet 3/2 4 { g8([ f es)] } es4 r %85
+		r b' g
+		\appoggiatura g f2 f4
+		f8[ d16 c] d[ es f g] as[ g as f]
+		\once \tieDashed g2.~
+		g8[ es16 d] es[ f g as] b[ as b g] %90
+		\once \tieDashed as2.~
+		as8[ es16 d] es8[ as16 b] c[ b c a]
+		b2.~
+		b8[ es,16 f] g[ as b c] des[ c des b]
+		c8[ b as\trill g f\trill es] %95
+		b'2.~
+		b~
+		b8 c4 b as8
+		g b4 es b8
+		as c4 b as8 %100
+		g4 g g
+		g( c) d!
+		es \appoggiatura g, f2\trill
+		es r4
+		r r es'8 es %105
+		es es es es es4
+		es\fermata f,2\trill
+		es r4
+		R2.*10 \noBreak %118
+		R2.\fermataMarkup \bar "||"
+		\time 3/8 \tempoSchauZumEndlichen \newSpacingSection
+			g8([ as)] g \noBreak %120
+		g([ c)] g
+		f es([ d)]
+		es16([ d)] c8 r
+		g'([ as)] g
+		g([ c)] g %125
+		g([ c)] es
+		es d r
+		R4.*2
+		es4 es8 %130
+		es4 es8
+		es([ d)] c
+		b([ as)] g
+		es'4 es8
+		es4 es8 %135
+		es([ d)] c
+		b([ as)]\trill g
+		as([ b)] c
+		b([ c)] des
+		c([ d)] es %140
+		es4( d8)
+		es([ h)] h
+		h([ c)] as
+		g([ b)] r
+		d,([ f)] r %145
+		es4 r8
+		R4.*4 %150
+		g8([ es')] es
+		es([ d)] d
+		d c([ b)]
+		b\trill a r
+		es'4 es8 %155
+		es([ d)] d
+		d([ g,)] b
+		b a r
+		R4.*2 %160
+		g8([ fis)] g
+		es([ d)] g
+		es([ d)] c'
+		c([ b)] a
+		g([ fis)] g %165
+		g([ as!)] g
+		g([ fis)] c'
+		c([\trill b)] a
+		g([ h)] c
+		h([ c)] d %170
+		c([ d)] es
+		es4( d8)
+		es([ c)] a
+		d([ b!)] g
+		as!([ c)] r %175
+		fis,4 r8
+		g4\fermata r8
+		d'8([ es)] d
+		d([ b)] g
+		c4.\trill %180
+		d\trill
+		g,4 r8 \bar "||"
+		\time 3/4 \tempoHeiliger \newSpacingSection
+		R2.*6 \bar "S-S" %188 finis
 	}
 }
 
 HeiligerSopranoLyrics = \lyricmode {
+	Hei -- %16
+	li --
+	ger,
 	
+	hei -- li -- %20
+	ger, auch
+	ich __ bin
+	Er -- de,
+	auch ich __ bin
+	Er -- de. %25
+	Die -- ſer
+	ſchwe -- re
+	Theil __ von
+	Er -- de,
+	die -- ſer %30
+	End -- lich --
+	keit __ Ge --
+	fühl drückt __
+	auch __
+	mei -- _ _ ne %35
+	See -- le
+	nie -- der,
+	wie ſie
+	durch __ Ge --
+	beth und %40
+	Lie -- der
+	ſich zu
+	dir er --
+	he -- _ _
+	_ %45
+	_ _
+	_
+	_ _
+	_ _ _
+	_ %50
+	
+	_ _ ben
+	will, ſich zu
+	dir er --
+	he -- ben %55
+	will.
+	
+	Hei -- li -- %62
+	ger,
+	auch ich __ bin
+	Er -- de. %65
+	Hei -- li --
+	ger,
+	auch ich __ bin
+	Er -- de.
+	Die -- ſer %70
+	ſchwe -- re
+	Theil von
+	Er -- de,
+	die -- ſer
+	End -- lich -- %75
+	keit Ge --
+	fühl drückt __
+	auch __
+	mei -- _ _ ne
+	See -- le %80
+	nie -- der,
+	wie ſie
+	durch __ Ge --
+	beth und
+	Lie -- der %85
+	ſich zu
+	dir er --
+	he -- _ _
+	_
+	_ _ %90
+	_
+	_ _
+	_
+	_ _
+	_ %95
+	_
+	
+	_ _ _
+	_ _ _ _
+	_ _ _ ben %100
+	will, ſich zu
+	dir __ er --
+	he -- ben
+	will,
+	wenn ſie %105
+	ſich zu dir er -- he --
+	_ ben
+	will.
+	
+	Schau zum %120
+	End -- li --
+	chen he --
+	run -- ter,
+	ma -- che
+	du die %125
+	See -- le
+	mun -- ter,
+	
+	tau -- fe %130
+	ſie mit
+	dei -- nem
+	Feu -- er,
+	daß ſie
+	küh -- ner, %135
+	daß ſie
+	frei -- jer
+	ſich dem
+	Chor der
+	Him -- mel %140
+	nahn, __
+	in ihr
+	Lob -- lied
+	ſtamm --
+	len %145
+	kan.
+	
+	Schau zum %151
+	End -- li --
+	chen he --
+	run -- ter,
+	ma -- che %155
+	[du] die
+	See -- le
+	mun -- ter,
+	
+	tau -- fe %161
+	ſie mit
+	dei -- nem
+	Feu -- er,
+	daß ſie %165
+	küh -- ner,
+	daß ſie
+	frei -- jer
+	ſich dem
+	Chor der %170
+	Him -- mel
+	nahn, __
+	in ihr
+	Lob -- lied
+	ſtamm -- %175
+	eln
+	kan,
+	in ihr
+	Lob -- lied
+	ſtamm -- %180
+	eln
+	kan. %182 finis
 }
 
 % SopranoNotes = {

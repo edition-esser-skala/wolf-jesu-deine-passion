@@ -239,7 +239,7 @@ HeiligerOrgano = {
 		a(-. a-. a-.\mfE a-. a-. a-.) %75
 		b(-.\pE b-. d-. d-. es-. es-.)
 		b-! b-! b( c) c( des)
-		des(-. des-. des-.\mfE des-. des-.) des-.)
+		des(-. des-. des-.\mfE des-. des-. des-.)
 		c2\p r4
 		R2. %80
 		r8 f,-! f( g) g( as)
@@ -279,10 +279,10 @@ HeiligerOrgano = {
 		es4 r g %115
 		as b\p b,
 		es r g\f
-		as b b,
+		as b b, \noBreak
 		es2\fermata r4 \bar "||"
 		\time 3/8 \tempoSchauZumEndlichen \newSpacingSection
-			c4\pE d8 %120
+			c4\pE d8 \noBreak %120
 		es4 c8
 		f g g,
 		c c d
@@ -339,7 +339,8 @@ HeiligerOrgano = {
 		d r d
 		es4\fermata-\critnote r8
 		R4.*5 \bar "||" %182
-		\time 3/4 \tempoHeiliger es4\f g es
+		\time 3/4 \tempoHeiliger \newSpacingSection
+			es4\f g es
 		b d b
 		es r g %185
 		as b\p b,
