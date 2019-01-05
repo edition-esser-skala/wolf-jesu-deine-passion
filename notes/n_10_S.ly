@@ -400,6 +400,18 @@ HeiligerSopranoLyrics = \lyricmode {
 	kan. %182 finis
 }
 
+MeinHerzSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoMeinHerz
+		
+	}
+}
+
+MeinHerzSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -78,6 +78,18 @@ JesuDeineBassoLyrics = \lyricmode {
 	zen. %32 finis
 }
 
+MeinHerzBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoMeinHerz
+		
+	}
+}
+
+MeinHerzBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

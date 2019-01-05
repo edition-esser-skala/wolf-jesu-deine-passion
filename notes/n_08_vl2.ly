@@ -225,3 +225,11 @@ HeiligerViolinoII = {
 		c8 f[\pE \slurDashed es( g) d( f)] \bar "S-S" %188 finis
 	}
 }
+
+MeinHerzViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoMeinHerz
+		
+	}
+}

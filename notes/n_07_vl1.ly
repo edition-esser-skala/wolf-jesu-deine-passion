@@ -226,6 +226,14 @@ HeiligerViolinoI = {
 	}
 }
 
+MeinHerzViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoMeinHerz
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -221,3 +221,11 @@ HeiligerViola = {
 		as b\p f8 as \bar "S-S" %188 finis
 	}
 }
+
+MeinHerzViola = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoMeinHerz
+		
+	}
+}

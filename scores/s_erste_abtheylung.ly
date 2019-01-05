@@ -115,48 +115,121 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.3" "ARIA" "Heiliger, auch ich bin Erde"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\HeiligerViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\HeiligerViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\HeiligerViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \HeiligerSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \HeiligerSopranoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\HeiligerOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\HeiligerBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.3" "ARIA" "Heiliger, auch ich bin Erde"
+			movement = \movementTitle "1.4" "CORO" "Mein Herz iſt bereit"
 		}
-		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\MeinHerzOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\MeinHerzOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\HeiligerViolinoI
+							\MeinHerzViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\HeiligerViolinoII
+							\MeinHerzViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\HeiligerViola
+						\MeinHerzViola
 					>>
 				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \HeiligerSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \MeinHerzSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \HeiligerSopranoLyrics
+					\new Lyrics \lyricsto Soprano \MeinHerzSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \MeinHerzAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \MeinHerzAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \MeinHerzTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \MeinHerzTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \MeinHerzBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \MeinHerzBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\HeiligerOrgano
+						\MeinHerzOrgano
 					}
 				>>
 				\new FiguredBass {
-					\HeiligerBassFigures
+					\MeinHerzBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }

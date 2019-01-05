@@ -89,6 +89,18 @@ JesuDeineAltoLyrics = \lyricmode {
 	zen.] %32 finis
 }
 
+MeinHerzAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoMeinHerz
+		
+	}
+}
+
+MeinHerzAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

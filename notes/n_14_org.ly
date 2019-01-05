@@ -534,6 +534,18 @@ HeiligerBassFigures = \figuremode {
 	r <6 4> <5 3> %188 finis
 }
 
+MeinHerzOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoMeinHerz
+		\mvTr b8\fE-\tuttiE b d c16 b f'4 r
+	}
+}
+
+MeinHerzBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

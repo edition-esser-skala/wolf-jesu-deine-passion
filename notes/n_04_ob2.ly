@@ -4,3 +4,10 @@
 
 \version "2.18.0"
 
+MeinHerzOboeII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoMeinHerz
+		
+	}
+}

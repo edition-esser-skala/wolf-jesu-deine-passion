@@ -167,6 +167,18 @@ OWelchTenoreLyrics = \lyricmode {
 	wacht und be -- tet. %34 finis
 }
 
+MeinHerzTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoMeinHerz
+		
+	}
+}
+
+MeinHerzTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

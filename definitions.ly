@@ -216,6 +216,7 @@ tempoJesuDeine = \tempoMarkup "[Tempo deest]"
 tempoOWelch = \tempoMarkup "[Tempo deest]"
 tempoHeiliger = \tempoMarkup "Largo"
 tempoSchauZumEndlichen = \tempoMarkup "Andantino"
+tempoMeinHerz = \tempoMarkup "[Tempo deest]"
 
 
 
