@@ -14,8 +14,8 @@ OWelchViolinoI = {
 		d4 r8 fis,16( g) g( a) a( b) b( h) h( c)
 		c( es) es( d) d( c) c( h) h2~\p %5
 		h r16 d(-. d-. d-.) r d(-. d-. d-.)
-		f2\rfz r16 es(-. es-. es-.) r es(-. es-. es-.)
-		g2 r16 e(-. e-. e-.) r e(-. e-. e-.)
+		f2\rfz r16 es(-.\p es-. es-.) r es(-. es-. es-.)
+		g2\mfE r16 e(-.\pE e-. e-.) r e(-. e-. e-.)
 		a2\mf r16 d,16(-.\pE f-. a-.) r \once \slurDashed f(-. a-. d-.)
 		h!2 e, %10
 		r4 r8 e16( g) g( f) f( e) e( d) d( a')

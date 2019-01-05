@@ -89,14 +89,14 @@ OWelchOrgano = {
 		d d d d f!2~\p %5
 		f h,!4 h
 		h2\rfz c4\p c
-		b2\mf a4 a
+		b2\mf a4\pE a
 		g2\mfE f4\p f
 		gis2 b %10
 		r4 r8 a b a g f
 		e d' cis c h2~
 		h e4 r
 		ais,2\mf h4\p r
-		ais2\mf h8\p c'!16([\f h)] h( a) a( gis) %15
+		ais2\mf h8\p \mvTr c'!16([\f-\unisonoE h)] h( a) a( gis) %15
 		gis4 r r8 e\pE gis e
 		a e gis e a a, r4
 		r8 e' gis e a e gis e
@@ -125,7 +125,7 @@ OWelchBassFigures = \figuremode {
 	<7- 5>2.. <6>8
 	<_->2 <[6]>
 	<_+> <4 2>8 <5 _+> <6! 4> <6 4\+>
-	<7 5>4 <7!>8 <6!> <4\+ 2>2 %5
+	<7 5> <[8 6!]> <7! [5]>8 <6! [4]> <4\+ 2>2 %5
 	r <6 5>
 	r <[_-]>
 	<6 4!> <_+>
@@ -134,7 +134,7 @@ OWelchBassFigures = \figuremode {
 	r4. <_+>8 <6> q <6 [_-]> <6>
 	<5! 4>16 <\l _+> <6- 4+ 2>8 <6> <6! 2\+> <5+ [_+]>2
 	r1
-	<7 5>2 <[5+] _+>
+	<7 5 [_+]>2 <[5+] _+>
 	<7 5 [_+]> <[5+] _+> %15
 	<[6]>2 r8 <_+> <6> <_+>
 	<_!> <6 4> <6> <_+> r2
