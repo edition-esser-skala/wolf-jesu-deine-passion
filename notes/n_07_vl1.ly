@@ -22,7 +22,7 @@ OWelchViolinoI = {
 		a( gis) gis( f) f( e) e( dis) dis2~
 		dis e4 r
 		e2\mfE dis4\p r
-		cis2 h8 c16([\f h)] h( a) a( gis) %15
+		cis2\mfE h8\pE c16([\f h)] h( a!) a( gis) %15
 		gis4 r r2
 		R1*18
 		R1\fermataMarkup \bar "|." %35 finis
