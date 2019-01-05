@@ -163,6 +163,188 @@ HeiligerOrgano = {
 		\clef bass
 		\key es \major \time 3/4 \tempoHeiliger
 		\mvTr es4\fE-\soloE g es
+		b d b
+		es2 r4
+		r8 es'-! d( es) d( b)
+		es,2 r4 %5
+		r8 es\pE d( es) d( b)
+		es4 as,\fE a
+		b4. b'8 f d
+		b2 r4
+		b2 r4 %10
+		f'8 f, r f' d b
+		es4 r g
+		as b b,
+		es r g
+		as b b, %15
+		\inStaffSegno es\pE g es
+		b d b
+		es2 r4
+		r8 es d( es) d( b)
+		es4 es h %20
+		c c b
+		as8(-. as-. b-. b-. d-. d-.)
+		es4 es, g'
+		as b b,
+		es4. es,8 g b %25
+		es g[-! g-! g-! g-! g-!]
+		as as as as a a
+		b\mfE b( d,) d( es) es
+		b'4 b,\f b
+		a a\pE a %30
+		b b c
+		d b es
+		b'8 b, b( c) c( d)
+		d(-. d-. d-.\mfE d-. d-. d-.)
+		es4\p es, r %35
+		R2.
+		r8 g'\mf g( f) f( e)
+		e(-. e-. e-. e-. e-. e-.)
+		f4\p f, r
+		R2. %40
+		r4 f'\mf es!
+		d\p d d
+		es es es
+		e e e
+		f2 r4 %45
+		fis fis fis
+		g2 r4
+		g g g
+		a a a
+		b2 r4 %50
+		g2 r4
+		es f f,
+		b8(-. b-. b-. b-. d-. d-.)
+		es(-. es-. es-. es-. c-. c-.)
+		f2 f,4 %55
+		b\f d b
+		f' a f
+		b r d,
+		es f\p f,
+		b r d\f %60
+		es f\p f,
+		b b as!
+		g2 r4
+		h2.\fp
+		r8 c\f c( d) d( es) %65
+		es es es es e e
+		f2 r4
+		a,2.\fp
+		r8 b b( as) as(\mfE g)
+		\once \slurDashed g(-.\pE g-. g-. g-. g-. g-.) %70
+		as(-. as-. as-. as-. as-. as-.)
+		\once \slurDashed b(-. b-. b-. b-. b-. b-.)
+		es es, es( f) f( g)
+		g(-. g-. g-. g-. g-. g-.)
+		a(-. a-. a-.\mfE a-. a-. a-.) %75
+		b(-.\pE b-. d-. d-. es-. es-.)
+		b-! b-! b( c) c( des)
+		des(-. des-. des-.\mfE des-. des-.) des-.)
+		c2\p r4
+		R2. %80
+		r8 f,-! f( g) g( as)
+		as as as\mfE as a a
+		b2\pE r4
+		R2.
+		r8 es,-! es( f) f( g) %85
+		g g g([-. g-. g-. g-.)]
+		as! as as as as as
+		b4 b b
+		es2 r4
+		des des des %90
+		c2 r4
+		c' c c
+		g2 r4
+		g g g
+		as as,\fE a %95
+		b2\p r4
+		b2 r4
+		b b b
+		b b b
+		b b b %100
+		h8(-. h-. c-. c-. b-. b-.)
+		r as!(-. as-. as-. as-. as-.)
+		a4\f b2\p
+		es, r4
+		c'2 r4 %105
+		a\f a a
+		b2.\fermata
+		es,4 g es
+		b' d b
+		es as, a %110
+		b4. b'8 f d
+		b2 r4
+		b2\p r4
+		f'8\fE f, r f' d b
+		es4 r g %115
+		as b\p b,
+		es r g\f
+		as b b,
+		es2\fermata r4 \bar "||"
+		\time 3/8 \tempoSchauZumEndlichen \newSpacingSection
+			c4\pE d8 %120
+		es4 c8
+		f g g,
+		c c d
+		es4 f8
+		es4 r8 %125
+		r es c
+		g' g, r
+		g4\f r8
+		g' g, r
+		R4.*2 %131
+		g'4\pE as8
+		d,4 es8
+		R4.*2 %135
+		g8 es as
+		d, b es
+		es4.~
+		es~
+		es %140
+		b8 b' as
+		g4 g8
+		as4 f8
+		b r b,
+		r r b %145
+		ces ces(\fE b)
+		a4.
+		r8 r b
+		r r b
+		b4. %150
+		es4\p c8
+		fis4.
+		g
+		d8 es' d
+		c a g %155
+		fis4.
+		g8 b g
+		d' d, r
+		cis'4.\f
+		d8 d, c! %160
+		b4\pE r8
+		c b r
+		c( b a?)
+		g cis d
+		h4. %165
+		c
+		a
+		g8 cis d
+		es( d) es
+		d( es) f %170
+		es( d) c-!
+		g4.
+		c4 f8
+		b,4 es8
+		c r c %175
+		d r d
+		es4\fermata-\critnote r8
+		R4.*5 \bar "||" %182
+		\time 3/4 \tempoHeiliger es4\f g es
+		b d b
+		es r g %185
+		as b\p b,
+		es r g\f
+		as b\p b, \bar "S-S" %188 finis
 	}
 }
 

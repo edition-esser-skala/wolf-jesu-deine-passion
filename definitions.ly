@@ -212,7 +212,8 @@ tempoMarkup =
 
 tempoJesuDeine = \tempoMarkup "[Tempo deest]"
 tempoOWelch = \tempoMarkup "[Tempo deest]"
-tempoHeiliger = \tempoMarkup "Largo con sordino"
+tempoHeiliger = \tempoMarkup "Largo"
+tempoSchauZumEndlichen = \tempoMarkup "Andantino"
 
 
 
