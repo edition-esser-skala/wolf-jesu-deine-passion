@@ -11,6 +11,7 @@
 	systems-per-page = #1
 }
 
+% showLastLength = r2.*100
 #(set-global-staff-size 15.87)
 
 \book {
@@ -118,7 +119,7 @@
 		\header {
 			movement = \movementTitle "1.3" "ARIA" "Heiliger, auch ich bin Erde"
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<

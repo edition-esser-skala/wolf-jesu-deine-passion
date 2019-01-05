@@ -180,7 +180,7 @@ HeiligerSopranoNotes = {
 		es \appoggiatura g, f2\trill
 		es r4
 		r r es'8 es %105
-		es es es es es4
+		es es es es \once \tieDashed es4~
 		es\fermata f,2\trill
 		es r4
 		R2.*10 \noBreak %118
@@ -306,7 +306,7 @@ HeiligerSopranoLyrics = \lyricmode {
 	Er -- de,
 	die -- ſer
 	End -- lich -- %75
-	keit Ge --
+	keit __ Ge --
 	fühl drückt __
 	auch __
 	mei -- _ _ ne
@@ -337,7 +337,7 @@ HeiligerSopranoLyrics = \lyricmode {
 	will,
 	wenn ſie %105
 	ſich zu dir er -- he --
-	_ ben
+	ben
 	will.
 	
 	Schau zum %120

@@ -31,7 +31,7 @@ OWelchViola = {
 
 HeiligerViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key es \major \time 3/4 \tempoHeiliger
 		\mvTr g4\fE-\markup { \remark "con sordino" } es g8( b)
 		b4 f b8( d)
@@ -58,7 +58,7 @@ HeiligerViola = {
 		b4 b b
 		as b b
 		b8( g) g(\f es) g( b) %25
-		g b[-!\pE b-! b-! b-! b-!]
+		g \once \slurDashed b[(-.\pE b-. b-. b-. b-.])
 		c(-. c-. c-.\mfE c-. c-. c-.)
 		b(-.\pE b-. b-. b-. b-. b-.)
 		b4 b r
@@ -74,7 +74,7 @@ HeiligerViola = {
 		c4\pE r r
 		R2. %40
 		r4 f2~\mfE
-		f8 d([\pE d-. d-. d-. d-.)]
+		f8 d([-.\pE d-. d-. d-. d-.)]
 		r es(-. es-. es-. es-. es-.)
 		e8. c16 c4 c
 		c2 r4 %45
@@ -93,7 +93,7 @@ HeiligerViola = {
 		f r f
 		b, a2\pE
 		b4 r f'\f %60
-		b,8 g' f4\pE f
+		b,8 g'\pE f4 f
 		f b, as!
 		g2 r4
 		h2.\fp
@@ -117,8 +117,8 @@ HeiligerViola = {
 		c-! f,(-. f-.\mfE f-. f-. f-.)
 		f4\pE r r
 		R2.
-		r8 g-! g( as) as( b) %85
-		b es([-. es-. es-. b-. b-.)]
+		r8 g-!\mfE g( as) as( b) %85
+		b es([-.\pE es-. es-. b-. b-.)]
 		c(-. c-. c-. c-. c-. c-.)
 		b4 b b
 		b2 r4
@@ -165,7 +165,7 @@ HeiligerViola = {
 		g' g, r
 		g'\pE es c' %130
 		b g as
-		es4\pE es8
+		es4 es8
 		f4 b,8
 		g( as b)
 		as( b c) %135

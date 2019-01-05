@@ -135,7 +135,7 @@ HeiligerViolinoII = {
 		f as4 g f8 %100
 		f4 es2~
 		es4 es\mf f
-		g\f \appoggiatura g f2\trill
+		g\f \appoggiatura g f2\trill\pE
 		es8 g(-. g-. g-.) b( g)
 		r g(-.\mf g-. g-.) es'( g,) %105
 		r a,16(\fE c) \slurDashed c( es) es( a) \slurSolid a( c) c( es)
@@ -186,7 +186,7 @@ HeiligerViolinoII = {
 		g, g( f\trill) %150
 		es( g) c-!\p
 		c4.
-		b!8( as g)
+		b!8( a? g)
 		\appoggiatura as16 g8 fis r
 		c'4.~ %155
 		c
@@ -220,7 +220,7 @@ HeiligerViolinoII = {
 			g8\fE b(-. b-. b-.) b( es) \noBreak
 		d b(-. b-. b-.) b( f')
 		es b''16([ g)] g( es) es( b) b( g) g( es) %185
-		c8 as' as\p g g f
+		c8 as' \slurDashed as(\p g) g( f) \slurSolid
 		es b''16([\fE g)] g( es) es( b) b( g) g( es)
 		c8 f[\pE \slurDashed es( g) d( f)] \bar "S-S" %188 finis
 	}

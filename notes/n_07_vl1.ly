@@ -135,7 +135,7 @@ HeiligerViolinoI = {
 		as c4 b as8 %100
 		g4 g2~
 		g4 c(\mf d!)
-		es\f es( d\trill)
+		es\f es(\pE d\trill)
 		r8 es(-. es-. es-.) g( es)
 		r es(-.\mf es-. es-.) g( es) %105
 		r c,16(\fE es) es( a?) a( c) c( es) es( g)
@@ -220,7 +220,7 @@ HeiligerViolinoI = {
 			es'8\fE b(-. b-. b-.) b( g') \noBreak
 		f b,(-. b-. b-.) b( as')
 		g b'16([ g)] g( es) es( b) b( g) g( es) %185
-		c8 c' c\p b b as
+		c8 c' \slurDashed c(\p b) b( as) \slurSolid
 		g b'16([\fE g)] g( es) es( b) b( g) g( es)
 		c8 as'[\pE g( b) d,( as')] \bar "S-S" %188 finis
 	}
