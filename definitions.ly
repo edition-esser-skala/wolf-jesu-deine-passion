@@ -218,6 +218,9 @@ tempoHeiliger = \tempoMarkup "Largo"
 tempoSchauZumEndlichen = \tempoMarkup "Andantino"
 tempoMeinHerz = \tempoMarkup "[Tempo deest]"
 tempoVerraether = \tempoMarkup "[Tempo deest]"
+tempoVerraetherB = \tempoMarkup "Adagio"
+tempoVerraetherC = \tempoMarkup "Andante"
+tempoVerraetherD = \tempoMarkup "Adagio"
 
 
 
