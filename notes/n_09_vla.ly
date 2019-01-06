@@ -224,9 +224,9 @@ HeiligerViola = {
 
 MeinHerzViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key b \major \time 4/4 \tempoMeinHerz
-		b8\fE d f es16 d f4 r
+		\mvDll b8\fE d f es16 d f4 r
 		f,8 f' f d16 f f4 r
 		r2 r4 r16 d es f
 		g a b a g a g f e4 r
