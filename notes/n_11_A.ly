@@ -93,12 +93,60 @@ MeinHerzAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \autoBeamOff \tempoMeinHerz
-		
+		r8 \mvTr f\fE^\tuttiE f f16 f a4 a
+		r8 a f g16 a b4 r
+		R1*3 %5
+		r2 r4 a8 a
+		b4 b8 b a4 a
+		g c8 c c4 b
+		g16[ f g e] a[ g a f] b[ a b g] a[ g a f]
+		g[ f g e] a[ g a f] b[ a b g] a[ g a f] %10
+		g[^\critnote b a g] f8[ b] a4 g
+		a8 f f f16 f f8 f16 f f8 f16 f
+		f4 r r2
+		R1*3 %16
+		r4 a8 a a4 b8 b
+		b4 a a g8 g
+		g4 f f es!8 g
+		f1~ %20
+		f~
+		f4. g8 f2
+		f4 b r8 b b b16 b
+		b8 b b b16 b b4 r8 b16 b
+		b8 b c a16^\critnote a b4( a) %25
+		f r r2
+		r4 b8 b b4 b8 b
+		b16([ c d es] f8) b,16 b^\critnote b4.( a8)
+		f4 r r2\fermata \bar "|." %29 finis
 	}
 }
 
 MeinHerzAltoLyrics = \lyricmode {
+	Mein [Herz iſt be -- reit, Gott,
+	mein Herz iſt] be -- reit,
 	
+	daß ich %6
+	ſin -- ge und lo -- be,
+	ſin -- ge und lo -- be,
+	lo -- _ _ _
+	_ _ _ _ %10
+	_ _ _ _
+	be, [mein Herz iſt be -- reit, Gott, mein Herz iſt] be --
+	reit,
+	
+	daß ich ſin -- ge und %17
+	lo -- [be, sin -- ge und
+	lo -- be, sin -- ge und
+	lo] -- %20
+	
+	_ _
+	be, [Gott, mein Herz iſt be --
+	reit, mein Herz iſt] be -- reit, [daß ich
+	ſin -- ge, ſin -- ge und lo] -- %25
+	be,
+	daß ich ſin -- ge und
+	lo -- be, und lo --
+	be. %29 finis
 }
 
 % AltoNotes = {

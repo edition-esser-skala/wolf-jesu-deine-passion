@@ -430,7 +430,7 @@ MeinHerzSopranoNotes = {
 		b b8 b b4 b8 b
 		b16([ c d es] f8) b, r4 b8 b
 		b4 b8 f' d4( c)
-		b r r2\fermata \bar "|."
+		b r r2\fermata \bar "|." %29 finis
 	}
 }
 
@@ -457,11 +457,11 @@ MeinHerzSopranoLyrics = \lyricmode {
 	_ _ _ _
 	be, Gott, mein Herz iſt be --
 	reit, mein Herz iſt be -- reit, daß ich
-	ſin -- ge, ſin -- ge und lo --
+	ſin -- ge, ſin -- ge und lo -- %25
 	be, daß ich ſin -- ge und
 	lo -- be, daß ich
 	ſin -- ge und lo --
-	be.
+	be. %29 finis
 }
 
 % SopranoNotes = {
