@@ -82,12 +82,64 @@ MeinHerzBassoNotes = {
 	\relative c {
 		\clef bass
 		\key b \major \time 4/4 \autoBeamOff \tempoMeinHerz
-		
+		r8 \mvTr b\fE^\tuttiE d c16 b f'4 f
+		r8 f a g16 f b4 r
+		R1*3 %5
+		r2 r4 d,8 d
+		g4 c,8 c f4 b,
+		e a,8 a d4 g,
+		c1~
+		\once \tieDashed c~ %10
+		c8[ b' a b] c4 c,
+		f8 a b a16 g f8 a16 a b8 a16 g
+		f4 f8 f f4 f8 f
+		f16([ g a b] c8) f, r4 g8 g
+		g4 g8 g g16([ a h c] d8) g, %15
+		r4 a8 a a4 a8 a
+		a16([ h cis d] e?8) a, d4 g,8 g
+		c4 f, b e,8 e
+		a4 d, g c,8 c
+		f1~ %20
+		f~
+		f8[ es! d es] f2
+		b,4 b' r8 as g f16 es
+		b'8 as g f16 es b'4 r8 b16 as
+		g8 es a f16 f b4( f) %25
+		b, r r2
+		r r4 b'8 b
+		b4 b8 b b,16([ c d es] f4)
+		b, r r2\fermata \bar "|." %29 finis
 	}
 }
 
 MeinHerzBassoLyrics = \lyricmode {
+	Mein [Herz iſt be -- reit, Gott,
+	mein Herz iſt] be -- reit,
 	
+	daß [ich %6
+	ſin -- ge und lo -- be,]
+	ſin -- ge und lo -- be,
+	lo --
+	%10
+	_ _
+	be, mein Herz iſt be -- reit, Gott, mein Herz iſt be --
+	reit, daß ich ſin -- ge und
+	lo -- be, daß ich
+	ſin -- ge und lo -- be, %15
+	daß ich ſin -- ge und
+	lo -- be, ſin -- ge und
+	lo -- be, sin -- ge und
+	lo -- be, sin -- ge und
+	lo -- %20
+	
+	_
+	be, Gott, mein Herz iſt be --
+	reit, mein Herz iſt be -- reit, daß ich
+	ſin -- ge, ſin -- ge und lo -- %25
+	be,
+	daß ich
+	ſin -- ge und lo --
+	be. %29 finis
 }
 
 % BassoNotes = {

@@ -113,7 +113,7 @@ MeinHerzAltoNotes = {
 		f4. g8 f2
 		f4 b r8 b b b16 b
 		b8 b b b16 b b4 r8 b16 b
-		b8 b c a16^\critnote a b4( a) %25
+		b8 b c a!16^\critnote a b4( a) %25
 		f r r2
 		r4 b8 b b4 b8 b
 		b16([ c d es] f8) b,16 b^\critnote b4.( a8)
