@@ -262,6 +262,26 @@ VerraetherViola = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoVerraether
-		
+		\mvDll b8\fE r b r d4~ d8. as'16
+		as( f) f( d) d( h) h( c) c e' e e e4
+		R1
+		r2 r16 f, f c' c c c c
+		c c c f, f f f f d!2~\pE %5
+		d1~
+		d2 r16 c'-!\fE c( g) g( es) es( c)
+		c1\p
+		r16 d'-!\fE d( g,) g( b) b( g) g2~\pE
+		g1 %10
+		r16 fis\fE fis h h fis fis fis fis h, h h h h h h
+		cis gis' gis gis gis4 r2
+		R1
+		a4\pE r e! r
+		r2 e4 r8 r32 a\fE e cis %15
+		a2\pE  d,
+		r4 e\p
+		a e\pp
+		a8\mf a a[\f a] a\ff a a4
+		R1*19
+		R1\fermataMarkup \bar "|." %38 finis
 	}
 }

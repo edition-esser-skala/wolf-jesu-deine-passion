@@ -623,7 +623,7 @@ VerraetherOrgano = {
 		r2 a4 r8 r32 a'\fE e cis %15
 		a2\p d,
 		r4 e\p a e\pp
-		a8\mf a a\f a a\ff a a4
+		a8\mf a a[\f a] a\ff a a4
 		r2 cis4\pE r
 		\tempoVerraetherB r8 e cis e a,4 r %20
 		r8 e' cis a d d, r4
