@@ -230,6 +230,34 @@ MeinHerzViolinoII = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \tempoMeinHerz
-		
+		b8\fE f' f[ f] a4 r
+		f8 a f g16 a b4 r
+		r16 g f es d es d c b4 r
+		r2 r16 a' g f e f e d
+		c4 r r2 %5
+		r16 b' a g fis g fis e d4 r16 fis' g a
+		b a g f e e f g a g f e d d e f
+		g f e d c c d e f e d c b b c d
+		e8 c a' c, e c f c
+		g' c, a' c, e c f c %10
+		g'16 b, a g f8 g' f4 e\trill
+		f8 f, f f16 b a8 c b f16 b^\critnote
+		a4 r r2
+		r4 r16 a, b c d es f es d es d c
+		h4 r r r16 h c d %15
+		e f g f e f e d cis4 r
+		r r16 cis' d e f g a f b b, c d
+		e f g e^\critnote a a, b c d e f d g g, a b
+		c d e c f f, g a b c d b es es,! f g
+		a8 f d' f, a f b f %20
+		c' f, d' f, a f b f
+		c'16 a, b c d8 c' b4 a\trill
+		f d' r8 b b16 c d es
+		f8 b, es f16 g f4 r8 b,
+		b4 c8 a b d a c %25
+		b16 g' f es d es d c b b a g f g f es
+		d g f es d es d c b g' f es d es d c
+		b b' a g f g' f es d es f g c,4\trill
+		d r r2\fermata \bar "|." %29 finis
 	}
 }
