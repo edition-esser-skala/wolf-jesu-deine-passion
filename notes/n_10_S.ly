@@ -404,12 +404,64 @@ MeinHerzSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \autoBeamOff \tempoMeinHerz
-		
+		r8 \mvTr b'\fE^\tuttiE b a16 b c4 f
+		r8 c c b16 c d4 b8 b
+		b4 b8 b b16([ c d es] f8) b,
+		r4 c8 c c4 c8 c
+		c16([ d e f] g8) c, r4 d8 d %5
+		d4 d8 d d16([ e fis g] a8) d,
+		r4 e8 e a4 d,8 d
+		g2 f
+		e16[ d e c] f[ e f d] g[ f g e] f[ e f d]
+		e[ d e c] f[ e f d] g[ f g e] f[ e f d] %10
+		e[ c d e] f8[ g] f4 e
+		f8 c d c16 b c8 f16 es d8 c16 b
+		c4 r r2
+		R1*3 %16
+		r4 e8 e f4 f8 f
+		e4 e d d8 d
+		c2 b
+		a16[ g a f] b[ a b g] c[ b c a] b[ a b g] %20
+		a[ g a f] b[ a b g] c[ b c a] b[ a b g]
+		a[ f g a] b8[ c] b4 a\trill
+		b f' r8 b, es f16 g
+		f8 b, es f16 g f4 r8 d16 b
+		es8 g f es16 f d4( c\trill) %25
+		b b8 b b4 b8 b
+		b16([ c d es] f8) b, r4 b8 b
+		b4 b8 f' d4( c)
+		b r r2\fermata \bar "|."
 	}
 }
 
 MeinHerzSopranoLyrics = \lyricmode {
+	Mein Herz iſt be -- reit, Gott,
+	mein Herz iſt be -- reit, daß ich
+	ſin -- ge und lo -- be,
+	daß ich ſin -- ge und
+	lo -- be, daß ich %5
+	ſin -- ge und lo -- be,
+	daß ich ſin -- ge und
+	lo -- _
+	_ _ _ _
+	_ _ _ _ %10
+	_ _ _ _
+	be, mein Herz iſt be -- reit, Gott, mein Herz iſt be --
+	reit,
 	
+	daß ich ſin -- ge und %17
+	lo -- [be, sin -- ge und
+	lo] -- _
+	_ _ _ _ %20
+	_ _ _ _
+	_ _ _ _
+	be, Gott, mein Herz iſt be --
+	reit, mein Herz iſt be -- reit, daß ich
+	ſin -- ge, ſin -- ge und lo --
+	be, daß ich ſin -- ge und
+	lo -- be, daß ich
+	ſin -- ge und lo --
+	be.
 }
 
 % SopranoNotes = {
