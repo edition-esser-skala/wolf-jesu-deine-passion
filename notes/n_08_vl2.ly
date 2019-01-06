@@ -230,7 +230,7 @@ MeinHerzViolinoII = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \tempoMeinHerz
-		b8\fE f' f[ f] a4 r
+		\mvDll b8\fE f' f[ f] a4 r
 		f8 a f g16 a b4 r
 		r16 g f es d es d c b4 r
 		r2 r16 a' g f e f e d
