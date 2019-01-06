@@ -266,6 +266,25 @@ VerraetherViolinoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoVerraether
-		
+		\mvDll b16\fE c32 d es f g a b16 b32 c d es f g as16( f) f( d) d( h) h( as)
+		\slurDashed as( f) f( d) d( h) h( c) \slurSolid \kneeBeam c g'' g g g4
+		R1
+		r2 r16 c-\parenthesize-! c( as) as( f) f( as)
+		as?( f) f( des) des( f,) f f f2~\pE %5
+		f1~
+		f2 r16 es'-!\fE es( c) c( a!) a( fis)
+		fis1\p
+		r16 g'-!\fE g( d) b( g) g( b) b2~\pE
+		b1 %10
+		r16 h-!\fE h( d) d( h!) h( d) d( h) h( g) g( fis) fis( eis)
+		eis? cis' cis cis cis4 r2
+		R1
+		cis4\pE r h r
+		r2 r8 \tuplet 3/2 8 { a'16\fE e cis e[ cis a] } cis32 a e cis %15
+		a1\pE
+		r4 \tuplet 3/2 8 { gis16\p d' cis h[ a gis] } a8 r \tuplet 3/2 8 { r16 d\pp cis h[ a gis] }
+		a(\mf cis) cis( e) e(\f gis) gis( a) a(\ff h) h( cis) cis4
+		R1*19
+		R1\fermataMarkup \bar "|." %38 finis
 	}
 }

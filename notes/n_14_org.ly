@@ -623,7 +623,7 @@ VerraetherOrgano = {
 		r2 a4 r8 r32 a'\fE e cis %15
 		a2\p d,
 		r4 e\p a e\pp
-		a8 \noBeam a\mf a[\f a] a\ff a a4
+		a8\mf a a\f a a\ff a a4
 		r2 cis4\pE r
 		\tempoVerraetherB r8 e cis e a,4 r %20
 		r8 e' cis a d d, r4
@@ -649,12 +649,12 @@ VerraetherOrgano = {
 
 VerraetherBassFigures = \figuremode {
 	r2 <7- 5>
-	r r16 <6- 4 2!>8. <_!>4
+	r r16 <6- 4 2!>8. <[7-] _!>4
 	r1
 	r2 r16 <6>8. r4
 	r2 <7 [_!]> %5
 	r1
-	r2 <_->4 <6- [_-]>
+	r2 <_->4 <6 [4+] _->
 	<6 4+>1
 	r16 <6>8. <6 4!>4 <6\\ [4+]>2
 	<[\t \t]>1 %10
