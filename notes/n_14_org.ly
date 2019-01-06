@@ -556,7 +556,7 @@ MeinHerzOrgano = {
 		r2 r16 f' e d cis d cis h
 		a4 r16 a h cis d e f d g g, a b
 		c d e c f f, g a b c d c e e, f g
-		a b c a d d, e? f g a b g c c, d e
+		a b c a d d, es! f g a b g c c, d es
 		f8 f' f, f' f, f' f, f' %20
 		f, f' f, f' f, f' f, f'
 		f, es'! d es f es f f,

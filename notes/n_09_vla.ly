@@ -226,6 +226,34 @@ MeinHerzViola = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \tempoMeinHerz
-		
+		b8\fE d f es16 d f4 r
+		f,8 f' f d16 f f4 r
+		r2 r4 r16 d es f
+		g a b a g a g f e4 r
+		r r16 e f g a b c b a b a g %5
+		fis4 r r r16 d e? fis
+		g a b g c c, d e f g a f b b, c d
+		e f g e a a, b c d e f d g g, a b
+		c8 c' c, c' c, c' c, c'
+		c, c' c, c' c, c' c, c' %10
+		c, c c d c4 c
+		c8 c b f'16 d f8 f f f16 d
+		f4 r r16 f e d c d c b
+		a4 r r2
+		r16 g' f e d e d c h4 r %15
+		r2 r16 a' g f e f e d
+		cis4 r16 a h? cis d e f d g g, a b
+		c d e c f f, g a b c d c e e, f g
+		a b c a d d, es! f g a b g c c, d es
+		f8 f' f, f' f, f' f, f' %20
+		f, f' f, f' f, f' f, f'
+		f, f f g' f4 f
+		d b' r8 d, es b'
+		b d, es b' b4 r8 f
+		es es c f f f f f %25
+		f4 r r2
+		r r16 b, a g f g f es
+		d g' f es d es d c b c d es f8 f
+		f4 r r2\fermata \bar "|." %29 finis
 	}
 }

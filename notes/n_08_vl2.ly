@@ -252,7 +252,7 @@ MeinHerzViolinoII = {
 		a8 f d' f, a f b f %20
 		c' f, d' f, a f b f
 		c'16 a, b c d8 c' b4 a\trill
-		f d' r8 b b16 c d es
+		f d' r8 b es^\critnote f16 g
 		f8 b, es f16 g f4 r8 b,
 		b4 c8 a b d a c %25
 		b16 g' f es d es d c b b a g f g f es

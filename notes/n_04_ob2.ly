@@ -8,7 +8,7 @@ MeinHerzOboeII = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \tempoMeinHerz
-		r8 \mvDll d f f16 g a4 a
+		r8 \mvDll d\fE f f16 g a4 a
 		r8 a f g16 a b4 b8 b
 		b4 b8 b b16 c d es f8 b,
 		r4 c8 c c4 c8 c
