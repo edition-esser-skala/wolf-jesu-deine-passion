@@ -602,6 +602,18 @@ MeinHerzBassFigures = \figuremode {
 	r1 %29 finis
 }
 
+VerraetherOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoVerraether
+		\mvTr b8\fE-\soloE r b r h4~ h8. as'16
+	}
+}
+
+VerraetherBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

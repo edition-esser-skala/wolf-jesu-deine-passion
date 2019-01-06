@@ -257,3 +257,11 @@ MeinHerzViola = {
 		f4 r r2\fermata \bar "|." %29 finis
 	}
 }
+
+VerraetherViola = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoVerraether
+		
+	}
+}

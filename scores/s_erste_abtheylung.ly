@@ -159,77 +159,121 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.4" "CORO" "Mein Herz iſt bereit"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\MeinHerzOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\MeinHerzOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\MeinHerzViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\MeinHerzViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\MeinHerzViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \MeinHerzSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \MeinHerzSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \MeinHerzAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \MeinHerzAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \MeinHerzTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \MeinHerzTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \MeinHerzBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \MeinHerzBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\MeinHerzOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\MeinHerzBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.4" "CORO" "Mein Herz iſt bereit"
+			movement = \movementTitle "1.5" "RECITATIV" "Verräther!"
 		}
+% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\MeinHerzOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\MeinHerzOboeII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\MeinHerzViolinoI
+							\VerraetherViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\MeinHerzViolinoII
+							\VerraetherViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\MeinHerzViola
+						\VerraetherViola
 					>>
 				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \MeinHerzSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \MeinHerzSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \MeinHerzAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \MeinHerzAltoLyrics
-					
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \MeinHerzTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \VerraetherTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \MeinHerzTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \MeinHerzBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \MeinHerzBassoLyrics
+					\new Lyrics \lyricsto Tenore \VerraetherTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\MeinHerzOrgano
+						\VerraetherOrgano
 					}
 				>>
 				\new FiguredBass {
-					\MeinHerzBassFigures
+					\VerraetherBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

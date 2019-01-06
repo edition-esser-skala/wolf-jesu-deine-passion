@@ -261,3 +261,11 @@ MeinHerzViolinoII = {
 		d r r2\fermata \bar "|." %29 finis
 	}
 }
+
+VerraetherViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoVerraether
+		
+	}
+}

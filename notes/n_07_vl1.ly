@@ -262,6 +262,14 @@ MeinHerzViolinoI = {
 	}
 }
 
+VerraetherViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoVerraether
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
