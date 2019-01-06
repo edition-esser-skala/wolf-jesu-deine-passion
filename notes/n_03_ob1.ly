@@ -34,6 +34,6 @@ MeinHerzOboeI = {
 		b b16 c d es f8 b, r4
 		r b16 c d es f8 b, r4
 		r b16 c d es f8 d c4\trill
-		b r r2\fermata \bar "|."
+		b r r2\fermata \bar "|." %29 finis
 	}
 }
