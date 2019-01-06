@@ -614,8 +614,8 @@ VerraetherOrgano = {
 		g1~
 		g2 c16\fE c c c c c c c
 		c1\p
-		r16 b?\f b b b b b b es2~\pE
-		es1 %10
+		r16 b?\f b b b b b b e?2~\pE
+		e1 %10
 		r16 d\f d d d d d d d d d d d d d d
 		cis cis cis cis cis4 r2
 		R1
@@ -629,16 +629,16 @@ VerraetherOrgano = {
 		r8 e' cis a d d, r4
 		r8 d' fis d h!4 r
 		c!8( g') e c a( e') c a
-		fis2 \tempoVerraetherC g8 g' g e
+		fis2 g8 g' g e
 		dis4 r r8 e g e %25
 		a,4 r r h
-		e,8 g'( e cis) ais2~
+		e,8 g'( e cis) \tempoVerraetherC ais2~
 		ais1
 		h~
 		h2 e %30
 		a,1
 		fis~
-		fis2 fis8 fis fis4
+		\once \tieDashed fis2~ fis8 fis fis4
 		R1
 		\tempoVerraetherD r8 g(-. g-. g-.) r e(-. e-. e-.) %35
 		r fis(-. fis-. fis-.) r d' r ais
@@ -656,8 +656,8 @@ VerraetherBassFigures = \figuremode {
 	r1
 	r2 <_->4 <6- [_-]>
 	<6 4+>1
-	r16 <6>8. <6 4!>4 <6\\ 5->2
-	<[6\\] 5->1 %10
+	r16 <6>8. <6 4!>4 <6\\ [4+]>2
+	<[\t \t]>1 %10
 	r16 <[6 _+]>8. r2.
 	<[5+] _+>1
 	r

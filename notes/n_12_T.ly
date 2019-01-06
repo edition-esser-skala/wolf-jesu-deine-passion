@@ -231,12 +231,85 @@ VerraetherTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoVerraether
-		
+		R1
+		r2 r4 r8 \mvTr g'\pE^\soloE
+		g c, r4 e r8 e
+		e e g c, f f r4
+		r2 r4 r8 f %5
+		h,!4 r16 d d c h4 r8 h
+		d d f d es es r r16 c
+		fis4 r16 fis fis fis a8 fis fis d
+		g4 r8 g cis,4 r8 e
+		e8. cis16 cis8 h ais ais h cis %10
+		\appoggiatura cis?8 h h r4 r2
+		r4 r8 cis cis4 r8 gis
+		r gis?16 a h8 h h d d cis
+		\appoggiatura h a4 r16 a cis a e'4 r8 e,
+		gis gis a h cis cis r a %15
+		cis cis d e fis4 r16 a, a a
+		a8 e r4 r2
+		r r4 r8 a
+		cis cis cis gis a4 r8 e'
+		\tempoVerraetherB g,4 g r8 g16 g e8 fis %20
+		g8. g16 h8 a \appoggiatura g16 fis?8 fis g a
+		a d, r4 g8 d' h g
+		\appoggiatura f? e e r e c'!4 r8 c
+		d, a' c h h4 r
+		r8 h fis a g4 h8 e %25
+		c c16 h a a a g \appoggiatura fis e8 e r4
+		r2 \tempoVerraetherC r8 fis fis gis
+		ais ais ais h cis8. cis16 cis8 d
+		h8. h16 h4 r r8 fis'
+		d h h a! gis r16 h h8 d %30
+		cis cis r cis16 d e8 e e fis
+		\appoggiatura e d d r a d4 r16 a a g
+		fis8 fis fis d a'4 r8 a
+		a a a h c r16 c! c8 h
+		\tempoVerraetherD h4 r g' r8 e16 cis %35
+		ais4 r16 ais ais ais h8. d16 cis8. e16
+		\appoggiatura e8 d d r16 d h a gis8 gis h a
+		\appoggiatura gis8 fis?4 r r2\fermata \bar "|." %38 finis
 	}
 }
 
 VerraetherTenoreLyrics = \lyricmode {
-	
+	Ver -- %2
+	rä -- ther! Wie, dir
+	muß es doch ge -- lin -- gen?
+	Ach %5
+	Gott, ich hö -- re ſchon, ich
+	hö -- re Waf -- fen klin -- gen. Du
+	kömmst, mit dir der Mör -- der fre -- che
+	Schaar. Ach Gott, nun
+	brin -- gen ſie den Heil -- [’]gen zu den %10
+	Tod -- ten.
+	Doch ſe -- het:
+	Oh -- ne Furcht ſtellt ſich der Stärk -- re
+	dar. Er ſpricht ein Wort, da
+	ſtür -- zen ſie zu Bo -- den, da %15
+	lie -- gen ſie be -- täut u: wie die
+	Tod -- ten.
+	Ge --
+	lin -- de ruft er jezt: Ihr
+	Fei -- gen, dies ist die Ge -- %20
+	walt der Fin -- ſter -- niß und eu -- re
+	Stun -- de. Den ich muß ihn
+	trin -- ken, den Kelch, den
+	mir mein Va -- ter reicht,
+	sonst kont ich leicht mehr als %25
+	"12" Le -- gi -- o -- nen En -- gel win -- ken.
+	Und nun wird
+	er ge -- bun -- den, fort ge -- führt zum
+	Ka -- i -- phas. Nur
+	Pe -- trus fol -- get ihm, ge -- rührt von %30
+	Mit -- leid, a -- ber kurz iſt ſei -- ne
+	Treu -- e. Er ſchwört, er ken -- ne
+	die -- ſen Men -- ſchen nicht. Der
+	Gott -- menſch ſieht ihn an, in -- dem ers
+	ſpricht. Und Pe -- trus %35
+	ſtockt, und ei -- ne Zäh -- re vol -- ler
+	Reu -- e netzt des Ver -- rä -- thers An -- ge --
+	sicht. %38 finis
 }
 
 % TenoreNotes = {
