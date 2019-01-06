@@ -688,6 +688,18 @@ VerraetherBassFigures = \figuremode {
 	r4 <[5+ _+]> <[5+ _+]>2 %38 finis
 }
 
+LieblichOrgano = {
+	\relative c {
+		\clef bass
+		\key a \major \time 4/4 \tempoLieblich
+		\mvTr a'8\fE-\soloE a a a fis fis cis cis
+	}
+}
+
+LieblichBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

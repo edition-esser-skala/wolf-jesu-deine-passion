@@ -4,3 +4,10 @@
 
 \version "2.18.0"
 
+LieblichFlautoI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoLieblich
+		
+	}
+}

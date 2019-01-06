@@ -284,3 +284,11 @@ VerraetherViola = {
 		R1\fermataMarkup \bar "|." %38 finis
 	}
 }
+
+LieblichViola = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoLieblich
+		
+	}
+}

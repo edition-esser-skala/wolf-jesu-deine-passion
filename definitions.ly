@@ -221,6 +221,7 @@ tempoVerraether = \tempoMarkup "[Tempo deest]"
 tempoVerraetherB = \tempoMarkup "Adagio"
 tempoVerraetherC = \tempoMarkup "Andante"
 tempoVerraetherD = \tempoMarkup "Adagio"
+tempoLieblich = \tempoMarkup "Poco Largo"
 
 
 

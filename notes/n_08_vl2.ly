@@ -288,3 +288,11 @@ VerraetherViolinoII = {
 		R1\fermataMarkup \bar "|." %38 finis
 	}
 }
+
+LieblichViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoLieblich
+		
+	}
+}

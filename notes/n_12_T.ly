@@ -312,6 +312,18 @@ VerraetherTenoreLyrics = \lyricmode {
 	sicht. %38 finis
 }
 
+LieblichTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \major \time 4/4 \autoBeamOff \tempoLieblich
+		
+	}
+}
+
+LieblichTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -232,44 +232,99 @@
 % 			\midi { \tempo 4 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.5" "RECITATIV" "Verräther!"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\VerraetherViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\VerraetherViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\VerraetherViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \VerraetherTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \VerraetherTenoreLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\VerraetherOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\VerraetherBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.5" "RECITATIV" "Verräther!"
+			movement = \movementTitle "1.6" "ARIA" "Lieblich fließt die Zähre"
 		}
-		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
+							\set Staff.instrumentName = "Flauto I"
+							\LieblichFlautoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Flauto II"
+							\LieblichFlautoII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\VerraetherViolinoI
+							\LieblichViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\VerraetherViolinoII
+							\LieblichViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\VerraetherViola
+						\LieblichViola
 					>>
 				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \VerraetherTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \LieblichTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \VerraetherTenoreLyrics
+					\new Lyrics \lyricsto Tenore \LieblichTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\VerraetherOrgano
+						\LieblichOrgano
 					}
 				>>
 				\new FiguredBass {
-					\VerraetherBassFigures
+					\LieblichBassFigures
 				}
 			>>
 			\layout { }
