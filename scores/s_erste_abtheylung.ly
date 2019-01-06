@@ -236,7 +236,7 @@
 		\header {
 			movement = \movementTitle "1.5" "RECITATIV" "Verräther!"
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<

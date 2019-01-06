@@ -638,7 +638,7 @@ VerraetherOrgano = {
 		h2 e %30
 		a,1
 		fis~
-		\once \tieDashed fis2~ fis8 fis fis4
+		\once \tieDashed fis2~ fis8 fis? fis4
 		R1
 		\tempoVerraetherD r8 g(-. g-. g-.) r e(-. e-. e-.) %35
 		r fis(-. fis-. fis-.) r d' r ais

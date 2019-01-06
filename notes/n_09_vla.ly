@@ -260,7 +260,7 @@ MeinHerzViola = {
 
 VerraetherViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \major \time 4/4 \tempoVerraether
 		\mvDll b8\fE r b r d4~ d8. as'16
 		as( f) f( d) d( h) h( c) c e' e e e4
@@ -278,8 +278,7 @@ VerraetherViola = {
 		a4\pE r e! r
 		r2 e4 r8 r32 a\fE e cis %15
 		a2\pE  d,
-		r4 e\p
-		a e\pp
+		r4 e\p a e\pp
 		a8\mf a a[\f a] a\ff a a4
 		R1*19
 		R1\fermataMarkup \bar "|." %38 finis
