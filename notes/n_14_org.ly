@@ -693,11 +693,141 @@ LieblichOrgano = {
 		\clef bass
 		\key a \major \time 4/4 \tempoLieblich
 		\mvTr a'8\fE-\soloE a a a fis fis cis cis
+		d d e e a a, r4
+		r a'8 a a a a a
+		a a r cis, d4. dis8
+		e e, r e'32( fis gis a) h4 h, %5
+		e8 e, r a'32( h cis d) e4 e,
+		a8 a, r a' d d, r h'
+		e e, r e a4 r
+		R1*2 %10
+		r8 gis gis gis a4 r
+		r8 cis, cis cis d4~ d8. dis16
+		e4 e, a r
+		r8 d! d d e4 e,
+		a r r8 d d d %15
+		e4 e, a r \inStaffSegno
+		a'8\p^\critnote a a a fis fis cis cis
+		d d e e a a, r4
+		r a'8 a a a a a
+		a a, r cis d4. dis8 %20
+		e e, r e'32(\f fis gis a) h4 h,\p
+		e8 e, r fis'32\fE( gis a h) cis4 cis,\p
+		fis8 fis, r fis' h r r4
+		r8 c(\pp h ais) h4 r
+		r8 c,( h ais) h4 h %25
+		h h c2\mf
+		h4 r r8 dis\pE dis dis
+		e4 r r8 gis gis gis
+		a4~ a8. ais16 h4 h,
+		e r r8 a, a a %30
+		h4 h e, r
+		r8 a'\mf a a h4 h,
+		e8 e e e cis' cis gis gis
+		a a h h e, e, r e'
+		a a, r fis' h h, r h %35
+		e4 r r8 a a a
+		h4 h, e r
+		r8 a\p a a h4\f h,
+		e r e8\p e e e
+		e e e e r e4 dis8 %40
+		e e, r4 a'8 a a a
+		fis fis cis cis d d e e
+		a a, r4 r2
+		ais'4 fis h8 h, r4
+		gis'4 e a8 a, r a32(\mfE h cis a) %45
+		d4. dis8\p e e, r \once \slurDashed e'32(\mfE fis gis a)
+		h4 h,\p e8 e, r \once \slurDashed a'32(\mf h cis d)
+		e4 e,\p a8 a, r a'
+		d d, r h' e e, r e
+		a r r4 r8 f( e dis) %50
+		e4 r r8 f(\ppE e dis)
+		e4 e, e e
+		e e r dis
+		e r r8 gis\pE gis gis
+		a4 r r8 cis cis cis %55
+		d4~ d8. dis16 e4 e,
+		a r r8 d d d
+		e4 e, a8\f cis'16( a) e( cis) h( a)
+		e'8 e, e'\p e e e e e
+		e e e e e e e e %60
+		e e, r4\fermata r gis'\f
+		a\p r r8 d, d d
+		e4 e, a r
+		r8 d d d e4 e,
+		f4 f'\mf e dis\f %65
+		e\fermata r e, r
+		a8 a a' a fis! fis cis cis
+		d d e e a a, r a'
+		d d, r h' e e, r e
+		a r r4 r2 %70
+		R1
+		r2 r8 gis gis gis
+		a4 r r8 cis, cis cis
+		d4~ d8. dis16 e4 e,
+		a r r8 d d d \noBreak %75
+		e4 e, a r \bar "||"
+		\key a \minor \tempoWeintVerbrecher
+			r8 c'(\pE h a) r f( dis e) \noBreak
+		r4 gis\f r8 a(\p gis a)
+		g8.[\mf g16 g8. g16] f4\p r8 d
+		g4 r8 g a a, r4 %80
+		r8 a' h cis d8. a16\f d16. a32 f16. d32
+		f8.[\mf f16 f8. f16] e4\pE r8 c
+		f4. f8 g g, r4
+		r8 g( a h) c c, r4
+		b''\f r g g\p %85
+		r8 f( e d) a2~
+		a1~
+		a2 r4 gis
+		a fis' g f
+		e g f d %90
+		h'\mf g a\p a,
+		d r8 h! c4 d
+		b c f, r
+		r fis'\mf r8 g(\p fis g)
+		r gis\mf gis4 r8 \once \slurDashed a(\p gis a) %95
+		d,8.[\mf d16 d8. d16] c4\p r8 a
+		d4. d8 e e, r4
+		r8 e' fis gis a8. e16\f a16. e32 c16. a32
+		g'8\mf g g g f4\p r8 d
+		g4. g8 a a, r4 %100
+		r8 a( h cis) d4 r
+		c\f r fis, fis\p
+		r8 fis g4 g2~
+		g1~
+		g2 r4 fis %105
+		g e' f! es
+		d f es c
+		as'\mfE f g\pE g,
+		c es8 d b'4 g
+		a a, d f8\mfE e %110
+		dis( e) dis( e) a,4\pE h!
+		c\fermata r r r8 e'\mfE
+		\slurDashed dis( e) dis( e) \slurSolid ais,4 h
+		e,2 r4 \key a \major \tempoLieblich r8 a\fE
+		d d, r h' e e, r e %115
+		a4 r r8 d, d d
+		e4 e, a r \bar "S-S" %117 finis
 	}
 }
 
 LieblichBassFigures = \figuremode {
-	
+	r2. <6>4
+	r <6 4>8 <5 [4]> <4 2> <3> r4
+	r1
+	r2 <6 5>4. <7 5>8
+	r2 <6 4>4 <5 _+> %5
+	r1
+	r2.. <_+>8
+	r1
+	r1*2 %10
+	r8 <7 5>4 <6 5>8 r2
+	r8 <7 5!>4 <6 [5!]>8 r2
+	<6 4>4 <5 3> r2
+	r8 <6>4. <6 4>4 <5 3>
+	r1 %15
+	<6 4>4 <5 3> r2
 }
 
 % Organo = {
