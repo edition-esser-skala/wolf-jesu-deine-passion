@@ -723,7 +723,7 @@ LieblichOrgano = {
 		e r r8 a, a a %30
 		h4 h e, r
 		r8 a'\mf a a h4 h,
-		e8 e e e cis' cis gis gis
+		e8\fE e e e cis' cis gis gis
 		a a h h e, e, r e'
 		a a, r fis' h h, r h %35
 		e4 r r8 a a a
@@ -782,7 +782,7 @@ LieblichOrgano = {
 		a2 r4 gis
 		a fis' g f
 		e g f d %90
-		h'\mf g a\p a,
+		b'?\mf g a\p a,
 		d r8 h! c4 d
 		b c f, r
 		r fis'\mf r8 g(\p fis g)
@@ -797,7 +797,7 @@ LieblichOrgano = {
 		r8 fis g4 g2~
 		g1~
 		g2 r4 fis %105
-		g e' f! es
+		g e'! f! es
 		d f es c
 		as'\mfE f g\pE g,
 		c es8 d b'4 g

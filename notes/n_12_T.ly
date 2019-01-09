@@ -316,12 +316,185 @@ LieblichTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key a \major \time 4/4 \autoBeamOff \tempoLieblich
-		
+		R1*16 \inStaffSegno %16
+		\mvTr cis8.([\pE^\soloE d32 e)] cis8 r cis8.([ d32 e)] cis8 r
+		a'8.([ gis32 fis] e8) d d\trill cis r4
+		r4 a'16([ e)] d([ cis)] fis([ e)] e8 a16([ e)] d([ cis)]
+		fis([ e)] e8 a,8. g'16 g([ fis)] fis([ e)] e([ d)] d([ cis)] %20
+		\appoggiatura cis8 h4 r h16([^\critnote dis8~ dis32)] cis cis16([ h8~ h32)] a
+		a8\trill gis r cis16 fis fis([ eis8~ eis32)] fis fis16([ gis8~ gis32)] h,
+		h8 a cis e dis[ h g' fis]
+		a fis4 g8 fis[ h, dis e]
+		fis dis4( e8) dis c4 h8~ %25
+		h a4 g16[ fis] e8( e'4) ais,8
+		h4 r cis!4. h16([ a)]
+		gis16.([ a32)] h8 r4 fis'4. e16([ d!)]
+		cis([ a'8~ a32)] gis gis16([ fis8~ fis32)] e e16([ dis8~ dis32)] cis cis16([ h8~ h32)] a
+		gis8[ e16 gis] h[ gis e' his] his4 \appoggiatura d16 cis8 h32[( a gis fis]) %30
+		e8[( gis16 h]) \appoggiatura h8 a4\trill gis r8 e'16 his
+		his4 \appoggiatura d16 cis8 h32([ a gis fis)] e4 fis'\trill
+		e r r2
+		R1*5 %38
+		r2 h8.([ cis32 d!)] h8 r
+		cis8.([ d32 e)] cis8 r d8.([ fis32 e] d8) cis %40
+		cis h r4 cis8.([ d32 e)] cis8 r
+		cis8.([ d32 e)] cis8 r a'8.([ gis32 fis] e8) d
+		d cis r4 r g'8 g
+		g?16([ fis8~ fis32)] e e16([ d8~ d32)] cis cis8 d fis fis
+		fis16([ e8~ e32)] d d16([ cis8~ cis32)] h h8 cis e8. g16 %45
+		fis8 a32([ gis fis e)] d8 cis\trill \appoggiatura cis h4 r
+		h8([ dis16.)] cis32 cis16([ h8~ h32)] a a8 gis r e'16 cis
+		cis([ h8~ h32)] cis cis16([ d8~ d32)] d d8\trill cis e16([ fis)] fis([ g)]
+		g?([ fis)] fis8 fis16([ gis)] gis([ a)] a([ gis)] gis8 h,([ cis16)] d
+		cis8[ e, c' h] d h4 c8 %50
+		h[ e h c] d h4 c8
+		h e4 f d e8~
+		e c4 d8 d4. c8
+		h4 r fis'!4. e16([ d)]
+		cis!16.([ d32)] e8 r4 g4. fis16([ e)] %55
+		d16([ fis8~ fis32)] e e16([ d8~ d32)] cis cis16([ h8~ h32)] fis' fis16([ e8~ e32)] d
+		cis8[ a16 cis] e[ cis a' eis] eis4 fis8 e32([ d cis h)]
+		a8.([ e16)] h'4\trill a r
+		r a'16([ e)] d([ cis)] cis([ h)] h8 a'16([ e)] d([ cis)]
+		cis([ h)] h8 a'16([ e)] d([ c)] c([ h)] h8 a'16([ e)] d([ c)] %60
+		c?([ h)] h8-! r4\fermata fis'!4. e16([ d)]
+		cis8[ a16 cis] e[ cis a' eis] eis4 fis8 e32([ d cis h)]
+		a8[( cis16 e]) \appoggiatura e8 d4\trill cis r8 a'16 eis
+		eis4( fis8) e32([ d cis h)] a8.([ h16)] h4\trill
+		a r r8 a' \once \tieDashed a4~ %65
+		a4. a,8 h4.\trill a8
+		a4 r r2
+		R1*9 \bar "||" %76
+		\key a \minor \tempoWeintVerbrecher
+			e'4 r8 c c h r4 \noBreak
+		f'4. d8 d c r4
+		cis4. cis8 d a f'4~
+		f8[ e16.] f32 g8 e d cis e a, %80
+		a'4. g8 f d r4
+		h4. h8 c! g e'4~
+		e16[ d8~ d32] e f8 d c h d g,
+		g'4. f8 e c e4
+		r g r r8 cis, %85
+		cis4( d8) f f([ e)] e([ g)]
+		g([ f)] f([ a)] a([ g)] g([ f)]
+		f([ e)] e([ g)] g4. f8
+		e a,4 b h c8~
+		c cis4 d a8 f' d %90
+		g([ f)] e([ g)] f4 e\trill
+		d8 f f4~ f8([ e)] e([ f)]
+		d4 g, f r
+		es'4. c8 c b r4
+		f'4. d8 d c r4 %95
+		gis4. gis8 a e c'4~
+		c8[ h16.] c32 d8 h a gis h e,
+		e'4. d8 c a r4
+		cis4. cis8 d a f'4~
+		f8[ e16.] f32 g8 e d cis e a, %100
+		a'4. g8 f d es4
+		r fis r r8 c
+		c4( h!8) d d([ c)] c([ es)]
+		es?([ d)] d([ g)] g([ f)] f([ es)]
+		es?([ d)] d([ f)] f4. es8 %105
+		d g,4 as a b8~
+		b h4 c g8 es' c
+		f([ es)] d([ f)] es4 d\trill
+		c es8 d g([ f)] e([ g)]
+		f4 e\trill d f8 e %110
+		dis([ e)] dis([ e)] a,4 h!
+		c\fermata r r r8 e
+		dis([ e)] dis([ e)] ais,4 h
+		e,2 r4 \key a \major \tempoLieblich r
+		R1*3 \bar "S-S" %117 finis
 	}
 }
 
 LieblichTenoreLyrics = \lyricmode {
+	Lieb -- lich, lieb -- lich %17
+	fließt __ die Zäh -- re,
+	hol -- de Tu -- gend, dir zur
+	Eh -- re, die der Reu -- e __ Wan -- gen %20
+	füllt. Lieb -- lich fließt die
+	Zäh -- re, hol -- de Tu -- gend, dir __ zur
+	Eh -- re, die der Reu --
+	_ _ _ _
+	_ _ _ _ _ %25
+	_ e Wan -- gen
+	füllt. Hol -- de
+	Tu -- gend, dir zur
+	Eh -- re fließt die Zäh -- re, die der
+	Reu -- _ _ _ e __ %30
+	Wan -- gen füllt, die der
+	Reu -- _ e __ Wan -- gen
+	füllt.
 	
+	Lieb -- lich, %39
+	lieb -- lich fließt __ die %40
+	Zäh -- re, lieb -- lich,
+	lieb -- lich fließt __ die
+	Zäh -- re, hol -- de
+	Tu -- gend, dir __ zur Eh -- re, dir zur
+	Eh -- re fließt die Zäh -- re, die der %45
+	Reu -- e __ Wan -- gen füllt.
+	Lieb -- lich fließt die Zäh -- re, hol -- de
+	Tu -- gend, dir __ zur Eh -- re, dir zur
+	Eh -- re fließt die Zäh -- re, die der
+	Reu -- _ _ _ %50
+	_ _ _ _
+	_ _ _ _ _
+	_ e Wan -- gen
+	füllt. Hol -- de
+	Tu -- gend, dir zur %55
+	Eh -- re fließt die Zäh -- re, die der
+	Reu -- _ _ _ e __
+	Wan -- gen füllt.
+	Lieb -- lich, lieb -- lich fließt die
+	Zäh -- re, hol -- de Tu -- gend, dir zur %60
+	Eh -- re, die der
+	Reu -- _ _ _ e __
+	Wan -- gen füllt, die der
+	Reu -- e __ Wan -- gen
+	füllt, der Reu -- %65
+	e Wan -- gen
+	füllt.
+	
+	Weint, Ver -- bre -- cher! %77
+	Weint, Ver -- bre -- cher!
+	Eu -- re Sün -- den kön --
+	nen ei -- nen til -- ger, ei -- nen %80
+	til -- ger fin -- den.
+	Eu -- re Sün -- den kön --
+	nen ei -- nen til -- ger, ei -- nen
+	til -- ger fin -- den, weint,
+	weint! Des %85
+	Mit -- lers ſanf -- tes
+	Her -- ze ſchmilzt bey
+	eu -- rem hei -- ßen
+	Schmer -- _ _ _ _
+	_ _ ze, und ſein %90
+	Zür -- nen wird ge --
+	ſtilt, ſein Zür -- nen
+	wird ge -- ſtillt.
+	Weint, Ver -- bre -- cher!
+	Weint, Ver -- bre -- cher! %95
+	Eu -- re Sün -- den kön --
+	nen ei -- nen til -- ger, ei -- nen
+	til -- ger fin -- den.
+	Eu -- re Sün -- den kön --
+	nen ei -- nen til -- ger, ei -- nen %100
+	til -- ger fin -- den, weint,
+	weint! Des
+	Mit -- lers ſanf -- tes
+	Her -- ze ſchmilzt bey
+	eu -- rem hei -- ßen %105
+	Schmer -- _ _ _ _
+	_ _ ze, und ſein
+	Zür -- nen wird ge --
+	ſtilt, u: ſein Zür -- nen
+	wird ge -- ſtilt, und ſein %110
+	Zür -- nen wird ge --
+	ſtillt, ſein
+	Zür -- nen wird ge --
+	ſtillt. %114 finis
 }
 
 % TenoreNotes = {
