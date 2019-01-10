@@ -335,7 +335,7 @@ LieblichViolinoII = {
 		a8.( h32 cis) a8 r h8.( d32 cis) h8 a %40
 		\appoggiatura h16 a8-\critnote gis16( fis e d cis h a8) r a'8.( h32 cis)
 		a8 r a8.( h32 cis) a8.( e'32 d) cis8 h
-		h a16. a32 \slurDashed gis16( fis) e( d) \slurSolid cis( h) a8 e'' e
+		h\trillE a16. a32 \slurDashed gis16( fis) e( d) \slurSolid cis( h) a8 e'' e
 		e(^\critnote d16.) cis32 cis8( h16. ais?32) ais8 h d[ d]
 		d( cis16.) h32 h8( a16.) gis32 gis8 a cis4~\mf %45
 		cis8 fis32(\pE e d cis) h8 a\trill \appoggiatura a gis4\trillE \once \tieDashed gis4~\mf

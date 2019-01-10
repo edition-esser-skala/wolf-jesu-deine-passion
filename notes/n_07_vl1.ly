@@ -335,8 +335,8 @@ LieblichViolinoI = {
 		cis8.( d32 e) cis8 r d8.( fis32 e) d8 cis %40
 		\appoggiatura d16 cis8 h16( a gis fis e d cis8) r cis'8.( d32 e)
 		cis8 r cis8.( d32 e) fis8.( gis32 fis) e8 d
-		d\trill cis16. cis32 h16( a gis fis) e( d) cis8 g''8 g
-		g( fis16.) e32 e8( d16.) cis32 cis8( d) fis8[ fis]\trill
+		d\trill cis16. cis32 \slurDashed h16( a) gis( fis) \slurSolid e( d) cis8 g''8 g
+		g( fis16.) e32 e8( d16.) cis32 cis8( d) fis8[ fis]
 		fis( e16.) d32 d8( cis16.) h32 h8 cis a'4~\mf %45
 		a8 a32(\pE gis fis e) d8 cis\trill \appoggiatura cis h4\trill e~\mf
 		e8( dis16.)\p cis32 cis8( h16.) a32 a8\trillE gis a'4~\mf
@@ -408,7 +408,7 @@ LieblichViolinoI = {
 		c4\fermata r r r8 e\mf
 		dis( e) dis( e) ais,4 h
 		e,2 r4 \key a \major \tempoLieblich e'16(\fE fis) fis( g)
-		\once \slurDashed g?( fis) fis8 fis16( gis) gis( a) a( gis) gis8 h,16( cis) cis( d!) %115
+		\once \slurDashed g?( fis) fis8 fis16( gis) gis( a) a( gis) gis8 h,16( cis) cis( d) %115
 		cis8 \slurDashed a16( cis) e( cis) a'( eis) \slurSolid eis4( \appoggiatura gis16 fis8) e32( d cis h)
 		\slurDashed a16( e) e'( a,) \slurSolid \appoggiatura { a[ h] } h4\trill a8 e32( cis) d( h) a8 r \bar "S-S" %117 finis
 	}
