@@ -330,7 +330,7 @@ LieblichTenoreNotes = {
 		h4 r cis!4. h16([ a)]
 		gis16.([ a32)] h8 r4 fis'4. e16([ d!)]
 		cis([ a'8~ a32)] gis gis16([ fis8~ fis32)] e e16([ dis8~ dis32)] cis cis16([ h8~ h32)] a
-		gis8[ e16 gis] h[ gis e' his] his4 \appoggiatura d16 cis8 h32[( a gis fis]) %30
+		gis8[ e16 gis] h[ gis e' his] his4 \appoggiatura dis?16 cis8 h32[( a gis fis]) %30
 		e8[( gis16 h]) \appoggiatura h8 a4\trill gis r8 e'16 his
 		his4 \appoggiatura d16 cis8 h32([ a gis fis)] e4 fis'\trill
 		e r r2
@@ -399,7 +399,7 @@ LieblichTenoreNotes = {
 		b h4 c g8 es' c
 		f([ es)] d([ f)] es4 d\trill
 		c es8 d g([ f)] e([ g)]
-		f4 e\trill d f8 e %110
+		f4 e!\trill d f8 e! %110
 		dis([ e)] dis([ e)] a,4 h!
 		c\fermata r r r8 e
 		dis([ e)] dis([ e)] ais,4 h
