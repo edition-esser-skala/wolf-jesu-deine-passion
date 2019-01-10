@@ -357,7 +357,7 @@ LieblichTenoreNotes = {
 		a8.([ e16)] h'4\trill a r
 		r a'16([ e)] d([ cis)] cis([ h)] h8 a'16([ e)] d([ cis)]
 		cis([ h)] h8 a'16([ e)] d([ c)] c([ h)] h8 a'16([ e)] d([ c)] %60
-		c?([ h)] h8-! r4\fermata fis'!4. e16([ d)]
+		c?([ h)] h8-! r4\fermata fis'4. e16([ d)]
 		cis8[ a16 cis] e[ cis a' eis] eis4 fis8 e32([ d cis h)]
 		a8[( cis16 e]) \appoggiatura e8 d4\trill cis r8 a'16 eis
 		eis4( fis8) e32([ d cis h)] a8.([ h16)] h4\trill
