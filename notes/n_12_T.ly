@@ -316,7 +316,7 @@ LieblichTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key a \major \time 4/4 \autoBeamOff \tempoLieblich
-		R1*16 \inStaffSegno %16
+		R1*16 \bar "S-|" %16
 		\mvTr cis8.([\pE^\soloE d32 e)] cis8 r cis8.([ d32 e)] cis8 r
 		a'8.([ gis32 fis] e8) d d\trill cis r4
 		r4 a'16([ e)] d([ cis)] fis([ e)] e8 a16([ e)] d([ cis)]

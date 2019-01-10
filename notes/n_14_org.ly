@@ -706,7 +706,7 @@ LieblichOrgano = {
 		e4 e, a r
 		r8 d! d d e4 e,
 		a r r8 d d d %15
-		e4 e, a r \inStaffSegno
+		e4 e, a r \bar "S-|"
 		a'8\p^\critnote a a a fis fis cis cis
 		d d e e a a, r4
 		r a'8 a a a a a
@@ -717,7 +717,7 @@ LieblichOrgano = {
 		r8 c(\pp h ais) h4 r
 		r8 c,( h ais) h4 h %25
 		h h c2\mf
-		h4 r r8 dis\pE dis dis
+		h4\pE r r8 dis dis dis
 		e4 r r8 gis gis gis
 		a4~ a8. ais16 h4 h,
 		e r r8 a, a a %30
@@ -748,9 +748,9 @@ LieblichOrgano = {
 		a4 r r8 cis cis cis %55
 		d4~ d8. dis16 e4 e,
 		a r r8 d d d
-		e4 e, a8\f cis'16( a) e( cis) h( a)
+		e4 e, a8 cis'16(\f a) e( cis) h( a)
 		e'8 e, e'\p e e e e e
-		e e e e e e e e %60
+		e e e\ppE e e e e e %60
 		e e, r4\fermata r gis'\f
 		a\p r r8 d, d d
 		e4 e, a r
@@ -825,7 +825,7 @@ LieblichBassFigures = \figuremode {
 	r8 <7 5>4 <6 5>8 r2
 	r8 <7 5!>4 <6 [5!]>8 r2
 	<6 4>4 <5 3> r2
-	r8 <6>4. <6 4>4 <5 3>
+	r8 <[2+]> <[3]> <6> <6 4>4 <5 3>
 	r1 %15
 	<6 4>4 <5 3> r2
 }
