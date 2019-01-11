@@ -481,13 +481,13 @@ WohlDemSopranoNotes = {
 		d c16 h c8 c h4 g'
 		fis r r2
 		r r4 e8 e
-		e d16 cis d8 d cis4 fis
+		e d!16 cis d8 d cis4 fis
 		d g e e8 fis %15
 		g([ fis)] fis fis g([ fis)] fis e^\critnote
 		d4 cis\trill d fis
 		h, g' e^\critnote e8 fis
 		g([ fis)] fis fis g([ fis)] fis e
-		d4 e\trill d r %20
+		d4 cis\trill^\critnote d r %20
 		R1*2
 		R1\fermataMarkup \bar "|." %23 finis
 	}

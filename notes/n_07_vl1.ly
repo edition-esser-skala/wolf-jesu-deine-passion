@@ -418,7 +418,29 @@ WohlDemViolinoI = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \tempoWohlDem
-		
+		\partial 4 a'4\fE d fis e8 a,,[\p a a]
+		h h cis cis d d d d
+		g, g g gis a4 e''\f
+		e d cis e8 e
+		fis( e) e e fis( e) e d^\critnote %5
+		cis4 h\trill a16 e' fis gis a4~
+		a8 fis16 gis a4~ a16 e fis gis a4~
+		a8 gis16 fis e d cis h a4 e'
+		cis8 a,[\p a a] a a a a
+		a a a a d4 d'8\f d %10
+		d c16 h c8 c h4 g'
+		fis8 h,,[\p h h] h h h h
+		h h h h e4 e'8\f e
+		e d!16 cis d8 d cis4 fis
+		d g e e8 fis %15
+		g( fis) fis-! fis-! g( fis) fis-! e-!-\critnote
+		d4 cis\trill d fis
+		h, g' e e8 fis
+		g( fis) fis-! fis-! g( fis) fis-! e-!-\critnote
+		d4 cis\trill^\critnote d16 a' h cis d4~ %20
+		d8 h16 cis d4~ d16 a h cis \once \tieDashed d4~
+		d8 cis16 h a g fis e d8 cis16 h a g fis e
+		d4 r r2\fermata \bar "|." %23 finis
 	}
 }
 
