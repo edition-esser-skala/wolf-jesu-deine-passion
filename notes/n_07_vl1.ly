@@ -528,10 +528,10 @@ ErIstUmViolinoI = {
 		h( h) c( c) c( c)
 		as'4.\f h,8 c4
 		es \appoggiatura es d2\trill
-		c8 g\p \slurDashed g( f) f( es) \slurSolid %25
+		\slurDashed c8( g) g(\p f) f( es) \slurSolid %25
 		as'4.\f h,8 c4
 		es \appoggiatura es d2\trillE
-		c8 g g( as) as( g)
+		\once \slurDashed c8( g) g( as) as( g)
 		r f\pE f( g) g( f)
 		r es es( f) f( es) %30
 		es(\pp d) d( c) c( h)
