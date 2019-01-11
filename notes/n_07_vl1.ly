@@ -504,7 +504,38 @@ ErIstUmViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \minor \time 3/4 \tempoErIstUm
-		
+		c'8\fE( c) c( c) c( c)
+		es( es) d( d) c( c)
+		es( es) d( d) c( c)
+		h( h) as( as) g( g)
+		g'( g) g( g) f( f) %5
+		es4 d r
+		r c8( c) c( c)
+		es( es) d( d) c( c)
+		es( es) d( d) c( c)
+		h( h) a( a) g( g) %10
+		g'( g) g( g) f( f)
+		es4 d r
+		e2 r4
+		e8( e) e( e) e( e)
+		f( f) f( f) f( f) %15
+		d2 r4
+		d8( d) d( d) d( d)
+		es!( es) es( es) es( es)
+		des(\p des) des( des) des( c)
+		h( h) c( c) c( c) %20
+		des(\pp des) des( des) des( c)
+		h( h) c( c) c( c)
+		as'4.\f h,8 c4
+		es \appoggiatura es d2\trill
+		c8 g\p \slurDashed g( f) f( es) \slurSolid %25
+		as'4.\f h,8 c4
+		es \appoggiatura es d2\trillE
+		c8 g g( as) as( g)
+		r f\pE f( g) g( f)
+		r es es( f) f( es) %30
+		es(\pp d) d( c) c( h)
+		\appoggiatura h?4 c2.\fermata \bar "|." %32 finis
 	}
 }
 

@@ -585,7 +585,7 @@ ErIstUmSopranoNotes = {
 		\mvDll c'4\fE^\tuttiE c c
 		es d c
 		es d c
-		h( a?) g
+		h( as) g
 		g'2 f4 %5
 		es d r
 		r c c
