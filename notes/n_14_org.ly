@@ -1242,6 +1242,38 @@ SchreibeDeineOrgano = {
 		\clef bass
 		\key as \lydian \time 4/4 \tempoSchreibeDeine
 		\mvTr as'2\fE-\tuttiE g
+		as es
+		d! es
+		b es\fermata
+		f es %5
+		as des,
+		es es
+		as1\fermata
+		as2 g
+		as es %10
+		d! es
+		b es\fermata
+		f es
+		as des,
+		es es %15
+		as1\fermata
+		as2 f
+		c des
+		es des
+		c1\fermata %20
+		c'2 b
+		a f
+		b, c4( d!)
+		es1\fermata
+		as2 g %25
+		f e
+		f d!
+		c f\fermata
+		es a,
+		b c %30
+		des c4( as!)
+		es'1
+		as,\fermata \bar "|." %33 FINIS
 	}
 }
 
