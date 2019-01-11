@@ -331,7 +331,7 @@ ErIstUmAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \minor \time 3/4 \autoBeamOff \tempoErIstUm
-		\mvTr g'4\fE^\tuttiE g g
+		\mvDll g'4\fE^\tuttiE g g
 		g g g
 		as h c
 		g2 g4

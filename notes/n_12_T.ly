@@ -682,7 +682,7 @@ ErIstUmTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \minor \time 3/4 \autoBeamOff \tempoErIstUm
-		\mvTr es4\fE^\tuttiE g f
+		\mvDll es4\fE^\tuttiE g f
 		es f es
 		c as es'
 		d( c) h

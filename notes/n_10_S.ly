@@ -582,7 +582,7 @@ ErIstUmSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \minor \time 3/4 \autoBeamOff \tempoErIstUm
-		\mvTr c'4\fE^\tuttiE c c
+		\mvDll c'4\fE^\tuttiE c c
 		es d c
 		es d c
 		h( a?) g

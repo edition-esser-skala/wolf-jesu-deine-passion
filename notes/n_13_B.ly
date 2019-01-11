@@ -260,12 +260,62 @@ ErIstUmBassoNotes = {
 	\relative c {
 		\clef bass
 		\key c \minor \time 3/4 \autoBeamOff \tempoErIstUm
-		
+		\mvDll c'4\fE^\tuttiE es d
+		c c c
+		as as as
+		g2 f4
+		es( c') h %5
+		c g r
+		r as f
+		es es es
+		fis2 fis4
+		g2 f4 %10
+		es( c') h
+		c g r
+		b! b8 b b4
+		b4. b8 b4
+		a a r %15
+		as as8 as as4
+		as2 as4
+		g g r
+		R2.*4 %22
+		f4. g8 as4
+		fis g2
+		c, r4 %25
+		f4. g8 as4
+		fis g2
+		c, r4
+		R2.*3 %31
+		R2.\fermataMarkup \bar "|." %32 finis
 	}
 }
 
 ErIstUmBassoLyrics = \lyricmode {
+	Er iſt um
+	un -- ſe -- re
+	Miſ -- se -- that
+	wil -- len
+	ſo __ ver -- %5
+	wun -- det,
+	und um
+	un -- ſe -- re
+	Sün -- den
+	wil -- len %10
+	ſo __ zer --
+	ſchl -- agen.
+	Um un -- ſe -- re
+	Miſ -- se  -- that
+	wil -- len, %15
+	um un -- ſe -- re
+	Sün -- den
+	wil -- len
 	
+	iſt er ſo %23
+	zer -- ſchla --
+	gen, %25
+	iſt er ſo
+	zer -- ſchla --
+	gen. %28 finis
 }
 
 % BassoNotes = {
