@@ -153,12 +153,52 @@ WohlDemAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoWohlDem
-		
+		\partial 4 \mvTr fis4\fE^\tuttiE a a a a8\pE a
+		a g16([ fis)] g8 g fis4 a
+		h8.([ a16 g8)] fis e4 a\fE
+		h gis a a8 a
+		a4 a8 a a4 a8 a %5
+		a4 gis e r
+		R1
+		r2 r4 a
+		a a8\pE h cis h16([ a)] d8 cis16([ h)]
+		cis8 h16([ a)] cis8 cis d4 a8\fE a %10
+		g g16 g a8 a g4 h
+		h r r2
+		r r4 gis8 gis
+		a a16 a h8 h a4 cis
+		a d cis cis8 cis %15
+		d([ cis)] cis cis d([ cis)] cis h
+		a4 a a a
+		g h a cis8 cis
+		d([ cis)] cis cis d([ cis)] cis h
+		a4 a a r %20
+		R1*2
+		R1\fermataMarkup \bar "|." %23 finis
 	}
 }
 
 WohlDemAltoLyrics = \lyricmode {
+	Wohl dem, wohl dem, dem die
+	Ue -- ber -- tre -- tun -- gen ver --
+	ge -- ben sind, wohl
+	dem, [wohl dem, dem die
+	Sün -- de, die Sün -- de be -- %5
+	de -- cket ist,]
 	
+	wohl
+	dem, dem die Ue -- ber -- tre -- tun --
+	gen ver -- ge -- ben, und dem die %10
+	Sün -- de be -- de -- cket ist, wohl
+	dem,
+	dem die
+	Sün -- de be -- de -- cket ist, wohl
+	dem, wohl dem, [dem die %15
+	Sün -- de, die Sün -- de be --
+	de -- cket ist, wohl
+	dem, wohl dem, dem die
+	Sün -- de, die Sün -- de be --
+	de -- cket ist.] %20 finis
 }
 
 % AltoNotes = {

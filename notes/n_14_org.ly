@@ -956,7 +956,7 @@ WohlDemOrgano = {
 		h( a) a-! a-! h( a) a-! g-!
 		a4 a, d r8 fis %20
 		g4 r8 g fis4 r8 g
-		a4 a, d16( d'( cis h) a( g fis e)
+		a4 a, d16( d' cis h) a( g fis e)
 		d4 r r2\fermata \bar "|." %23 finis
 	}
 }

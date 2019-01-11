@@ -476,8 +476,8 @@ WohlDemSopranoNotes = {
 		cis4 h\trill a r
 		R1
 		r2 r4 e'
-		cis cis8 d e d16([ cis)] fis8 e16([ d)]
-		e8 d16([ cis)] g'8 g fis4 d8 d %10
+		cis cis8\pE d e d16([ cis)] fis8 e16([ d)]
+		e8 d16([ cis)] g'8 g fis4 d8\fE d %10
 		d c16 h c8 c h4 g'
 		fis r r2
 		r r4 e8 e
@@ -496,21 +496,21 @@ WohlDemSopranoNotes = {
 WohlDemSopranoLyrics = \lyricmode {
 	Wohl dem, wohl dem,
 	
-	Wohl
+	wohl
 	dem, wohl dem, dem die
 	Sün -- de, die Sün -- de be -- %5
-	de -- cket ist.
+	de -- cket ist,
 	
-	Wohl
+	wohl
 	dem, dem die Ue -- ber -- tre -- tun --
-	gen ver -- ge -- en, und dem die %10
-	Sün -- de be -- de -- cket ist. Wohl
+	gen ver -- ge -- ben, und dem die %10
+	Sün -- de be -- de -- cket ist, wohl
 	dem,
 	dem die
-	Sün -- de be -- de -- cket ist. Wohl
+	Sün -- de be -- de -- cket ist, wohl
 	dem, wohl dem, dem die %15
 	Sün -- de, die Sün -- de be --
-	de -- cket ist. Wohl
+	de -- cket ist, wohl
 	dem, wohl dem, dem die
 	Sün -- de, die Sün -- de be --
 	de -- cket ist. %20 finis
