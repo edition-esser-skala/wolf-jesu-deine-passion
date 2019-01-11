@@ -646,6 +646,18 @@ ErIstUmSopranoLyrics = \lyricmode {
 	gen. %28 finis
 }
 
+SchreibeDeineSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key as \lydian \time 4/4 \autoBeamOff \tempoSchreibeDeine
+		
+	}
+}
+
+SchreibeDeineSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

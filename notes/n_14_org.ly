@@ -1237,6 +1237,18 @@ ErIstUmBassFigures = \figuremode {
 	r %32 finis
 }
 
+SchreibeDeineOrgano = {
+	\relative c {
+		\clef bass
+		\key as \lydian \time 4/4 \tempoSchreibeDeine
+		\mvTr as'2\fE-\tuttiE g
+	}
+}
+
+SchreibeDeineBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -318,6 +318,18 @@ ErIstUmBassoLyrics = \lyricmode {
 	gen. %28 finis
 }
 
+SchreibeDeineBassoNotes = {
+	\relative c {
+		\clef bass
+		\key as \lydian \time 4/4 \autoBeamOff \tempoSchreibeDeine
+		
+	}
+}
+
+SchreibeDeineBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

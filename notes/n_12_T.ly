@@ -746,6 +746,18 @@ ErIstUmTenoreLyrics = \lyricmode {
 	gen.] %28 finis
 }
 
+SchreibeDeineTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key as \lydian \time 4/4 \autoBeamOff \tempoSchreibeDeine
+		
+	}
+}
+
+SchreibeDeineTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

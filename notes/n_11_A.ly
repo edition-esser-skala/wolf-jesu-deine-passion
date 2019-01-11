@@ -395,6 +395,18 @@ ErIstUmAltoLyrics = \lyricmode {
 	gen.] %28 finis
 }
 
+SchreibeDeineAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key as \lydian \time 4/4 \autoBeamOff \tempoSchreibeDeine
+		
+	}
+}
+
+SchreibeDeineAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

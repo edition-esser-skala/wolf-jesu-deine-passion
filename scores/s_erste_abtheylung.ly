@@ -487,65 +487,111 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.10" "CORO" "Er iſt um unſere Miſsethat willen ſo verwundet"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\ErIstUmViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\ErIstUmViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\ErIstUmViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \ErIstUmSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \ErIstUmSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \ErIstUmAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \ErIstUmAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \ErIstUmTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \ErIstUmTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \ErIstUmBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \ErIstUmBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\ErIstUmOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\ErIstUmBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.10" "CORO" "Er iſt um unſere Miſsethat willen ſo verwundet"
+			movement = \movementTitle "1.11" "CHORAL" "Schreibe deine blutge Wunden"
 		}
+% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\ErIstUmViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\ErIstUmViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\ErIstUmViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \ErIstUmSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \SchreibeDeineSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \ErIstUmSopranoLyrics
+					\new Lyrics \lyricsto Soprano \SchreibeDeineSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \ErIstUmAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \SchreibeDeineAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \ErIstUmAltoLyrics
+					\new Lyrics \lyricsto Alto \SchreibeDeineAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \ErIstUmTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \SchreibeDeineTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \ErIstUmTenoreLyrics
+					\new Lyrics \lyricsto Tenore \SchreibeDeineTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \ErIstUmBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \SchreibeDeineBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \ErIstUmBassoLyrics
+					\new Lyrics \lyricsto Basso \SchreibeDeineBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\ErIstUmOrgano
+						\SchreibeDeineOrgano
 					}
 				>>
 				\new FiguredBass {
-					\ErIstUmBassFigures
+					\SchreibeDeineBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }
