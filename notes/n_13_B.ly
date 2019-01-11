@@ -194,6 +194,18 @@ WohlDemBassoLyrics = \lyricmode {
 	de -- cket ist. %20 finis
 }
 
+IchFalleBassoNotes = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 4/4 \autoBeamOff \tempoIchFalle
+		
+	}
+}
+
+IchFalleBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -201,6 +201,18 @@ WohlDemAltoLyrics = \lyricmode {
 	de -- cket ist.] %20 finis
 }
 
+IchFalleAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \autoBeamOff \tempoIchFalle
+		
+	}
+}
+
+IchFalleAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

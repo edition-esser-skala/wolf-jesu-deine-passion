@@ -549,6 +549,18 @@ WohlDemTenoreLyrics = \lyricmode {
 	de -- cket ist.] %20 finis
 }
 
+IchFalleTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key h \minor \time 4/4 \autoBeamOff \tempoIchFalle
+		
+	}
+}
+
+IchFalleTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

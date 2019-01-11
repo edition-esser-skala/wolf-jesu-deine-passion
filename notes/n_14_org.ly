@@ -987,6 +987,18 @@ WohlDemBassFigures = \figuremode {
 	r1 %23 finis
 }
 
+IchFalleOrgano = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 4/4 \tempoIchFalle
+		\partial 2 \mvTr h2\fE-\tuttiE d ais
+	}
+}
+
+IchFalleBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

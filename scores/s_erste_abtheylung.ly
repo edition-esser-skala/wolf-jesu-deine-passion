@@ -331,65 +331,110 @@
 % 			\midi { \tempo 4 = 72 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.7" "CORO" "Wohl dem, dem die Uebertretungen vergeben sind"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\WohlDemViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\WohlDemViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\WohlDemViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \WohlDemSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \WohlDemSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \WohlDemAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \WohlDemAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \WohlDemTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \WohlDemTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \WohlDemBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \WohlDemBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\WohlDemOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\WohlDemBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.7" "CORO" "Wohl dem, dem die Uebertretungen vergeben sind"
+			movement = \movementTitle "1.8" "CHORAL" "Ich falle dir, mein Gott, zu Füßen"
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\WohlDemViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\WohlDemViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\WohlDemViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \WohlDemSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \IchFalleSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \WohlDemSopranoLyrics
+					\new Lyrics \lyricsto Soprano \IchFalleSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \WohlDemAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \IchFalleAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \WohlDemAltoLyrics
+					\new Lyrics \lyricsto Alto \IchFalleAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \WohlDemTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \IchFalleTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \WohlDemTenoreLyrics
+					\new Lyrics \lyricsto Tenore \IchFalleTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \WohlDemBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \IchFalleBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \WohlDemBassoLyrics
+					\new Lyrics \lyricsto Basso \IchFalleBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\WohlDemOrgano
+						\IchFalleOrgano
 					}
 				>>
 				\new FiguredBass {
-					\WohlDemBassFigures
+					\IchFalleBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

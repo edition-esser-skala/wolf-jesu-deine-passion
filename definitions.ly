@@ -224,6 +224,7 @@ tempoVerraetherD = \tempoMarkup "Adagio"
 tempoLieblich = \tempoMarkup "Poco Largo"
 	tempoWeintVerbrecher = \tempoMarkup "Andante"
 tempoWohlDem = \tempoMarkup "Allegro"
+tempoIchFalle = \tempoMarkup "[Tempo deest]"
 
 
 

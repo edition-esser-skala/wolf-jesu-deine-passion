@@ -516,6 +516,18 @@ WohlDemSopranoLyrics = \lyricmode {
 	de -- cket ist. %20 finis
 }
 
+IchFalleSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \autoBeamOff \tempoIchFalle
+		
+	}
+}
+
+IchFalleSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
