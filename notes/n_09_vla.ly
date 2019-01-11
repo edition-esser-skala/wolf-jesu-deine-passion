@@ -498,7 +498,7 @@ ErDessenViola = {
 
 ErIstUmViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \minor \time 3/4 \tempoErIstUm
 		es8\fE( es) g( g) f( f)
 		es2 r4
