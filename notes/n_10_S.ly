@@ -582,18 +582,68 @@ ErIstUmSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \minor \time 3/4 \autoBeamOff \tempoErIstUm
-		
+		\mvTr c'4\fE^\tuttiE c c
+		es d c
+		es d c
+		h( a?) g
+		g'2 f4 %5
+		es d r
+		r c c
+		es d c
+		es( d) c
+		h( a) g %10
+		g'2 f4
+		es d r
+		e e8 e e4
+		e4. g8 f([ e)]
+		f4 f r %15
+		d d8 d d4
+		d4.( f8) es!([ d)]
+		es4 es r
+		des4.\pE des8 des c
+		h4 c r %20
+		des4.\ppE des8 des c
+		h4 c r
+		as'4.\fE h,8 c4
+		es \appoggiatura es d!2\trillE
+		c r4 %25
+		as'4. h,8 c4
+		es \appoggiatura es d2\trill
+		c r4
+		R2.*3 %31
+		R2.\fermataMarkup \bar "|." %32 finis
 	}
 }
 
 ErIstUmSopranoLyrics = \lyricmode {
-% 	Er iſt um unſere Miſsethat willen ſo verwundet,
-% 	um unſere Sünden willen ſo zerſchlagen.
-% 	Um unſere Miſsethat willen,
-% 	um unſere Sünden willen iſt er ſo verwundet,
-% 	iſt er ſo zerſchlagen,
-% 	iſt er ſo zerſchlagen,
-% 	iſt er ſo zerſchlagen.
+	Er iſt um
+	un -- ſe -- re
+	Miſ -- se -- that
+	wil -- len
+	ſo ver -- %5
+	wun -- det,
+	und um
+	un -- ſe -- re
+	Sün -- den
+	wil -- len %10
+	ſo zer --
+	ſchl -- agen.
+	Um un -- ſe -- re
+	Miſ -- se  -- that
+	wil -- len, %15
+	um un -- ſe -- re
+	Sün -- den
+	wil -- len
+	iſt er ſo ver --
+	wun -- det, %20
+	iſt er ſo zer --
+	ſchla -- gen,
+	iſt er ſo
+	zer -- ſchla --
+	gen, %25
+	iſt er ſo
+	zer -- ſchla --
+	gen. %28 finis
 }
 
 % SopranoNotes = {

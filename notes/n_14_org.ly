@@ -1199,9 +1199,9 @@ ErIstUmOrgano = {
 		fis g g,
 		c2 r4
 		c2\p r4
-		c2 r4
+		c2 r4 %30
 		c\pp c c
-		c2.\fermata \bar "|."
+		c2.\fermata \bar "|." %32 finis
 	}
 }
 
