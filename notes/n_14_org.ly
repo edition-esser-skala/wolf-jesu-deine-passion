@@ -1082,7 +1082,7 @@ ErDessenOrgano = {
 		a'16. a,32 r8 r4 d r
 		b r r a
 		d1
-		d2 c! %30
+		d2 \once \tieDashed c!~ %30
 		c1
 		g
 		fis
@@ -1105,8 +1105,8 @@ ErDessenOrgano = {
 		b as^\critnote %50
 		g1
 		es'2 f
-		fis \once \tieDashed a!~
-		a r4 g\f
+		fis \once \tieDashed as?~
+		as r4 g\f
 		c, r r2\fermata \bar "|." %55 finis
 	}
 }
@@ -1131,9 +1131,9 @@ ErDessenBassFigures = \figuremode {
 	r1
 	<4\+ 2>
 	<6>
-	r4 <_+> <5>8 <6> <6 _->4 %20
-	r1
-	<7 4- 2>
+	r4 <_+> <5>8. <6>16 <6 _->4 %20
+	<[5 4]> <\l [3]>2.
+	<7 4- 2>1
 	<\t \t \t>2 <8 3>
 	r1
 	r %25

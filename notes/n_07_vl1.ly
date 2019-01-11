@@ -448,7 +448,55 @@ ErDessenViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoErDessen
-		
+		h'8.[\fE d16 d8. g16] g8.[ h16 h8. g16]
+		g1~\p
+		g2 fis
+		g8.[\f h16 h8. g16] g8.[ d16 d8. h16]
+		e1\p %5
+		fis
+		fis8.[\f h16 h8. fis16] fis8.[ g16 g8. fis16]
+		\appoggiatura e4 dis1\p
+		r32 e,\ff-. fis-. g-. a-. h-. cis-. dis-. e16-. e,-. g'-. e-. h'-. e,-. r8 r4
+		r32 a,-. h-. cis-. d!-. e-. fis-. gis-. a16-. a,-. cis'-. a,-. \kneeBeam e''-. a,,-. r8 r4 %10
+		r32 d,-. e-. fis-. g-. a-. h-. cis-. d16-. d,-. fis'-. d,-. \kneeBeam a''-. d,,-. r8 r4
+		e'1\p
+		d4 r r16 d,32-.\f e-. fis[-. g-. a-. h]-. c!-. h-. c-. h-. a[-. g-. a-. g]-.
+		fis[-. e-. fis-. e]-. d8 r4 r16 d32-. e-. fis[-. g-. a-. h]-. c-. h-. c-. h-. a[-. g-. a-. g]-.
+		fis[-. e-. fis-. e]-. d8 r4 r8 g,32[-. a-. h-. c]-. d-. c-. d-. c-. h[-. a-. h-. a]-. %15
+		g[-. a-. h-. a]-. g8 r4 h''2~\p
+		h a~
+		a1
+		a
+		r4 gis8.( h32 d,) \appoggiatura d16 c8. f!16 \appoggiatura f16 e8.( g32 b,) %20
+		b4( a8) r r2
+		R1*7 %28
+		f'1~\p
+		f2 fis~ %30
+		fis1
+		g
+		a
+		g
+		g %35
+		\once \tieDashed fis?1~
+		fis2 g~
+		g1~
+		g~
+		g2 f!~ %40
+		f1
+		es~
+		es~
+		\once \tieDashed es~
+		es %45
+		es2 des
+		r4 e\f c'2~\p
+		c1
+		b
+		g2 as %50
+		d,!1
+		es2 c
+		a'? f~
+		f r4 h!\f
+		c r r2\fermata \bar "|."
 	}
 }
 
