@@ -500,6 +500,37 @@ ErIstUmViola = {
 	\relative c' {
 		\clef treble
 		\key c \minor \time 3/4 \tempoErIstUm
-		
+		es8\fE( es) g( g) f( f)
+		es2 r4
+		as2 r4
+		d,8( d) c( c) h( h)
+		g'( g) g( g) g( g) %5
+		g4 g r
+		r es8( es) f( f)
+		c2 r4
+		a'2 r4
+		\slurDashed d,8( d) c( c) h( h) \slurSolid %10
+		g'( g) g( g) g( g)
+		g4 g r
+		g2 r4
+		g8( g) g( g) g( g)
+		f( f) f( f) f( f) %15
+		f2 r4
+		f8( f) f( f) f( f)
+		es( es) es( es) es( es)
+		f(\pE f) f( f) f( f)
+		f( f) e( e) e( e) %20
+		f(\ppE f) f( f) f( f)
+		f( f) e( e) e( e)
+		c4.\fE g8 c4
+		c g'4. f8
+		es!2 r4 %25
+		f4. d8 c4
+		c g' f
+		es2 r4
+		h2\pE r4
+		r8 g g( as) as( g) %30
+		g(\pp f) f( es) es( d)
+		\appoggiatura d4 es2.\fermata \bar "|."
 	}
 }
