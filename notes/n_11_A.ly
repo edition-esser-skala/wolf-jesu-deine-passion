@@ -167,7 +167,7 @@ WohlDemAltoNotes = {
 		h r r2
 		r r4 gis8 gis
 		a a16 a h8 h a4 cis
-		a d cis cis8 cis %15
+		h^\critnote d cis cis8 cis %15
 		d([ cis)] cis cis d([ cis)] cis h
 		a4 a a a
 		g h a cis8 cis

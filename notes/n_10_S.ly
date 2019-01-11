@@ -485,7 +485,7 @@ WohlDemSopranoNotes = {
 		d g e e8 fis %15
 		g([ fis)] fis fis g([ fis)] fis e^\critnote
 		d4 cis\trill d fis
-		h, g' fis e8 fis
+		h, g' e^\critnote e8 fis
 		g([ fis)] fis fis g([ fis)] fis e
 		d4 e\trill d r %20
 		R1*2
