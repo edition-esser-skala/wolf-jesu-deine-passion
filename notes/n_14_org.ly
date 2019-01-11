@@ -950,7 +950,7 @@ WohlDemOrgano = {
 		r r4 e,8 e
 		fis fis gis gis a4 fis
 		h g a a8 a %15
-		h( a) a a h( a) a g
+		h( a) a-\parenthesize-! a-\parenthesize-! h( a) a-\parenthesize-! g-\parenthesize-!
 		a4 a, d d
 		g e a a8 a
 		h( a) a-! a-! h( a) a-! g-!

@@ -426,7 +426,7 @@ WohlDemViolinoII = {
 		a4 gis\trill a16 e' fis gis a4~
 		a8 fis16 gis a4~ a16 e fis gis a4~
 		a8 gis16 fis e d cis h a4 cis
-		a8 a,[\p a a] a a a a
+		a8 a,[\pE a a] a a a a
 		a a a a d4 fis8\f fis %10
 		g g a a g4 h
 		h8 h,[\p h h] h h h h

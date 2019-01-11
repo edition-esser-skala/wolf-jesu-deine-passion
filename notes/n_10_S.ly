@@ -477,7 +477,7 @@ WohlDemSopranoNotes = {
 		R1
 		r2 r4 e'
 		cis cis8\pE d e d16([ cis)] fis8 e16([ d)]
-		e8 d16([ cis)] g'8 g fis4 d8\fE d %10
+		e8 d16([ cis)] g'!8 g fis4 d8\fE d %10
 		d c16 h c8 c h4 g'
 		fis r r2
 		r r4 e8 e

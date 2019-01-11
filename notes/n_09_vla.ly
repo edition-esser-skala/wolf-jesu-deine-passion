@@ -412,8 +412,30 @@ LieblichViola = {
 
 WohlDemViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \major \time 4/4 \tempoWohlDem
-		
+		\partial 4 d4\fE d a' a8 a,[\p a a]
+		h h cis cis d d d d
+		g, g g gis a4 a'\fE
+		h gis e e8 cis
+		d( cis) cis cis d( cis) cis fis %5
+		e4 e cis r8 e
+		fis4 r8 fis e4 r8 fis
+		e8. a16 gis fis e d cis4 a'
+		e8 a,[\pE a a] a a a a
+		a a a a d4 a8\fE a %10
+		e' e d d d4 e
+		dis8 h[\pE h h] h h h h
+		h h h h e4 h8\fE h
+		fis' fis e e e4 a
+		fis h a a %15
+		h8( a) a-! a-! h8( a) a-\parenthesize-! g-\parenthesize-!
+		fis4 e\trill d d
+		d e e a8 a
+		h8( a) a-! a-! h8( a) a-! g-!^\critnote
+		fis4 a fis r8 a %20
+		h4^\critnote r8 h a4 r8 h
+		a8. d16 cis h a g fis d' cis h a g fis e
+		d4 r r2\fermata \bar "|." %23 finis
 	}
 }
