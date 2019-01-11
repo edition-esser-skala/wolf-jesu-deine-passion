@@ -359,7 +359,7 @@ LieblichViolinoII = {
 		eis4 \appoggiatura gis16 fis8 e32( d cis h) a16( e) e'( a,) \appoggiatura { a[ h] } h4\trill
 		a8 a4\mfE a c\f c?8 %65
 		cis4\fermata r r2
-		a8.( h32 cis) a8 r a8.( h32 cis) a8 r
+		a8.(\f h32 cis) a8 r a8.( h32 cis) a8 r
 		fis'8.(\trill e32 d) cis8 h h\trill a cis16( d) d( e)
 		e( d) d8 dis16( e) e( fis) fis( e) e8 gis,16( a) a( h)
 		a8 e([\p a gis)] h \once \slurDashed gis4( a8) %70
@@ -388,7 +388,7 @@ LieblichViolinoII = {
 		d r8 a a( g) g( f)
 		f4 e\trill f8 f16.\mfE e32 f16. g32 a16. b32
 		c4. a8\pE a g r4
-		d'4.\f h!8\p h-! a-! r4 %95
+		d'4.\mf h!8\p h-! a-! r4 %95
 		gis2\mf a8\p r e4~
 		e8 d16. e32 f8 d c h r4
 		r8 gis'( a h) c8. e,16\f a16.-\critnote e32 c16. a32

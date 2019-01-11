@@ -289,6 +289,123 @@ LieblichViola = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 4/4 \tempoLieblich
-		
+		e8\fE e e e fis fis e e
+		d d e e e4 r
+		r a8 a a a a a
+		a a, r cis d4. dis8
+		e e, r e'32( fis gis a) h4 h, %5
+		e8 e, r a'32( h cis d) e4 e,
+		a8 a, r a' a4 r8 h
+		h4 r8 e, e r r4
+		r8 f(\pE e dis) e4 r
+		r8 f( e dis) e e, r4 %10
+		r8 gis\fE gis gis a4 r
+		r8 cis cis cis d4~ d8. dis16
+		e4 e, a r
+		r8 a' a a16 fis e4 e
+		e r r8 a16. a32 fis4 %15
+		cis gis a r \bar "S-|"
+		e'8\pE e e e fis fis e e
+		d-\critnote d e e e4 r
+		e a8 a a a a a
+		a a r cis, d4. dis8 %20
+		e e, r e'32(\f fis gis a) h4 h,\p
+		h4 r8 fis'32\fE( gis a h) cis4 cis,\p
+		cis4 r8 fis8 h r r4
+		r8 c(\ppE h ais) h4 r
+		r8 c,( h ais) h4 h %25
+		h a8-\critnote g16 fis e2\mf
+		fis4\pE r r8 dis' dis dis
+		e4 r r8 gis! gis gis
+		a4~ a8. ais16 h4 h,
+		e r r8 e e cis %30
+		gis( h) h( dis) e4 r
+		r8 e\mfE e cis' gis4 dis
+		e8\fE h' h h cis cis h h
+		a a h h h4 r8 e,
+		e4 r8 fis fis4 r8 h, %35
+		h4 r r8 a e' cis
+		h4 h h r
+		r8 a\p a cis' gis4\f dis
+		e r e8\p e e e
+		e e e e r e e fis %40
+		e e, r4 e'8 e e e
+		fis fis e e d d e e
+		e4 r r2
+		ais4 fis h r
+		gis e a r8 a,32(\mfE h cis a) %45
+		d4. dis8\p e4 r8 \once \slurDashed e32(\mfE fis gis a)
+		h4 h,\p h r8 \once \slurDashed a'32(\mf h cis d)
+		e4 e,\p e r8 a
+		a4 r8 h h4 r8 e,
+		e r r4 r8 f( e dis) %50
+		e4 r r8 f,(\ppE e dis)
+		e4 e e e
+		e e r dis
+		e r r8 gis\pE gis gis
+		a4 r r8 cis cis cis %55
+		d4~ d8. dis16 e4 e,
+		a r r8 a' a fis
+		cis4 gis a8 \slurDashed cis'16(\f a) e( cis) h( a) \slurSolid
+		e'8 e, e'\p e e e e e
+		e[ e] e\ppE e e e e e %60
+		e e, r4\fermata r gis'\f
+		a\p r r8 a a fis
+		e4 e e r
+		r8 d a' fis cis4 gis
+		a4 f'\mfE e dis8\fE fis %65
+		e4\fermata r r2
+		e8\fE e e e fis fis e e
+		d d e e e4 r8 a
+		a4 r8 h h4 r8 e,
+		e4 r r8 f(\pE e dis) %70
+		e4 r r8 f( e dis)
+		e4 r r8 gis\f gis gis
+		a4 r r8 cis, cis cis
+		d4~ d8.^\critnote dis16 e4 e,
+		a r r8 a' a fis \noBreak %75
+		cis4 gis a r \bar "||"
+		\key a \minor \tempoWeintVerbrecher
+			r8 c(\pE h a) r f'(^\critnote dis e) \noBreak
+		r4 h8\f f' f-!\p e-! r4
+		e2\f f4\p r8 d
+		g4. g8 a a, r4 %80
+		r8 a( h cis) d8. a'16\f d16. a32 f16. d32
+		d2\mf c4\p r8 c
+		f4. f8 g g, r4
+		r8 \once \slurDashed g( a h) c c, r4
+		cis''\f r e, e\p %85
+		r8 f( e d) a2~
+		a1~
+		a2 r4 gis
+		a d d as'
+		g b a a %90
+		g\mfE b a\pE a8 g
+		f4 r8 d f( g) b( a)
+		b4 b, a r
+		r a'8\mfE es\pE es d r4
+		r h'8\mfE f\pE f-! e-! r4 %95
+		h!2\mf a4\pE r8 a
+		d4. d8 e e, r4
+		r8 e'( fis gis) a8. e16\f a16. e32 c16. a32
+		e'2\mfE f4\pE r8 d
+		g4. g8 a a, r4 %100
+		r8 \once \slurDashed a( h cis) d f r4
+		<fis a>\fE r <c a'> r
+		r8 fis\pE g4 g,2~
+		g1~
+		g2 r4 fis %105
+		g c c c
+		f as g g
+		f\mfE as g\pE g,
+		c es8 d b'2
+		a!4 a, d f8\mfE e %110
+		dis( e) dis( e) a,4\pE h!
+		c\fermata r r r8 e\mfE
+		\slurDashed dis( e) dis( e) \slurSolid ais,4 h
+		e,2 r4 \key a \major \tempoLieblich r8 a'\fE
+		a4 r8 h h4 r8 e, %115
+		e4 r r8 a a fis
+		cis4 gis a r \bar "S-S" %117 finis
 	}
 }

@@ -718,7 +718,7 @@ LieblichOrgano = {
 		r8 c,( h ais) h4 h %25
 		h h c2\mf
 		h4\pE r r8 dis dis dis
-		e4 r r8 gis gis gis
+		e4 r r8 gis! gis gis
 		a4~ a8. ais16 h4 h,
 		e r r8 a, a a %30
 		h4 h e, r
@@ -750,14 +750,14 @@ LieblichOrgano = {
 		a r r8 d d d
 		e4 e, a8 cis'16(\f a) e( cis) h( a)
 		e'8 e, e'\p e e e e e
-		e e e\ppE e e e e e %60
+		e[ e] e\ppE e e e e e %60
 		e e, r4\fermata r gis'\f
 		a\p r r8 d, d d
 		e4 e, a r
 		r8 d d d e4 e,
 		f4 f'\mf e dis\f %65
 		e\fermata r e, r
-		a8 a a' a fis! fis cis cis
+		a8\fE a a' a fis! fis cis cis
 		d d e e a a, r a'
 		d d, r h' e e, r e
 		a r r4 r2 %70
@@ -772,7 +772,7 @@ LieblichOrgano = {
 		r4 gis\f r8 a(\p gis a)
 		g8.[\mf g16 g8. g16] f4\p r8 d
 		g4 r8 g a a, r4 %80
-		r8 a' h cis d8. a16\f d16. a32 f16. d32
+		r8 \once \slurDashed a'( h cis) d8. a16\f d16. a32 f16. d32
 		f8.[\mf f16 f8. f16] e4\pE r8 c
 		f4. f8 g g, r4
 		r8 g( a h) c c, r4
@@ -789,7 +789,7 @@ LieblichOrgano = {
 		r gis\mf gis4 r8 \once \slurDashed a(\p gis a) %95
 		d,8.[\mf d16 d8. d16] c4\p r8 a
 		d4. d8 e e, r4
-		r8 e' fis gis a8. e16\f a16. e32 c16. a32
+		r8 \once \slurDashed e'( fis gis) a8. e16\f a16. e32 c16. a32
 		g'8\mf g g g f4\p r8 d
 		g4. g8 a a, r4 %100
 		r8 a( h cis) d4 r
