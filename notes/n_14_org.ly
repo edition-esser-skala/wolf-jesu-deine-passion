@@ -935,7 +935,29 @@ WohlDemOrgano = {
 	\relative c {
 		\clef bass
 		\key d \major \time 4/4 \tempoWohlDem
-		\partial 4 \mvTr d4\fE-\tuttiE fis d a' r
+		\partial 4 \mvTr d4\fE-\tuttiE ^\tweak TextScript.X-offset #0 ^\critnote fis d a' r
+		R1
+		r2 r4 a
+		gis e a cis8 a
+		d( cis) cis cis d( cis) cis d %5
+		e4 e, a r8 cis,
+		d4 r8 d cis4-\critnote r8 d
+		e4 e, a a
+		a r r2
+		r r4 d8 d %10
+		e e fis fis g4 e
+		h' r r2
+		r r4 e,8 e
+		fis fis gis gis a4 fis
+		h g a a8 a %15
+		h( a) a a h( a) a g
+		a4 a, d d
+		g e a a8 a
+		h( a) a-! a-! h( a) a-! g-!
+		a4 a, d r8 fis %20
+		g4 r8 g fis4 r8 g
+		a4 a, d16( d'( cis h) a( g fis e)
+		d4 r r2\fermata \bar "|." %23 finis
 	}
 }
 
