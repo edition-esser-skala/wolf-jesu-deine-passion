@@ -501,12 +501,52 @@ WohlDemTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key d \major \time 4/4 \autoBeamOff \tempoWohlDem
-		
+		\partial 4 \mvTr d4\fE^\tuttiE
+		d d cis cis8\pE cis
+		d d e e d4 fis
+		g8.([ fis16 e8)] d \appoggiatura d cis4 cis\fE
+		e e e e8 cis %5
+		d([ cis)] cis cis d([ cis)] cis fis e4 e cis r
+		R1
+		r2 r4 cis
+		e r r2
+		r r4 fis8 fis %10
+		e e16 e d8 d d4 e
+		dis dis8\pE e fis e16([ dis)] g8 fis16([ e)]
+		fis8 e16([ dis)] a'8 a g4 h,8\fE h
+		fis' fis16 fis e8 e e4 a
+		fis h a a,8 a %15
+		h([ a)] a a h([ a)] a g'
+		fis4 e fis d
+		d e e a,8 a
+		h([ a)] a a h([ a)] a g'
+		fis4 e fis r %20
+		R1*2
+		R1\fermataMarkup \bar "|." %23 finis
 	}
 }
 
 WohlDemTenoreLyrics = \lyricmode {
+	Wohl dem, wohl dem, dem die
+	Ue -- ber -- tre -- tun -- gen ver --
+	ge -- ben sind, wohl
+	dem, wohl [dem, dem die
+	Sün -- de, die Sün -- de be -- %5
+	de -- cket ist,]
 	
+	wohl
+	dem,
+	dem die %10
+	Sün -- de be -- de -- cket ist, wohl
+	dem, dem die Ue -- ber -- tre -- tun --
+	gen ver -- ge -- ben [sind], dem die
+	Sün -- de be -- de -- cket ist, wohl
+	dem, wohl dem, [dem die %15
+	Sün -- de, die Sün -- de be --
+	de -- cket ist, wohl
+	dem, wohl dem, dem die
+	Sün -- de, die Sün -- de be --
+	de -- cket ist.] %20 finis
 }
 
 % TenoreNotes = {
