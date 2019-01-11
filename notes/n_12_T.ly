@@ -611,6 +611,18 @@ IchFalleTenoreLyrics = \lyricmode {
 	dult! %26 finis
 }
 
+ErDessenTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoErDessen
+		
+	}
+}
+
+ErDessenTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

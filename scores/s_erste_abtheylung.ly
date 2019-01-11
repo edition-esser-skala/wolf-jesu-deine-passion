@@ -392,50 +392,94 @@
 % 			\midi { \tempo 4 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.8" "CHORAL" "Ich falle dir, mein Gott, zu Füßen"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \IchFalleSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \IchFalleSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \IchFalleAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \IchFalleAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \IchFalleTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \IchFalleTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \IchFalleBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \IchFalleBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\IchFalleOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\IchFalleBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.8" "CHORAL" "Ich falle dir, mein Gott, zu Füßen"
+			movement = \movementTitle "1.9" "RECITATIV" "Er, deſſen Allmachts Ruf"
 		}
-		\paper { systems-per-page = #2 }
+% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \IchFalleSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \IchFalleSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \IchFalleAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \IchFalleAltoLyrics
-					
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\ErDessenViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\ErDessenViolinoII
+						}
+					>>
+					\new Staff <<
+						\set Staff.instrumentName = "Viola"
+						\ErDessenViola
+					>>
+				>>
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \IchFalleTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \ErDessenTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \IchFalleTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \IchFalleBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \IchFalleBassoLyrics
+					\new Lyrics \lyricsto Tenore \ErDessenTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\IchFalleOrgano
+						\ErDessenOrgano
 					}
 				>>
 				\new FiguredBass {
-					\IchFalleBassFigures
+					\ErDessenBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

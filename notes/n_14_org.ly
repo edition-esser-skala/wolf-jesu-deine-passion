@@ -1049,6 +1049,18 @@ IchFalleBassFigures = \figuremode {
 	<[_+]>1 %26 finis
 }
 
+ErDessenOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoErDessen
+		\mvTr g'8.[\fE-\soloE g16 g8. g16] g8.[ g16 g8. g16]
+	}
+}
+
+ErDessenBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

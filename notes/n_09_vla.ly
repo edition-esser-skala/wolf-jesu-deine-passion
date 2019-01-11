@@ -439,3 +439,11 @@ WohlDemViola = {
 		d4 r r2\fermata \bar "|." %23 finis
 	}
 }
+
+ErDessenViola = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoErDessen
+		
+	}
+}
