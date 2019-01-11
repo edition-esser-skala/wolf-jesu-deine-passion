@@ -1041,7 +1041,7 @@ IchFalleBassFigures = \figuremode {
 	r <_+>
 	r1
 	r2 <6> %20
-	q1
+	<6 5>1
 	r
 	<7>
 	<_+>
