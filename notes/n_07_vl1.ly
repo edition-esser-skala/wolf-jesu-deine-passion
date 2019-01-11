@@ -433,11 +433,11 @@ WohlDemViolinoI = {
 		h h h h e4 e'8\f e
 		e d!16 cis d8 d cis4 fis
 		d g e e8 fis %15
-		g( fis) fis-! fis-! g( fis) fis-! e-!-\critnote
+		g( fis) fis-! fis-! g( fis) fis-! e-!^\critnote
 		d4 cis\trill d fis
 		h, g' e e8 fis
-		g( fis) fis-! fis-! g( fis) fis-! e-!-\critnote
-		d4 cis\trill^\critnote d16 a' h cis d4~ %20
+		g( fis) fis-! fis-! g( fis) fis-! e-!^\critnote
+		d4 e\trill d16 a' h cis d4~ %20
 		d8 h16 cis d4~ d16 a h cis \once \tieDashed d4~
 		d8 cis16 h a g fis e d8 cis16 h a g fis e
 		d4 r r2\fermata \bar "|." %23 finis
