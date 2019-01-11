@@ -1198,7 +1198,7 @@ ErIstUmOrgano = {
 		f!4. g8 as4
 		fis g g,
 		c2 r4
-		c2\p r4
+		\mvTr c2\p-\tastoE r4
 		c2 r4 %30
 		c\pp c c
 		c2.\fermata \bar "|." %32 finis
@@ -1206,7 +1206,35 @@ ErIstUmOrgano = {
 }
 
 ErIstUmBassFigures = \figuremode {
-	
+	r4 <6> <7>
+	r2.
+	r
+	<5 _!>4 <4 2> <4! 2>
+	<6>2 <6 5>4 %5
+	r <_!>2
+	r2.
+	<6>
+	<7 _!>4 <6> <5>
+	<5 _!> <4 2!> <4! 2> %10
+	<6>2 <6 5>4
+	r <_!>2
+	<4! 2>2.
+	<\t \t>
+	<6> %15
+	<4 2>
+	<\t \t>
+	<6>
+	r2.*4 %22
+	r4. <7 _!>
+	<7 _!>4 <6 4> <5 _!>
+	r2. %25
+	r4. <7 _!>
+	<7 _!>4 <6 4> <5 _!>
+	r2.
+	r
+	r %30
+	r
+	r %32 finis
 }
 
 % Organo = {
