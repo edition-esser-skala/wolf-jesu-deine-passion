@@ -444,6 +444,54 @@ ErDessenViola = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoErDessen
-		
+		d8.[\fE g16 g8. h16] h8.[ d16 d8. h16]
+		h1\p~
+		h2 a
+		g8.[\fE d'16 d8. h16] h8.[ g16 g8. d16]
+		g2\p e %5
+		ais1
+		h8.[\fE dis16 dis8. h16] h8.[^\critnote h16 h8. h16]
+		fis1\pE
+		r32 e\ffE-. fis-. g-. a-. h-. cis-. dis-. e16-. e,-. e'-. e,-. e'-. e,-. r8 r4
+		r32 a,-. h-. cis-. d!-. e-. fis-. gis-. a16-. a,-. a'-. a,-. a'-. a,-. r8 r4 %10
+		r32 d-. e-. fis-. g-. a-. h-. cis-. d16-. d,-. d'-. d,-. d'-. d,-. r8 r4
+		cis2\pE e
+		fis4 r r16 d32-.\fE e-. fis[-. g-. a-. h]-. c!-. h-. c-. h-. a[-. g-. a-. g]-.
+		fis[-. e-. fis-. e]-. d8 r4 r16 d32-. e-. fis[-. g-. a-. h]-. c-. h-. c-. h-. a[-. g-. a-. g]-.
+		fis[-. e-. fis-. e]-. d8 r4 r8 g,32[-. a-. h-. c]-. d-. c-. d-. c-. h[-. a-. h-. a]-. %15
+		g[-. a-. h-. a]-. g8 r4 d''2~\pE
+		d c?
+		cis1
+		a
+		r4 e a, g %20
+		f4 r r2
+		R1*7 %28
+		\once \tieDashed a'1~\p
+		a2^\critnote d,~ %30
+		d1
+		d
+		d2 a'
+		d, e
+		g1 %35
+		a~
+		a2 \once \tieDashed h!~
+		h1
+		g
+		b2 a! %40
+		b1
+		g~
+		g~
+		g~
+		g %45
+		as2 f
+		r4 c\f c2~\p
+		c f
+		f1
+		b2 es, %50
+		g1
+		g2 f
+		c' h!~
+		h r4 g\f
+		g r r2\fermata \bar "|." %55 finis
 	}
 }
