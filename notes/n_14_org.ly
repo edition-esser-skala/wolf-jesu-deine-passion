@@ -1173,7 +1173,35 @@ ErIstUmOrgano = {
 	\relative c {
 		\clef bass
 		\key c \minor \time 3/4 \tempoErIstUm
-		\mvTr c'8\fE-\tuttiE c es es d d
+		\slurDashed \mvTr c'8(\fE-\tuttiE ^\tweak TextScript.X-offset #0 ^\critnote c) es( es) d( d) \slurSolid
+		c2 r4
+		as2 r4
+		g8( g) g( g) f( f)
+		es( es) c( c) h( h) %5
+		c4 g' r
+		r as8( as) f( f)
+		es2 r4
+		fis2 r4
+		g8( g) g( g) f( f) %10
+		es( es) c( c) h( h)
+		c4 g' r
+		b!2 r4
+		b8( b) b( b) b( b)
+		a( a) a( a) a( a) %15
+		as2 r4
+		as8( as) as( as) as( as)
+		\slurDashed g( g) g( g) g( g) \slurSolid
+		R2.*4 %22
+		f4. g8 as4
+		fis? g g,
+		c2 r4 %25
+		f!4. g8 as4
+		fis g g,
+		c2 r4
+		c2\p r4
+		c2 r4
+		c\pp c c
+		c2.\fermata \bar "|."
 	}
 }
 
