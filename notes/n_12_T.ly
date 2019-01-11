@@ -615,12 +615,67 @@ ErDessenTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoErDessen
-		
+		R1
+		r4 \mvTr h\pE^\soloE r8 h16 h d8 h
+		g g h g c a c h
+		h4 r r2
+		r4 e cis8 cis cis r16 e %5
+		ais,8 ais cis16 cis cis d e8 e16 e e e fis cis
+		dis4 r r2
+		r8 dis dis dis fis8. dis16 dis8 h
+		g'4 r r8 g g e
+		cis8. a16 a'4 r8 cis, d e %10
+		fis fis r4 r8 d d cis
+		e a, r e'16 cis g8. g16 g8 a
+		\appoggiatura g fis fis r d'16 a c!4 c
+		r8 c e8. d16 c4 c
+		c8 c c h h4 r %15
+		r r8 d f!8. f16 f8 e
+		d8. d16 h8 e c c r a
+		cis4 cis e8 cis h a
+		d4 r16 f! f e d8 d d c
+		\appoggiatura h a4 r4 r2 %20
+		r2 r8 c f a,
+		b r16 b b8 g e' e r e
+		g b, b a a4 r8 a
+		c f, es' es d4 r8 d
+		f8. d16 d8 b e e g e %25
+		\appoggiatura d16 cis8 cis r4 e r
+		r r8 cis16 a f'8. f16 f8 d
+		g e cis d a4 r
+		R1*26 %54
+		R1\fermataMarkup \bar "|." %55 finis
 	}
 }
 
 ErDessenTenoreLyrics = \lyricmode {
-	
+	Er, deſ -- ſen All -- machts %2
+	Ruf der Wel -- ten -- heer aus nichts er --
+	schuff,
+	er, Je -- ſus, wird, o %5
+	Lie -- be, wird ein Spott der Sün -- der und ih -- rer Mord -- luſt
+	Raub.
+	Sie for -- dern un -- ge -- ſtüm ſein
+	Blut, ſein Blut kom
+	ü -- ber uns und un -- ſre %10
+	Kin -- der. So wüh -- ten
+	al -- le. Blut ent -- flie -- ßet ihm drauf
+	ſtrohm -- weis. Gleich den Lö -- wen,
+	gleich jun -- gen Lö -- wen
+	fal -- len ſie ihn an. %15
+	Zum Hohn muß ihn ein
+	Pur -- pur -- kleid um -- ge -- ben. Der
+	Pö -- bel beugt vor ihm ſein
+	Knie und lä -- ſtert ihm mit ſtol -- zer
+	Müh. %20
+	Seht, welch ein
+	Menſch, ſpricht ſelbst der Rich -- ter, der
+	nie ſo viel ge -- fühlt. Doch
+	mehr ent -- flamt ihr Grim, be --
+	red -- ter wird der Mund der Bö -- ſe -- %25
+	wich -- ter, ſtürmt,
+	bis ihn Pon -- ti -- us zum
+	Tod am Creutz ver -- dammt. %28 finis
 }
 
 % TenoreNotes = {

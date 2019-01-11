@@ -1091,7 +1091,7 @@ ErDessenOrgano = {
 		d~
 		d2 g,~
 		g1
-		\tieDashed e'!2~ e~
+		\tieDashed e'2~ e~
 		e \tieSolid es %40
 		b1
 		es~
@@ -1134,7 +1134,7 @@ ErDessenBassFigures = \figuremode {
 	r4 <_+> <5>8 <6> <6 _->4 %20
 	r1
 	<7 4- 2>
-	r2 <8 3>
+	<\t \t \t>2 <8 3>
 	r1
 	r %25
 	r16. <_+>32 r2..
@@ -1156,8 +1156,8 @@ ErDessenBassFigures = \figuremode {
 	<[5-]>
 	r
 	r
-	r %45
-	<[5-]>2 <_->
+	r2 <[7- 5-]> %45
+	<[5-]> <_->
 	r4 <[_!]> <6 5->2
 	<6 5->1
 	<6->2 <_->

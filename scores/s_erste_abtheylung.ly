@@ -442,7 +442,6 @@
 		\header {
 			movement = \movementTitle "1.9" "RECITATIV" "Er, deſſen Allmachts Ruf"
 		}
-% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -461,7 +460,13 @@
 						\ErDessenViola
 					>>
 				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \ErDessenAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \ErDessenAltoLyrics
+					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \ErDessenTenoreNotes }
