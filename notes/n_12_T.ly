@@ -682,12 +682,68 @@ ErIstUmTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \minor \time 3/4 \autoBeamOff \tempoErIstUm
-		
+		\mvTr es4\fE^\tuttiE g f
+		es f es
+		c as es'
+		d( c) h
+		c( es) d %5
+		c h? r
+		r c as
+		c d es
+		a,( d) d
+		d( c) h %10
+		c( es) d
+		c h r
+		c c8 c c4
+		c4. c8 c4
+		c c r %15
+		b! b8 b b4
+		b2 b4
+		b b r
+		f'4.\pE f8 f f
+		f4 e r %20
+		f4.\ppE f8 f f
+		f4 e? r
+		c4.\fE g8 c4
+		c c( h8[ f')]
+		es!2 r4 %25
+		c4. g8 c4
+		c c( h8[ d)]
+		es2 r4
+		R2.*3 %31
+		R2.\fermataMarkup \bar "|." %32 finis
 	}
 }
 
 ErIstUmTenoreLyrics = \lyricmode {
-	
+	Er [iſt um
+	un -- ſe -- re
+	Miſ -- se -- that
+	wil -- len
+	ſo __ ver -- %5
+	wun -- det,
+	und um
+	un -- ſe -- re
+	Sün -- den
+	wil -- len %10
+	ſo __ zer --
+	ſchl -- agen.
+	Um un -- ſe -- re
+	Miſ -- se  -- that
+	wil -- len, %15
+	um un -- ſe -- re
+	Sün -- den
+	wil -- len
+	iſt er ſo ver --
+	wun -- det, %20
+	iſt er ſo] zer --
+	ſchla -- gen,
+	[iſt er ſo
+	zer -- ſchla --
+	gen, %25
+	iſt er ſo
+	zer -- ſchla --
+	gen.] %28 finis
 }
 
 % TenoreNotes = {
