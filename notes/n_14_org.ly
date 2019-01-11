@@ -995,28 +995,28 @@ IchFalleOrgano = {
 		h fis'
 		g e
 		fis fis\fermata
-		d1
+		d1 %5
 		dis2 e
 		h g'
 		e fis
 		h,\fermata h
-		d ais
+		d ais %10
 		h fis'
 		g e
 		fis fis\fermata
 		d1
-		dis2 e
+		dis2 e %15
 		h g'
 		e fis
 		h,\fermata fis'
 		h a
-		d fis,
+		d fis, %20
 		g a
 		d,\fermata d
 		a' h
 		fis g
-		d fis
-		h,1\fermata \bar "|."
+		d fis %25
+		h,1\fermata \bar "|." %26 finis
 	}
 }
 

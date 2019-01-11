@@ -520,12 +520,62 @@ IchFalleSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key h \minor \time 4/4 \autoBeamOff \tempoIchFalle
-		
+		\partial 2 \mvTr fis2\fE^\tuttiE h cis
+		d cis
+		h cis
+		ais fis\fermata
+		a1 %5
+		a2 g
+		fis h
+		h ais
+		h\fermata fis
+		h cis %10
+		d cis
+		h cis
+		ais fis\fermata
+		a1
+		a2 g %15
+		fis h
+		h ais
+		h\fermata cis
+		d e
+		fis fis %20
+		e e
+		d\fermata fis
+		e d
+		cis h
+		d cis %25
+		h1\fermata \bar "|." %26 finis
 	}
 }
 
 IchFalleSopranoLyrics = \lyricmode {
-	
+	Ich fal -- le
+	dir, mein
+	Gott, zu
+	Fü -- ßen,
+	ich %5
+	fal -- le
+	dir in
+	dei -- nen
+	Arm. Ich
+	komm mit %10
+	wah -- rer
+	Reu und
+	Bu -- ße,
+	ich
+	ſchrei um %15
+	Glau -- ben,
+	ach er --
+	barm! Er --
+	bar -- me
+	dich bey %20
+	mei -- ner
+	Schuld und
+	ha -- be
+	doch mit
+	mir Ge -- %25
+	dult! %26 finis
 }
 
 % SopranoNotes = {
