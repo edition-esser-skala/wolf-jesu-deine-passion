@@ -276,7 +276,7 @@ ErDessenAltoNotes = {
 		h!8 h d g, c4 r8 c
 		cis4 cis cis8 cis cis d %35
 		d d r a a fis fis g
-		a a c! h h4 r16 d h c
+		a a c! h! h4 r16 d h c
 		d4 r8 h h h d g,
 		c4 r8 g b4 b
 		des8. des16 des8 c \appoggiatura b a! a b c %40

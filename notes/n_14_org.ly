@@ -1071,7 +1071,7 @@ ErDessenOrgano = {
 		g[-. a-. h-. a]-. g8 r4 gis2~\pE
 		gis a
 		g!1
-		f
+		f!
 		r4 e a g %20
 		f1
 		f~
@@ -1119,7 +1119,7 @@ ErDessenBassFigures = \figuremode {
 	<6>2 <6 4+> %5
 	<[5+] _+>2 <7 [\t \t]>
 	<[6 _+]>1
-	<4+ 2>
+	<[6\\] 4+ 2>
 	r1
 	r %10
 	r
@@ -1132,7 +1132,7 @@ ErDessenBassFigures = \figuremode {
 	<4\+ 2>
 	<6>
 	r4 <_+> <5>8. <6>16 <6 _->4 %20
-	<[5 4]> <\l [3]>2.
+	<[5 4-]> <\l [3]>2.
 	<7 4- 2>1
 	<\t \t \t>2 <8 3>
 	r1

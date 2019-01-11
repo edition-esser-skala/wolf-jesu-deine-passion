@@ -494,9 +494,9 @@ ErDessenViolinoI = {
 		g2 as %50
 		d,!1
 		es2 c
-		a'? f~
+		a'? f!~
 		f r4 h!\f
-		c r r2\fermata \bar "|."
+		c r r2\fermata \bar "|." %55 finis
 	}
 }
 
