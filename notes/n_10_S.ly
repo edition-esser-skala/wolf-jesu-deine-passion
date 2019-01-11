@@ -468,12 +468,52 @@ WohlDemSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoWohlDem
-		
+		\partial 4 \mvTr a'4\fE^\tuttiE d fis e r
+		R1
+		r2 r4 e
+		e d cis e8 e
+		fis([ e)] e e fis([ e)] e d %5
+		cis4 h\trill a r
+		R1
+		r2 r4 e'
+		cis cis8 d e d16([ cis)] fis8 e16([ d)]
+		e8 d16([ cis)] g'8 g fis4 d8 d %10
+		d c16 h c8 c h4 g'
+		fis r r2
+		r r4 e8 e
+		e d16 cis d8 d cis4 fis
+		d g e e8 fis %15
+		g([ fis)] fis fis g([ fis)] fis e^\critnote
+		d4 cis\trill d fis
+		h, g' fis e8 fis
+		g([ fis)] fis fis g([ fis)] fis e
+		d4 e\trill d r %20
+		R1*2
+		R1\fermataMarkup \bar "|." %23 finis
 	}
 }
 
 WohlDemSopranoLyrics = \lyricmode {
+	Wohl dem, wohl dem,
 	
+	Wohl
+	dem, wohl dem, dem die
+	Sün -- de, die Sün -- de be -- %5
+	de -- cket ist.
+	
+	Wohl
+	dem, dem die Ue -- ber -- tre -- tun --
+	gen ver -- ge -- en, und dem die %10
+	Sün -- de be -- de -- cket ist. Wohl
+	dem,
+	dem die
+	Sün -- de be -- de -- cket ist. Wohl
+	dem, wohl dem, dem die %15
+	Sün -- de, die Sün -- de be --
+	de -- cket ist. Wohl
+	dem, wohl dem, dem die
+	Sün -- de, die Sün -- de be --
+	de -- cket ist. %20 finis
 }
 
 % SopranoNotes = {
