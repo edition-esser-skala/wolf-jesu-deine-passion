@@ -413,15 +413,15 @@ LieblichTenoreLyrics = \lyricmode {
 	fließt __ die Zäh -- re,
 	hol -- de Tu -- gend, dir zur
 	Eh -- re, die der Reu -- e __ Wan -- gen %20
-	füllt. Lieb -- lich fließt die
+	füllt. Lieb -- lich fließt __ die
 	Zäh -- re, hol -- de Tu -- gend, dir __ zur
 	Eh -- re, die der Reu --
 	_ _ _ _
 	_ _ _ _ _ %25
-	_ e Wan -- gen
+	_ e __ Wan -- gen
 	füllt. Hol -- de
 	Tu -- gend, dir zur
-	Eh -- re fließt die Zäh -- re, die der
+	Eh -- re fließt __ die Zäh -- re, die __ der
 	Reu -- _ _ _ e __ %30
 	Wan -- gen füllt, die der
 	Reu -- _ e __ Wan -- gen
@@ -433,18 +433,18 @@ LieblichTenoreLyrics = \lyricmode {
 	lieb -- lich fließt __ die
 	Zäh -- re, hol -- de
 	Tu -- gend, dir __ zur Eh -- re, dir zur
-	Eh -- re fließt die Zäh -- re, die der %45
+	Eh -- re fließt __ die Zäh -- re, die der %45
 	Reu -- e __ Wan -- gen füllt.
-	Lieb -- lich fließt die Zäh -- re, hol -- de
+	Lieb -- lich fließt __ die Zäh -- re, hol -- de
 	Tu -- gend, dir __ zur Eh -- re, dir zur
-	Eh -- re fließt die Zäh -- re, die der
+	Eh -- re fließt die Zäh -- re, die __ der
 	Reu -- _ _ _ %50
 	_ _ _ _
 	_ _ _ _ _
 	_ e Wan -- gen
 	füllt. Hol -- de
 	Tu -- gend, dir zur %55
-	Eh -- re fließt die Zäh -- re, die der
+	Eh -- re fließt __ die Zäh -- re, die __ der
 	Reu -- _ _ _ e __
 	Wan -- gen füllt.
 	Lieb -- lich, lieb -- lich fließt die

@@ -767,7 +767,7 @@ LieblichOrgano = {
 		d4~ d8. dis16 e4 e,
 		a r r8 d d d \noBreak %75
 		e4 e, a r \bar "||"
-		\key a \minor \tempoWeintVerbrecher
+		\key a \minor \newSpacingSection \tempoWeintVerbrecher
 			r8 c'(\pE h a) r f( dis e) \noBreak
 		r4 gis\f r8 a(\p gis a)
 		g8.[\mf g16 g8. g16] f4\p r8 d

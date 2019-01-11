@@ -287,7 +287,7 @@ VerraetherViola = {
 
 LieblichViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key a \major \time 4/4 \tempoLieblich
 		e8\fE e e e fis fis e e
 		d d e e e4 r
