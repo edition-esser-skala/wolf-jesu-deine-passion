@@ -256,6 +256,18 @@ IchFalleBassoLyrics = \lyricmode {
 	dult!] %26 finis
 }
 
+ErIstUmBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 3/4 \autoBeamOff \tempoErIstUm
+		
+	}
+}
+
+ErIstUmBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

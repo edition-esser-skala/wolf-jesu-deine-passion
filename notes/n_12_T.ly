@@ -157,7 +157,7 @@ OWelchTenoreLyrics = \lyricmode {
 	So be -- tet er und
 	merkt, daß ihn ein En -- gel Got -- tes %25
 	ſtärkt.
-	In -- deſ -- ſen ſind die
+	In -- deſ -- sen ſind die
 	Jün -- ger an Ki -- dron ein -- ge --
 	schla -- fen. Je -- ſus Fin -- ger be -- rührt sie
 	ſanft. Er ſpricht: Der %30
@@ -649,7 +649,7 @@ ErDessenTenoreNotes = {
 }
 
 ErDessenTenoreLyrics = \lyricmode {
-	Er, deſ -- ſen All -- machts %2
+	Er, deſ -- sen All -- machts %2
 	Ruf der Wel -- ten -- heer aus nichts er --
 	schuff,
 	er, Je -- ſus, wird, o %5
@@ -676,6 +676,18 @@ ErDessenTenoreLyrics = \lyricmode {
 	wich -- ter, ſtürmt,
 	bis ihn Pon -- ti -- us zum
 	Tod am Creutz ver -- dammt. %28 finis
+}
+
+ErIstUmTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \minor \time 3/4 \autoBeamOff \tempoErIstUm
+		
+	}
+}
+
+ErIstUmTenoreLyrics = \lyricmode {
+	
 }
 
 % TenoreNotes = {

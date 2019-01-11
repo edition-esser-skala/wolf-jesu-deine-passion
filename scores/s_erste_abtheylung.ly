@@ -438,9 +438,58 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.9" "RECITATIV" "Er, deſſen Allmachts Ruf"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\ErDessenViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\ErDessenViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\ErDessenViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \ErDessenAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \ErDessenAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \ErDessenTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \ErDessenTenoreLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\ErDessenOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\ErDessenBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.9" "RECITATIV" "Er, deſſen Allmachts Ruf"
+			movement = \movementTitle "1.10" "CORO" "Er iſt um unſere Miſsethat willen ſo verwundet"
 		}
 		\score {
 			<<
@@ -448,43 +497,55 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\ErDessenViolinoI
+							\ErIstUmViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\ErDessenViolinoII
+							\ErIstUmViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\ErDessenViola
+						\ErIstUmViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \ErDessenAltoNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \ErIstUmSopranoNotes }
 					}
-					\new Lyrics \lyricsto Alto \ErDessenAltoLyrics
+					\new Lyrics \lyricsto Soprano \ErIstUmSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \ErIstUmAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \ErIstUmAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \ErDessenTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \ErIstUmTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \ErDessenTenoreLyrics
+					\new Lyrics \lyricsto Tenore \ErIstUmTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \ErIstUmBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \ErIstUmBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\ErDessenOrgano
+						\ErIstUmOrgano
 					}
 				>>
 				\new FiguredBass {
-					\ErDessenBassFigures
+					\ErIstUmBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

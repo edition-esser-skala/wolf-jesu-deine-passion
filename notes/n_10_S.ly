@@ -578,6 +578,24 @@ IchFalleSopranoLyrics = \lyricmode {
 	dult!] %26 finis
 }
 
+ErIstUmSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \autoBeamOff \tempoErIstUm
+		
+	}
+}
+
+ErIstUmSopranoLyrics = \lyricmode {
+% 	Er iſt um unſere Miſsethat willen ſo verwundet,
+% 	um unſere Sünden willen ſo zerſchlagen.
+% 	Um unſere Miſsethat willen,
+% 	um unſere Sünden willen iſt er ſo verwundet,
+% 	iſt er ſo zerſchlagen,
+% 	iſt er ſo zerſchlagen,
+% 	iſt er ſo zerſchlagen.
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

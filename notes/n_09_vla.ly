@@ -495,3 +495,11 @@ ErDessenViola = {
 		g r r2\fermata \bar "|." %55 finis
 	}
 }
+
+ErIstUmViola = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \tempoErIstUm
+		
+	}
+}

@@ -499,3 +499,11 @@ ErDessenViolinoII = {
 		es r r2\fermata \bar "|." %55 finis
 	}
 }
+
+ErIstUmViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \tempoErIstUm
+		
+	}
+}

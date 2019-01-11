@@ -226,6 +226,7 @@ tempoLieblich = \tempoMarkup "Poco Largo"
 tempoWohlDem = \tempoMarkup "Allegro"
 tempoIchFalle = \tempoMarkup "[Tempo deest]"
 tempoErDessen = \tempoMarkup "Adagio"
+tempoErIstUm = \tempoMarkup "Largo"
 
 
 

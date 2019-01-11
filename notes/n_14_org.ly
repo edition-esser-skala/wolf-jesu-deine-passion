@@ -1169,6 +1169,18 @@ ErDessenBassFigures = \figuremode {
 	<[_-]>1 %55 finis
 }
 
+ErIstUmOrgano = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 3/4 \tempoErIstUm
+		\mvTr c'8\fE-\tuttiE c es es d d
+	}
+}
+
+ErIstUmBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

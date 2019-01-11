@@ -327,6 +327,18 @@ ErDessenAltoLyrics = \lyricmode {
 	ſehr ge -- quä -- let. %54 finis
 }
 
+ErIstUmAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \autoBeamOff \tempoErIstUm
+		
+	}
+}
+
+ErIstUmAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

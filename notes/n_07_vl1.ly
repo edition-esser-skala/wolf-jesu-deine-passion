@@ -500,6 +500,14 @@ ErDessenViolinoI = {
 	}
 }
 
+ErIstUmViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \tempoErIstUm
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
