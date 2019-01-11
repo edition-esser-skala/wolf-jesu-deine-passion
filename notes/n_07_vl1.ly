@@ -414,6 +414,14 @@ LieblichViolinoI = {
 	}
 }
 
+WohlDemViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoWohlDem
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

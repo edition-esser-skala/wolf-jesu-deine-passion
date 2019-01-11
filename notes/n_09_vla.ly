@@ -409,3 +409,11 @@ LieblichViola = {
 		cis4 gis a r \bar "S-S" %117 finis
 	}
 }
+
+WohlDemViola = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoWohlDem
+		
+	}
+}

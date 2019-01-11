@@ -413,3 +413,11 @@ LieblichViolinoII = {
 		\slurDashed a16( e) e'( a,) \slurSolid \appoggiatura { a[ h] } h4\trill a8 e32( cis) d( h) a8 r \bar "S-S" %117 finis
 	}
 }
+
+WohlDemViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoWohlDem
+		
+	}
+}

@@ -497,6 +497,18 @@ LieblichTenoreLyrics = \lyricmode {
 	ſtillt. %114 finis
 }
 
+WohlDemTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \autoBeamOff \tempoWohlDem
+		
+	}
+}
+
+WohlDemTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

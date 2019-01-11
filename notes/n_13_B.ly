@@ -142,6 +142,18 @@ MeinHerzBassoLyrics = \lyricmode {
 	be. %29 finis
 }
 
+WohlDemBassoNotes = {
+	\relative c {
+		\clef bass
+		
+		
+	}
+}
+
+WohlDemBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -931,6 +931,18 @@ LieblichBassFigures = \figuremode {
 	<6 4>4 <5 3>2. %117 finis
 }
 
+WohlDemOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoWohlDem
+		\partial 4 \mvTr d4\fE-\tuttiE fis d a' r
+	}
+}
+
+WohlDemBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

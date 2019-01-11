@@ -149,6 +149,18 @@ MeinHerzAltoLyrics = \lyricmode {
 	be. %29 finis
 }
 
+WohlDemAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoWohlDem
+		
+	}
+}
+
+WohlDemAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

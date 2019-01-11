@@ -276,59 +276,120 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.6" "ARIA" "Lieblich fließt die Zähre"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Flauto I"
+% 							\LieblichFlautoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Flauto II"
+% 							\LieblichFlautoII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\LieblichViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\LieblichViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\LieblichViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \LieblichTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \LieblichTenoreLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\LieblichOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\LieblichBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 72 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.6" "ARIA" "Lieblich fließt die Zähre"
+			movement = \movementTitle "1.7" "CORO" "Wohl dem, dem die Uebertretungen vergeben sind"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = "Flauto I"
-							\LieblichFlautoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Flauto II"
-							\LieblichFlautoII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\LieblichViolinoI
+							\WohlDemViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\LieblichViolinoII
+							\WohlDemViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\LieblichViola
+						\WohlDemViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \LieblichTenoreNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \WohlDemSopranoNotes }
 					}
-					\new Lyrics \lyricsto Tenore \LieblichTenoreLyrics
+					\new Lyrics \lyricsto Soprano \WohlDemSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \WohlDemAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \WohlDemAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \WohlDemTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \WohlDemTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \WohlDemBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \WohlDemBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\LieblichOrgano
+						\WohlDemOrgano
 					}
 				>>
 				\new FiguredBass {
-					\LieblichBassFigures
+					\WohlDemBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 72 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

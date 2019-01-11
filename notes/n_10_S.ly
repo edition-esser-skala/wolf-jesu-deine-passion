@@ -464,6 +464,18 @@ MeinHerzSopranoLyrics = \lyricmode {
 	be. %29 finis
 }
 
+WohlDemSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoWohlDem
+		
+	}
+}
+
+WohlDemSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
