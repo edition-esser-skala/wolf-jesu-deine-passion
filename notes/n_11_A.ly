@@ -331,12 +331,68 @@ ErIstUmAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \minor \time 3/4 \autoBeamOff \tempoErIstUm
-		
+		\mvTr g'4\fE^\tuttiE g g
+		g g g
+		as h c
+		g2 g4
+		g2 g4 %5
+		g g r
+		r es f
+		g g g
+		a2 a4
+		g2 g4 %10
+		g2 g4
+		g g r
+		g g8 g g4
+		g4. g8 g4
+		f f r %15
+		f f8 f f4
+		f2 f4
+		es es r
+		as4.\pE as8 as as
+		g4 g r %20
+		as4.\ppE as8 as as
+		g4 g r
+		f4.\fE f8 es4
+		c g'2
+		g r4 %25
+		f4. f8 es4
+		c g'2
+		g r4
+		R2.*3 %31
+		R2.\fermataMarkup \bar "|." %32 finis
 	}
 }
 
 ErIstUmAltoLyrics = \lyricmode {
-	
+	Er [iſt um
+	un -- ſe -- re
+	Miſ -- se -- that
+	wil -- len
+	ſo ver -- %5
+	wun -- det,
+	und um
+	un -- ſe -- re
+	Sün -- den
+	wil -- len %10
+	ſo zer --
+	ſchl -- agen.
+	Um un -- ſe -- re
+	Miſ -- se  -- that
+	wil -- len, %15
+	um un -- ſe -- re
+	Sün -- den
+	wil -- len
+	iſt er ſo ver --
+	wun -- det, %20
+	iſt er ſo zer --
+	ſchla -- gen,
+	iſt er ſo
+	zer -- ſchla --
+	gen, %25
+	iſt er ſo
+	zer -- ſchla --
+	gen.] %28 finis
 }
 
 % AltoNotes = {
