@@ -145,13 +145,53 @@ MeinHerzBassoLyrics = \lyricmode {
 WohlDemBassoNotes = {
 	\relative c {
 		\clef bass
-		
-		
+		\key d \major \time 4/4 \autoBeamOff \tempoWohlDem
+		\partial 4 \mvTr d4\fE^\tuttiE fis d a' r
+		R1
+		r2 r4 a
+		gis e a cis8 a
+		d[( cis]) cis cis d([ cis)] cis d %5
+		e4 e, a r
+		R1
+		r2 r4 a
+		a r r2
+		r r4 d,8 d %10
+		e e16 e fis8 fis g4 e
+		h' h8\pE cis dis cis16([ h)] e8 dis16([ cis)]
+		dis8 cis16([ h)] dis8 dis e4 e,8\fE e
+		fis fis16 fis gis8 gis a4 fis
+		h g a a8 a %15
+		h([ a)] a a h([ a)] a g
+		a4 a, d d
+		g e a a8 a
+		h([ a)] a a h([ a)] a g
+		a4 a, d r %20
+		R1*2
+		R1\fermataMarkup \bar "|." %23 finis
 	}
 }
 
 WohlDemBassoLyrics = \lyricmode {
+	Wohl dem, wohl dem,
 	
+	wohl
+	dem, wohl dem, dem die
+	Sün -- de, die Sün -- de be -- %5
+	de -- cket ist,
+	
+	wohl
+	dem,
+	dem die %10
+	Sün -- de be -- de -- cket ist, wohl
+	dem, dem die Ue -- ber -- tre -- tun --
+	gen ver -- ge -- ben [sind], dem die
+	Sün -- de be -- de -- cket ist, wohl
+	dem, wohl dem, dem die %15
+	Sün -- de, die Sün -- de be --
+	de -- cket ist, wohl
+	dem, wohl dem, dem die
+	Sün -- de, die Sün -- de be --
+	de -- cket ist. %20 finis
 }
 
 % BassoNotes = {
