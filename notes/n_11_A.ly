@@ -205,12 +205,62 @@ IchFalleAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key h \minor \time 4/4 \autoBeamOff \tempoIchFalle
-		
+		\partial 2 \mvTr fis2\fE^\tuttiE fis fis
+		fis fis
+		d g
+		fis cis\fermata
+		fis1 %5
+		fis2 e
+		dis d
+		g fis
+		fis\fermata fis
+		fis fis %10
+		fis fis
+		d g
+		fis cis\fermata
+		fis1
+		fis2 e %15
+		dis d
+		g fis
+		fis\fermata ais
+		h cis
+		d a! %20
+		h a
+		a\fermata d
+		cis h
+		ais h
+		h ais %25
+		fis1\fermata \bar "|." %26 finis
 	}
 }
 
 IchFalleAltoLyrics = \lyricmode {
-	
+	[Ich fal -- le
+	dir, mein
+	Gott, zu
+	Fü -- ßen,
+	ich %5
+	fal -- le
+	dir in
+	dei -- nen
+	Arm. Ich
+	komm mit %10
+	wah -- rer
+	Reu und
+	Bu -- ße,
+	ich
+	ſchrei um %15
+	Glau -- ben,
+	ach er --
+	barm! Er --
+	bar -- me
+	dich bey %20
+	mei -- ner
+	Schuld und
+	ha -- be
+	doch mit
+	mir Ge -- %25
+	dult!] %26 finis
 }
 
 % AltoNotes = {

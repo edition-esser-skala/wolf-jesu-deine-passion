@@ -550,7 +550,7 @@ IchFalleSopranoNotes = {
 }
 
 IchFalleSopranoLyrics = \lyricmode {
-	Ich fal -- le
+	[Ich fal -- le
 	dir, mein
 	Gott, zu
 	Fü -- ßen,
@@ -575,7 +575,7 @@ IchFalleSopranoLyrics = \lyricmode {
 	ha -- be
 	doch mit
 	mir Ge -- %25
-	dult! %26 finis
+	dult!] %26 finis
 }
 
 % SopranoNotes = {

@@ -553,12 +553,62 @@ IchFalleTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key h \minor \time 4/4 \autoBeamOff \tempoIchFalle
-		
+		\partial 2 \mvTr d2\fE^\tuttiE d cis
+		h ais
+		h e
+		cis ais\fermata
+		d1
+		h2 h
+		h h
+		e cis
+		d\fermata d
+		d cis
+		h ais
+		h e
+		cis ais\fermata
+		d1
+		h2 h
+		h h
+		e cis
+		d\fermata fis
+		fis a
+		a d,
+		d cis
+		fis\fermata a
+		g fis
+		fis d
+		fis fis
+		dis?1\fermata
 	}
 }
 
 IchFalleTenoreLyrics = \lyricmode {
-	
+	Ich fal -- le
+	dir, mein
+	Gott, zu
+	Fü -- ßen,
+	ich %5
+	fal -- le
+	dir in
+	dei -- nen
+	Arm. Ich
+	komm mit %10
+	wah -- rer
+	Reu und
+	Bu -- ße,
+	ich
+	ſchrei um %15
+	Glau -- ben,
+	ach er --
+	barm! Er --
+	bar -- me
+	dich bey %20
+	mei -- ner
+	Schuld und
+	ha -- be
+	doch mit
+	mir Ge -- %25
+	dult! %26 finis
 }
 
 % TenoreNotes = {

@@ -991,7 +991,7 @@ IchFalleOrgano = {
 	\relative c {
 		\clef bass
 		\key h \minor \time 4/4 \tempoIchFalle
-		\partial 2 \mvTr h2\fE-\tuttiE d ais
+		\partial 2 \mvTr h2\fE-\tuttiE ^\tweak TextScript.X-offset #0 ^\critnote d ais
 		h fis'
 		g e
 		fis fis\fermata
@@ -1021,7 +1021,32 @@ IchFalleOrgano = {
 }
 
 IchFalleBassFigures = \figuremode {
-	
+	r2 <6> q
+	r <_+>
+	r <6>
+	<_+>1
+	r %5
+	<6 5>
+	<_+>
+	r2 <_+>
+	r1
+	<6>2 q %10
+	r <_+>
+	r <6>
+	<_+>1
+	r
+	<6 5> %15
+	<_+>
+	r2 <_+>
+	r <_+>
+	r1
+	r2 <6> %20
+	q1
+	r
+	<7>
+	<_+>
+	<6>2 <_+> %25
+	<[_+]>1 %26 finis
 }
 
 % Organo = {
