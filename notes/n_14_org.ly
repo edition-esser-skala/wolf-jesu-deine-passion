@@ -1054,11 +1054,119 @@ ErDessenOrgano = {
 		\clef bass
 		\key c \major \time 4/4 \tempoErDessen
 		\mvTr g'8.[\fE-\soloE g16 g8. g16] g8.[ g16 g8. g16]
+		g1\p~
+		g
+		g8.[\fE g16 g8. g16] g8.[ g16 g8. g16]
+		g1\pE %5
+		fis2 fis
+		dis8.[\fE dis16 dis8. dis16] dis8.[ dis16 dis8. dis16]
+		a'1\pE
+		r32 \mvTr e\ffE-.-\unisonoE fis-. g-. a-. h-. cis-. dis-. e16-. e,-. e'-. e,-. e'-. e,-. r8 r4
+		r32 a,-. h-. cis-. d!-. e-. fis-. gis-. a16-. a,-. a'-. a,-. a'-. a,-. r8 r4 %10
+		r32 d-. e-. fis-. g-. a-. h-. cis-. d16-. d,-. d'-. d,-. d'-. d,-. r8 r4
+		cis1\pE
+		d4 r r16 \mvTr d32-.\fE-\unisonoE e-. fis[-. g-. a-. h]-. c!-. h-. c-. h-. a[-. g-. a-. g]-.
+		fis[-. e-. fis-. e]-. d8 r4 r16 d32-. e-. fis[-. g-. a-. h]-. c-. h-. c-. h-. a[-. g-. a-. g]-.
+		fis[-. e-. fis-. e]-. d8 r4 r8 g,32[-. a-. h-. c]-. d-. c-. d-. c-. h[-. a-. h-. a]-. %15
+		g[-. a-. h-. a]-. g8 r4 gis2~\pE
+		gis a
+		g!1
+		f
+		r4 e a g %20
+		f1
+		f~
+		f2~ f4 r
+		r2 r16. b32 b16. b32 b4
+		R1 %25
+		r16. a32 a16. a32 a4 r32 a(-\unisonoE h cis d e fis? gis) a16 a, a' a,
+		a'16. a,32 r8 r4 d r
+		b r r a
+		d1
+		d2 c! %30
+		c1
+		g
+		fis
+		f2 e
+		es'1 %35
+		d~
+		d2 g,~
+		g1
+		\tieDashed e'!2~ e~
+		e \tieSolid es %40
+		b1
+		es~
+		es~
+		es~
+		es %45
+		as,2 b
+		r4 c\f a2~\pE
+		a1
+		des2 b~
+		b as^\critnote %50
+		g1
+		es'2 f
+		fis \once \tieDashed a!~
+		a r4 g\f
+		c, r r2\fermata \bar "|." %55 finis
 	}
 }
 
 ErDessenBassFigures = \figuremode {
-	
+	r1
+	r
+	r2 <7\+ 2>
+	<[8 3]>1
+	<6>2 <6 4+> %5
+	<[5+] _+>2 <7 [\t \t]>
+	<[6 _+]>1
+	<4+ 2>
+	r1
+	r %10
+	r
+	<6>2 <[5]>
+	<_+>1
+	r
+	r %15
+	r2 <7 5>
+	r1
+	<4\+ 2>
+	<6>
+	r4 <_+> <5>8 <6> <6 _->4 %20
+	r1
+	<7 4- 2>
+	r2 <8 3>
+	r1
+	r %25
+	r16. <_+>32 r2..
+	r2 <[_!]>
+	<6>2. <_+>4
+	r1
+	r2 <4\+ 2> %30
+	<\t \t>1
+	<_->
+	<6>2 <7- 5>
+	<4! 2> <6>
+	<6\\ [5-]>1 %35
+	<_+>
+	r2 <_!>
+	r1
+	<6>2 <7- 5->
+	r <4 2> %40
+	<_->1
+	<[5-]>
+	r
+	r
+	r %45
+	<[5-]>2 <_->
+	r4 <[_!]> <6 5->2
+	<6 5->1
+	<6->2 <_->
+	<6 _-> <[5-]> %50
+	<_!>1
+	<6>2 <_!>
+	<7-> <6! 4 2!>
+	r2. <[_!]>4
+	<[_-]>1 %55 finis
 }
 
 % Organo = {
