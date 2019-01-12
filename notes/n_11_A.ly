@@ -399,12 +399,76 @@ SchreibeDeineAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key as \lydian \time 4/4 \autoBeamOff \tempoSchreibeDeine
-		
+		\mvTr es2\fE^\tuttiE es
+		es es
+		f es
+		d! b\fermata
+		f' g %5
+		as as
+		as g
+		es1\fermata
+		es2 es
+		es es %10
+		f es
+		d! b\fermata
+		f'2 g
+		as as
+		as g %15
+		es1\fermata
+		as2 as
+		as as
+		g f
+		e1\fermata %20
+		g2 ges
+		ges? a
+		b4( g!) as2
+		g1\fermata
+		as2 b %25
+		as g
+		f f
+		g f\fermata
+		a c
+		b4( g) as2 %30
+		g as
+		as( g)
+		es1\fermata \bar "|." %33 FINIS
 	}
 }
 
 SchreibeDeineAltoLyrics = \lyricmode {
-	
+	[Schrei -- be
+	dei -- ne
+	blut -- gen
+	Wun -- den
+	mir, Her[r], %5
+	in mein
+	Herz hi --
+	nein,
+	daß ſie
+	mö -- gen %10
+	al -- le
+	Stun -- den
+	bey mir
+	un -- ver
+	ge -- ßen %15
+	ſeyn.
+	Du biſt
+	doch mein
+	lieb -- ſtes
+	Guth, %20
+	da mein
+	gan -- zes
+	Her -- ze
+	ruht.
+	Laß mich %25
+	hier zu
+	dei -- nen
+	Fü -- ßen
+	dei -- ne
+	Lieb und %30
+	Gunſt ge --
+	nie --
+	ßen.] %33 FINIS
 }
 
 % AltoNotes = {
