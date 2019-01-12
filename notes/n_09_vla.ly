@@ -534,3 +534,11 @@ ErIstUmViola = {
 		\appoggiatura d4 es2.\fermata \bar "|."
 	}
 }
+
+NunIstViola = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoNunIst
+		
+	}
+}

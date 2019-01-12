@@ -538,3 +538,11 @@ ErIstUmViolinoII = {
 		g2.\fermata \bar "|." %32 finis
 	}
 }
+
+NunIstViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoNunIst
+		
+	}
+}

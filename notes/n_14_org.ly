@@ -1313,6 +1313,19 @@ SchreibeDeineBassFigures = \figuremode {
 	r1 %33 FINIS
 }
 
+NunIstOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoNunIst
+		\mvTrh es~\p-\tasto
+		es
+	}
+}
+
+NunIstBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

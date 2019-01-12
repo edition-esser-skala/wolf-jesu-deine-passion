@@ -6,8 +6,8 @@
 
 #(ly:set-option 'relative-includes #t)
 
-\include "scores/s_erste_abtheylung.ly"
-% \include "scores/s_zweyte_abtheylung.ly"
+% \include "scores/s_erste_abtheylung.ly"
+\include "scores/s_zweyte_abtheylung.ly"
 
 % \include "parts/p_cor1.ly"
 % \include "parts/p_cor2.ly"

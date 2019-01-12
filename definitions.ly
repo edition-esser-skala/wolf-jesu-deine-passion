@@ -229,6 +229,8 @@ tempoErDessen = \tempoMarkup "Adagio"
 tempoErIstUm = \tempoMarkup "Largo"
 tempoSchreibeDeine = \tempoMarkup "[Tempo deest]"
 
+tempoNunIst = \tempoMarkup "Andante"
+
 
 
 % modify the Scheme function 'format-bass-figure'
