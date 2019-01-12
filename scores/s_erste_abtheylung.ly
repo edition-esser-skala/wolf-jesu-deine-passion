@@ -552,7 +552,7 @@
 		\header {
 			movement = \movementTitle "1.11" "CHORAL" "Schreibe deine blutge Wunden"
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new ChoirStaff <<
