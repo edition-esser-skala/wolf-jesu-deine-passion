@@ -420,7 +420,7 @@ SchreibeDeineAltoNotes = {
 		g f
 		e1\fermata %20
 		g2 ges
-		ges? a
+		f^\critnote a
 		b4( g!) as2
 		g1\fermata
 		as2 b %25

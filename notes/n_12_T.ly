@@ -750,12 +750,76 @@ SchreibeDeineTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key as \lydian \time 4/4 \autoBeamOff \tempoSchreibeDeine
-		
+		\mvTr c2\fE^\tuttiE b
+		as g
+		b b
+		b g\fermata
+		c es %5
+		es f
+		es es
+		c1\fermata
+		c2 b
+		as g %10
+		b b
+		b g\fermata
+		c es
+		es f
+		es es %15
+		c1\fermata
+		es2 f
+		es f
+		c des
+		g,1\fermata %20
+		c2 c
+		c c
+		des? es
+		es1\fermata
+		es2 es %25
+		f c
+		c f
+		e c\fermata
+		f f
+		f4( des?) es2 %30
+		es es
+		es2.( des?4)
+		c1\fermata \bar "|." %33 FINIS
 	}
 }
 
 SchreibeDeineTenoreLyrics = \lyricmode {
-	
+	Schrei -- be
+	dei -- ne
+	blut -- gen
+	Wun -- den
+	mir, Her[r], %5
+	in mein
+	Herz hi --
+	nein,
+	daß ſie
+	mö -- gen %10
+	al -- le
+	Stun -- den
+	bey mir
+	un -- ver
+	ge -- ßen %15
+	ſeyn.
+	Du biſt
+	doch mein
+	lieb -- ſtes
+	Guth, %20
+	da mein
+	gan -- zes
+	Her -- ze
+	ruht.
+	Laß mich %25
+	hier zu
+	dei -- nen
+	Fü -- ßen
+	dei -- ne
+	Lieb und %30
+	Gunſt ge --
+	nie --
+	ßen. %33 FINIS
 }
 
 % TenoreNotes = {
