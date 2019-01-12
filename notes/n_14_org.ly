@@ -1319,11 +1319,68 @@ NunIstOrgano = {
 		\key c \major \time 4/4 \tempoNunIst
 		\mvTrh es~\p-\tasto
 		es
+		es?
+		es
+		es %5
+		es?
+		es?
+		es?2~ es8 des'(\fE b g)
+		e2\pE f
+		b, ges'^\critnote %10
+		f f~
+		f as~
+		as1
+		g,2 c
+		b g %15
+		fis1
+		h!2 a
+		gis cis
+		eis4 r r2
+		fis4 r gis r %20
+		r2 \tempoNunIstB r16 \mvTrh a,\ff-\unisonoE h cis d e fis gis
+		a h cis h a gis fis e fis gis a gis fis e d cis
+		d d fis fis e e d d cis cis h h \tempoNunIstC a8 r
+		R1*2 %25
+		\tempoNunIstD r16 d-\unisonoE e fis g a h cis d e fis e d cis h ais
+		h cis d cis h a g fis g g h h a a g g
+		fis fis e e \tempoNunIstE d8 r r2
+		r16. f,!32\pE f16. f32 f4 r2
+		r \tempoNunIstF r16 \mvTrh g\ffE-\unisonoE a h c d e fis %30
+		g a h a g fis e dis e fis g fis e d c h
+		c c e e d d c c h h a a \tempoNunIstG g8 r
+		r f'!(\pE e d) r e gis e
+		r a gis e a,4 r
+		r h e, r\fermata \bar "|." %35 finis
 	}
 }
 
 NunIstBassFigures = \figuremode {
-	
+	r1
+	r
+	<3>
+	<[6 4-]>
+	<[5- 3]> %5
+	<[5- 3]>2 <7->
+	<6 4-> <4- 2>
+	<3 1>1
+	<7- 5->2 <_!>
+	<_-> <6- [_-]> %10
+	<5 _!>1
+	r2 <4! [2-]>
+	r1
+	<_!>2 <_->
+	<4! 2> <6 4+> %15
+	<[5+] _+>1
+	<5+>2 <[4+] 2>
+	<[5+] _+> <5+ 3>
+	<6 [_+]>1
+	<[5+]>2 <6 5> %20
+	r1*8 %28
+	r16. <[5 3]>32 r2..
+	r1*3 %32
+	r8 <6> r <6> r <[_+]> <6> <_+>
+	r4 <6>8 <_+> r2
+	r4 <[5+] _+> r2 %35 finis
 }
 
 % Organo = {

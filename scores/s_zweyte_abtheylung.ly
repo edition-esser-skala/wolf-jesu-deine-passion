@@ -44,10 +44,10 @@
 				>>
 				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \NunIstAltoNotes }
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \NunIstTenoreNotes }
 					}
-					\new Lyrics \lyricsto Alto \NunIstAltoLyrics
+					\new Lyrics \lyricsto Tenore \NunIstTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {

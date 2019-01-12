@@ -471,18 +471,6 @@ SchreibeDeineAltoLyrics = \lyricmode {
 	ßen.] %33 FINIS
 }
 
-NunIstAltoNotes = {
-	\relative c' {
-		\clef treble
-		\key c \major \time 4/4 \autoBeamOff \tempoNunIst
-		
-	}
-}
-
-NunIstAltoLyrics = \lyricmode {
-	
-}
-
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

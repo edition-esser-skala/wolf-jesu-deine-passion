@@ -230,6 +230,12 @@ tempoErIstUm = \tempoMarkup "Largo"
 tempoSchreibeDeine = \tempoMarkup "[Tempo deest]"
 
 tempoNunIst = \tempoMarkup "Andante"
+	tempoNunIstB = \tempoMarkup "Allegro"
+	tempoNunIstC = \tempoMarkup "[Andante]"
+	tempoNunIstD = \tempoMarkup "Allegro"
+	tempoNunIstE = \tempoMarkup "Andante"
+	tempoNunIstF = \tempoMarkup "Allegro"
+	tempoNunIstG = \tempoMarkup "Andante"
 
 
 

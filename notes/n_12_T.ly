@@ -822,6 +822,18 @@ SchreibeDeineTenoreLyrics = \lyricmode {
 	ßen. %33 FINIS
 }
 
+NunIstTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoNunIst
+		
+	}
+}
+
+NunIstTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
