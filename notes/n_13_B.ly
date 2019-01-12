@@ -322,12 +322,76 @@ SchreibeDeineBassoNotes = {
 	\relative c {
 		\clef bass
 		\key as \lydian \time 4/4 \autoBeamOff \tempoSchreibeDeine
-		
+		\mvTr as'2\fE^\tuttiE g
+		as es
+		d! es
+		b es\fermata
+		f es %5
+		as des,
+		es es
+		as1\fermata
+		as2 g
+		as es %10
+		d! es
+		b es\fermata
+		f es
+		as des,
+		es es %15
+		as1\fermata
+		as2 f
+		c des
+		es des
+		c1\fermata %20
+		c'2 b
+		a f
+		b, c4( d!)
+		es1\fermata
+		as2 g %25
+		f e
+		f d!
+		c f\fermata
+		es a,
+		b c %30
+		des c4( as!)
+		es'1
+		as,\fermata \bar "|." %33 FINIS
 	}
 }
 
 SchreibeDeineBassoLyrics = \lyricmode {
-	
+	[Schrei -- be
+	dei -- ne
+	blut -- gen
+	Wun -- den
+	mir, Her[r], %5
+	in mein
+	Herz hi --
+	nein,
+	daß ſie
+	mö -- gen %10
+	al -- le
+	Stun -- den
+	bey mir
+	un -- ver
+	ge -- ßen %15
+	ſeyn.
+	Du biſt
+	doch mein
+	lieb -- ſtes
+	Guth, %20
+	da mein
+	gan -- zes
+	Her -- ze
+	ruht.
+	Laß mich %25
+	hier zu
+	dei -- nen
+	Fü -- ßen
+	dei -- ne
+	Lieb und %30
+	Gunſt ge --
+	nie --
+	ßen.] %33 FINIS
 }
 
 % BassoNotes = {
