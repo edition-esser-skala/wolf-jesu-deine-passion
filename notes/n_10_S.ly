@@ -650,12 +650,76 @@ SchreibeDeineSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key as \lydian \time 4/4 \autoBeamOff \tempoSchreibeDeine
-		
+		\mvTr as'2\fE^\tuttiE b
+		c b
+		as g
+		f es\fermata
+		as b %5
+		c des
+		c b
+		as1\fermata
+		as2 b
+		c b %10
+		as g
+		f es\fermata
+		as b
+		c des?
+		c b %15
+		as1\fermata
+		c2 des
+		es des
+		c b
+		c1\fermata %20
+		es2 es
+		f es
+		des? c
+		b1\fermata
+		c2 es %25
+		des? c
+		as b
+		c as\fermata
+		c es
+		des? c %30
+		b as
+		b1
+		as\fermata \bar "|." %33 FINIS
 	}
 }
 
 SchreibeDeineSopranoLyrics = \lyricmode {
-	
+	[Schrei -- be
+	dei -- ne
+	blut -- gen
+	Wun -- den
+	mir, Her[r], %5
+	in mein
+	Herz hi --
+	nein,
+	daß ſie
+	mö -- gen %10
+	al -- le
+	Stun -- den
+	bey mir
+	un -- ver
+	ge -- ßen %15
+	ſeyn.
+	Du biſt
+	doch mein
+	lieb -- ſtes
+	Guth, %20
+	da mein
+	gan -- zes
+	Her -- ze
+	ruht.
+	Laß mich %25
+	hier zu
+	dei -- nen
+	Fü -- ßen
+	dei -- ne
+	Lieb und %30
+	Gunſt ge --
+	nie --
+	ßen.] %33 FINIS
 }
 
 % SopranoNotes = {
