@@ -773,7 +773,7 @@ GottAmSopranoINotes = {
 		c4( f) f
 		f\trill e r
 		r e g
-		\appoggiatura g8 fis4.( eis8) fis4 %100
+		\appoggiatura g8 fis!4.( eis8) fis4 %100
 		r fis a
 		\appoggiatura a g2 r4
 		r e a
@@ -1157,7 +1157,7 @@ GottAmSopranoIINotes = {
 		g4 a g
 		fis2.
 		g4 es'2~
-		es4 c2
+		es4 \appoggiatura d c2^\critnote
 		b g4 %220
 		\tuplet 3/2 4 { c8([ b a)] } \appoggiatura g4 fis2\trill
 		g4 b2~

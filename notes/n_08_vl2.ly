@@ -583,7 +583,7 @@ GottAmViolinoII = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 3/4 \tempoGottAm
-		r4^\critnote h'\fE fis
+		r4-\critnote h'\fE fis
 		e g8 fis g4
 		g2 fis4
 		g4 h(-. h-.)
@@ -756,7 +756,7 @@ GottAmViolinoII = {
 		r4 r g'~\pE
 		g2 fis4
 		g g( f)
-		es2 d4
+		e?2 d4
 		fis4.( g16 a) g4 %175
 		g\trill fis r
 		r h( c~)
