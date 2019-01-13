@@ -1450,9 +1450,9 @@ GottAmOrgano = {
 		a2\f ais4
 		h\p fis2
 		g4 a2
-		h4\mf g e
+		h4 g\mf e
 		a2\fE ais4 %65
-		h fis2\pE
+		h\pE fis2
 		g4 a a,
 		d d'\f a
 		h2 fis4
@@ -1512,9 +1512,9 @@ GottAmOrgano = {
 		d d d
 		d2 r4
 		R2. %125
-		d2 r4
+		d2\ppE r4
 		R2.
-		e
+		e\p
 		h
 		c4 d d, %130
 		g2 r4
@@ -1523,11 +1523,11 @@ GottAmOrgano = {
 		R2.
 		c2\mf a4 %135
 		d2\f dis4
-		e h2\pE
+		e\pE h2
 		c4 d2
 		e4 c a
 		d2\f dis4 %140
-		e h2\pE
+		e\pE h2
 		c4 d2
 		e4 h2\f
 		c4\p d d,
@@ -1581,55 +1581,55 @@ GottAmOrgano = {
 		f2\f fis4
 		g2\pE d4
 		es f! f,
-		b g'\f d
+		b g'\f d %195
 		es f f,
 		b2\p as'4
 		g2 as4
 		f d g
-		c,2 es4
+		c,2 es4 %200
 		f es d
 		a f b
 		f' f, d'
 		es2 b4
-		c8. b16 a4 g
+		c8. b16 a4 g %205
 		d' c h
 		c2 b4
 		a2 a4
 		d d, h'
-		c2 a4
+		c2 a4 %210
 		d2 d4
 		es2.~
 		es2 c4
 		d2 d4
-		g2.
+		g2. %215
 		a,
 		d
 		g,4 c a
 		d2\f d4
-		es2 h4
+		es2\pE h4 %220
 		c d d,
 		g g' e
 		a2 a4
-		b! b gis
-		a2 r4\fermata
+		b! b\fE gis
+		a2 r4\fermata %225
 		a,2.
-		\key g \major d2 h'4\fE
+		\key g \major d2\fE h'4
 		c2 cis4
 		d2 h,4
-		c2 cis4
+		c2 cis4 %230
 		d d d
 		d2 r4
 		R2.
 		d\p
-		R
+		R %235
 		e\f
 		h2 h4
 		c d2
 		e4 c a
-		d2 dis4
+		d2 dis4 %240
 		e h2
 		c4 d d,
-		g2 r4 \bar "S-S"
+		g2 r4 \bar "S-S" %243 finis
 	}
 }
 

@@ -847,7 +847,7 @@ GottAmSopranoINotes = {
 		\appoggiatura c h2 c4
 		d( f) f
 		es g, c %200
-		\appoggiatura b a!2 b4
+		\appoggiatura b! a!2 b4
 		c4.( d16[ es)] d4
 		d\trill c r
 		R2.*5 %208
@@ -1031,8 +1031,8 @@ GottAmSopranoIINotes = {
 		e( \tuplet 3/2 4 { g8[ fis e] h'[ a]) g }
 		fis4 a a
 		a( \tuplet 3/2 4 { d8[ cis h]) a([ g fis)] }
-		fis4( h8[ a)] g([ fis)]
-		fis4\trill e r %40
+		fis4( h8[ a)] a([ g)]
+		g4\trill fis r %40
 		r d f
 		\appoggiatura f?8 e4.( dis8) e4
 		r e a
@@ -1285,9 +1285,9 @@ GottAmSopranoIILyrics = \lyricmode {
 	Ew -- ger
 	Schmertz. %195
 	
-	Gott wird
+	Gott wird %203
 	ein -- ſten
-	im __ Ge --
+	im __ Ge -- %205
 	richt ih -- nen
 	wie -- der
 	nicht ver --

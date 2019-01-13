@@ -583,7 +583,246 @@ GottAmViolinoI = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 3/4 \tempoGottAm
-		
+		r4 d'\fE h
+		\appoggiatura a g4.\trill fis8 g4
+		a \tuplet 3/2 4 { c8 h a e' d c }
+		h4 d(-. d-.)
+		d \tuplet 3/2 4 { g8 fis e d c h } %5
+		h4 e8([ d)] \once \slurDashed c([ h)]
+		h4\trill a r
+		r d(-.\pE d-.)
+		d( e) c
+		r c(-. c-.) %10
+		c( d) h
+		r h\f h
+		h \tuplet 3/2 4 { g'8 fis e d c h }
+		\appoggiatura fis'16 \tuplet 3/2 4 { e8 d c } \appoggiatura h4 a2\trill
+		g4 \once \slurDashed d'(-.\p d-.) %15
+		d( g) d
+		r d(-. d-.)
+		d( h') d,
+		R2.
+		fis2.\fE %20
+		g4 \tuplet 3/2 4 { h8 a g fis e d }
+		\tuplet 3/2 4 { e d c } \appoggiatura h4 a2
+		g4 r r
+		fis'2.
+		g4 \tuplet 3/2 4 { h8 a g fis e d } %25
+		\tuplet 3/2 4 { e d c } \appoggiatura h4 a2\trill
+		g4 g, r \bar "S-|"
+		r d''\pE h
+		\appoggiatura a8 g4. fis8 g4
+		a \tuplet 3/2 4 { c8 h a e' d c } %30
+		h4 d d
+		d \tuplet 3/2 4 { g8 fis e d c h }
+		h4 e8([ d)] c([ h)]
+		h4\trill a r
+		R2. %35
+		e4 \tuplet 3/2 4 { g8 fis e h' a g } 
+		fis4 a a
+		a \tuplet 3/2 4 { d8 cis h a g fis }
+		fis4 \slurDashed h8( a) a([ g)] \slurSolid
+		g4\trill fis r %40
+		\once \tieDashed h2.~
+		h
+		cis~
+		cis
+		d %45
+		h4( e) g~
+		g fis8([ e)] e( d)
+		d4\trill cis r
+		r a' fis
+		\appoggiatura e d2 d4 %50
+		r g e
+		\appoggiatura d cis2 cis4
+		r d a
+		h( g') fis
+		e \appoggiatura d cis2\trill %55
+		d4 a r
+		a fis' r
+		fis,-! a-! r
+		a-! fis'-! r
+		d, r r %60
+		cis'2.\f
+		d4\p \tuplet 3/2 4 { fis8 e d cis h a }
+		\tuplet 3/2 4 { h8 g' e } \appoggiatura d4 cis2\trill
+		d4 r r
+		cis2.\f %65
+		d4\pE \tuplet 3/2 4 { fis8 e d cis h a }
+		\tuplet 3/2 4 { h8 g' e } \appoggiatura d4 cis2\trill
+		d4 a'\f fis
+		\appoggiatura e8 d4.( cis8) d4
+		e \tuplet 3/2 4 { g8 fis e h' a g } %70
+		fis4 a, a
+		a \tuplet 3/2 4 { d8 cis h a g fis }
+		fis4 h8([ a)] g( fis)
+		fis4 e r
+		r a'(-.\pE a-.) %75
+		a( h) g
+		r g(-. g-.)
+		g( a) fis
+		r fis\fE fis
+		fis \tuplet 3/2 4 { d'8 cis h a g fis } %80
+		\tuplet 3/2 4 { h a g } \appoggiatura fis4 e2\trill
+		d4 r r
+		cis2.
+		d4 \tuplet 3/2 4 { fis8 e d cis h a }
+		\appoggiatura cis?16 \tuplet 3/2 4 { h8 a g } \appoggiatura fis4 e2\trill %85
+		d4 a'\p fis'
+		\appoggiatura e8 d4.( cis8) d4
+		e, \tuplet 3/2 4 { g8 fis e h' a g }
+		fis4 a a
+		a \tuplet 3/2 4 { d8 cis h a g fis } %90
+		g4( e') \appoggiatura d8 c4
+		c\trill h r
+		r r g
+		a \tuplet 3/2 4 { c8 h a e' d c }
+		h4 d d %95
+		d \tuplet 3/2 4 { g8 fis e d c h }
+		c4( f) f
+		f?\trill e r
+		e2.
+		fis!~ %100
+		fis
+		g~
+		g
+		fis2 fis4
+		g d8([ c)] c([ h)] %105
+		h4\trill a r
+		R2.
+		r4 h e
+		\appoggiatura d c2 c4
+		r a' c, %110
+		h( c) d
+		\appoggiatura fis16 \tuplet 3/2 4 { e8 d c } \appoggiatura h4 a2\trillE
+		g4-! d'-! r
+		d-! g-! r
+		h,-! d-! r %115
+		d-! g-! r
+		d-\parenthesize-! f-\parenthesize-! r
+		e8. g16 \tuplet 3/2 4 { fis8 e d c h a }
+		h4 f' r
+		e8. g16 \tuplet 3/2 4 { fis8 e d c h a } %120
+		h4 f'2\f
+		e8(\p d) d( c) c( h)
+		\appoggiatura h4 a2 r4
+		r \once \slurDashed d(-.\pp d-.)
+		d( e) c %125
+		r c(-. c-.)
+		c( d) h
+		r h(-.\p h-.)
+		h \tuplet 3/2 4 { g'8 fis e d c h }
+		\tuplet 3/2 4 { e d c } \appoggiatura h4 a2\trill %130
+		g4 d'-.(\pp d-.)
+		d( g) d
+		r d(-. d-.)
+		d( h') d,
+		R2. %135
+		fis2.\f
+		g4\pE \tuplet 3/2 4 { h8 a g fis e d }
+		\tuplet 3/2 4 { e d c } \appoggiatura h4 a2\trill
+		g4 r r
+		fis'2.\f %140
+		g4\p \tuplet 3/2 4 { h8 a g fis e d }
+		\tuplet 3/2 4 { e d c } \appoggiatura h4 a2\trill
+		g4 \tuplet 3/2 4 { h'8\f a g fis e d }
+		\tuplet 3/2 4 { e\p d c } \appoggiatura h4 a2\trill
+		g4 d'\f h %145
+		\appoggiatura a8 g4. fis8 g4
+		a \tuplet 3/2 4 { c8 h a e' d c }
+		h4 d d
+		d \tuplet 3/2 4 { g8 fis e d c h }
+		c4 e8( d) c([ h)] %150
+		h4\trill a r
+		r d(-.\p d-.)
+		d( e) c
+		r c(-. c-.)
+		c( d) h %155
+		r h\f h
+		h \tuplet 3/2 4 { g'8 fis e d c h }
+		\appoggiatura fis'16 \tuplet 3/2 4 { e8 d c } \appoggiatura h4 a2\trill
+		g4 d'(-.\p d-.) 
+		d( g) d %160
+		r \once \slurDashed d(-. d-.)
+		d( h') d,
+		R2.
+		fis\fE
+		g4 \tuplet 3/2 4 { h8 a g fis e d } %165
+		\tuplet 3/2 4 { e d c } \appoggiatura h4 a2\trill
+		g4 \tuplet 3/2 4 { h'8 a g fis e d }
+		\tuplet 3/2 4 { e d c } \appoggiatura h4 a2\trill
+		g4 g, r\fermata
+		\key g \minor R2. %170
+		r4 r g'\pE
+		a \tuplet 3/2 4 { c8 b a es' d c }
+		b4 es( d)
+		\appoggiatura d cis2 d4
+		a4.( b16 c) b4 %175
+		b\trill a r
+		r h( c)
+		d \tuplet 3/2 4 { f8 es d as' g f }
+		es4 g, c
+		\appoggiatura b! a!2\trill b4 %180
+		c4.( d16 es) d4
+		d\trill c f~
+		f es2~
+		es4 d c
+		R2.*2 %186
+		b2.~
+		b
+		a~
+		a %190
+		g4 g'2~\mf
+		g4\f \appoggiatura f es2
+		d4(\p es) f
+		\tuplet 3/2 4 { g8 f es } \appoggiatura d4 c2\trillE
+		b4 \tuplet 3/2 4 { b'8\fE a g f es d } %195
+		\tuplet 3/2 4 { g f es } \appoggiatura d4 c2\trill
+		b4 b, r
+		r h'\p c
+		d \tuplet 3/2 4 { f8 es d as' g f }
+		es4 g, c %200
+		\appoggiatura b!4 a!2 b4
+		c4.( d16 es) d4
+		d\trill c r
+		r r g
+		a( c) b %205
+		a d(-. d-.)
+		d( es) d
+		cis g'2
+		g4 fis r
+		es2.~ %210
+		es4 d( c)
+		b r r
+		R2.*3 %215
+		cis2.
+		c
+		b4 g r
+		fis'2.\f
+		g4\p \tuplet 3/2 4 { b8 a g f es d } %220
+		\tuplet 3/2 4 { es d c } \appoggiatura b4 a2\trill
+		g4 r r
+		R2.
+		r4 f'\f d'
+		d2 r4\fermata %225
+		R2.
+		\key g \major r4 d,\f f
+		\appoggiatura f? e2 g4
+		\appoggiatura g fis2 g8( d)
+		d4 c8( h) h'[ h,] %230
+		h4\trill a r
+		r d(-.\p d-.)
+		d( e) c
+		r c(-. c-.)
+		c( d) h %235
+		r h\fE h
+		h \tuplet 3/2 4 { g'8 fis e d c h }
+		\tuplet 3/2 4 { e d c } \appoggiatura h4 a2\trill
+		g4 r r
+		fis'2. %240
+		g4 \tuplet 3/2 4 { h8 a g fis e d }
+		\tuplet 3/2 4 { e d c } \appoggiatura h4 a2\trill
+		g4 g, r \bar "S-S" %243 finis
 	}
 }
 
