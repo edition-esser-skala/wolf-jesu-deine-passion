@@ -579,6 +579,248 @@ GottAmViola = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 3/4 \tempoGottAm
-		
+		h'2\fE fis4
+		h,2 d4
+		e2 d4
+		d2 r4
+		g,2 g'4 %5
+		e2 e4
+		d d d
+		d2 r4
+		R2.
+		d2\pE r4 %10
+		R2.
+		e\f
+		d2 g4~
+		g8. a16 g4 fis\trill
+		g2 r4 %15
+		R2.
+		g,2\p r4
+		R2.
+		g'4\fE c2
+		a4 a2 %20
+		g4 \once \tieDashed g2~
+		g8. a16 g4 fis\trill
+		g g c
+		a a2
+		g4 g2~ %25
+		g8. a16 g4 fis\trill
+		g2 r4 \bar "S-|"
+		g2\pE d4
+		h2 d4
+		c e d %30
+		d2 r4
+		g,2 g'4
+		e2 e4
+		d2 cis4
+		fis,2 a4 %35
+		h2 a4
+		a2 r4
+		d2 d4
+		g,2 a4
+		d d, r %40
+		g2 g4
+		gis2 gis4
+		a2 a4
+		ais2 ais4
+		h2. %45
+		e2 r4
+		e fis g
+		a a, g'
+		fis2.
+		h,2. %50
+		e
+		a,
+		d2 a'4
+		g2.
+		g4 a a, %55
+		d2 r4
+		d2 r4
+		d2 r4
+		d2 r4
+		d d\mfE g %60
+		e2\f e4
+		d\p d2
+		d8.-\critnote h'16 a2
+		h4 d,\mfE g
+		e2\fE e4 %65
+		d\pE d2
+		d8. h'16 a4 g
+		fis2 cis'4\f
+		fis,2 a4
+		h d cis %70
+		d r r
+		d,2.
+		g,2 gis4
+		a a a
+		a2 r4 %75
+		R2.
+		a2\p r4
+		R2.
+		h'\f
+		fis %80
+		g4 a a,
+		h d g
+		e2 e4
+		d \once \tieDashed d2~
+		d8. e16 d4 cis %85
+		d fis\pE cis
+		h2 d4
+		d2 cis4
+		d2 r4
+		d2 d,4 %90
+		e'2 fis4
+		g g, fis'
+		h,2 d4
+		e2 d4
+		d2 r4 %95
+		g2 g4
+		c, a' g
+		g2 r4
+		cis,2.
+		d %100
+		dis
+		e~
+		e
+		d!
+		d4 e2 %105
+		d4 d\f c
+		h\p fis' d
+		h e2
+		a,2.
+		d %110
+		g,2 g'4
+		c, d2
+		g,2 r4
+		g'2 r4
+		g2 r4 %115
+		g2 r4
+		g2 r4
+		c, d d,
+		g2 r4
+		c d d, %120
+		g r g'~\fE
+		g e2\pE
+		g4^\critnote d d
+		d2 r4
+		R2. %125
+		d2\ppE r4
+		R2.
+		e\pE^\critnote
+		d2 g4
+		c,4 d2 %130
+		g,2 r4
+		R2.
+		g2\ppE r4
+		R2.
+		r4 g'\mf c %135
+		a2\fE a4
+		g2\pE h,4
+		c4 d2
+		h4 g'\mfE c
+		a2\fE a4 %140
+		g\pE h,2
+		c4 d2
+		h4 g'2\fE
+		c,4\p d2
+		h2 fis'4\fE %145
+		h,2 d4
+		e g fis
+		g2-\critnote r4
+		g2 g4
+		e2 e4 %150
+		d d d
+		d2 r4
+		R2.
+		d2\p r4
+		R2. %155
+		e\f
+		d2 g4~
+		g8. a16 g4 fis\trill
+		g2 r4
+		R2. %160
+		g2\p r4
+		R2.
+		r4 g\fE c
+		a2 a4
+		g \once \tieDashed g2~ %165
+		g8. a16 g4 fis\trill
+		g4 \once \tieDashed g2~
+		g8. a16 g4 fis\trillE \noBreak
+		g2 r4\fermata \bar "||"
+		\key g \minor r4 b,\pE d \noBreak %170
+		b2 d4
+		c a d
+		g,2 gis4
+		a g fis
+		r d' d %175
+		d d a'
+		f!2 es4
+		as2 g4
+		g es c
+		f es d %180
+		r f f
+		f2 d4
+		es2 c4
+		f2 r4
+		a b c %185
+		b f2
+		g2.
+		c,
+		f
+		b, %190
+		b2 es4\mf
+		c2.\f
+		b2\pE b'4
+		es, f f,
+		b d\fE b' %195
+		b \appoggiatura b a2\trill
+		b2 d,4~\pE
+		d( f) es
+		as2 g4
+		g es c %200
+		f es d
+		a! f' f
+		f f f
+		b,2 d4
+		es c d %205
+		d( c h)
+		c2 d4
+		e2.
+		d2 g4~
+		g2 a4 %210
+		fis( g) a
+		b,2 r4
+		r r es!
+		d2 c4
+		b2.-\critnote %215
+		a
+		a
+		g4 g'\mfE c
+		a2\f a4
+		g2\p h,4 %220
+		c d2
+		b4 d g
+		e2 e4
+		d b'\fE gis
+		a2 r4\fermata %225
+		R2.
+		\key g \major r4 r g\fE
+		g2 a4
+		a2 d,8 g
+		e4 e2 %230
+		d4 d d
+		d2 r4
+		R2.
+		d2\p r4
+		R2. %235
+		e\f
+		d2 g4~
+		g8. a16 g4 fis\trillE
+		g2 c4
+		a2 a4 %240
+		g \once \tieDashed g2~
+		g8. a16 g4 fis\trillE
+		g2 r4 \bar "S-S" %243 finis
 	}
 }

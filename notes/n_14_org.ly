@@ -1396,8 +1396,8 @@ GottAmOrgano = {
 		d d d
 		d2 r4
 		R2.
-		d\p %10
-		R
+		d2\p^\critnote r4 %10
+		R2.
 		e\f
 		h
 		c4 d d,
@@ -1555,8 +1555,8 @@ GottAmOrgano = {
 		c4 d2
 		e4 h2
 		c4 d d, \noBreak
-		g2 r4 \bar "||"
-		\key g \minor r4 g'\p d %170
+		g2 r4\fermata \bar "||"
+		\key g \minor r4 g'\p d \noBreak %170
 		es2 b4
 		c a d
 		g,2 gis'4
@@ -1620,8 +1620,8 @@ GottAmOrgano = {
 		d d d
 		d2 r4
 		R2.
-		d\p
-		R %235
+		d2\p^\critnote r4
+		R2. %235
 		e\f
 		h2 h4
 		c d2
@@ -1740,7 +1740,7 @@ GottAmBassFigures = \figuremode {
 	<7>
 	r4 <6> <7> %105
 	<6 4> <5 3> <\t \t>
-	<6>2 q4
+	<6>4 <5> <6>
 	r2.
 	r2 <6>4
 	r2 <7>4 %110
@@ -1810,7 +1810,7 @@ GottAmBassFigures = \figuremode {
 	<5! 4> <6! 4\+> <6>
 	r <_+>2 %175
 	<6 4>4 <5 _+> <5>
-	<_!>2.
+	<7! _!>2.
 	<6 _->4 <7 5-> <_!>
 	r2 <6>4
 	<4> q <6> %180
@@ -1830,7 +1830,7 @@ GottAmBassFigures = \figuremode {
 	q <6 4> <5 3>
 	r2 <6>4 %195
 	q <6 4> <5 3>
-	r2 <6>4
+	r2 <6 4>4
 	<4> <_!> r
 	<6 _-> <7 5-> <_!>
 	r2 <6>4 %200
@@ -1863,20 +1863,20 @@ GottAmBassFigures = \figuremode {
 	<_!>2 <6 5!>4
 	<4!> <3> <6 5>
 	<4> <_+> <6>
-	<9 7> <8 6> <7 5>
+	<9 7> <8 6> <7 5> %230
 	<6 4> <5 3> r
 	r2.
 	r
 	<7>
-	r
+	r %235
 	r
 	<6>
 	q4 <6 4> <5 3>
 	r2.
-	<9>4 <8> <7>
+	<9>4 <8> <7> %240
 	r <6>2
 	q4 <6 4> <5 3>
-	r2.
+	r2. %243 finis
 }
 
 % Organo = {

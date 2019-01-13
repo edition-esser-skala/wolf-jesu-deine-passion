@@ -819,7 +819,8 @@ GottAmSopranoINotes = {
 		g4 r r
 		\tuplet 3/2 4 { e'8([ d c)] } \appoggiatura h4 a2\trill
 		g4 r r %145
-		R2.*24 \bar "||" %169
+		R2.*23 %168
+		R2.\fermataMarkup \bar "||" %169
 		\key g \minor d'2 b4 %170
 		\appoggiatura a8 g4.( fis8) g4
 		a4( \tuplet 3/2 4 { c8[ b a] es'[ d)] c }
@@ -1118,7 +1119,8 @@ GottAmSopranoIINotes = {
 		g4 r r
 		\tuplet 3/2 4 { c8([ h a)] } \appoggiatura g4 fis2\trill
 		g4 r r %145
-		R2.*24 \bar "||" %169
+		R2.*23 %168
+		R2.\fermataMarkup \bar "||" %169
 		\key g \minor R2.*6 %175
 		r4 d' c
 		\appoggiatura c h?2 c4
