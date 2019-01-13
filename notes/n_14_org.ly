@@ -1388,6 +1388,246 @@ GottAmOrgano = {
 		\clef bass
 		\key g \major \time 3/4 \tempoGottAm
 		\mvTr g'2\fE-\soloE d4
+		e2 h4
+		c a d
+		g,2 r4
+		g'2 g,4 %5
+		c2 cis4
+		d d d
+		d2 r4
+		R2.
+		d\p %10
+		R
+		e\f
+		h
+		c4 d d,
+		g2 r4 %15
+		R2.
+		g2\p r4
+		R2.
+		c2\f a4
+		d2 dis4 %20
+		e h2
+		c4 d! d,
+		e' c a
+		d2 dis4
+		e h2 %25
+		c4 d! d,
+		g2 r4 \bar "S-|"
+		g'2\pE d4
+		e2 h4
+		c a d %30
+		g,2 r4
+		g'2 g,4
+		c2 cis4
+		d d, a'
+		h2 fis4 %35
+		g e a
+		d,2 r4
+		d'2 d,4
+		g2 a4
+		d d, r %40
+		g2.
+		gis
+		a
+		ais
+		h %45
+		e
+		e4 fis g
+		a a, g'
+		fis2 a4
+		h2 h,4 %50
+		e2 g4
+		a2 a,4
+		d2 fis4
+		g2.
+		g4 a a, %55
+		d2 r4
+		d2 r4
+		d2 r4
+		d2 r4
+		d g e %60
+		a2\f ais4
+		h\p fis2
+		g4 a2
+		h4\mf g e
+		a2\fE ais4 %65
+		h fis2\pE
+		g4 a a,
+		d d'\f a
+		h2 fis4
+		g e a %70
+		d,2 r4
+		d'2 d,4
+		g2 gis4
+		a a, a
+		a2 r4 %75
+		R2.
+		a2\p r4
+		R2.
+		h'\f
+		fis2 fis4 %80
+		g a2
+		h4 g e
+		a2 ais4
+		h fis2
+		g4 a a, %85
+		d2 a'4\pE
+		h2 fis4
+		g e a
+		d,2 r4
+		d2 d4 %90
+		e2 fis4
+		g g, d'
+		e2 h4
+		c a d
+		g2 r4 %95
+		g2 g4
+		a2 h4
+		c c, r
+		cis2.
+		d %100
+		dis
+		e
+		a,
+		d2 d4
+		g, c cis %105
+		d d\f c
+		h2\p d4
+		e2 e,4
+		a2 c4
+		d2 d,4 %110
+		g2 g'4
+		c, d d,
+		g2 r4
+		g2 r4
+		g2 r4 %115
+		g2 r4
+		g4 g'2
+		c,4 d d,
+		g g'2
+		c,4 d d, %120
+		g r h\f
+		c2\p cis4
+		d d d
+		d2 r4
+		R2. %125
+		d2 r4
+		R2.
+		e
+		h
+		c4 d d, %130
+		g2 r4
+		R2.
+		g2\pp r4
+		R2.
+		c2\mf a4 %135
+		d2\f dis4
+		e h2\pE
+		c4 d2
+		e4 c a
+		d2\f dis4 %140
+		e h2\pE
+		c4 d2
+		e4 h2\f
+		c4\p d d,
+		g2 d'4\f %145
+		e2 h4
+		c a d
+		g,2 r4
+		g'2 g,4
+		c2 cis4 %150
+		d d d
+		d2 r4
+		R2.
+		d2\p r4
+		R2. %155
+		e\f
+		h
+		c4 d d,
+		g2 r4
+		R2. %160
+		g2\p r4
+		R2.
+		c2\f a4
+		d2 dis4
+		e h2 %165
+		c4 d2
+		e4 h2
+		c4 d d, \noBreak
+		g2 r4 \bar "||"
+		\key g \minor r4 g'\p d %170
+		es2 b4
+		c a d
+		g,2 gis'4
+		a g fis
+		r d g %175
+		d2 fis4
+		g2 as4
+		f! d g
+		c,2 es4
+		f es d %180
+		a f b
+		f' f, d'
+		es2 c4
+		f2.~
+		f4 g a %185
+		b f2
+		g2.
+		c,
+		f
+		b, %190
+		es2 c4
+		f2\f fis4
+		g2\pE d4
+		es f! f,
+		b2\p as'4 %195
+		g2 as4
+		f d g
+		c,2 es4
+		f es d
+		a f b %200
+		f' f, d'
+		es2 b4
+		c8. b16 a4 g
+		d' c h
+		c2 b4 %205
+		a2 a4
+		d d, h'
+		c2 a4
+		d2 d4
+		es2.~ %210
+		es2 c4
+		d2 d4
+		g2.
+		a,
+		d %215
+		g,4 c a
+		d2\f d4
+		es2 h4
+		c d d,
+		g g' e %220
+		a2 a4
+		b! b gis
+		a2 r4\fermata
+		a,2.
+		\key g \major d2 h'4\fE %225
+		c2 cis4
+		d2 h,4
+		c2 cis4
+		d d d
+		d2 r4 %230
+		R2.
+		d\p
+		R
+		e\f
+		h2 h4 %235
+		c d2
+		e4 c a
+		d2 dis4
+		e h2
+		c4 d d, %240
+		g2 r4 \bar "S-S" %241 finis
 	}
 }
 
