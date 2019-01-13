@@ -1581,53 +1581,55 @@ GottAmOrgano = {
 		f2\f fis4
 		g2\pE d4
 		es f! f,
-		b2\p as'4 %195
+		b g'\f d
+		es f f,
+		b2\p as'4
 		g2 as4
 		f d g
 		c,2 es4
 		f es d
-		a f b %200
+		a f b
 		f' f, d'
 		es2 b4
 		c8. b16 a4 g
 		d' c h
-		c2 b4 %205
+		c2 b4
 		a2 a4
 		d d, h'
 		c2 a4
 		d2 d4
-		es2.~ %210
+		es2.~
 		es2 c4
 		d2 d4
 		g2.
 		a,
-		d %215
+		d
 		g,4 c a
 		d2\f d4
 		es2 h4
 		c d d,
-		g g' e %220
+		g g' e
 		a2 a4
 		b! b gis
 		a2 r4\fermata
 		a,2.
-		\key g \major d2 h'4\fE %225
+		\key g \major d2 h'4\fE
 		c2 cis4
 		d2 h,4
 		c2 cis4
 		d d d
-		d2 r4 %230
+		d2 r4
 		R2.
 		d\p
 		R
 		e\f
-		h2 h4 %235
+		h2 h4
 		c d2
 		e4 c a
 		d2 dis4
 		e h2
-		c4 d d, %240
-		g2 r4 \bar "S-S" %241 finis
+		c4 d d,
+		g2 r4 \bar "S-S"
 	}
 }
 

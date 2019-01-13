@@ -726,12 +726,298 @@ GottAmSopranoINotes = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 3/4 \autoBeamOff \tempoGottAm
-		
+		R2.*27 \bar "S-|" %27
+		r4 \mvTr d'\pE^\soloE h
+		\appoggiatura a8 g4.( fis8) g4
+		a4( \tuplet 3/2 4 { c8[ h a] e'[ d)] c } %30
+		h4 d d
+		d( \tuplet 3/2 4 { g8[ fis e)] d([ c h)] }
+		h4( e8[ d)] c([ h)]
+		h4 a r
+		R2.*5 %39
+		r4 a c %40
+		\appoggiatura c8 h4.( ais8) h4
+		r h d
+		\appoggiatura d cis2 r4
+		r cis e
+		\appoggiatura e d4.( cis8) d4 %45
+		h e g~
+		g fis8([ e)] e([ d)]
+		d4 cis r
+		r a' fis
+		\appoggiatura e d2 d4 %50
+		r g e
+		\appoggiatura d cis2 cis4
+		r d a
+		h( g') fis
+		e \appoggiatura d cis2\trill %55
+		d4 \tuplet 3/2 4 { a8[ g fis] h[ a g] }
+		a4 \tuplet 3/2 4 { fis'8[ e d] g[ fis e] }
+		d4 \tuplet 3/2 4 { a8[ g fis] h[ a g] }
+		a4 \tuplet 3/2 4 { fis'8[ e d] g[ fis e] }
+		d4 r r %60
+		cis2 cis4
+		d2 a4
+		\tuplet 3/2 4 { h8([ g' e)] } \appoggiatura d4 cis2
+		d4 r r
+		cis2 cis4 %65
+		d2 a4
+		\tuplet 3/2 4 { h8([ g' e)] } \appoggiatura d4 cis2
+		d r4
+		R2.*23 %91
+		r4 d h
+		\appoggiatura a8 g4.( fis8) g4
+		a( \tuplet 3/2 4 { c8[ h a] e'[ d]) c }
+		h4 d d %95
+		d( \tuplet 3/2 4 { g8[ fis e)] d([ c h)] }
+		c4( f) f
+		f\trill e r
+		r e g
+		\appoggiatura g8 fis4.( eis8) fis4 %100
+		r fis a
+		\appoggiatura a g2 r4
+		r e a
+		\appoggiatura g fis2 fis4
+		g( d8[ c)] c([ h)] %105
+		h4\trill a r
+		R2.
+		r4 h e
+		\appoggiatura d c2 c4
+		r a' c, %110
+		h( c) d
+		\appoggiatura fis16 \tuplet 3/2 4 { e8([ d c)] } \appoggiatura h4^\critnote a2\trill
+		g4^\critnote \tuplet 3/2 4 { d'8[ c h] e[ d c] }
+		d4 \tuplet 3/2 4 { g8[ fis e] d[ e c] }
+		h4 \tuplet 3/2 4 { d8[ c h] e[ d c] } %115
+		d4 \tuplet 3/2 4 { g8[ fis e] d[ e c] }
+		h4 \tuplet 3/2 4 { f'8[ e d] f[ e d] }
+		e8.[ g16] \tuplet 3/2 4 { fis8[ e d] c[ h a] }
+		h4 \tuplet 3/2 4 { f'8[ e d] f[ e d] }
+		e8.[ g16] \tuplet 3/2 4 { fis8[ e d] c[ h a] } %120
+		h4 f'4. f8
+		e d d([ c)] c([ h)]
+		\appoggiatura h4 a2 r4
+		r d d
+		d( e) c %125
+		r c c
+		c( d) h
+		r h h
+		h( \tuplet 3/2 4 { g'8[ fis e)] d([ c h)] }
+		\appoggiatura fis'16 \tuplet 3/2 4 { e8([ d c)] } \appoggiatura h4 a2\trill %130
+		g4 d' d
+		d( g) d
+		r d d
+		d( g) d
+		R2. %135
+		fis2 fis4
+		g2 d4
+		\tuplet 3/2 4 { e8([ d c)] } \appoggiatura h4 a2\trill
+		g4 r r
+		fis'2 fis4 %140
+		g2 d4
+		\tuplet 3/2 4 { e8([ d c)] } \appoggiatura h4 a2\trill
+		g4 r r
+		\tuplet 3/2 4 { e'8([ d c)] } \appoggiatura h4 a2\trill
+		g4 r r %145
+		R2.*24 \bar "||" %169
+		\key g \minor d'2 b4 %170
+		\appoggiatura a8 g4.( fis8) g4
+		a4( \tuplet 3/2 4 { c8[ b a] es'[ d)] c }
+		b4 es d
+		\appoggiatura d cis2 d4
+		a4.( b16[ c)] b4 %175
+		b\trill a r
+		R2.*5 %181
+		r4 f'2~
+		f4 es2
+		es4( d) c
+		g' f es %185
+		d8.[ es16] \appoggiatura d4 c2\trill
+		b2.~
+		b4 c b
+		a2.~
+		a4 b a %190
+		g g'2~
+		g4 \appoggiatura f es2\trill
+		d4( es) f
+		\tuplet 3/2 4 { g8([ f es)] } \appoggiatura d4 c2\trill
+		b r4 %195
+		R2.
+		r4 d f
+		\appoggiatura c h2 c4
+		d( f) f
+		es g, c %200
+		\appoggiatura b a!2 b4
+		c4.( d16[ es)] d4
+		d\trill c r
+		R2.*5 %208
+		r4 d2~
+		d4 c2 %210
+		es4( d) c
+		b g' f
+		es d c
+		b8.[ c16] \appoggiatura b4 a2\trill
+		g4 es' d %215
+		cis2.
+		c4 d c
+		b r r
+		fis'2 fis4
+		g2 d4 %220
+		\tuplet 3/2 4 { es8([ d c)] } \appoggiatura b4 a2\trill
+		g4 r r
+		b2 cis4
+		d2 f!4
+		f4.(\fermata e8[ f g)] %225
+		\appoggiatura f4 e2.\trill
+		\key g \major d2 r4
+		R2.*16 \bar "S-S" %243 finis
 	}
 }
 
 GottAmSopranoILyrics = \lyricmode {
+	Gott am %28
+	Creut -- ze,
+	leh -- re %30
+	mich, mei -- nen
+	Bru -- der
+	ſanft be --
+	geg -- nen.
 	
+	Gott am %40
+	Creut -- ze,
+	leh -- re
+	mich,
+	mei -- nen
+	Bru -- der %45
+	ſanft __ _ _
+	_ be --
+	geg -- nen.
+	O! wie
+	himm -- liſch, %50
+	o! wie
+	himm -- liſch,
+	o! wie
+	himm -- liſch
+	lehrts dein %55
+	Herz. __ _ _
+	_ _ _
+	_ _ _
+	_ _ _
+	_ %60
+	O! wie
+	himm -- liſch
+	lehrts dein
+	Herz.
+	O! wie %65
+	himm -- liſch
+	lehrts dein
+	Herz.
+	
+	Gott am %92
+	Creu -- ze,
+	leh -- re
+	mich, mei -- nem %95
+	Bru -- der
+	ſanft be --
+	geg -- nen.
+	Gott am
+	Creu -- ze, %100
+	leh -- re
+	mich,
+	mei -- nem
+	Bru -- der
+	ſanft be -- %105
+	geg -- nen.
+	
+	O! wie
+	himm -- liſch,
+	o! wie %110
+	himm -- liſch
+	lehrts dein
+	Herz. __ _ _
+	_ _ _
+	_ _ _ %115
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _ %120
+	_ O! wie
+	himm -- liſch lehrts dein
+	Herz.
+	O! wie
+	himm -- liſch, %125
+	o! wie
+	himm -- liſch,
+	o! wie
+	himm -- liſch
+	lehrts dein %130
+	Herz. O! wie
+	himm -- liſch,
+	o! wie
+	himm -- liſch,
+	%135
+	o! wie
+	himm -- liſch
+	lehrts dein
+	Herz.
+	O! wie %140
+	himm -- liſch
+	lehrts dein
+	Herz,
+	lehrts dein
+	Herz. %145
+	
+	We -- he %170
+	de -- nen,
+	wel -- che
+	nicht ih -- rem
+	Bru -- der
+	gern ver -- %175
+	zei -- hen.
+	
+	Ach, __ %182
+	ihr
+	Lohn iſt
+	Ew -- _ _ %185
+	_ ger
+	Schmertz, __
+	_ _
+	_
+	_ _ %190
+	_ ach, __
+	ihr
+	Lohn iſt
+	Ew -- ger
+	Schmertz. %195
+	
+	We -- he
+	de -- nen,
+	wel -- che
+	nicht ih -- rem %200
+	Bru -- der
+	gern ver --
+	zei -- hen.
+	
+	Ach, __ %209
+	ihr %210
+	Lohn iſt
+	Ew -- _ _
+	_ _ _
+	_ ger
+	Schmertz, __ _ _ %215
+	_
+	_ _ _
+	_
+	ach, ihr
+	Lohn iſt %220
+	Ew -- ger
+	Schmertz,
+	ach, ihr
+	Lohn iſt
+	Ew -- %225
+	ger
+	Schmertz. %227 finis
 }
 
 GottAmSopranoIINotes = {
