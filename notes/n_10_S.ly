@@ -785,7 +785,7 @@ GottAmSopranoINotes = {
 		\appoggiatura d c2 c4
 		r a' c, %110
 		h( c) d
-		\appoggiatura fis16 \tuplet 3/2 4 { e8([ d c)] } \appoggiatura h4 \mvTr a2\trill^\critnote
+		\appoggiatura fis16 \tuplet 3/2 4 { e8([ d c)] } \appoggiatura h4 \mvTrr a2\trill^\critnote
 		g4^\critnote \tuplet 3/2 4 { d'8[ c h] e[ d c] }
 		d4 \tuplet 3/2 4 { g8[ fis e] d[ e c] }
 		h4 \tuplet 3/2 4 { d8[ c h] e[ d c] } %115
@@ -1084,7 +1084,7 @@ GottAmSopranoIINotes = {
 		r e a
 		\appoggiatura g fis2 fis4 %110
 		g( a) h
-		\appoggiatura d16 \tuplet 3/2 4 { c8([ h a)] } \appoggiatura g4 \mvTr fis2\trill^\critnote
+		\appoggiatura d16 \tuplet 3/2 4 { c8([ h a)] } \appoggiatura g4 \mvTrr fis2\trill^\critnote
 		g4 \tuplet 3/2 4 { h8[ a g] c[ h a] }
 		h4 \tuplet 3/2 4 { e8[ d c] h[ c a] }
 		g4 \tuplet 3/2 4 { h8[ a g] c[ h a] } %115
@@ -1102,7 +1102,7 @@ GottAmSopranoIINotes = {
 		a( h) g
 		r g g
 		g2 d'4
-		\appoggiatura d16 \tuplet 3/2 4 { c8([^\critnote h a)] } \appoggiatura g4 fis2\trill^\critnote %130
+		\appoggiatura d16 \tuplet 3/2 4 { c8([^\critnote h a)] } \appoggiatura g4 \mvTrr fis2\trill^\critnote %130
 		g4 h h
 		h2 h4
 		r h h

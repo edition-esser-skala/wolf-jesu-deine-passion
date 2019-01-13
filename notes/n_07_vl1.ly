@@ -773,7 +773,7 @@ GottAmViolinoI = {
 		a~
 		a %190
 		g4 g'2~\mf
-		g4\f \appoggiatura f es2
+		g4 \appoggiatura f es2\f
 		d4(\p es) f
 		\tuplet 3/2 4 { g8 f es } \appoggiatura d4 c2\trillE
 		b4 \tuplet 3/2 4 { b'8\fE a g f es d } %195
@@ -803,7 +803,7 @@ GottAmViolinoI = {
 		\tuplet 3/2 4 { es d c } \appoggiatura b4 a2\trill
 		g4 r r
 		R2.
-		r4 f'\f d'
+		r4 f'!\f d'
 		d2 r4\fermata %225
 		R2.
 		\key g \major r4 d,\f f

@@ -1446,7 +1446,7 @@ GottAmOrgano = {
 		d2 r4
 		d2 r4
 		d2 r4
-		d g e %60
+		d g\mfE e %60
 		a2\f ais4
 		h\p fis2
 		g4 a2
@@ -1525,7 +1525,7 @@ GottAmOrgano = {
 		d2\f dis4
 		e\pE h2
 		c4 d2
-		e4 c a
+		e4 c\mfE a
 		d2\f dis4 %140
 		e\pE h2
 		c4 d2
@@ -1577,13 +1577,13 @@ GottAmOrgano = {
 		c,
 		f
 		b, %190
-		es2 c4
+		es2 c4\mfE
 		f2\f fis4
 		g2\pE d4
 		es f! f,
 		b g'\f d %195
 		es f f,
-		b2\p as'4
+		b2 as'4\p
 		g2 as4
 		f d g
 		c,2 es4 %200
@@ -1604,7 +1604,7 @@ GottAmOrgano = {
 		g2. %215
 		a,
 		d
-		g,4 c a
+		g,4 c\mfE a
 		d2\f d4
 		es2\pE h4 %220
 		c d d,

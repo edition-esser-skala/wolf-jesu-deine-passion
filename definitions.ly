@@ -321,6 +321,19 @@ tempoGottAm = \tempoMarkup "[Tempo deest]"
         (markup #:fontsize -2 fig-markup)
         empty-markup)))
 
+% #(set! default-script-alist
+%        (append! default-script-alist
+%          (list
+%           `("critnote"
+%              . (
+%                  (script-stencil . (feta . ("staccato" . "staccato")))
+%                  (toward-stem-shift-in-column . 0.0)
+%                  (padding . 0.20)
+%                  (avoid-slur . around)
+%                  (direction . ,UP))))))
+% cnote = #(make-articulation "critnote")
+
+
 \layout {
 	\context {
 		\Score
