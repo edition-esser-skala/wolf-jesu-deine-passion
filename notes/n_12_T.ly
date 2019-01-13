@@ -891,12 +891,12 @@ NunIstTenoreLyrics = \lyricmode {
 	
 	auf ih -- rer Stir -- ne glüth Ver --
 	der -- ben. Todt u: Höl -- le
-	[öff -- nen ih -- re Ra -- chen.]
+	[öff -- nen ih -- re Ra -- chen.] %30
 	
 	A -- ber
 	Je -- ſus ruft: Ver --
 	gib es, ver -- gib es ih -- nen,
-	Va -- ter.
+	Va -- ter. %35 finis
 }
 
 % TenoreNotes = {
