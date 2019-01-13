@@ -173,6 +173,7 @@ ppE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bol
 fp = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "fp")))
 fpE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "fp")))
 mfp = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "mfp")))
+mfpE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "mfp")))
 sf = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "sf")))
 sfE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "sf")))
 piuF = #(make-dynamic-script (markup #:line (#:normal-text #:small "più" #:normal-text #:large #:bold "f")))

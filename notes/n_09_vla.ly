@@ -539,6 +539,38 @@ NunIstViola = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoNunIst
-		
+		r8 g\pE r f r as r g
+		r b r as r d r b
+		es1~
+		es
+		r8 es r f r g r d %5
+		b1
+		c2 d!
+		r8 b r es r des'(\fE b g)
+		e4 r r2
+		R1 %10
+		r2 f~\pE
+		f4 r r2
+		as,1
+		g!2 r8 c(-. c-. c-.)
+		g'2\mfpE e! %15
+		ais1
+		h2~ h\mfE
+		his\pE cis
+		gis4 r r2
+		a!4 r e r %20
+		r2 \tempoNunIstB r16 a,\ff h cis d e fis gis
+		a h cis h a gis fis e fis gis a gis fis e d cis
+		d d fis fis e e d d cis cis h h \tempoNunIstC a8 r
+		R1*2 %25
+		\tempoNunIstD r16 d e fis g a h cis d e fis e d cis h ais
+		h cis d cis h a g fis g g h h a a g g
+		fis fis e e \tempoNunIstE d8 r r2
+		r16. a32 a16. a32 a4 r2
+		r \tempoNunIstF r16 g a h c d e fis %30
+		g a h a g fis e dis e fis g fis e d c h
+		c c e e d d c c h h a a \tempoNunIstG g8 r
+		R1*2
+		R1\fermataMarkup \bar "|." %35 finis
 	}
 }

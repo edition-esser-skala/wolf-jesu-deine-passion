@@ -570,8 +570,8 @@ NunIstViolinoI = {
 		\tempoNunIstD r16 d e fis g a h cis d e fis e d cis h ais
 		h cis d cis h a g fis g g h h a a g g
 		fis fis e e \tempoNunIstE d8 r r2
-		r16. a'32\pE a16. a32 a4 r2
-		r \tempoNunIstF r16 g,\ffE a h c d e fis? %30
+		r16. a'32 a16. a32 a4 r2
+		r \tempoNunIstF r16 g, a h c d e fis? %30
 		g a h a g fis e dis e fis g fis e d c h
 		c c e e d d c c h h a a \tempoNunIstG g8 r
 		R1*2

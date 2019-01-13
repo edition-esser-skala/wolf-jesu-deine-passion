@@ -1330,7 +1330,7 @@ NunIstOrgano = {
 		f f~
 		f as~
 		as1
-		g,2 c
+		g,!2 c
 		b g %15
 		fis1
 		h!2 a
@@ -1344,8 +1344,8 @@ NunIstOrgano = {
 		\tempoNunIstD r16 d-\unisonoE e fis g a h cis d e fis e d cis h ais
 		h cis d cis h a g fis g g h h a a g g
 		fis fis e e \tempoNunIstE d8 r r2
-		r16. f,!32\pE f16. f32 f4 r2
-		r \tempoNunIstF r16 \mvTrh g\ffE-\unisonoE a h c d e fis %30
+		r16. f,!32 f16. f32 f4 r2
+		r \tempoNunIstF r16 g-\unisonoE a h c d e fis %30
 		g a h a g fis e dis e fis g fis e d c h
 		c c e e d d c c h h a a \tempoNunIstG g8 r
 		r f'!(\pE e d) r e gis e
@@ -1374,7 +1374,7 @@ NunIstBassFigures = \figuremode {
 	<5+>2 <[4+] 2>
 	<[5+] _+> <5+ 3>
 	<6 [_+]>1
-	<[5+]>2 <6 5> %20
+	<[5+ _!]>2 <6 5> %20
 	r1*8 %28
 	r16. <[5 3]>32 r2..
 	r1*3 %32
