@@ -537,7 +537,7 @@ ErIstUmViola = {
 
 NunIstViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \major \time 4/4 \tempoNunIst
 		r8 g\pE r f r as r g
 		r b r as r d r b
