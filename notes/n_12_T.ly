@@ -826,12 +826,77 @@ NunIstTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoNunIst
-		
+		R1*2
+		r8 \mvTr b\pE^\soloE b as g8. g16 f8 es
+		as4 as8 as c as as g
+		g4 r r2 %5
+		r8 b g es des'4 r8 des
+		c4 r8 c d es as, g
+		\appoggiatura f es4 r r2
+		r8 c' c b a! c es c
+		des des16 des f8 r16 b, es8 b b a %10
+		c c r4 r2
+		r4 r8 f d! d r4
+		r2 r4 r8 d16 c
+		h!8 h d16 d d g^\critnote es8 es r4
+		e8. e16 g8 e cis8. cis16 cis8 h %15
+		ais ais ais h cis cis e e16 cis
+		d4 r8 fis dis8. dis16 dis8 cis
+		his his cis dis e e r gis
+		gis? cis, r cis16 cis d!8 d d cis
+		\appoggiatura h a!4 r8 fis' \appoggiatura e d! d r h16 cis %20
+		d8 d fis16 d d cis \tempoNunIstB cis4 r
+		R1
+		r2 r4 \tempoNunIstC r8 a
+		cis cis cis d e8^\critnote e16 e e8 fis
+		g! e e d cis cis h a %25
+		\tempoNunIstD d d r4 r2
+		R1
+		r4 \tempoNunIstE r16 d d cis d8 a a h
+		c c r4 e8. c16 c8. h16
+		a8 a h c \tempoNunIstF h h r4 %30
+		R1
+		r2 r4 \tempoNunIstG r8 h16 h
+		d4. h8 gis?4 r8 e'
+		c a r e' c a a g!
+		\appoggiatura fis? e e r4 r2\fermata \bar "|." %35 finis
 	}
 }
 
 NunIstTenoreLyrics = \lyricmode {
+	Nun iſt die fey -- er -- li -- che %3
+	Stun -- de des gro -- ßen Op -- fers
+	da. %5
+	Nun wirds er -- würgt, das
+	Lam, er -- würgt am Gol -- ga --
+	tha.
+	Wie viel mußt du für unſ -- re
+	Schul -- den am Creuz, Ver -- ſöh -- ner Got -- tes, %10
+	dul -- den?
+	Da hängt er,
+	ſei -- ne
+	Hand und Fü -- ßen ſind durch -- gra -- ben.
+	Ach, ein gan -- zes La -- by -- rinth von %15
+	Qua -- len iſt um ſei -- ne See -- le ge --
+	webt. O flö -- ge doch ſein
+	Herz aus ſei -- ner Höh -- le. Da
+	hängt er! Seht, ſein Kleid in Blut ge --
+	taucht! Seht, Frev -- ler, de -- ren %20
+	O -- dem Rach u: Un -- ſin haucht.
 	
+	Wie
+	Stim -- men gro -- ßer Wa -- ßer und ſtar -- ker
+	Don -- ner rauſcht die Stim -- me ſein -- er %25
+	Ha -- ßer,
+	
+	auf ih -- rer Stir -- ne glüth Ver --
+	der -- ben. Todt u: Höl -- le
+	[öff -- nen ih -- re Ra -- chen.]
+	
+	A -- ber
+	Je -- ſus ruft: Ver --
+	gib es, ver -- gib es ih -- nen,
+	Va -- ter.
 }
 
 % TenoreNotes = {
