@@ -117,7 +117,7 @@ GottAmOboeII = {
 		e( fis) d
 		r d\f d
 		d \tuplet 3/2 4 { a'8 cis h a g fis } %80
-		\tuplet 3/2 4 { cis fis e } \appoggiatura d4-\critnote cis2\trillE
+		\tuplet 3/2 4 { d^\critnote fis e } \appoggiatura d4-\critnote cis2\trillE
 		d4 h2~
 		h4 \appoggiatura a g2-\critnote
 		fis4 a2

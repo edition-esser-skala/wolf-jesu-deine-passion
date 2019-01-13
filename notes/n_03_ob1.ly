@@ -186,7 +186,7 @@ GottAmOboeI = {
 		a \tuplet 3/2 4 { c8 h a e' d c }
 		h4 d d
 		d \tuplet 3/2 4 { g8 fis e d c h }
-		c4 \slurDashed e8( d) c([ h)] \slurSolid %150
+		h4 \slurDashed e8( d) c([ h)] \slurSolid %150
 		h4\trill a r
 		r d(-.\pE d-.)
 		d( e) c

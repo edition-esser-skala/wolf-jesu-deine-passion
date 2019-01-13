@@ -732,7 +732,7 @@ GottAmViolinoI = {
 		a \tuplet 3/2 4 { c8 h a e' d c }
 		h4 d d
 		d \tuplet 3/2 4 { g8 fis e d c h }
-		c4 e8( d) c([ h)] %150
+		h4^\critnote e8( d) c([ h)] %150
 		h4\trill a r
 		r d(-.\p d-.)
 		d( e) c

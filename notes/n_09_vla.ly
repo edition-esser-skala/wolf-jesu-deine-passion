@@ -577,7 +577,7 @@ NunIstViola = {
 
 GottAmViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \major \time 3/4 \tempoGottAm
 		h'2\fE fis4
 		h,2 d4
