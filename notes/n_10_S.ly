@@ -735,7 +735,7 @@ GottAmSopranoINotes = {
 		h4( e8[ d)] c([ h)]
 		h4 a r
 		R2.*5 %39
-		r4 a c %40
+		r4 a c! %40
 		\appoggiatura c8 h4.( ais8) h4
 		r h d
 		\appoggiatura d cis2 r4
@@ -785,7 +785,7 @@ GottAmSopranoINotes = {
 		\appoggiatura d c2 c4
 		r a' c, %110
 		h( c) d
-		\appoggiatura fis16 \tuplet 3/2 4 { e8([ d c)] } \appoggiatura h4^\critnote a2\trill
+		\appoggiatura fis16 \tuplet 3/2 4 { e8([ d c)] } \appoggiatura h4 \mvTr a2\trill^\critnote
 		g4^\critnote \tuplet 3/2 4 { d'8[ c h] e[ d c] }
 		d4 \tuplet 3/2 4 { g8[ fis e] d[ e c] }
 		h4 \tuplet 3/2 4 { d8[ c h] e[ d c] } %115
@@ -865,7 +865,7 @@ GottAmSopranoINotes = {
 		g2 d4 %220
 		\tuplet 3/2 4 { es8([ d c)] } \appoggiatura b4 a2\trill
 		g4 r r
-		b2 cis4
+		cis2^\critnote cis4
 		d2 f!4
 		f4.(\fermata e8[ f g)] %225
 		\appoggiatura f4 e2.\trill
@@ -1024,12 +1024,292 @@ GottAmSopranoIINotes = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 3/4 \autoBeamOff \tempoGottAm
-		
+		R2.*27 \bar "S-|" %27
+		R2.*6 %33
+		r4 \mvTr a'\pE^\soloE fis
+		\appoggiatura e8 d4.( cis8) d4 %35
+		e( \tuplet 3/2 4 { g8[ fis e] h'[ a]) g }
+		fis4 a a
+		a( \tuplet 3/2 4 { d8[ cis h]) a([ g fis)] }
+		fis4( h8[ a)] g([ fis)]
+		fis4\trill e r %40
+		r d f
+		\appoggiatura f?8 e4.( dis8) e4
+		r e a
+		\appoggiatura g fis!2 r4
+		r fis h %45
+		\appoggiatura a g2 h4~
+		h a8([ g)] g([ fis)]
+		fis4 e r
+		R2.
+		r4 fis h %50
+		\appoggiatura a g2 g4
+		r e a
+		\appoggiatura g fis2 fis4
+		r h a
+		g \appoggiatura fis e2\trill %55
+		fis4 \tuplet 3/2 4 { fis8[ e d] g[ fis e] }
+		fis4 \tuplet 3/2 4 { a8[ g fis] h[ a g] }
+		fis4 \tuplet 3/2 4 { fis8[ e d] g[ fis e] }
+		fis4 \tuplet 3/2 4 { a8[ g fis] h[ a g] }
+		fis4 h2~ %60
+		h4 \appoggiatura a g2
+		fis2 a4
+		g \appoggiatura fis e2
+		d4 h'2~
+		h4 \appoggiatura a g2 %65
+		fis2 a4
+		g \appoggiatura fis e2
+		d2 r4
+		R2.*17 %85
+		r4 a' fis'
+		\appoggiatura e8 d4.( cis8) d4
+		e,( \tuplet 3/2 4 { g8[ fis e] h'[ a)] g }
+		fis4 a a
+		a( \tuplet 3/2 4 { d8[ cis h)] a([ g fis)] } %90
+		g4( e') \appoggiatura d8 c4
+		\appoggiatura d8 c4\trill h r
+		R2.*5 %97
+		r4 g c
+		\appoggiatura h8 a4.( gis8) a4
+		r a d %100
+		\appoggiatura c h2 r4
+		r h e
+		\appoggiatura d c2 c4
+		c d c
+		h4. a8 a([ g)] %105
+		g4 fis r
+		r d' h
+		\appoggiatura a g2 g4
+		r e a
+		\appoggiatura g fis2 fis4 %110
+		g( a) h
+		\appoggiatura d16 \tuplet 3/2 4 { c8([ h a)] } \appoggiatura g4 \mvTr fis2\trill^\critnote
+		g4 \tuplet 3/2 4 { h8[ a g] c[ h a] }
+		h4 \tuplet 3/2 4 { e8[ d c] h[ c a] }
+		g4 \tuplet 3/2 4 { h8[ a g] c[ h a] } %115
+		h4 \tuplet 3/2 4 { e8[ d c] h[ c a] }
+		g4 \tuplet 3/2 4 { d'8[ c h] d[ c h] }
+		c8.[ e16] \tuplet 3/2 4 { d8[ c h] a[ g fis] }
+		g4 \tuplet 3/2 4 { d'8[ c h] d[ c h] }
+		c8.[ e16] \tuplet 3/2 4 { d8[ c h] a[ g fis] } %120
+		g4 d'4. d8
+		c h h([ a)] a([ g)]
+		\appoggiatura g4 fis2 r4
+		r h h
+		h( c) a %125
+		r a a
+		a( h) g
+		r g g
+		g2 d'4
+		\appoggiatura d16 \tuplet 3/2 4 { c8([^\critnote h a)] } \appoggiatura g4 fis2\trill^\critnote %130
+		g4 h h
+		h2 h4
+		r h h
+		h( d) h
+		e2.~ %135
+		e4 \appoggiatura d c2
+		h d4
+		\tuplet 3/2 4 { c8([ h a)] } \appoggiatura g4 fis2\trill
+		g4 e'2~
+		e4 \appoggiatura d c2 %140
+		h d4
+		\tuplet 3/2 4 { c8([ h a)] } \appoggiatura g4 fis2\trill
+		g4 r r
+		\tuplet 3/2 4 { c8([ h a)] } \appoggiatura g4 fis2\trill
+		g4 r r %145
+		R2.*24 \bar "||" %169
+		\key g \minor R2.*6 %175
+		r4 d' c
+		\appoggiatura c h?2 c4
+		d( f) f
+		es g, c
+		\appoggiatura b! a!2 b4 %180
+		c4.( d16[ es]) d4
+		d\trill c r
+		g2 c4
+		a( b) a
+		es' d c %185
+		b8.[ c16] \appoggiatura b4 a2\trill
+		b4 g f
+		e2.
+		es4 f es
+		d2. %190
+		es4 r r
+		a2 c4
+		b( c) d
+		b8.[( c16]) \appoggiatura b4 a2\trill
+		b r4 %195
+		R2.*7 %202
+		r4 a b
+		\appoggiatura a8 g4.( fis8) g4
+		a( c) b %205
+		a d d
+		d( es) d
+		cis( g') g
+		g fis r
+		es2 es4 %210
+		c!( b) a
+		g es' d
+		c b a
+		g8.[ a16] \appoggiatura g4 fis2\trill
+		g2.~ %215
+		g4 a g
+		fis2.
+		g4 es'2~
+		es4 c2
+		b g4 %220
+		\tuplet 3/2 4 { c8([ b a)] } \appoggiatura g4 fis2\trill
+		g4 b2~
+		b4 \appoggiatura a g2
+		f d'4
+		d4.(\fermata cis8[ d e]) %225
+		\appoggiatura d4 \mvTr cis2.\trill^\critnote
+		\key g \major d2 r4
+		R2.*16 \bar "S-S" %243 finis
 	}
 }
 
 GottAmSopranoIILyrics = \lyricmode {
+	Gott am %34
+	Creut -- ze, %35
+	leh -- re
+	mich, dir gleich
+	mei -- ne
+	Fein -- de
+	seeg -- nen, %40
+	Gott am
+	Creut -- ze,
+	leh -- re
+	mich,
+	dir gleich %45
+	mei -- ne __
+	Fein -- de
+	seeg -- nen.
 	
+	O! wie %50
+	himm -- liſch,
+	o! wie
+	himm -- liſch,
+	himm -- liſch
+	lehrts dein %55
+	Herz. __ _ _
+	_ _ _
+	_ _ _
+	_ _ _
+	_ O! __ %60
+	wie
+	himm -- liſch
+	lehrts dein
+	Herz. O! __
+	wie %65
+	himm -- liſch
+	lehrts dein
+	Herz.
+	
+	Gott am %86
+	Creut -- ze,
+	leh -- re
+	mich, dir gleich
+	mei -- ne %90
+	Fein -- de
+	seeg -- nen,
+	
+	Gott am %98
+	Creut -- ze,
+	leh -- re %100
+	mich,
+	dir gleich
+	mei -- ne
+	Fein -- _ _
+	_ _ de %105
+	seeg -- nen.
+	O! wie
+	himm -- liſch,
+	o! wie
+	himm -- liſch, %110
+	himm -- liſch
+	lehrts dein
+	Herz. __ _ _
+	_ _ _
+	_ _ _ %115
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _ %120
+	_ O! wie
+	himm -- liſch lehrts dein
+	Herz.
+	O! wie
+	himm -- liſch, %125
+	o! wie
+	[himm -- liſch,
+	o! wie
+	himm -- liſch
+	lehrts dein %130
+	Herz. O! wie]
+	himm -- liſch,
+	o! wie
+	himm -- liſch,
+	o! __ %135
+	wie
+	himm -- liſch
+	lehrts dein
+	Herz. O! __
+	wie %140
+	himm -- liſch
+	lehrts dein
+	Herz,
+	lehrts dein
+	Herz. %145
+	
+	Gott wird %176
+	ein -- ſten
+	im __ Ge --
+	richt ih -- nen
+	wie -- der %180
+	nicht ver --
+	zei -- hen.
+	Ach, ihr
+	Lohn iſt
+	Ew -- _ _ %185
+	_ ger
+	Schmertz, __ _ _
+	_
+	_ _ _
+	_ %190
+	_
+	ach, ihr
+	Lohn iſt
+	Ew -- ger
+	Schmertz. %195
+	
+	Gott wird
+	ein -- ſten
+	im __ Ge --
+	richt ih -- nen
+	wie -- der
+	nicht ver --
+	zei -- hen.
+	Ach, ihr %210
+	Lohn iſt
+	Ew -- _ _
+	_ _ _
+	_ ger
+	Schmertz, __ %215
+	_ _
+	_
+	_ ach, __
+	ihr
+	Lohn iſt %220
+	Ew -- ger
+	Schmertz, ach, __
+	ihr
+	Lohn iſt
+	Ew -- %225
+	ger
+	Schmertz. %227 finis
 }
 
 % SopranoNotes = {
