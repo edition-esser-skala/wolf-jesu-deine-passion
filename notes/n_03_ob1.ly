@@ -37,3 +37,11 @@ MeinHerzOboeI = {
 		b r r2\fermata \bar "|." %29 finis
 	}
 }
+
+GottAmOboeI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \tempoGottAm
+		
+	}
+}

@@ -722,6 +722,30 @@ SchreibeDeineSopranoLyrics = \lyricmode {
 	ßen.] %33 FINIS
 }
 
+GottAmSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \autoBeamOff \tempoGottAm
+		
+	}
+}
+
+GottAmSopranoILyrics = \lyricmode {
+	
+}
+
+GottAmSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \autoBeamOff \tempoGottAm
+		
+	}
+}
+
+GottAmSopranoIILyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

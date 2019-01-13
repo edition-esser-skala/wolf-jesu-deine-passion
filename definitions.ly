@@ -238,6 +238,7 @@ tempoNunIst = \tempoMarkup "Andante"
 	tempoNunIstE = \tempoMarkup "Andante"
 	tempoNunIstF = \tempoMarkup "Allegro"
 	tempoNunIstG = \tempoMarkup "Andante"
+tempoGottAm = \tempoMarkup "[Tempo deest]"
 
 
 

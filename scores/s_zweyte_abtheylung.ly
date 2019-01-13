@@ -19,48 +19,109 @@
 % 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 % 		\partTitle "2" "Z W E Y T E   A B T H E Y L U N G"
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.1" "RECITATIV" "Nun iſt die feyerliche Stunde des großen Opfers da"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\NunIstViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\NunIstViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\NunIstViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \NunIstTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \NunIstTenoreLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\NunIstOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\NunIstBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.1" "RECITATIV" "Nun iſt die feyerliche Stunde des großen Opfers da"
+			movement = \movementTitle "2.2" "DUETTO" "Gott am Creutze lehre mich"
 		}
-		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\GottAmOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\GottAmOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\NunIstViolinoI
+							\GottAmViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\NunIstViolinoII
+							\GottAmViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\NunIstViola
+						\GottAmViola
 					>>
 				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \NunIstTenoreNotes }
+						\set Staff.instrumentName = "Soprano I"
+						\new Voice = "SopranoI" { \dynamicUp \GottAmSopranoINotes }
 					}
-					\new Lyrics \lyricsto Tenore \NunIstTenoreLyrics
+					\new Lyrics \lyricsto SopranoI \GottAmSopranoILyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Soprano II"
+						\new Voice = "SopranoII" { \dynamicUp \GottAmSopranoIINotes }
+					}
+					\new Lyrics \lyricsto SopranoII \GottAmSopranoIILyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\NunIstOrgano
+						\GottAmOrgano
 					}
 				>>
 				\new FiguredBass {
-					\NunIstBassFigures
+					\GottAmBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

@@ -1383,6 +1383,18 @@ NunIstBassFigures = \figuremode {
 	r4 <[5+] _+> r2 %35 finis
 }
 
+GottAmOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 3/4 \tempoGottAm
+		\mvTr g'2\fE-\soloE d4
+	}
+}
+
+GottAmBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

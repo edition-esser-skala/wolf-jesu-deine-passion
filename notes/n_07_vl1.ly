@@ -579,6 +579,14 @@ NunIstViolinoI = {
 	}
 }
 
+GottAmViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \tempoGottAm
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

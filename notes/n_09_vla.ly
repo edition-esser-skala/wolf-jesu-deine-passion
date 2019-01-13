@@ -574,3 +574,11 @@ NunIstViola = {
 		R1\fermataMarkup \bar "|." %35 finis
 	}
 }
+
+GottAmViola = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \tempoGottAm
+		
+	}
+}
