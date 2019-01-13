@@ -543,6 +543,38 @@ NunIstViolinoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoNunIst
-		
+		r8 b\p r as r d r b
+		r es r d r f r es
+		g1
+		as
+		r8 g r as r b r f %5
+		es1~
+		es2 f
+		r8 es r g r des'(\fE b g)
+		e!4 r r2
+		R1 %10
+		r2 r8 a!\pE \once \slurDashed  a( b)
+		des,( c) r4 r2
+		r8 d'! d( es) ges,( f) r4
+		r2 r8 c'(-. c-. c-.)
+		c2\mfp cis~ %15
+		cis1
+		r8 d(-.\p d-. d-.) dis2\mf
+		dis\pE r8 e(-. e-. e-.)
+		cis4 r r2
+		cis4 r d r %20
+		r2 \tempoNunIstB r16 a,\ff h cis d e fis gis
+		a h cis h a gis fis e fis gis a gis fis e d cis
+		d d fis fis e e d d cis? cis h h \tempoNunIstC a8 r
+		R1*2 %25
+		\tempoNunIstD r16 d e fis g a h cis d e fis e d cis h ais
+		h cis d cis h a g fis g g h h a a g g
+		fis fis e e \tempoNunIstE d8 r r2
+		r16. c!32\pE c16. c32 c4 r2
+		r \tempoNunIstF r16 g\ffE a h c d e fis? %30
+		g a h a g fis e dis e fis g fis e d c h
+		c c e e d d c c h h a a \tempoNunIstG g8 r
+		R1*2
+		R1\fermataMarkup \bar "|." %35 finis
 	}
 }

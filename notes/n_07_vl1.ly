@@ -553,9 +553,9 @@ NunIstViolinoI = {
 		r8 g r b r des(\f b g)
 		e!4 r r2
 		R1 %10
-		r2 r8 f'(\p c des)
+		r2 r8 f'\p c( des)
 		b( a!) r4 r2
-		r8 b'( f ges) es( d!) r4
+		r8 b' f( ges) es( d!) r4
 		r2 r8 es(-. es-. es-.)
 		e1\mfp %15
 		fis
