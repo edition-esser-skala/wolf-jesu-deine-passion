@@ -116,7 +116,7 @@ GottAmOboeI = {
 		a( h) g
 		r g(-. g-.)
 		g( a) fis
-		r fis\fE fis
+		r fis\f fis
 		fis \tuplet 3/2 4 { d'8 cis h a g fis } %80
 		\tuplet 3/2 4 { h a g } \appoggiatura fis4 e2\trill
 		d4 r r
@@ -251,16 +251,16 @@ GottAmOboeI = {
 		b g r
 		fis'2.\fE
 		g4\pE \tuplet 3/2 4 { b8 a g f es d } %220
-		\tuplet 3/2 4 { es d c } \appoggiatura b4 a2\trill
+		\tuplet 3/2 4 { es d c } \appoggiatura b4 a2\trillE
 		g4 r r
 		cis2.
-		d4 f\fE r
+		d4 f! r
 		R2.\fermataMarkup %225
 		R2.
 		\key g \major r4 d\f f
 		\appoggiatura f? e2 g4
 		\appoggiatura g fis2 g8 d
-		d4 c8 h h'[ h,] %230
+		d4 \once \slurDashed c8( h) h'[ h,] %230
 		h4\trill a r
 		r d(-.\pE d-.)
 		d( e) c

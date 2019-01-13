@@ -608,7 +608,7 @@ GottAmViolinoII = {
 		g4 e'2~
 		e4 \appoggiatura d c2\trill
 		h4 \tuplet 3/2 4 { g'8^\critnote a g fis e d } %25
-		\tuplet 3/2 4 { c h a } \appoggiatura g4 fis2
+		\tuplet 3/2 4 { c h a } \appoggiatura g4 fis2\trillE
 		g4 g, r \bar "S-|"
 		h'2\pE fis4
 		e2 g4
@@ -663,7 +663,7 @@ GottAmViolinoII = {
 		e( fis) d
 		r d\fE d
 		d d2 %80
-		d8. e16 \appoggiatura d4 cis2^\critnote
+		d8. e16 \appoggiatura d4-\critnote cis2\trillE
 		d4 h2~
 		h4 \appoggiatura a g2
 		fis4-\critnote a2
@@ -808,11 +808,11 @@ GottAmViolinoII = {
 		f2 r4\fermata %225
 		R2.
 		\key g \major r4 d\f d
-		\appoggiatura d c2 e4
+		\appoggiatura d c!2 e4
 		\appoggiatura e d2 g8( h,)
-		h4 a8( g) g'[ g,] %230
+		h4 \once \slurDashed a8( g) g'[ g,] %230
 		g4\trill fis r
-		r h(-.\p h-.)
+		r h(-.\pE h-.)
 		h( c) a
 		r a(-. a-.)
 		a( h) g %235

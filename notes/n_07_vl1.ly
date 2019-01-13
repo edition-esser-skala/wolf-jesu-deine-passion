@@ -661,7 +661,7 @@ GottAmViolinoI = {
 		a( h) g
 		r g(-. g-.)
 		g( a) fis
-		r fis\fE fis
+		r fis\f fis
 		fis \tuplet 3/2 4 { d'8 cis h a g fis } %80
 		\tuplet 3/2 4 { h a g } \appoggiatura fis4 e2\trill
 		d4 r r
