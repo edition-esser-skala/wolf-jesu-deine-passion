@@ -1884,11 +1884,65 @@ EsSchwebenOrgano = {
 		\clef bass
 		\key c \major \time 4/4 \tempoEsSchweben
 		\mvTr d8\f-\soloE r r4 r2
+		h8 r r4 r2
+		fis8 r r4 g8 r r4
+		a1\ppE
+		d,4 r r2 %5
+		R1
+		d4\pE r r2
+		r fis4 r
+		R1
+		r8 g(-. g-. g-.) r f!8-. f-. f-.) %10
+		r8 e(-. e-. e-.) c'!4 r
+		R1
+		r2 r4 h
+		ais4-\critnote r r2
+		d4 r r2 %15
+		cis4 r r2
+		fis,4 r r2
+		R1
+		gis4 r a r
+		cis r r8 d fis a %20
+		d4 r cis r
+		h r r2
+		r a4 r
+		d, r r e
+		cis8 fis( e d) cis e cis a %25
+		d d, r d' g, g' fis e
+		fis h r4 r8 fis, g a
+		h fis? g a d,4 r\fermata \bar "|." %28 finis
 	}
 }
 
 EsSchwebenBassFigures = \figuremode {
-	
+	<_+>1
+	<[5+]>
+	<6>
+	<[6+] 4>4 <5 _+> <7 [\t \t]>2
+	<_+>1 %5
+	r
+	q
+	r2 <6 5>
+	r1
+	r2 r8 <[4 3]>4. %10
+	r8 <_+>4. <[6]>2
+	r1
+	r2. <[5+] _+>4
+	<6+ _+>1
+	<6> %15
+	<5+ _+>
+	r
+	<5+>
+	<6 5>2 <_+>
+	<6 5> r8 <_+>4 q8 %20
+	q2 <6 5>
+	<5+>1
+	r2 <_+>
+	q2. q4
+	<6>8 q <6+ 4> <4\+ 2> <6>4. <_+>8 %25
+	q2. <5+ 3>8 <\t \t>
+	<6>2 r8 q r <_+>
+	<5+> <6> r <_+> q2 %28 finis
 }
 
 % Organo = {
