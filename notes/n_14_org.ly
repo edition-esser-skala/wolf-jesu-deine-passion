@@ -1947,7 +1947,215 @@ HoertsOrgano = {
 	\relative c {
 		\clef bass
 		\key d \major \time 3/4 \tempoHoerts
-		\mvTr d8\fE-\soloE d d d cis cis
+		\mvTr d8\fE-\soloE^\tweak TextScript.X-offset #0 ^\critnote d d d cis cis
+		h h h' h fis fis
+		g g a a a, a
+		d d d,4 r
+		fis'8. g16 a4 a, %5
+		d~ d8 e16 fis g a h cis
+		d8 d, d d d d
+		d d d d d d
+		d d d d d d
+		g, g g g gis gis %10
+		a h16 cis d e fis gis a8 a
+		fis4 r d
+		g2 r4
+		g8 g fis fis d d
+		g16 g, a h c d e fis g8 fis %15
+		e4 r gis
+		a2 r4
+		a8 a gis gis e e
+		a a cis cis a a
+		d, d fis fis d d %20
+		a' a cis cis a a
+		d, d fis fis d d
+		g, g'16 a h a g fis g fis e d
+		cis8 cis cis cis cis cis
+		d d a' a a, a %25
+		h2 r4
+		fis'8 fis g g a a
+		h2 r4
+		r8 r16 cis[ d8. a16 h8. fis16]
+		g4-! e-! a-! %30
+		d,2 r4 \bar "S-|"
+		d8\p d d d cis cis
+		h h h' h fis fis
+		g g a a a, a
+		d d d,4 r %35
+		fis'8. g16 a4 a,
+		d4~ d8 e16 fis g a h cis
+		d8 d, d d d d
+		d d d d d d
+		d d d d d d %40
+		g, g g g gis gis
+		a\f h16 cis d e fis gis a4
+		R2.
+		r8 a,16\pE h cis h a h cis h cis d
+		e8 e e e e e %45
+		e e e e e e
+		e e e e e e
+		e e e e e e
+		e e e e e e
+		cis cis cis cis cis cis %50
+		gis gis gis gis gis gis
+		a a a[\f a a a]
+		a\p a a a a a
+		a a a[\f a a a]
+		a\pE a a a a a %55
+		a4 r a'16 gis? fis e
+		fis e d cis d8 d e e
+		fis2\f r4
+		cis8\p cis d d e e
+		fis2\fE r4 %60
+		r8 r16 gis[ a8. e16 fis8. cis16]
+		d4 h e
+		a,8\ffE a a' a gis gis
+		fis fis fis fis cis cis
+		d d e e e, e %65
+		a a a4 r
+		cis8. d16 e4 e,
+		a8.[ h'16 a8. g!16 fis8. e16]
+		d8 d[\p d d cis cis]
+		h h h' h fis fis %70
+		g g a a a, a
+		d d d,4 r
+		fis'8. g16 a4 a,
+		d~ d8 e16 fis g a h cis
+		d8 d, d d d d %75
+		d d d d d d
+		d d d d d d
+		g, g g g gis gis
+		a h16 cis d e fis gis a8 g
+		fis fis d d fis fis %80
+		h2 r4
+		g8 g fis fis d d
+		g g,16\fE a h c d h g8 r
+		e'\pE e gis gis e e
+		a2 r4 %85
+		a8 a e' e e, e
+		a a,16\f h cis d e cis a8 r
+		r c'16\pE h a h a g fis g fis e
+		dis8 dis dis dis dis dis
+		e e e e e e %90
+		a, a a a a a
+		d d d d d d
+		g, g g[\fE g g g]
+		g\p g g g g g
+		d' d d[\f d d d] %95
+		d\p d d d d d
+		a a a[\f a a a]
+		a\pE a a a a a
+		d16 fis g a h a g fis g fis e d
+		a'8 a cis cis a a %100
+		d, d fis fis d d
+		a' a cis cis a a
+		d, d fis fis d d
+		a2 r4
+		R2. %105
+		r8 r16 cis'[ d8. a16 h8. fis16]
+		g4 e a\fermata
+		d,2 r4
+		d8\f d16 cis d8 e16 fis g a h cis
+		d4 r r %110
+		r8 e16 d c d c h a g fis e
+		d2.\p
+		g16\f g, a h c d e fis g a h a
+		g fis e8 r4 r
+		r8 fis'16\fE e d e d cis h a gis fis %115
+		e2\p r4
+		a16\f a, h cis d e fis gis a h cis h
+		a8 a,[\p a a a a]
+		a a a a a a
+		a a a a a a %120
+		h8. fis'16 g4 a
+		d,8 fis16\fE a d cis h a g fis e d
+		a'8 a,[\p a a a a]
+		a a a a a a
+		a a a a a a %125
+		d d d d d d
+		g, g' g[\f g g g]
+		g\p g g[\f g g g]
+		fis\p fis fis fis fis fis
+		cis cis cis cis cis cis %130
+		d r r4 d'16\mfE cis h a
+		h a g fis g4 a
+		h2\f r4
+		fis8\p fis g g a a
+		h2\f r4 %135
+		r8 r16 cis[ d8. a16 h8. fis16]
+		g4 e a
+		d,8\ff d d d cis cis
+		h h h' h fis fis
+		g g a a a, a %140
+		d d d,4 r
+		d'8 d e e fis fis
+		g g fis fis gis gis
+		a a cis cis a a
+		d, d fis fis d d %145
+		a' a cis cis a a
+		d, d fis fis d d
+		g, g'16 a h a g fis g fis e d
+		cis8 cis cis cis cis cis
+		d d a' a ais ais %150
+		h2 r4
+		r8 r16 cis[ d8. a16 h8. fis16]
+		g4 e a \noBreak
+		d,2 r4\fermata \bar "||"
+		h8\pE h h h h h \noBreak %155
+		fis' fis fis fis fis fis
+		h, h h h h h
+		a a a' a g g
+		fis fis fis fis g g
+		cis, cis cis cis a a %160
+		d d d,4 r
+		fis'8 fis fis fis fis fis
+		g4 h, d
+		g g, r
+		gis'8 gis gis gis gis gis %165
+		a4 cis, e
+		a8 a, a a a a
+		a a a a gis gis
+		a h16 cis d e fis gis a8 g
+		fis fis g g a a %170
+		h2\fE r4
+		fis4\pE g a
+		d,8\fE d16 e fis8 d16 fis a8 fis16 a
+		d4 d,8.[ c16 h8. a16]
+		g8\p g h h g g %175
+		d' d d d d d
+		g, g g' g g g
+		c, c c c h h
+		a a a a g g
+		fis fis d d g g %180
+		d' d d,4 r
+		h'8 h h h h h
+		c4 e, g
+		c c, r
+		cis'8 cis cis cis cis cis %185
+		d4 d, r
+		d' d, r
+		d' d, r
+		g g' d
+		g, g' d %190
+		g g, r
+		e'8 e d d c c
+		h2 r4
+		e\mfE c d
+		g,2\fE r4 %195
+		g'8 g gis gis e e
+		a a cis! cis a a
+		d, d fis fis d d
+		a' a cis cis a a
+		d, d fis fis d d %200
+		g, g'16 a h a g fis g fis e d
+		cis8 cis cis cis cis cis
+		d d a' a ais ais
+		h2 r4
+		fis g a! %205
+		h2 r4
+		r8 r16 cis[ d8. a16 h8. fis16]
+		g4-! e-! a-!
+		d,2 r4 \bar "S-S" %209 finis
 	}
 }
 
