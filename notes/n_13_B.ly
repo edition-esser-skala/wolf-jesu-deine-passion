@@ -398,12 +398,301 @@ HoertsBassoNotes = {
 	\relative c {
 		\clef bass
 		\key d \major \time 3/4 \autoBeamOff \tempoHoerts
-		
+		R2.*31 \bar "S-|" %31
+		\mvTr d4\pE^\soloE fis a
+		d2 \once \tieDashed d4~
+		d8. h16 a4 g
+		g\trill fis r %35
+		a8. d16 cis8.([\trill h16)] a8.([\trill g16)]
+		fis8.([ e16)] d4 r
+		r r8 fis16([ g)] a8. a16
+		a4( h8.) a16 h8. cis16
+		d8.([ cis32 h)] a4 a %40
+		h8. d16 cis8. e16 d8. fis,16
+		\appoggiatura fis4 e2 r4
+		a4 cis e
+		e,2 a4^\critnote
+		gis8[ e16 dis?] e[ fis gis a] h[ cis d! h] %45
+		cis8[ a16 gis] a[ h cis d] e[ cis h a]
+		gis8[ e16 dis] e[ fis gis a] h[ cis d? h]
+		cis8[ a16 gis] a[ h cis d] e[ cis h a]
+		gis8.[ e16] e4\trill e\trill
+		a8.[ e16] e4\trill e\trill %50
+		h'8.[ e,16] e4\trill e\trill
+		cis'8[ a16 h] cis2~
+		cis8[ a16 gis] a8[ a16 h] cis8[ h16 cis]
+		d[ e d cis] d2~
+		d8[ a16 gis] a8[ h16 cis] d8[ cis16 d] %55
+		e[ d cis h] cis[ h a gis] a[ gis fis e]
+		fis[ e d cis] d4 e
+		fis2 r4
+		a d, e
+		fis2 r4 %60
+		r8 r16 h cis8. gis16 a4
+		d, h e
+		a,2 r4
+		R2.*5 %68
+		d4 fis a
+		d2 d4~ %70
+		d8. h16 a4 g
+		g\trill fis r
+		a8. d16 cis8.([\trill h16)] a8.([\trill g16)]
+		fis8.([\trill e16)] d4 r
+		r r8 fis16([ g)] a8. a16 %75
+		a4( h8.) a16 h8. cis16
+		d8.([ cis32 h)] a4 a
+		h8. d16 cis8. e16 d8. fis,16
+		\appoggiatura fis4 e2 r4
+		d d' c %80
+		h8([ d, e fis g)] a
+		h8. g16 \appoggiatura d'4 c2
+		h4 r r
+		e, e' d
+		cis8([ e, fis gis a)] h %85
+		cis8. a16 \appoggiatura e'4 d2
+		cis4 r r
+		a a a
+		h,2 a'4
+		g!8[ e16 dis] e[ fis g a] h[ cis d h] %90
+		cis8[ a16 h] cis[ d cis d] cis[ h a g!]
+		fis8[ e16 d] d[ e fis g] a[ h c a]
+		h[ c h a] h2~
+		h8[ g16 fis] g8[ h16 c] d8[ c16 h]
+		a[ h a g] a2~ %95
+		a8[ d,16 e] fis8[ fis16 g] \appoggiatura h a8[ g16 fis]
+		g[ a g fis] \once \tieDashed g2~
+		g8[ cis,16 d] e8[ e16 fis] \appoggiatura a g8[ fis16 e]
+		fis8[ g16 a] h[ a g fis] g[ fis e d]
+		\once \tieDashed a'2.~ %100
+		a~
+		a~
+		\once \tieDashed a~
+		a2\fermata a,4
+		a2^\critnote r4 %105
+		r8 r16 e'' fis8. cis16 d4
+		g, e a\fermata
+		d,2 r4
+		R2.
+		r4 d' d, %110
+		c'2 r4
+		fis,8. e'16 d8.([ c16)] h8.([ c16)]
+		h8.([ a16)] g4 r
+		r e' e,
+		d'2 r4 %115
+		gis,8. d'16 cis8.([ d16)] cis8.([ h16)]
+		cis8.([ h16)] a4 r
+		r r8 a16([ h)] cis8. cis16
+		cis4( d8.) cis16 d8. h16
+		cis8.([ h16)] a8. h16 a8. g!16 %120
+		fis8. d'16 g,4 a
+		d,2 d'4
+		cis8[ a16 h] cis[ d e d] cis[ h a g]
+		fis8[ d16 fis] a8[ fis16 a] d8[ cis16 h]
+		cis8[ a16 h] cis[ d e d] cis[ h a g] %125
+		fis8[ d16 fis] a8[ fis16 a] c8[ h16 a]
+		h[ c? h a] h2
+		cis16[ d cis h] cis2
+		d8.[ a16] a4\trill a\trill
+		e'8.[ a,16] a4\trill a\trill %130
+		fis'16[ e d cis] d[ cis h a] d[ cis h a]
+		h[ a g fis] g4-! a-!
+		h2 r4
+		d g, a
+		h2 r4 %135
+		r8 r16 e fis8. cis16 d4
+		g, e a
+		d,2 r4
+		R2.*15 \noBreak %153
+		R2.\fermataMarkup \bar "||"
+		h'4 d h \noBreak %155
+		cis4. fis,8 e'8. cis16
+		d8.([ cis16)] h4 d
+		\appoggiatura d cis2 h4
+		a( d) h
+		a( g8[ fis)] g4 %160
+		g\trill fis r
+		c' r c
+		h8[ d16 e] d8([-. d-. d-. d-.)]
+		d8. h16 g4 r
+		d' r d %165
+		cis8[ cis16 d] cis8([-. cis-. cis-. cis-.)]
+		cis8. e16 a,8. h16 a8. g!16
+		fis4 e8. cis'16 d8. fis,16
+		fis4\trill e r
+		d' g, a %170
+		h2 r4
+		d g, a
+		d,2 r4
+		R2.
+		d'4 g, h %175
+		h( a8.) h16 c8. a16^\critnote
+		h8.([ a16)] g4 d'
+		d( e) d
+		\appoggiatura g, fis2 g4
+		a4.( h16[ c)] h4 %180
+		h\trill a r
+		d r f,
+		e8[ g16 a] g8([-. g-. g-. g-.)]
+		g8. e16 c4 r
+		e' r g, %185
+		fis!8[ a16 h] a8([-. a-. a-. a-.)]
+		g[ h16 c] h8([-. h-. h-. h-.)]
+		a[ c16 d] c8([-. c-. c-. c-.)]
+		h8. e16 d8. h16 c8. a16
+		h8.([ e16)] d8. h16 c8. a16 %190
+		h8.([ c16)] d4 r
+		c h a
+		d2 r4
+		h c? d
+		g,2 r4 %195
+		R2.*14 \bar "S-S" %209 finis
 	}
 }
 
 HoertsBassoLyrics = \lyricmode {
+	Hörts, Chri -- ſten, %32
+	hörts, das __
+	iſt un -- ſer
+	Glau -- be, %35
+	das iſt un -- ſer __
+	Glau -- be,
+	die See -- le
+	reißt __ ſich aus dem
+	Stau -- be, ihr %40
+	We -- ſen iſt Un -- ſterb -- lich --
+	keit,
+	ihr We -- ſen
+	iſt Un --
+	ſterb -- _ _ %45
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _ %50
+	_ _ _
+	_ _
+	_ _
+	_ _
+	_ _ %55
+	_ _ _
+	_ _ lich --
+	keit,
+	Un -- ſterb -- lich --
+	keit, %60
+	ihr We -- ſen iſt Un --
+	ſterb -- lich --
+	keit.
 	
+	Hörts, Chri -- ſten, %68
+	hörts, das __
+	iſt un -- ſer %70
+	Glau -- be,
+	das iſt un -- ſer __
+	Glau -- be,
+	die See -- le
+	reißt __ ſich aus dem %75
+	Stau -- be, ihr
+	We -- ſen iſt Un -- ſterb -- lich --
+	keit,
+	die See -- le
+	reißt __ ſich %80
+	aus dem Stau --
+	be,
+	die See -- le
+	reißt __ ſich
+	aus dem Stau -- %85
+	be,
+	ihr We -- ſen
+	iſt Un --
+	ſterb -- _ _
+	_ _ _ %90
+	_ _ _
+	_ _
+	_ _
+	_ _
+	_ _ %95
+	_ _
+	_ _
+	_ _ _
+	_
+	
+	lich -- %104
+	keit, %105
+	ihr We -- ſen
+	iſt Un -- ſterb -- lich --
+	keit.
+	
+	Chri -- ſten, %110
+	hörts,
+	das iſt un -- ſer __
+	Glau -- be,
+	Chri -- ſten,
+	hörts, %115
+	das iſt un -- ſer __
+	Glau -- be,
+	die See -- le
+	reißt __ ſich aus dem
+	Stau -- be, ihr We -- ſen %120
+	iſt Un -- ſterb -- lich --
+	keit, Un --
+	ſterb -- _ _
+	_ _ _
+	_ _ _ %125
+	_ _ _
+	_ _
+	_ _
+	_ _ _
+	_ _ _ %130
+	_ _ _
+	_ _ lich --
+	keit,
+	Un -- ſterb -- lich --
+	keit, %135
+	ihr We -- ſen iſt
+	Un -- ſterb -- lich --
+	keit.
+	
+	Heil al -- len, %155
+	die ſich hö -- hers
+	Le -- ben durch
+	ei -- ne
+	ſchö -- ne
+	That __ er -- %160
+	ſtre -- ben:
+	Euch, euch
+	Hof -- _
+	_ fen -- den,
+	euch, euch %165
+	Hof -- _
+	_ fen -- den, euch wirds ge --
+	ge -- ben, euch wirds ge --
+	ge -- ben
+	nach die -- ſer %170
+	Zeit,
+	nach die -- ſer
+	Zeit.
+	
+	Heil al -- len, %175
+	die __ ſich hö -- hers
+	Le -- ben durch
+	ei -- ne
+	ſchö -- ne
+	That __ er -- %180
+	ſtre -- ben:
+	Euch, euch
+	Hof -- _
+	_ fen -- den,
+	euch, euch %185
+	Hof -- _
+	_ _
+	_ _
+	_ fen -- den, euch wirds ge --
+	ge -- ben, euch wirds ge -- %190
+	ge -- ben
+	nach die -- ſer
+	Zeit,
+	nach die -- ſer
+	Zeit. %195 finis
 }
 
 % BassoNotes = {
