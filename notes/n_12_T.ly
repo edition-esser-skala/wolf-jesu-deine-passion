@@ -903,12 +903,56 @@ EsSchwebenTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoEsSchweben
-		
+		R1*4
+		r8 \mvTr a\pE^\soloE a a cis8. cis16 cis8 d %5
+		e4 r8 e e g, g fis
+		fis fis r d' d4 a
+		a8 a a h c!4 r8 c
+		c8. fis,?16 fis8 fis fis g a a16 c
+		h8 h r4 h4. a8 %10
+		gis gis r h16 e, a4 r8 c
+		a a a h c c e c
+		a a a g! \appoggiatura fis8 e4 r
+		r r8 fis ais r16 cis? e8 e16 d
+		\appoggiatura cis8 h h r h16 cis d8 d d16 h h gis %15
+		fis?8 eis? r cis' cis gis h8. cis16
+		a!8 a r a16 h cis8 cis16 cis cis8 a
+		h h d cis cis4 r8 a
+		e' g,! g fis fis fis r4
+		d'8. d16 d8 cis e e r a,16 a %20
+		d8. d16 d8 d16 h gis8 gis gis16 gis gis a
+		h4 h8 d \appoggiatura d cis cis r cis16 cis
+		fis8 fis d cis \appoggiatura h a4 r
+		r r8 gis a e r cis16. e32
+		fis8 r16 a fis8 a h8. h16 cis8 cis %25
+		d fis,? r g16 fis \appoggiatura e d4 r
+		R1\fermataMarkup \bar "|." %27 finis
 	}
 }
 
 EsSchwebenTenoreLyrics = \lyricmode {
-	
+	Es ſchwe -- ben Se -- ra -- phim von %5
+	fern am Schä -- del -- rol -- len
+	Hü -- gel. Tief ſtau -- nend
+	ü -- ber ih -- ren Herrn be --
+	de -- cken ſie mit ih -- ren Flü -- geln das
+	Ant -- litz. Je -- ſus %10
+	lei -- det, ſa -- gen ſie, ja
+	was des Men -- ſchen See -- le nie ge --
+	dacht hat, lei -- det er.
+	Al -- lein, ſo bit -- ter ſein
+	Schmerz ist, will er doch die ed -- el -- ſte der %15
+	Müt -- ter, Ma -- ri -- a, Troſt er --
+	thei -- len, und be -- fieh -- let jet -- zo dies
+	ſei -- nem Lieb -- ling an, der
+	Lieb -- ling ſchüzt Ma -- ri -- a.
+	Je -- ſus wird er -- hei -- tert und ver -- %20
+	kün -- digt drauf ei -- nen Sün -- der, den ſein Glaub ent --
+	ſün -- digt, Er -- bar -- mung, und der
+	Seel Un -- ſterb -- lich -- keit.
+	Ich ſa -- ge, ſpricht er,
+	dir, du wirſt noch heut im Pa -- ra -- %25
+	die -- ſe mit mir ſeyn. %26 finis
 }
 
 % TenoreNotes = {

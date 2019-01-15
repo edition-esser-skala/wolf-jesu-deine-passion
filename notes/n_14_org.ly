@@ -1892,7 +1892,7 @@ EsSchwebenOrgano = {
 		d4\pE r r2
 		r fis4 r
 		R1
-		r8 g(-. g-. g-.) r f!8-. f-. f-.) %10
+		r8 g(-. g-. g-.) r f!8(-. f-. f-.) %10
 		r8 e(-. e-. e-.) c'!4 r
 		R1
 		r2 r4 h
@@ -1900,17 +1900,16 @@ EsSchwebenOrgano = {
 		d4 r r2 %15
 		cis4 r r2
 		fis,4 r r2
-		R1
 		gis4 r a r
-		cis r r8 d fis a %20
-		d4 r cis r
+		cis r r8 d fis a
+		d4 r cis r %20
 		h r r2
 		r a4 r
 		d, r r e
-		cis8 fis( e d) cis e cis a %25
-		d d, r d' g, g' fis e
+		cis8 fis( e d) cis e cis a
+		d d, r d' g, g' fis e %25
 		fis h r4 r8 fis, g a
-		h fis? g a d,4 r\fermata \bar "|." %28 finis
+		h fis? g a d,4 r\fermata \bar "|." %27 finis
 	}
 }
 
@@ -1931,18 +1930,17 @@ EsSchwebenBassFigures = \figuremode {
 	<6+ _+>1
 	<6> %15
 	<5+ _+>
-	r
 	<5+>
 	<6 5>2 <_+>
-	<6 5> r8 <_+>4 q8 %20
-	q2 <6 5>
+	<6 5> r8 <_+>4 q8
+	q2 <6 5> %20
 	<5+>1
 	r2 <_+>
 	q2. q4
-	<6>8 q <6+ 4> <4\+ 2> <6>4. <_+>8 %25
-	q2. <5+ 3>8 <\t \t>
+	<6>8 q <6+ 4> <4\+ 2> <6>4. <_+>8
+	q2. <5+ 3>8 <\t \t> %25
 	<6>2 r8 q r <_+>
-	<5+> <6> r <_+> q2 %28 finis
+	<5+> <6> r <_+> q2 %27 finis
 }
 
 % Organo = {
