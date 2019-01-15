@@ -394,6 +394,18 @@ SchreibeDeineBassoLyrics = \lyricmode {
 	ßen.] %33 FINIS
 }
 
+HoertsBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \autoBeamOff \tempoHoerts
+		
+	}
+}
+
+HoertsBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

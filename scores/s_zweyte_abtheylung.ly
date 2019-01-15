@@ -124,44 +124,100 @@
 % 			\midi { \tempo 4 = 120 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.3" "RECITATIV" "Es ſchweben Seraphim von fern"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\EsSchwebenViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\EsSchwebenViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\EsSchwebenViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \EsSchwebenTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \EsSchwebenTenoreLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\EsSchwebenOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\EsSchwebenBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.3" "RECITATIV" "Es ſchweben Seraphim von fern"
+			movement = \movementTitle "2.4" "ARIA" "Hörts, Chriſten, das iſt unſer Glaube"
 		}
-		\paper { systems-per-page = #2 }
+% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
+							\set Staff.instrumentName = "Corno I"
+							\HoertsCornoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Corno II"
+							\HoertsCornoII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\EsSchwebenViolinoI
+							\HoertsViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\EsSchwebenViolinoII
+							\HoertsViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\EsSchwebenViola
+						\HoertsViola
 					>>
 				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \EsSchwebenTenoreNotes }
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \HoertsBassoNotes }
 					}
-					\new Lyrics \lyricsto Tenore \EsSchwebenTenoreLyrics
+					\new Lyrics \lyricsto Basso \HoertsBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\EsSchwebenOrgano
+						\HoertsOrgano
 					}
 				>>
 				\new FiguredBass {
-					\EsSchwebenBassFigures
+					\HoertsBassFigures
 				}
 			>>
 			\layout { }

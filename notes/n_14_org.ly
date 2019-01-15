@@ -1943,6 +1943,18 @@ EsSchwebenBassFigures = \figuremode {
 	<5+> <6> r <_+> q2 %27 finis
 }
 
+HoertsOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \tempoHoerts
+		\mvTr d8\fE-\soloE d d d cis cis
+	}
+}
+
+HoertsBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

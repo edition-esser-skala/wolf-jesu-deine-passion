@@ -4,3 +4,10 @@
 
 \version "2.18.0"
 
+HoertsCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoHoerts
+		
+	}
+}
