@@ -830,7 +830,13 @@ EsSchwebenViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoEsSchweben
-		
+		d8\f d''([\p cis d)] cis( d) cis( d)
+		d,,\f d''([\p cis d)] cis( d) cis( d)
+		d,,\f d''([\p cis d)] r d( cis d)
+		r d,(\pp cis h) a( g fis g)
+		fis4-\critnote r r2 %5
+		R1*21 %26
+		R1\fermataMarkup \bar "|." %27 finis
 	}
 }
 
