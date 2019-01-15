@@ -826,3 +826,11 @@ GottAmViolinoII = {
 		g4 g, r \bar "S-S" %243 finis
 	}
 }
+
+EsSchwebenViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoEsSchweben
+		
+	}
+}

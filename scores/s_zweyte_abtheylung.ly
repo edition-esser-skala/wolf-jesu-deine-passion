@@ -63,65 +63,109 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.2" "DUETTO" "Gott am Creutze lehre mich"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\GottAmOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\GottAmOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\GottAmViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\GottAmViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\GottAmViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano I"
+% 						\new Voice = "SopranoI" { \dynamicUp \GottAmSopranoINotes }
+% 					}
+% 					\new Lyrics \lyricsto SopranoI \GottAmSopranoILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano II"
+% 						\new Voice = "SopranoII" { \dynamicUp \GottAmSopranoIINotes }
+% 					}
+% 					\new Lyrics \lyricsto SopranoII \GottAmSopranoIILyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\GottAmOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\GottAmBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 120 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.2" "DUETTO" "Gott am Creutze lehre mich"
+			movement = \movementTitle "2.3" "RECITATIV" "Es ſchweben Seraphim von fern"
 		}
+% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\GottAmOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\GottAmOboeII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\GottAmViolinoI
+							\EsSchwebenViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\GottAmViolinoII
+							\EsSchwebenViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\GottAmViola
+						\EsSchwebenViola
 					>>
 				>>
-				\new ChoirStaff <<
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
-						\set Staff.instrumentName = "Soprano I"
-						\new Voice = "SopranoI" { \dynamicUp \GottAmSopranoINotes }
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \EsSchwebenTenoreNotes }
 					}
-					\new Lyrics \lyricsto SopranoI \GottAmSopranoILyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Soprano II"
-						\new Voice = "SopranoII" { \dynamicUp \GottAmSopranoIINotes }
-					}
-					\new Lyrics \lyricsto SopranoII \GottAmSopranoIILyrics
+					\new Lyrics \lyricsto Tenore \EsSchwebenTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\GottAmOrgano
+						\EsSchwebenOrgano
 					}
 				>>
 				\new FiguredBass {
-					\GottAmBassFigures
+					\EsSchwebenBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

@@ -826,6 +826,14 @@ GottAmViolinoI = {
 	}
 }
 
+EsSchwebenViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoEsSchweben
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

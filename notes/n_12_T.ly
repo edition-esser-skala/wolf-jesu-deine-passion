@@ -899,6 +899,18 @@ NunIstTenoreLyrics = \lyricmode {
 	Va -- ter. %35 finis
 }
 
+EsSchwebenTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoEsSchweben
+		
+	}
+}
+
+EsSchwebenTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

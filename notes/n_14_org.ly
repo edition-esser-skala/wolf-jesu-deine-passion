@@ -1879,6 +1879,18 @@ GottAmBassFigures = \figuremode {
 	r2. %243 finis
 }
 
+EsSchwebenOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoEsSchweben
+		\mvTr d8\f-\soloE r r4 r2
+	}
+}
+
+EsSchwebenBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

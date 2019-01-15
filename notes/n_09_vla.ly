@@ -824,3 +824,11 @@ GottAmViola = {
 		g2 r4 \bar "S-S" %243 finis
 	}
 }
+
+EsSchwebenViola = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoEsSchweben
+		
+	}
+}
