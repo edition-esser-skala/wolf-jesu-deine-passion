@@ -827,13 +827,13 @@ GottAmViola = {
 
 EsSchwebenViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \major \time 4/4 \tempoEsSchweben
 		d8\fE r r4 r2
 		d8 r r4 r2
 		a8 r r4 h8 r r4
 		a1\pp
-		a4^\critnote r r2 %5
+		a4-\critnote r r2 %5
 		R1*21 %26
 		R1\fermataMarkup \bar "|." %27 finis
 	}

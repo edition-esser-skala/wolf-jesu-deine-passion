@@ -128,7 +128,7 @@
 		\header {
 			movement = \movementTitle "2.3" "RECITATIV" "Es ſchweben Seraphim von fern"
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
