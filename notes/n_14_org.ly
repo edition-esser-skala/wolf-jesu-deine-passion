@@ -2002,7 +2002,7 @@ HoertsOrgano = {
 		a\p a a a a a
 		a a a[\f a a a]
 		a\pE a a a a a %55
-		a4 r a'16 gis? fis e
+		a4 r a'16\mfE gis? fis e
 		fis e d cis d8 d e e
 		fis2\f r4
 		cis8\p cis d d e e
@@ -2052,7 +2052,7 @@ HoertsOrgano = {
 		d, d fis fis d d
 		a2 r4
 		R2. %105
-		r8 r16 cis'[ d8. a16 h8. fis16]
+		r8 r16 cis'[\mfE d8. a16 h8. fis16]
 		g4 e a\fermata
 		d,2 r4
 		d8\f d16 cis d8 e16 fis g a h cis
@@ -2061,14 +2061,14 @@ HoertsOrgano = {
 		d2.\p
 		g16\f g, a h c d e fis g a h a
 		g fis e8 r4 r
-		r8 fis'16\fE e d e d cis h a gis fis %115
+		r8 fis'16 e d e d cis h a gis fis %115
 		e2\p r4
 		a16\f a, h cis d e fis gis a h cis h
 		a8 a,[\p a a a a]
 		a a a a a a
 		a a a a a a %120
 		h8. fis'16 g4 a
-		d,8 fis16\fE a d cis h a g fis e d
+		d,8\fE fis16 a d cis h a g fis e d
 		a'8 a,[\p a a a a]
 		a a a a a a
 		a a a a a a %125
