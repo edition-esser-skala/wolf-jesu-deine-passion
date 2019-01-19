@@ -2375,7 +2375,40 @@ MeineSeeleOrgano = {
 	\relative c {
 		\clef bass
 		\key a \major \time 4/4 \tempoMeineSeele
-		r2 \mvTr a'8\fE-\tuttiE h cis d
+		r2-\critnote \mvTr a'8\fE-\tuttiE h cis d
+		e4 e, a r
+		r2 r8 a cis d
+		e4 e, a r
+		r fis h r8 cis\p %5
+		gis4. a8 e4 fis8 gis
+		e4 gis8 a e4 r
+		e, r e' r8 e
+		a gis a dis, e4 gis\fE
+		a r8 a fis fis16 gis a8 fis %10
+		h h a a gis h cis a
+		h4 h, e r8 e
+		a4 h e, r8 e\p
+		a,4 h e, r
+		r2 e'8\f fis gis a %15
+		h4 h, e r
+		r2 r8 e gis a
+		h4 h, e r
+		r eis fis r8 d'!\p
+		a4. h8 fis4 a8 h %20
+		fis4 a8 fis h4 h,\f
+		e! r8 e gis gis16 fis gis8 e
+		a a, a' h cis a d h
+		cis( a d gis,) a4 r8 fis\p
+		cis4. d8 a4 cis8 d %25
+		a4 cis8 d a4 r
+		a r8 cis\fE d d d dis
+		e^\critnote e fis gis a fis cis d
+		e4 e, a r8 cis
+		d d d dis e e fis gis %30
+		a fis cis d e4 e,
+		a r8 a' d,4 e
+		a, r8 a\pE d,4 e
+		a\ppE r r2\fermata \bar "|." %34 finis
 	}
 }
 
