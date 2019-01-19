@@ -2388,7 +2388,7 @@ MeineSeeleOrgano = {
 		h h a a gis h cis a
 		h4 h, e r8 e
 		a4 h e, r8 e\p
-		a,4 h e, r
+		a,4 h e,\ppE r
 		r2 e'8\f fis gis a %15
 		h4 h, e r
 		r2 r8 e gis a
@@ -2426,7 +2426,7 @@ MeineSeeleBassFigures = \figuremode {
 	<_+>4 <4\+ 2> <6>8 <_+> r <6>
 	<6 4>4 <5 _+> r2
 	r4 <_+>2.
-	r4 <_+>2.
+	r4 <_+> <9 4> <8 3>
 	r2 <8 3> \bassFigureExtendersOn %15
 	q4 \bassFigureExtendersOff <5 _+> r2
 	r r8 <8 3> \bassFigureExtendersOn q4
