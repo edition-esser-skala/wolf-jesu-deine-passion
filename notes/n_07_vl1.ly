@@ -1060,7 +1060,40 @@ MeineSeeleViolinoI = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 4/4 \tempoMeineSeele
-		
+		a'8\fE h cis d e2~
+		e8.[ fis16 \appoggiatura e d8. e16] \appoggiatura d32 cis16 cis' h a gis fis e d
+		cis8 a cis d e2~
+		e8.[ fis16 \appoggiatura e d8. e16] \appoggiatura d32 cis16 cis' h a gis fis e d
+		cis8 r fis4 \appoggiatura e8 dis4 r8 cis\p %5
+		gis4. a8 e4 gis8 a
+		e4 gis8 a e4 r
+		e r e r8 e
+		a gis a dis, e4 e'\f
+		cis r8 cis fis fis16 fis fis8 e %10
+		dis h cis dis e dis e a
+		\appoggiatura a16 gis8 fis16( e) fis4\trill e8 gis16( a) h4
+		r8 cis16( a) r8 fis16( a) gis8 gis,16(\p a) h4
+		r8 cis16( a) r8 fis16( a) a4(\pp gis8) r
+		e\f fis gis a h2~ %15
+		h8.[ cis16 \appoggiatura h a8. h16] \appoggiatura a32 gis16 gis' fis e dis cis h a
+		gis8 e gis a h2~
+		h8.[ cis16 \appoggiatura h a8. h16] \appoggiatura a32 gis16 gis' fis e dis cis h a
+		gis8 r cis4 \appoggiatura h8 a4 r8 d\p
+		a4. h8 fis4 a8 h %20
+		fis4 a8 fis h4 d\f
+		\appoggiatura cis8 h4 r8 h e e16 e e8 d
+		cis a cis d e d16 cis fis8 e16 d
+		g8 a g fis e4 r8 fis,\p
+		cis4. d8 a4 cis8 d %25
+		a4 cis8 d a4 r
+		r8 cis'\f e g fis fis16 e d8 cis
+		cis h d cis16 h cis8 d e fis
+		cis4 h\trill a r8 g'
+		fis fis16 e d8 cis cis h d cis16 h %30
+		cis8 d e fis cis4 h\trill
+		a8 cis16( d) e4 r8 fis16( d) r8 h16( d)
+		cis8 \once \slurDashed cis,16(\p d) e4 r8 fis16( d) r8 h16( d)
+		\once \slurDashed d4(\pp cis8) r r2\fermata \bar "|." %34 finis
 	}
 }
 

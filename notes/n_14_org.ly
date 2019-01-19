@@ -2442,11 +2442,11 @@ MeineSeeleBassFigures = \figuremode {
 	r4. <6 5!>8 r4 <8 6>8 <7 5>
 	<6 4> <5 3> <6> q r q q4
 	<6 4> <5 3> r4. <6 5!>8
-	r4 <8 6>8 <7 5> <6 4> <5 3> <6> q
+	r4 <8 6>8 <7 5> <6 4> <5 3> <6> q %30
 	r q q4 <6 4> <5 3>
 	r1
 	r
-	r
+	r %34 finis
 }
 
 % Organo = {
