@@ -195,6 +195,18 @@ smallerGroupDistance = {
        (padding . -100)
 			 (stretchability . 0)) }
 
+largerGroupDistance = {
+	\override StaffGrouper.staffgroup-staff-spacing =
+		#'((basic-distance . 15)
+			 (minimum-distance . 15)
+			 (padding . -100)
+			 (stretchability . 0))
+	\override StaffGrouper.staff-staff-spacing =
+		#'((basic-distance . 12)
+       (minimum-distance . 12)
+       (padding . -100)
+			 (stretchability . 0)) }
+
 
 mvTr = \once \override TextScript.X-offset = #2
 mvTrh = \once \override TextScript.X-offset = #2.5

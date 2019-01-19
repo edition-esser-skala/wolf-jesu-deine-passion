@@ -166,7 +166,7 @@
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff <<
+					\new GrandStaff \with { \largerGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Oboe I"
 							\MeinHerzOboeI
@@ -283,7 +283,7 @@
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff <<
+					\new GrandStaff \with { \largerGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Flauto I"
 							\LieblichFlautoI
