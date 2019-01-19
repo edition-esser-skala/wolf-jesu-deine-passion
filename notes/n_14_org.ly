@@ -2393,12 +2393,12 @@ MeineSeeleOrgano = {
 		h4 h, e r
 		r2 r8 e gis a
 		h4 h, e r
-		r eis fis r8 d'!\p
+		r eis fis r8 d'\p
 		a4. h8 fis4 a8 h %20
 		fis4 a8 fis h4 h,\f
 		e! r8 e gis gis16 fis gis8 e
 		a a, a' h cis a d h
-		cis( a d gis,) a4 r8 fis\p
+		cis( a d gis,!) a4 r8 fis\p
 		cis4. d8 a4 cis8 d %25
 		a4 cis8 d a4 r
 		a r8 cis\fE d d d dis

@@ -699,12 +699,74 @@ MeineSeeleBassoNotes = {
 	\relative c {
 		\clef bass
 		\key a \major \time 4/4 \autoBeamOff \tempoMeineSeele
-		
+		r2 \mvTr a'8\fE^\tuttiE h cis d
+		e4 e,8 e a4 r
+		r2 r8 a cis d
+		e4 e,8 e a4 r
+		r fis h r %5
+		R1
+		r4 r8 e\pE e dis16 cis h8 cis
+		gis e r4 r2
+		r r4 gis\fE
+		a r8 a fis fis16 gis a8 fis %10
+		h h a a gis h cis a16 a
+		h2 e,4 r
+		R1*2
+		r2 e8 fis gis a %15
+		h4 h,8 h e4 r
+		r2 r8 e gis a
+		h4 h,8 h e4 r
+		r eis fis r
+		R1 %20
+		r2 r4 h,\fE
+		e! r8 e gis gis16 fis gis8 e
+		a a a h cis a d h16 h
+		cis8([ a d gis,!)] a4 r
+		R1 %25
+		r4 r8 a\pE a gis16 fis e8 fis
+		cis a r cis\fE d d16 d d8 dis
+		e e fis gis a fis cis16 cis d8
+		e2 a,4 r8 cis'
+		d d16 d d8 dis e e, fis gis %30
+		a fis cis16 cis d!8 e2
+		a,4 r r2
+		R1
+		R\fermataMarkup \bar "|." %34 finis
 	}
 }
 
 MeineSeeleBassoLyrics = \lyricmode {
+	Mei -- ne See -- le
+	dür -- ſtet nach Gott,
+	nach dem le --
+	ben -- di -- gen Gott.
+	Ach, ach! %5
 	
+	Wenn wer -- de ich da -- hin
+	kom -- men?
+	Ach,
+	ach! Wenn wer -- de ich da -- hin %10
+	kom -- men, daß ich Got -- tes An -- ge -- ſicht
+	ſchau -- e?
+	
+	Mei -- ne See -- le %15
+	dür -- ſtet nach Gott,
+	nach dem le --
+	ben -- di -- gen Gott.
+	Ach, ach!
+	%20
+	Ach,
+	ach! Wenn wer -- de ich da -- hin
+	kom -- men, daß ich Got -- tes An -- ge -- ſicht
+	ſchau -- e?
+	%25
+	Wenn wer -- de ich da -- hin
+	kom -- men? Wenn wer -- de ich da -- hin
+	kom -- men, [daß ich Got -- tes An -- ge -- ſicht
+	ſchau -- e?] Wenn
+	[wer -- de ich da -- hin kom -- men, daß ich %30
+	Got -- tes An -- ge] -- ſicht ſchau --
+	e? %32 finis
 }
 
 % BassoNotes = {

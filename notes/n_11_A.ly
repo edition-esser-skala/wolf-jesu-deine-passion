@@ -494,7 +494,7 @@ MeineSeeleAltoNotes = {
 		gis8.([ a16)] \appoggiatura gis fis8. gis16 \appoggiatura fis8 e4 r
 		r gis fis r
 		R1 %20
-		r2 r4 h
+		r2 r4 h\fE
 		\appoggiatura a8 gis4 r8 gis h h16 a h8 h
 		a e a a a a a^\critnote h16 h
 		a4.( h8) e,4 r
