@@ -858,7 +858,7 @@ HoertsViolinoI = {
 		d8 e16 fis g a h cis d8. c16
 		h8-! d( e fis g a)
 		h8. g16 \appoggiatura d4 c2\trill
-		\appoggiatura c!16 h8. a16 g4 r %15
+		\appoggiatura c?16 h8. a16 g4 r %15
 		e8 fis16 gis a h cis dis e8 d
 		cis8-\parenthesize-! e( fis gis a h)
 		cis8. a16 \appoggiatura e4 d2\trillE
@@ -873,9 +873,9 @@ HoertsViolinoI = {
 		d,4 g, a
 		d8 e16 fis g a h cis d8 r
 		r r16 e,[ fis8. cis16 d8. fis,16]
-		g4-! e-! a-! %30
+		g4-! e-! a-! \noBreak %30
 		d,2 r4 \bar "S-|"
-		fis'8\p fis fis fis e e
+		fis'8\p fis fis fis e e \noBreak
 		d16( e fis e) d8.[ d,16 d'8. d,16]
 		d'8 d d d cis cis
 		d d d,16\f a' h cis d e fis g %35
@@ -954,11 +954,11 @@ HoertsViolinoI = {
 		d,8\f d16 cis d8 e16 fis g a h cis
 		d8 d16 cis d8 e16 fis g a h cis
 		d4 r r %110
-		r8 e,16\f d c d c h a g fis e
+		r8 e,16 d c d c h a g fis e
 		d8.[\p e'16 d8. c16 h8. c16]
 		h16\f g, a h c d e fis g a h a-\critnote
 		g fis e8 r4 r
-		r8 fis'16 e d e d cis h a gis fis %115
+		r8 fis'16 e d e d cis! h a gis fis %115
 		e8.[\p fis'16 e8. d16 cis8. d16]
 		cis16\f a, h cis d e fis gis a h cis h
 		a\p gis a h cis h cis d e8. e16
@@ -1027,7 +1027,7 @@ HoertsViolinoI = {
 		h\trill a8\f d,16 e fis d e fis
 		g8.\p d'16 d4. f,8
 		e \once \slurDashed g16( a) g8(-. g-. g-. g-.)
-		g8. e16 c\f h c d e d e fis
+		g8. e16 c\f h c d e d e fis!
 		g8.\p e'16 e4. g,8 %185
 		fis8 a16( h) a8(-. a-. a-. a-.)
 		g \once \slurDashed h16( c) h8(-. h-. h-. h-.)
@@ -1048,11 +1048,11 @@ HoertsViolinoI = {
 		\kneeBeam cis,,8. h''16 h4( a8.) g16
 		\appoggiatura g fis8 e16 d e2\trill
 		d8 e16 fis g a h cis d8 r
-		d,4-! g,-! a-!
+		d,4-! g,-! a-! %205
 		d8 e16 fis g a h cis d8 r
 		r r16 e,[ fis8. cis16 d8. fis,16]
 		g4-! e-! a-!
-		d,2 r4 \bar "S-S"
+		d,2 r4 \bar "S-S" %209 finis
 	}
 }
 

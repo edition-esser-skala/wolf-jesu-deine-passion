@@ -845,6 +845,214 @@ HoertsViolinoII = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/4 \tempoHoerts
-		
+		d4\fE-! fis-! a-!
+		d16( e fis e) d8.[ d,16 d'8. d,16]
+		h'8. g16 fis4 e\trill
+		e\trill d16 a' h cis d e fis g
+		a8.[ d,16 cis8. h16 a8. g16] %5
+		\appoggiatura g16 fis8. e16 d4 r
+		r8 d16 cis d cis d e fis8. e16-\critnote
+		fis4( g8.)[ fis16 g8. e16]-\critnote
+		fis8.(\trill a32 g) fis4 fis
+		d8.[ h'16 e,8. g16 fis8. d16] %10
+		\appoggiatura d4 cis2\trill r4
+		d8 e16 fis g a h cis d8. c16
+		h8-! h( c d e fis)
+		g8. h,16 \appoggiatura d4 c2\trill
+		\appoggiatura c?16 h8. a16 g4 r %15
+		e8 fis16 gis a h cis dis e8 d
+		cis8-\parenthesize-! cis( d e fis gis)
+		a8. cis,16 \appoggiatura e4 d2\trillE
+		cis8 a16 gis a h cis d e fis g e
+		fis8 d16 cis d e fis g a fis e d %20
+		cis8 a16 gis a h cis d e fis g? e
+		fis8 d16 cis d e fis g a fis e d
+		h'4 g g
+		\kneeBeam cis,,8. g''16 g4( fis8.) e16
+		d4 d cis %25
+		d r r
+		d g, a
+		d8 e16 fis g a h cis d8 r
+		r r16 e,[ fis8. cis16 d8. fis,16]
+		g4-! e-! a-! \noBreak %30
+		d,2 r4 \bar "S-|"
+		a'8\p a a a a a \noBreak
+		h h h h a a
+		h h a a g g
+		g4\trill fis r %35
+		d8.[ h'16 e,8. d16 cis8. e16]
+		\appoggiatura e d8. cis16 d4 r
+		r8 d16 cis d e fis g fis8. fis16
+		fis4( g8.)[ fis16 g8. e16]
+		fis8.(\trillE a32 g) fis4 fis %40
+		d8.[ h'16 e,8. g16 fis8. d16]
+		cis16\f a h cis d e fis gis a4
+		R2.
+		a8\p a a a a a
+		gis gis gis gis gis gis %45
+		a a a a a a
+		gis gis gis gis gis gis
+		a a a a a a
+		gis gis gis gis gis gis
+		a a a a a a %50
+		h h h h h h
+		cis a a2\f
+		a8\p a a a a a
+		h h h2\f
+		h8\p h h h h h %55
+		cis16 d cis h cis\mf h a gis a gis fis e
+		fis e d cis d4 e
+		fis16\f a h cis d e fis gis a8 r
+		cis,,4\p d e
+		fis16\f a h cis d e fis gis a8 r %60
+		r r16 h,[ cis8. gis16 a8. cis,16]
+		d4 h e
+		a\ff cis e
+		a16( h cis h) a8.[ a,16 a'8. a,16]
+		a'8. a,16 cis4 h %65
+		h\trill a8 h16 cis d e fis gis
+		a8.[ a16 gis8. fis16 e8. d16]
+		\appoggiatura d cis8.[ h16 a8. g!16 fis8. e16]
+		d8 a'[\p a a a a]
+		h h h h a a %70
+		h h a a g g
+		g g fis16\f a h cis d e fis g
+		a8.[\pE fis,16 e8. d16 cis8. e16]
+		\appoggiatura e-\critnote d8. cis16 d4 r
+		r d16 cis d e fis8. fis16 %75
+		fis4( g8.)[ fis16 g8. e16]
+		fis8.(\trill a32 g) fis4 fis
+		d8.[ h'16 e,8. g16 fis8. d16]
+		\appoggiatura d4 cis2 r4
+		d8 d fis fis a a %80
+		g8 h,([ c d e fis)]
+		g h a a fis fis
+		g8\f g,16 a h c d h g8 r
+		e'4\p e'-! d-!
+		cis8 \once \slurDashed cis,([ d e fis gis)] %85
+		a8. cis16 \appoggiatura cis4 h2\trill
+		a8 a,16\f h cis d e cis a8 r
+		R2.
+		r8 h16\pE ais h cis dis e fis g! a fis
+		e8 e e e e e %90
+		e e e e e e
+		d d d d d d
+		d g g2\f\trill
+		g8\p g g g g g
+		fis fis fis2\f %95
+		fis8\p fis fis fis fis fis
+		e e e2\f
+		e8\p e e e e e
+		d16 fis g a h a g fis g fis e d
+		a'8 a16 gis a h cis d e fis g e %100
+		fis8 d16 cis d e fis g a fis e d
+		cis8 a16 gis a h cis d e fis g e
+		fis8 d16 cis d e fis g a fis e d
+		\appoggiatura d4 cis2 r4
+		R2. %105
+		r8 r16 e[\mf fis8. cis16 d8. fis,16]
+		g4-! e-! a\fermata
+		d,8\f d16 cis d8 e16 fis g a h cis
+		d8 d16 cis d8 e16 fis g a h cis
+		d4 r r %110
+		r8 e,16 d c d c h a g fis e
+		d8.[\p c'?16 h8. a16 g8. fis16]
+		g16\f g, a h c d e fis g a h a-\critnote
+		g fis e8 r4 r
+		r8 fis'16 e d e d cis! h a gis fis %115
+		e8.[\p d'16 cis8. h16 a8. gis16]
+		a16\f a, h cis d e fis gis a h cis h
+		a\p gis a h a gis a h cis8. cis16
+		cis4( d8.)[ cis16 d8. h16]
+		a8.[ gis16 a8. g16 fis8. e16] %120
+		d8. d'16 g,4-! a-!
+		d,8\fE fis16 a d cis h a g fis e d
+		a8 e'[\p e e e e]
+		fis fis fis fis fis fis
+		e e e e e e %125
+		fis a a a a a
+		h g g2\f
+		a8\p a a2\f
+		a8\p a a a a a
+		a a a a a a %130
+		a r d16\mfE cis h a d cis h a
+		h a g fis g4-! a-!
+		d8\f e16 fis g a h cis d8 r
+		d,4\p g, a
+		d8\f e16 fis g a h cis d8 r %135
+		r r16 e,[ fis8. cis16 d8. fis,16]
+		g4 e a
+		d,\ff fis a
+		\once \slurDashed d16( e fis e) d8.[ d,16 d'8. d,16]
+		d'8. d,16 fis4 e\trill %140
+		e\trill d16 a' h cis d e fis g
+		a8. fis16 \appoggiatura d4 c2\trill
+		h8. h'16 \appoggiatura e,4 d2
+		cis8 a16 gis a h cis d e fis g e
+		fis8 d16 cis d e fis g a fis e d %145
+		cis8 a16 gis a h cis d e fis g e
+		fis8 d16 cis d e fis g a fis e d
+		h'4 g g
+		\kneeBeam cis,,8. g''16 g4( fis8.) e16
+		d4 d cis %150
+		d r r
+		r8 r16 e[ fis8. cis16 d8. fis,16]
+		g4-! e-! a-! \noBreak
+		d,2 r4\fermata \bar "||"
+		h'8\pE h h h h h \noBreak %155
+		ais ais ais ais ais ais
+		h8. ais16 h4 gis
+		e( fis) g
+		a( d) h
+		a g8 fis e4 %160
+		e\trill d8\f d16 cis d e fis g
+		a8.\p c16 c4. a8
+		g h16( c?) h8(-. h-. h-. h-.)
+		h8. d,16 g\f fis g a h a h cis!
+		h8.\p d16 d4. h8 %165
+		a cis16( d) cis8(-. cis-. cis-. cis-.)
+		cis8.[ e,16 a8. g!16 fis8. e16]
+		d4\trill cis8. [ e16 fis8. d16]
+		d4\trill cis r
+		d' g, a %170
+		d8\f e16 fis g a h cis d8 r
+		d,4\p g, a
+		d,8\f d16 e fis8 d16 fis a8 fis16 a
+		d4 d, r
+		g8\p g g g g g %175
+		g4( fis8.)[ g16 a8. fis16]
+		g8. fis16 g4 h
+		h( c) g
+		\appoggiatura g fis2( g4)
+		a fis g %180
+		g\trill fis8\f d16 e fis d e fis
+		g8.\p f16 f4. d8
+		c \once \slurDashed e16( f) e8(-. e-. e-. e-.)
+		e8. g,16 c\f h c d e d e fis
+		e8.\p g16 g4. e8 %185
+		d8 fis16( g) fis8(-. fis-. fis-. fis-.)
+		e g16( a) g8(-. g-. g-. g-.)
+		fis \once \slurDashed a16( h) a8(-. a-. a-. a-.)
+		g8.[ c16 h8. g16 a8. fis16]
+		g8.[ c16 h8. g16 a8. fis16] %190
+		g8.\trill a16 h4 r
+		g8 g fis fis e e
+		d4 r r
+		h'4-\parenthesize-!\mf c-\parenthesize-! d-\parenthesize-!
+		g,8\fE a16 h c d e fis g fis g a %195
+		h8. g16 \appoggiatura e4 d2\trill
+		cis!8 a16 gis a h cis d e fis g e
+		fis8 d16 cis d e fis g a fis e d
+		cis8 a16 gis a h cis d e fis g e
+		fis8 d16 cis d e fis g a fis e d %200
+		h'4 g g
+		\kneeBeam cis,,8. g''16 g4( fis8.) e16
+		d4 d cis\trill
+		d r r
+		fis,4-\parenthesize-! g-\parenthesize-! a-\parenthesize-! %205
+		d8 e16 fis g a h cis d8 r
+		r r16 e,[ fis8. cis16 d8. fis,16]
+		g4-! e-! a-!
+		d,2 r4 \bar "S-S" %209 finis
 	}
 }

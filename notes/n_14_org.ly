@@ -1976,9 +1976,9 @@ HoertsOrgano = {
 		fis'8 fis g g a a
 		h2 r4
 		r8 r16 cis[ d8. a16 h8. fis16]
-		g4-! e-! a-! %30
+		g4-! e-! a-! \noBreak %30
 		d,2 r4 \bar "S-|"
-		d8\p d d d cis cis
+		d8\p d d d cis cis \noBreak
 		h h h' h fis fis
 		g g a a a, a
 		d d d,4 r %35
