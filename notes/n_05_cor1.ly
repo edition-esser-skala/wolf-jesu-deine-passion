@@ -16,7 +16,7 @@ HoertsCornoI = {
 		e8. d16 c4 r
 		c,2.~
 		c~
-		c~
+		c
 		R %10
 		g'4 r r
 		g' r g
@@ -53,7 +53,7 @@ HoertsCornoI = {
 		d~
 		d~
 		d~ %50
-		d~
+		d
 		r4 g2\f
 		R2.
 		r4 g2\f
@@ -65,7 +65,7 @@ HoertsCornoI = {
 		g g g g fis fis %65
 		g g g,4 r
 		g' fis fis
-		g g8. f16 e8. d16
+		g g8.[ f!16 e8. d16]
 		e8\p e e e g g
 		c4 r r %70
 		R2.*4
@@ -145,8 +145,8 @@ HoertsCornoI = {
 		R2.
 		a4 r a %165
 		h r r
-		r g8. a16 g8. f16
-		e4 d8. f16 e8. g16
+		r g8.[ a16 g8. f16]
+		e4 d8.[ f16 e8. g16]
 		e4 d r
 		R2. %170
 		e2\fE r4
