@@ -2020,14 +2020,14 @@ HoertsOrgano = {
 		g g a a a, a
 		d d d,4 r
 		fis'8. g16 a4 a,
-		d~ d8 e16 fis g a h cis
-		d8 d, d d d d %75
+		d~ d8 e16\fE fis g a h cis
+		d8 d,[\p d d d d] %75
 		d d d d d d
 		d d d d d d
 		g, g g g gis gis
 		a h16 cis d e fis gis a8 g
 		fis fis d d fis fis %80
-		h2 r4
+		g2 r4
 		g8 g fis fis d d
 		g g,16\fE a h c d h g8 r
 		e'\pE e gis gis e e
