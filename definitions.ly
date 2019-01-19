@@ -253,6 +253,7 @@ tempoNunIst = \tempoMarkup "Andante"
 tempoGottAm = \tempoMarkup "[Tempo deest]"
 tempoEsSchweben = \tempoMarkup "Adagio"
 tempoHoerts = \tempoMarkup "Allegro"
+tempoMeineSeele = \tempoMarkup "Languido"
 
 
 

@@ -1054,3 +1054,11 @@ HoertsViola = {
 		d,2 r4 \bar "S-S" %209 finis
 	}
 }
+
+MeineSeeleViola = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoMeineSeele
+		
+	}
+}

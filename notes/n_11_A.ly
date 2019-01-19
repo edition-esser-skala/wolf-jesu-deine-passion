@@ -471,6 +471,18 @@ SchreibeDeineAltoLyrics = \lyricmode {
 	ßen.] %33 FINIS
 }
 
+MeineSeeleAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \autoBeamOff \tempoMeineSeele
+		
+	}
+}
+
+MeineSeeleAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

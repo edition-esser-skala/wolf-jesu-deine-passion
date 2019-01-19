@@ -2371,6 +2371,18 @@ HoertsBassFigures = \figuremode {
 	r %209 finis
 }
 
+MeineSeeleOrgano = {
+	\relative c {
+		\clef bass
+		\key a \major \time 4/4 \tempoMeineSeele
+		r2 \mvTr a'8\fE-\tuttiE h cis d
+	}
+}
+
+MeineSeeleBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

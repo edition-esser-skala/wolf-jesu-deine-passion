@@ -695,6 +695,18 @@ HoertsBassoLyrics = \lyricmode {
 	Zeit. %195 finis
 }
 
+MeineSeeleBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \major \time 4/4 \autoBeamOff \tempoMeineSeele
+		
+	}
+}
+
+MeineSeeleBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

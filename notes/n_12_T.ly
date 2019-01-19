@@ -955,6 +955,18 @@ EsSchwebenTenoreLyrics = \lyricmode {
 	die -- ſe mit mir ſeyn. %26 finis
 }
 
+MeineSeeleTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \major \time 4/4 \autoBeamOff \tempoMeineSeele
+		
+	}
+}
+
+MeineSeeleTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -1056,3 +1056,11 @@ HoertsViolinoII = {
 		d,2 r4 \bar "S-S" %209 finis
 	}
 }
+
+MeineSeeleViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoMeineSeele
+		
+	}
+}

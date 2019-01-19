@@ -1314,6 +1314,18 @@ GottAmSopranoIILyrics = \lyricmode {
 	Schmertz. %227 finis
 }
 
+MeineSeeleSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \autoBeamOff \tempoMeineSeele
+		
+	}
+}
+
+MeineSeeleSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

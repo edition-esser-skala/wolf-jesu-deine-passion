@@ -1056,6 +1056,14 @@ HoertsViolinoI = {
 	}
 }
 
+MeineSeeleViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoMeineSeele
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
