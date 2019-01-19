@@ -927,7 +927,7 @@ HoertsViolinoII = {
 		d8 d fis fis a a %80
 		g8 h,([ c d e fis)]
 		g h a a fis fis
-		g8\f g,16 a h c d h g8 r
+		g8 g,16\f a h c d h g8 r
 		e'4\p e'-! d-!
 		cis8 \once \slurDashed cis,([ d e fis gis)] %85
 		a8. cis16 \appoggiatura cis4 h2\trill

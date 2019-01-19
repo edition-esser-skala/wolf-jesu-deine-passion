@@ -926,7 +926,7 @@ HoertsViolinoI = {
 		d d' c %80
 		h8 d,([ e fis g a)]
 		h8. g'16 \appoggiatura d4 c2\trill
-		h8\f g,16 a h c d h g8 r
+		h8 g,16\f a h c d h g8 r
 		e'4\p e'-! d-!
 		cis8 e,([ fis gis a h)] %85
 		cis8. a'16 \appoggiatura e4 d2\trill
