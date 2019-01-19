@@ -57,7 +57,7 @@ JesuDeineTenoreNotes = {
 JesuDeineTenoreLyrics = \lyricmode {
 	[Je -- ſu,
 	dei -- ne
-	Paſ -- si --
+	Paſ -- ſi --
 	on
 	will ich %5
 	jetzt be --
@@ -157,7 +157,7 @@ OWelchTenoreLyrics = \lyricmode {
 	So be -- tet er und
 	merkt, daß ihn ein En -- gel Got -- tes %25
 	ſtärkt.
-	In -- deſ -- sen ſind die
+	In -- deſ -- ſen ſind die
 	Jün -- ger an Ki -- dron ein -- ge --
 	schla -- fen. Je -- ſus Fin -- ger be -- rührt sie
 	ſanft. Er ſpricht: Der %30
@@ -649,7 +649,7 @@ ErDessenTenoreNotes = {
 }
 
 ErDessenTenoreLyrics = \lyricmode {
-	Er, deſ -- sen All -- machts %2
+	Er, deſ -- ſen All -- machts %2
 	Ruf der Wel -- ten -- heer aus nichts er --
 	schuff,
 	er, Je -- ſus, wird, o %5
@@ -718,7 +718,7 @@ ErIstUmTenoreNotes = {
 ErIstUmTenoreLyrics = \lyricmode {
 	Er [iſt um
 	un -- ſe -- re
-	Miſ -- se -- that
+	Miſ -- ſe -- that
 	wil -- len
 	ſo __ ver -- %5
 	wun -- det,
@@ -729,7 +729,7 @@ ErIstUmTenoreLyrics = \lyricmode {
 	ſo __ zer --
 	ſchl -- agen.
 	Um un -- ſe -- re
-	Miſ -- se  -- that
+	Miſ -- ſe  -- that
 	wil -- len, %15
 	um un -- ſe -- re
 	Sün -- den

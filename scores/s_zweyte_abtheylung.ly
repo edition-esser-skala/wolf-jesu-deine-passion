@@ -65,7 +65,7 @@
 % 	}
 % 	\bookpart {
 % 		\header {
-% 			movement = \movementTitle "2.2" "DUETTO" "Gott am Creutze lehre mich"
+% 			movement = \movementTitle "2.2" "DUETTO" "Gott am Creutze, lehre mich"
 % 		}
 % 		\score {
 % 			<<
@@ -205,7 +205,7 @@
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Basso"
+						\set Staff.instrumentName = "Baſſo"
 						\new Voice = "Basso" { \dynamicUp \HoertsBassoNotes }
 					}
 					\new Lyrics \lyricsto Basso \HoertsBassoLyrics

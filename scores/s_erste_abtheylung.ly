@@ -21,7 +21,7 @@
 	}
 	\bookpart {
 		\header {
-			movement =  \movementTitle "1.1" "CHORAL" "Jeſu, deine Paſsion"
+			movement =  \movementTitle "1.1" "CHORAL" "Jeſu, deine Paſſion"
 		}
 		\paper { systems-per-page = #2 }
 		\score {
@@ -52,7 +52,7 @@
 					\new Lyrics \lyricsto Tenore \JesuDeineTenoreLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Basso"
+						\set Staff.instrumentName = "Baſſo"
 						\new Voice = "Basso" { \dynamicUp \JesuDeineBassoNotes }
 					}
 					\new Lyrics \lyricsto Basso \JesuDeineBassoLyrics
@@ -213,7 +213,7 @@
 					\new Lyrics \lyricsto Tenore \MeinHerzTenoreLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Basso"
+						\set Staff.instrumentName = "Baſſo"
 						\new Voice = "Basso" { \dynamicUp \MeinHerzBassoNotes }
 					}
 					\new Lyrics \lyricsto Basso \MeinHerzBassoLyrics
@@ -373,7 +373,7 @@
 					\new Lyrics \lyricsto Tenore \WohlDemTenoreLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Basso"
+						\set Staff.instrumentName = "Baſſo"
 						\new Voice = "Basso" { \dynamicUp \WohlDemBassoNotes }
 					}
 					\new Lyrics \lyricsto Basso \WohlDemBassoLyrics
@@ -419,7 +419,7 @@
 					\new Lyrics \lyricsto Tenore \IchFalleTenoreLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Basso"
+						\set Staff.instrumentName = "Baſſo"
 						\new Voice = "Basso" { \dynamicUp \IchFalleBassoNotes }
 					}
 					\new Lyrics \lyricsto Basso \IchFalleBassoLyrics
@@ -489,7 +489,7 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.10" "CORO" "Er iſt um unſere Miſsethat willen ſo verwundet"
+			movement = \movementTitle "1.10" "CORO" "Er iſt um unſere Miſſethat willen ſo verwundet"
 		}
 		\score {
 			<<
@@ -529,7 +529,7 @@
 					\new Lyrics \lyricsto Tenore \ErIstUmTenoreLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Basso"
+						\set Staff.instrumentName = "Baſſo"
 						\new Voice = "Basso" { \dynamicUp \ErIstUmBassoNotes }
 					}
 					\new Lyrics \lyricsto Basso \ErIstUmBassoLyrics
@@ -575,7 +575,7 @@
 					\new Lyrics \lyricsto Tenore \SchreibeDeineTenoreLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Basso"
+						\set Staff.instrumentName = "Baſſo"
 						\new Voice = "Basso" { \dynamicUp \SchreibeDeineBassoNotes }
 					}
 					\new Lyrics \lyricsto Basso \SchreibeDeineBassoLyrics

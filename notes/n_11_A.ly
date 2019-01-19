@@ -57,7 +57,7 @@ JesuDeineAltoNotes = {
 JesuDeineAltoLyrics = \lyricmode {
 	[Je -- ſu,
 	dei -- ne
-	Paſ -- si --
+	Paſ -- ſi --
 	on
 	will ich %5
 	jetzt be --
@@ -367,7 +367,7 @@ ErIstUmAltoNotes = {
 ErIstUmAltoLyrics = \lyricmode {
 	Er [iſt um
 	un -- ſe -- re
-	Miſ -- se -- that
+	Miſ -- ſe -- that
 	wil -- len
 	ſo ver -- %5
 	wun -- det,
@@ -378,7 +378,7 @@ ErIstUmAltoLyrics = \lyricmode {
 	ſo zer --
 	ſchl -- agen.
 	Um un -- ſe -- re
-	Miſ -- se  -- that
+	Miſ -- ſe  -- that
 	wil -- len, %15
 	um un -- ſe -- re
 	Sün -- den
