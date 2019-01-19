@@ -1318,12 +1318,74 @@ MeineSeeleSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 4/4 \autoBeamOff \tempoMeineSeele
-		
+		\mvTr a'8\fE^\tuttiE h cis d e2~
+		e8.[( fis16]) \appoggiatura e d8. e16 cis4 r
+		r8 a cis d e2~
+		e8.[( fis16]) \appoggiatura e d8. e16 cis4 r
+		r fis \appoggiatura e8 dis4 r8 e\pE %5
+		e dis16 cis h8 cis gis e r4
+		r2 r4 gis8 a
+		h gis h cis16 cis d!8[ cis] d[ cis16 h]
+		cis8[ d16 e] d8[ cis] h4 e\fE
+		cis r8 cis fis fis16 fis fis8 e %10
+		dis h cis dis e dis e fis16 gis
+		gis8([ fis16 e] fis4)\trill e r
+		R1*2
+		e,8\fE fis gis a h2~ %15
+		h8.([ cis16)] \appoggiatura h16 a8. h16 \appoggiatura a8 gis4 r
+		r8 e gis a h2~
+		h8.([ cis16)]  \appoggiatura h16 a8. h16 \appoggiatura a8 gis4 r
+		r cis \appoggiatura h8 a4 r8 fis'\pE
+		fis e16 d cis8 d a? fis r fis' %20
+		fis e16 d cis8 e d h d4\fE
+		\appoggiatura cis8 h4 r8 h e e16 e e8 d
+		cis a! cis d e d16([ cis)] fis8 e16 d
+		g?8([ a g? fis)] e4 r8 a\pE
+		a gis16 fis e8 fis cis a r4 %25
+		r2 e'4\fE r
+		r8 cis e g fis fis16 e d8 cis
+		cis h d cis16([ h)] cis8 d e16 e fis8
+		cis4( h)\trill a r8 g'
+		fis fis16 e d8 cis cis h d cis16([ h)] %30
+		cis8 d e16 e fis8 cis4( h)\trill
+		a r r2
+		R1
+		R\fermataMarkup \bar "|." %34 finis
 	}
 }
 
 MeineSeeleSopranoLyrics = \lyricmode {
+	Mei -- ne See -- le dür --
+	ſtet nach Gott,
+	nach dem le -- ben --
+	di -- gen Gott.
+	Ach, ach! Wenn %5
+	wer -- de ich da -- hin kom -- men,
+	daß ich
+	Got -- tes An -- ge -- ſicht ſchau -- _
+	_ _ e? Ach,
+	ach! Wenn wer -- de ich da -- hin %10
+	kom -- men, daß ich Got -- tes An -- ge -- ſicht
+	ſchau -- e?
 	
+	Mei -- ne See -- le dür -- %15
+	ſtet nach Gott,
+	nach dem le -- ben --
+	di -- gen Gott.
+	Ach, ach! Wenn
+	wer -- de ich da -- hin kom -- men, wenn %20
+	wer -- de ich da -- hin kom -- men? Ach,
+	ach! Wenn wer -- de ich da -- hin
+	kom -- men, daß ich Got -- tes An -- ge -- ſicht
+	ſchau -- e? Wenn
+	wer -- de ich da -- hin kom -- men? %25
+	Ach!
+	Ach, ach! Wenn wer -- de ich da -- hin
+	kom -- men, daß ich Got -- tes An -- ge -- ſicht
+	ſchau -- e? Wenn
+	wer -- de ich da -- hin kom -- men, daß ich %30
+	Got -- tes An -- ge -- ſicht ſchau --
+	e? %32 finis
 }
 
 % SopranoNotes = {
