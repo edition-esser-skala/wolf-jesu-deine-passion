@@ -1059,6 +1059,39 @@ MeineSeeleViola = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 4/4 \tempoMeineSeele
-		
+		r2 a8\fE h cis d
+		e4 e e r
+		r2 r8 a, cis d
+		e4 e e r
+		r a \appoggiatura gis8 fis4 r8 cis\p %5
+		gis4. a8 e4 gis8 a
+		e4 gis8 a e4 r
+		e r e r8 e
+		a' gis a dis, e4 e\f
+		e r8 e a a16 gis fis8 a %10
+		fis dis dis fis gis fis e e
+		e gis h a gis4 r8 e
+		a,4 h h r8 e\pE
+		a,4 h e,\ppE r
+		r2 e8\fE fis gis a %15
+		h4 h h r
+		r2 r8 e, gis a
+		h4 h h r
+		r cis cis r8 d!\p
+		a4. h8 fis4 a8 h %20
+		fis4 a8 fis h4 fis'\f
+		e r8 e e e16 cis e8 e
+		e cis e d cis e d fis
+		a4 a8 h e,4 r8 fis\p
+		cis4. d8 a4 cis8 d %25
+		a4 cis8 d a4 r
+		a r8 a'\fE a4 fis8 fis
+		e e a e e fis e d
+		cis e4 d8 cis4 r8 a'
+		a4 fis8 fis e e a e %30
+		e fis e d cis e4 d8
+		cis4 r8 a' d,4 e
+		a, r8 a\p d,4 e
+		a\ppE r r2\fermata \bar "|." %34 finis
 	}
 }
