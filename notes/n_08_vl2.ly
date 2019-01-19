@@ -1087,7 +1087,7 @@ MeineSeeleViolinoII = {
 		e e4 d8 cis4 r8 fis,\p
 		cis4. d8 a4 cis8 d %25
 		a4 cis8 d a4 r
-		a r8 e''\p d d16 cis h8 a
+		a r8 e''\f d d16 cis h8 a
 		a gis a h a a a a
 		a4 gis\trill e-\critnote r8e'
 		d d16 cis h8 a a gis a h %30

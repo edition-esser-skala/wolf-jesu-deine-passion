@@ -1057,7 +1057,7 @@ HoertsViola = {
 
 MeineSeeleViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key a \major \time 4/4 \tempoMeineSeele
 		r2 a8\fE h cis d
 		e4 e e r
