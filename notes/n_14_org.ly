@@ -2413,7 +2413,40 @@ MeineSeeleOrgano = {
 }
 
 MeineSeeleBassFigures = \figuremode {
-	
+	r2 <8 3> \bassFigureExtendersOn
+	q4 \bassFigureExtendersOff <5 3> r2
+	r r8 <8 3> \bassFigureExtendersOn q4
+	q \bassFigureExtendersOff <5 3> r2
+	r <4>8 <_+> r <6> %5
+	q2. q4
+	r q2.
+	r2 <7>
+	r8 <6> r <7> r4 <6>
+	r2. <6>4 %10
+	<_+>4 <4\+ 2> <6>8 <_+> r <6>
+	<6 4>4 <5 _+> r2
+	r4 <_+>2.
+	r4 <_+>2.
+	r2 <8 3> \bassFigureExtendersOn %15
+	q4 \bassFigureExtendersOff <5 _+> r2
+	r r8 <8 3> \bassFigureExtendersOn q4
+	q \bassFigureExtendersOff <5 _+> r2
+	r4 <6> <4>8 <3> r <6>
+	q2. q4 %20
+	r q8 <7> <_!>2
+	<6 4>8 <5 3> r4 <6>4. <7>8
+	r4. <7>8 <6>2
+	<6 5!>4 <4!>8 <7> r4. <6>8
+	q2. q4 %25
+	r q2.
+	r4. <6 5!>8 r4 <8 6>8 <7 5>
+	<6 4> <5 3> <6> q r q q4
+	<6 4> <5 3> r4. <6 5!>8
+	r4 <8 6>8 <7 5> <6 4> <5 3> <6> q
+	r q q4 <6 4> <5 3>
+	r1
+	r
+	r
 }
 
 % Organo = {
