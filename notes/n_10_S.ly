@@ -1342,8 +1342,8 @@ MeineSeeleSopranoNotes = {
 		cis a cis d e d16([ cis)] fis8 e16 d
 		g?8([ a g? fis)] e4 r8 a\pE
 		a gis16 fis e8 fis cis a r4 %25
-		r2 e'4\fE r
-		r8 cis e g fis fis16 e d8 cis
+		r2 e'4 r
+		r8 cis\fE e g fis fis16 e d8 cis
 		cis h d cis16([ h)] cis8 d e16 e fis8
 		cis4( h)\trill a r8 g'
 		fis fis16 e d8 cis cis h d cis16([ h)] %30

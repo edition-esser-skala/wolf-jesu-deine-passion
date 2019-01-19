@@ -2380,7 +2380,7 @@ MeineSeeleOrgano = {
 		r2 r8 a cis d
 		e4 e, a r
 		r fis h r8 cis\p %5
-		gis4. a8 e4 fis8 gis
+		gis4. a8 e4 gis8 a
 		e4 gis8 a e4 r
 		e, r e' r8 e
 		a gis a dis, e4 gis\fE

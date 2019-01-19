@@ -959,12 +959,74 @@ MeineSeeleTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key a \major \time 4/4 \autoBeamOff \tempoMeineSeele
-		
+		r2 \mvTr a8\fE^\tuttiE h cis d
+		e4 e8 e e4 r
+		r2 r8 a, cis d
+		e4 e8 e e4 r
+		r a fis r %5
+		r r8 e\pE e dis16 cis h8 cis
+		gis e r4 r2
+		R1
+		r2 r4 e'\fE
+		e r8 e a a16 gis fis8 a %10
+		fis dis dis fis gis fis e e16 e
+		e4( dis) h r
+		R1*2
+		r2 e,8 fis gis a %15
+		h4 h8 h h4 r
+		r2 r8 e, gis a
+		h4 h8 h h4 r
+		r cis cis r
+		r r8 fis\pE fis e16 d cis8 d %20
+		a fis r fis' fis4 fis\fE
+		e r8 e e e16 cis e8 e
+		e cis e d cis e d fis16 fis
+		e4.( d8) cis4 r
+		r r8 a'\pE a gis16 fis e8 fis %25
+		cis a r4 r r8 a
+		e'4 r8 e\fE d d16 e fis8 fis
+		e e a, e' e fis e16 e d8
+		cis( e4 d8) cis cis e e
+		d d16 e fis8 fis e e a, e' %30
+		e fis e16 e d8 cis( e4 d8)
+		cis4 r r2
+		R1
+		R\fermataMarkup \bar "|." %34 finis
 	}
 }
 
 MeineSeeleTenoreLyrics = \lyricmode {
+	Mei -- ne See -- le
+	dür -- ſtet nach Gott,
+	nach dem le --
+	ben -- di -- gen Gott.
+	Ach, ach! %5
+	Wenn wer -- de ich da -- hin
+	kom -- men? 
 	
+	Ach,
+	ach! Wenn wer -- de [ich da -- hin %10
+	kom -- men, daß ich Got -- tes An -- ge -- ſicht
+	ſchau -- e?]
+	
+	Mei -- ne See -- le %15
+	dür -- ſtet nach Gott,
+	nach dem le --
+	ben -- di -- gen Gott.
+	Ach, ach!
+	Wenn wer -- de ich da -- hin %20
+	kom -- men? [Ach, ach! Ach,
+	ach!] Wenn [wer -- de ich da -- hin
+	kom -- men, daß ich Got -- tes An -- ge -- ſicht]
+	ſchau -- e?
+	Wenn wer -- de ich da -- hin %25
+	kom -- men? Ach,
+	ach! Wenn wer -- de ich da -- hin
+	kom -- men, [daß ich Got -- tes An -- ge -- ſicht
+	ſchau] -- e? Ach, ach! Wenn
+	[wer -- de ich da -- hin kom -- men, daß ich %30
+	Got -- tes An -- ge] -- ſicht ſchau --
+	e? %32 finis
 }
 
 % TenoreNotes = {
