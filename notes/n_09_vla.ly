@@ -841,7 +841,7 @@ EsSchwebenViola = {
 
 HoertsViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \major \time 3/4 \tempoHoerts
 		d8\fE d d d e e
 		fis fis fis fis a a

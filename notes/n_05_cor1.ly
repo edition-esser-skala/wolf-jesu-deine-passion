@@ -141,7 +141,7 @@ HoertsCornoI = {
 		g'4 f8 e f4 %160
 		f e r
 		g r g
-		g r r
+		a^\critnote r r
 		R2.
 		a4 r a %165
 		h r r
