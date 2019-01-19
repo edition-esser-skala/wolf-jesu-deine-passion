@@ -475,12 +475,74 @@ MeineSeeleAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 4/4 \autoBeamOff \tempoMeineSeele
-		
+		\mvTr a'8\fE^\tuttiE gis a h cis2~
+		cis8.([ d16)] h8. cis16 a4 r
+		r8 a a h cis2~
+		cis8.([ d16)] h8. cis16 a4 r
+		r cis h r %5
+		r2 r4 r8 e\pE
+		e dis16 e h8 cis gis e r4
+		r gis8 a h a h a16 gis
+		a8([ h16 cis] h8[ a]) gis4 h\fE
+		a r8 a cis cis16 h cis8 cis %10
+		h fis fis h h h gis cis16 cis
+		h4.( a8) gis4 r
+		R1*2
+		e8 dis e fis gis2~ %15
+		gis8.([ a16)] \appoggiatura gis fis8. gis16 \appoggiatura fis8 e4 r
+		r8 e e fis gis2~
+		gis8.([ a16)] \appoggiatura gis fis8. gis16 \appoggiatura fis8 e4 r
+		r gis fis r
+		R1 %20
+		r2 r4 h
+		\appoggiatura a8 gis4 r8 gis h h16 a h8 h
+		a e a a a a a^\critnote h16 h
+		a4.( h8) e,4 r
+		r2 r4 r8 a\pE %25
+		a gis16 fis e8 fis cis a r4
+		r r8 a'\fE a a16 a h8 a
+		a gis a h a a a16 a a8
+		a4( gis) e r8 a
+		a a16 a h8 a a gis a h %30
+		a a a16 a a8 a4( gis)
+		e r r2
+		R1
+		R\fermataMarkup \bar "|." %34 finis
 	}
 }
 
 MeineSeeleAltoLyrics = \lyricmode {
+	Mei -- ne See -- le dür --
+	ſtet nach Gott,
+	nach dem le -- ben --
+	di -- gen Gott.
+	Ach, ach! %5
+	Wenn
+	wer -- de ich da -- hin kom -- men,
+	daß ich Got -- tes An -- ge -- ſicht
+	ſchau -- e? Ach,
+	ach! Wenn wer -- de [ich da -- hin %10
+	kom -- men, daß ich Got -- tes An -- ge -- ſicht
+	ſchau -- e?]
 	
+	Mei -- ne See -- le dür -- %15
+	ſtet nach Gott,
+	nach dem le -- ben --
+	di -- gen Gott.
+	Ach, ach!
+	%20
+	Ach,
+	ach! Wenn [wer -- de ich da -- hin
+	kom -- men, daß ich Got -- tes An -- ge -- ſicht]
+	ſchau -- e?
+	Wenn %25
+	wer -- de ich da -- hin kom -- men?
+	Wenn wer -- de ich da -- hin
+	kom -- men, [daß ich Got -- tes An -- ge -- ſicht
+	ſchau -- e? Wenn
+	wer -- de ich da -- hin kom -- men, daß ich %30
+	Got -- tes An -- ge] -- ſicht ſchau --
+	e? %32 finis
 }
 
 % AltoNotes = {

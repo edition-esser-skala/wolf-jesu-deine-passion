@@ -1331,15 +1331,15 @@ MeineSeeleSopranoNotes = {
 		dis h cis dis e dis e fis16 gis
 		gis8([ fis16 e] fis4)\trill e r
 		R1*2
-		e,8\fE fis gis a h2~ %15
+		e,8 fis gis a h2~ %15
 		h8.([ cis16)] \appoggiatura h16 a8. h16 \appoggiatura a8 gis4 r
 		r8 e gis a h2~
 		h8.([ cis16)]  \appoggiatura h16 a8. h16 \appoggiatura a8 gis4 r
 		r cis \appoggiatura h8 a4 r8 fis'\pE
 		fis e16 d cis8 d a? fis r fis' %20
-		fis e16 d cis8 e d h d4\fE
+		fis e16 d cis8 e d! h d4\fE
 		\appoggiatura cis8 h4 r8 h e e16 e e8 d
-		cis a! cis d e d16([ cis)] fis8 e16 d
+		cis a cis d e d16([ cis)] fis8 e16 d
 		g?8([ a g? fis)] e4 r8 a\pE
 		a gis16 fis e8 fis cis a r4 %25
 		r2 e'4\fE r
