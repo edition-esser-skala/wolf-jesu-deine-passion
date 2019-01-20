@@ -147,6 +147,7 @@ rip = \markup { \remark "rip." }
 ripE = \markup { \remarkE "rip." }
 unisono = \markup { \remark "unisono" }
 unisonoE = \markup { \remarkE "unisono" }
+simileE = \markup { \remarkE "simile" }
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
 l = \markup { \fontsize #-2 \transparent \number 5 }
@@ -225,6 +226,18 @@ tempoMarkup =
 		\tempo \markup \medium { \larger \larger #arg }
 	#})
 %
+tempoMarkupWithName =
+	#(define-music-function
+		(parser location name tempo)
+		(markup? markup?)
+	#{
+		\tempo \markup \medium \larger \larger {
+			\with-color #(rgb-color .8313 0 0) #name
+			\hspace #1
+			#tempo
+		}
+	#})
+%
 
 tempoJesuDeine = \tempoMarkup "[Tempo deest]"
 tempoOWelch = \tempoMarkup "[Tempo deest]"
@@ -256,6 +269,17 @@ tempoHoerts = \tempoMarkup "Allegro"
 tempoMeineSeele = \tempoMarkup "Languido"
 tempoOFreud = \tempoMarkup "[Tempo deest]"
 tempoDuSchoener = \tempoMarkup "[Tempo deest]"
+	tempoMeinJesus = \tempoMarkupWithName "CANON" "Largo"
+	tempoSeydGetrost = \tempoMarkupWithName "[ARIOSO]" "Vivace"
+	tempoIhrMyriaden = \tempoMarkupWithName "RECITATIV" "Adagio"
+	tempoMeinJesusB = \tempoMarkupWithName "CANON" "Largo"
+	tempoSeydGetrostB = \tempoMarkupWithName "[ARIOSO]" "Vivace"
+	tempoEinGottmensch = \tempoMarkupWithName "RECITATIV" "[Tempo deest]"
+	tempoMeinJesusC = \tempoMarkupWithName "CHORAL" "[Tempo deest]"
+	tempoSeydGetrostC = \tempoMarkupWithName "[ARIOSO]" "Vivace"
+	tempoOWehe = \tempoMarkupWithName "CHORAL" "[Tempo deest]"
+	tempoSeydGetrostD = \tempoMarkupWithName "[ARIOSO]" "Vivace"
+	tempoDankPreis = \tempoMarkupWithName "[CORO]" "[Tempo deest]"
 
 
 

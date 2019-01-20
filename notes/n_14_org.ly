@@ -2555,12 +2555,317 @@ DuSchoenerOrgano = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoDuSchoener
-		\mvTr fis1~\pE-\soloE
+		\mvTr fis,1~\pE-\soloE
+		fis~
+		fis~
+		fis8 \mvTr a'16(\fE-\unisonoE fis) fis( dis) dis( cis) his2~\p
+		his1 %5
+		e4 r16 r32 e\f e16. e32 e4 r
+		r2 r16 r32 gis, gis16. gis32 gis16. gis32 gis16. gis32
+		a4 r16 r32 a a16. a32 a16. a32 a16. a32 a4
+		r2 r16 r32 b b16. b32 b4
+		r16 r32 ges ges16. ges32 ges4 r16 \mvTr f'\f-\unisonoE \tuplet 3/2 8 { f([ c) c]-!\p c([\f a) a]-!\p a(\f f) f-!\p } %10
+		es4\f r r r8 r16 \mvTr f'\f-\unisonoE
+		\tuplet 3/2 8 { ges([ es) es]-!\p es(\f c) c-!\p c([\f a!) a]-!\p a(\f f) f-!\p } b16. f32 ges16. des32 es16. es32 f16. f32
+		b4 r es\pE r8 b'\ppE
+		a!( as) r g! ges( f) r ges
+		f( e!) r es d!( des) r des %15
+		c( h!) r c b as g f
+		e!4 r r2
+		f4\pE r des' r
+		r c f,8 f'( d c)
+		h!4 r r2 %20
+		r8 h! h h es4 r
+		as2~ as4 r
+		r g fis2~
+		fis2 g4 r
+		es r r8 d b fis %25
+		g g' f! d es c r e
+		f, f' es c d b? r d
+		es c d g es d es f
+		b, b' g es \once \tieDashed as2~
+		as?4 r r b %30
+		es,1~-\tenuto
+		es~
+		es~
+		es~
+		es16. es32\fE es16. es32 es16. es32 es16. es32 e4 r %35
+		r2 r16 r32 f32 f16. f32 f16. f32 f16. f32
+		es4 r r2
+		r16 r32 b\p b16. b32 b16. b32 b16. b32 des4 r
+		r2 r16 r32 c c16. c32 c4
+		fis, r g r %40
+		r8 r16 f! f8 f r r16 f f8 f
+		r r16 e! e8 e r16 r32 gis gis16. gis32 gis16. gis32 gis16. gis32
+		gis4 r r2
+		a4 r d, r
+		r e \key a \major \tempoMeinJesus a8(-. a-.) a(-. a-.) %45
+		fis(-. fis-.) cis'(-. cis-.) d(-. d-.) e(-. e-.)
+		fis^\simileE fis e e a a h h
+		cis cis h h a a fis fis
+		eis eis fis fis gis gis a a
+		d d cis cis h h cis cis %50
+		gis gis a a h h cis cis
+		h h a a fis fis d d
+		cis cis a a gis' gis a a
+		d d cis cis h h a a
+		gis gis a a d, d e e %55
+		a, a fis' fis \tempoSeydGetrost cis4 r8 d
+		e4 r16 e\f gis h gis e gis h gis e gis h
+		a8 e[\p gis e] a e gis e
+		a e r e h' a h h,
+		e e16\f fis e d cis h cis\pE a cis e cis a cis e %60
+		d a d fis d a d fis dis h dis fis dis h dis fis
+		e\f h e gis e h e gis cis,8\p e a16 e gis e
+		cis8 e a16 e gis e fis a e a d, a' fis a
+		cis,8 fis d e a, a'16\f gis a fis e d
+		cis8\p e a16 e gis e cis8 e a16 e gis e %65
+		fis a e a d, a' fis a cis, a' h, a' a, a' d h
+		cis a h gis a cis, d e fis gis a cis, d8 e
+		a, a'16\f gis a fis e d cis a fis' d e cis d h
+		cis a a' gis a fis e d cis e fis cis d8 e
+		a,8.[ a16 h8 cis] \key c \major \tempoIhrMyriaden \tieDashed d2~ %70
+		d~ d~
+		d1~ \tieSolid
+		d
+		g
+		fis?2 a~ %75
+		a gis
+		fisis r4 gis
+		eis1
+		fis?2 dis
+		\once \tieDashed e!1~ %80
+		e2 a,
+		d! h
+		cis?1 r4 cis? \key a \major \tempoMeinJesusB fis,8(-.\p fis-.) fis'(-. fis-.)
+		cis(-. cis-.) cis(-. cis-.) d(-. d-.) e(-. e-.) %85
+		fis^\simileE fis e e a a h h
+		cis cis h h a a fis fis
+		eis eis fis fis gis gis a a
+		d d cis cis h h cis cis
+		gis gis a a h h cis cis %90
+		h h a a fis fis d d
+		cis cis a a gis' gis a a
+		d d cis cis h h a a
+		gis gis a a d, d e e
+		a, a fis' fis \tempoSeydGetrostB cis4 r8 d %95
+		e4 r16 e\f gis h gis e gis h gis e gis h
+		a8 e[\p gis e] a e gis e
+		a e r e h' a h h,
+		e e16\f fis e d cis h cis\pE a cis e cis a cis e
+		d a d fis d a d fis dis h dis fis dis h dis fis %100
+		e h e gis e h e gis cis,8 e a16 e gis e
+		cis8 e a16 e gis e fis a e a d, a' fis a
+		cis,8 fis d e a, a'16\f gis a fis e d
+		cis8\pE e a16 e gis e cis8 e a16 e gis e
+		fis a e a d, a' fis a cis, a' h, a' a, a' d h %105
+		cis a h gis a cis, d e fis gis a cis, d8 e
+		a,8 a'16\f gis a fis e d cis a fis' d e cis d h
+		cis a a' gis a fis e d cis e fis cis d8 e
+		a,8.[ a16 gis8 fis] \key c \major \tempoEinGottmensch eis2~\pE
+		eis1 %110
+		fis?2 d'!
+		r4 cis ais2~
+		ais1
+		h
+		g'!2 fis? %115
+		dis1
+		e
+		d!2 c!
+		f!1
+		r4 e \key a \major \tempoMeinJesusC a, \mvTr a'\fE-\tuttiE %120
+		fis cis d a
+		fis' e a\fermata a,
+		cis a e' fis
+		d a e'\fermata \tempoSeydGetrostC \mvTr fis\pE-\soloE
+		cis r8 d e4 r16 e gis h %125
+		gis e gis h gis e gis h a8 e[\p gis e]
+		a e gis e a e r e
+		h' a h h, e e, \tempoOWehe \mvTr fis'4\fE-\tuttiE
+		g fis eis fis
+		dis e a,\fermata r %130
+		r ais h fis'
+		eis fis d! e
+		a,\fermata \tempoSeydGetrostD r8 \mvTr cis\pE-\soloE d4 r16 e\f gis h
+		a8 e[\p gis e] a e r e
+		h' a h h, e e16\fE fis e d cis h %135
+		cis a cis e cis a cis e d a d fis d a d fis
+		dis h dis fis dis h dis fis e h e gis e h e gis
+		cis,8\p e a16 e gis e cis8 e a16 e gis e
+		fis a e a d, a' fis a cis,8 fis d e
+		a, a'16\ff gis a fis e d cis8\pE e a16 e gis e %140
+		cis8 e a16 e gis e fis a e a d, a' fis a
+		cis, a' h, a' a, a' d h cis a h gis a cis, d e
+		fis gis a cis, d8 e a, a'16\f gis a fis e d
+		cis a fis' d e cis d h cis a a' gis a fis e d
+		cis e fis cis d8 e a,4 a %145
+		\tempoDankPreis a1-\tutti
+		g'2 fis4 fis
+		fis2 e
+		h8.[ h'16 h8. h16] h2
+		fis fis8.[ fis16 fis8. fis16] %150
+		fis2 g?8.[ g16 g8. g16]
+		g?8.[ g16 g8. g16] g2
+		r4 a d, h'
+		g? a d, r\fermata \bar "|." %154 finis
 	}
 }
 
 DuSchoenerBassFigures = \figuremode {
-	
+	<5+ 3>1
+	<\t \t>2 <6 4 2+>
+	<7+ 4 2+>1
+	<8 3>2 <6+ _+>
+	r1 %5
+	<6+ _+>
+	r2 r16. <5+ _+>32 r4.
+	<6\\ 5- _!>1
+	r2 r16. <_->32 r4.
+	r16. <6- _->32 r4. r2 %10
+	<5- _->1
+	r2 <_->8 <5- _-> <6 5- _-> <_!>
+	<_->2 <_!>
+	r1
+	r %15
+	r
+	<6>
+	<[_-]>2 <4 2!>
+	r4 <[_!]> <_->2
+	<6>1 %20
+	r8 <6 5>4. <6>2
+	<[5-]>1
+	r2 <7- 5>
+	r <_->
+	<6> r8 <[_+]> <6> q %25
+	<_->4 <4! 2> <6>8 <[_-]> r <6 [5-]>
+	r4 <[2]>8 <6 _-> <6>4. <6 [5-]>8
+	<[5-]> <6! [_-]> <[6-]> <[_-]> <[5-]> <[6-]> <[6 5-]>4
+	r4 <[6- _-]>8 <[5-]> <6>4. <5->8
+	<6 4 [2-]>1 %30
+	<[5-]>
+	r
+	r
+	r
+	r2 <7- 5-> %35
+	r2 r16. <[_-]>32 r4.
+	<4! 2>1
+	r16. <[_-]>32 r4. <4 2->2
+	r2 r16. <6- [_-]>32 r4.
+	<7- 5!>2 <_!> %40
+	r8. <6 4!>16 r4 r2
+	r8. <_+>16 r4 r16. <6>32 r4.
+	r1
+	r2 <6 5>
+	r4 <[_+]> r2 %45
+	r4 <6 5> r <5 3>
+	<3>2. <6>4
+	<5 _+> <[4+] 2> <6>2
+	<6 5> <6 5>
+	<6>4 q q q %50
+	q2. q4
+	<5> <8 3> <5> <8 3>
+	<6>2 <6 5>
+	<6 4>4 <8 3> r2
+	r1 %55
+	r2 <6>
+	r1
+	r4 <6> r <6>
+	r2 <6 4>4 <5 _+>
+	r2 <6> %60
+	r q
+	r q
+	q1
+	r
+	<6>2 q %65
+	r1
+	<6>8 q r4 r2
+	r1
+	<6>
+	r2 <_+> %70
+	r1
+	r2 <[7+] 4 2>
+	<8 [_+]>1
+	<5>2 <6>
+	<[5+] _+> <[6+] 4+> %75
+	r <[5+] _+>
+	<7 5>2. <[5+] _+>4
+	<6>2 <6 5>
+	<3> <6 5>
+	<_!>1 %80
+	r2 <_+>
+	r1
+	<6 4\+>2 <4\+ 2>
+	r4 <_+>2.
+	r1 %85
+	r
+	r
+	r
+	r
+	r %90
+	r
+	r
+	r
+	r
+	r %95
+	r
+	r
+	r
+	r
+	r %100
+	r
+	r
+	r
+	r
+	r %105
+	r
+	r
+	r
+	r
+	r %110
+	r
+	r2 <6>
+	r1
+	<3>
+	<7>4 <6> <[5+] _+>2 %115
+	<6> <5!>
+	r1
+	<4\+ 2>2 <[6]>
+	<6> <6 4>
+	r4 <_+>2. %120
+	r1
+	r
+	r
+	r2. <_+>4
+	<6>1 %125
+	r
+	r
+	r
+	<6\\ 5>4 <_+> <7 5> <5 3>
+	<7! 5> <_+> r2 %130
+	r4 <7! 5> r2
+	<6 5>2. <_+>4
+	r1
+	r
+	r %135
+	r
+	r
+	r
+	r
+	r %140
+	r
+	r
+	r
+	r
+	r %145
+	r
+	<4 2>
+	r2 <6 4\+ 3>
+	r1
+	<6>2 <6 5!> %150
+	r1
+	r2 <6 5>
+	r1
+	r %154 finis
 }
 
 % Organo = {
