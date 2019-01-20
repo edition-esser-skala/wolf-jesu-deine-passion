@@ -549,12 +549,102 @@ OFreudAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 3/2 \autoBeamOff \tempoOFreud
-		
+		\partial 2 \mvTr e2\fE^\tuttiE
+		fis1 e2
+		d1 h2
+		e1.
+		e1\fermata a2
+		a1 a2 %5
+		a1 gis2
+		fis1 gis2
+		e1\fermata e2
+		fis1 e2
+		d1 h2 %10
+		e1.
+		e1\fermata a2
+		a1 a2
+		a1 gis2
+		fis1 gis2 %15
+		e1\fermata e2
+		e1 a2
+		gis1 gis2
+		fis1( eis2)
+		cis1\fermata e2 %20
+		fis1 e2
+		e1 dis2
+		h1\fermata cis2
+		fis1 fis2
+		fis( a) gis %25
+		a1.
+		fis1\fermata a2
+		fis1 g2
+		g? fis1
+		fis\fermata gis2 %30
+		e1 a2
+		fis1 gis2
+		a1( g2)
+		fis1\fermata a2
+		fis1 e2 %35
+		e1 dis2
+		h1\fermata h2
+		cis( e) e
+		d!1 e2
+		e1. %40
+		e1\fermata e2
+		a( h) a
+		gis1( fis2
+		a1) gis2
+		e1\fermata \bar "|." %45 finis
 	}
 }
 
 OFreudAltoLyrics = \lyricmode {
-	
+	O!
+	Freud, o!
+	Luſt, o!
+	Le --
+	ben, o!
+	göld -- nes %5
+	Hauß, o!
+	ſchön -- ſte
+	Zier. Wir
+	wol -- len
+	kräf -- tig %10
+	ſtre --
+	ben in
+	die -- ſer
+	Sterb -- lich --
+	keit nach %15
+	dir. O!
+	Got -- tes
+	Ant -- litz
+	ſe --
+	hen, o! %20
+	ſtets in
+	Frie -- de
+	ſeyn. O!
+	bey den
+	En -- geln %25
+	ſte --
+	hen, o!
+	theu -- rer
+	Him -- mels --
+	ſchein. O! %30
+	Herr -- lich --
+	keit ohn
+	En --
+	de, mein
+	Gott, wenn %35
+	dirs ge --
+	fällt, ſo
+	nimm mich
+	auf be --
+	hen -- %40
+	de. Nun
+	gu -- te
+	Nacht, __
+	o!
+	Welt. %45 finis
 }
 
 % AltoNotes = {

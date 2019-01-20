@@ -1486,8 +1486,8 @@ OFreudSopranoLyrics = \lyricmode {
 	de. Nun
 	gu -- te
 	Nacht, __
-	o
-	Welt.
+	o!
+	Welt. %45 finis
 }
 
 % SopranoNotes = {
