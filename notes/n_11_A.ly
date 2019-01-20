@@ -568,7 +568,7 @@ OFreudAltoNotes = {
 		e1\fermata e2
 		e1 a2
 		gis1 gis2
-		fis1( eis2)
+		fis1 eis2
 		cis1\fermata e2 %20
 		fis1 e2
 		e1 dis2
@@ -582,7 +582,7 @@ OFreudAltoNotes = {
 		fis\fermata gis2 %30
 		e1 a2
 		fis1 gis2
-		a1( g2)
+		a1 g2
 		fis1\fermata a2
 		fis1 e2 %35
 		e1 dis2
@@ -618,7 +618,7 @@ OFreudAltoLyrics = \lyricmode {
 	dir. O!
 	Got -- tes
 	Ant -- litz
-	ſe --
+	ſe -- _
 	hen, o! %20
 	ſtets in
 	Frie -- de
@@ -632,12 +632,12 @@ OFreudAltoLyrics = \lyricmode {
 	ſchein. O! %30
 	Herr -- lich --
 	keit ohn
-	En --
+	En -- _
 	de, mein
 	Gott, wenn %35
 	dirs ge --
 	fällt, ſo
-	nimm mich
+	nimm __ mich
 	auf be --
 	hen -- %40
 	de. Nun

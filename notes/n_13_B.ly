@@ -776,7 +776,7 @@ OFreudBassoNotes = {
 		\partial 2 \mvTr a'2\fE^\tuttiE
 		fis1 cis2
 		d1 e2
-		cis1( gis2)
+		cis1 gis2
 		a1\fermata a2
 		a1 a'2 %5
 		a1 e2
@@ -784,7 +784,7 @@ OFreudBassoNotes = {
 		a,1\fermata a'2
 		fis1 cis2
 		d1 e2 %10
-		cis1( gis2)
+		cis1 gis2
 		a1\fermata a2
 		a1 a'2
 		a1 e2
@@ -792,7 +792,7 @@ OFreudBassoNotes = {
 		a,1\fermata a2
 		cis1 a2
 		e'1 cis2
-		fis1( cis2)
+		fis1 cis2
 		fis1\fermata gis2 %20
 		dis1 e2
 		a, h1
@@ -813,7 +813,7 @@ OFreudBassoNotes = {
 		e\fermata d2
 		cis1 a2
 		d1 cis2
-		gis1( a2) %40
+		gis1 a2 %40
 		e'1\fermata a2
 		fis( gis) a
 		e1 fis2
@@ -826,7 +826,7 @@ OFreudBassoLyrics = \lyricmode {
 	O!
 	Freud, o!
 	Luſt, o!
-	Le --
+	Le -- _
 	ben, o!
 	göld -- nes %5
 	Hauß, o!
@@ -834,7 +834,7 @@ OFreudBassoLyrics = \lyricmode {
 	Zier. Wir
 	wol -- len
 	kräf -- tig %10
-	ſtre --
+	ſtre -- _
 	ben in
 	die -- ſer
 	Sterb -- lich --
@@ -842,7 +842,7 @@ OFreudBassoLyrics = \lyricmode {
 	dir. O!
 	Got -- tes
 	Ant -- litz
-	ſe --
+	ſe -- _
 	hen, o! %20
 	ſtets in
 	Frie -- de
@@ -863,7 +863,7 @@ OFreudBassoLyrics = \lyricmode {
 	fällt, ſo
 	nimm mich
 	auf be --
-	hen -- %40
+	hen -- _ %40
 	de. Nun
 	gu -- te
 	Nacht, __ _

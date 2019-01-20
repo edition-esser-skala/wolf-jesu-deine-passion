@@ -1036,7 +1036,7 @@ OFreudTenoreNotes = {
 		\partial 2 \mvTr cis2\fE^\tuttiE
 		cis1 cis2
 		a1 gis2
-		a( cis h)
+		a cis h
 		a1\fermata e'2
 		e1 e2 %5
 		e1 e2
@@ -1044,7 +1044,7 @@ OFreudTenoreNotes = {
 		cis1\fermata cis2
 		cis1 cis2
 		a1 gis2 %10
-		a( cis h)
+		a cis h
 		a1\fermata e'2
 		e1 e2
 		e1 e2
@@ -1052,7 +1052,7 @@ OFreudTenoreNotes = {
 		cis1\fermata cis2
 		a1 e'2
 		e1 eis2
-		fis2( cis1)
+		fis2 cis1
 		a1\fermata h2 %20
 		h1 h2
 		cis h1
@@ -1065,17 +1065,17 @@ OFreudTenoreNotes = {
 		h( ais) cis
 		d1\fermata h2 %30
 		a!1 cis2
-		h1 h2
-		cis1( e2)
+		d1^\critnote h2
+		cis1 e2
 		d1\fermata e2
 		h1 h2 %35
 		cis h1
 		gis\fermata gis2
 		a1 cis2
 		a1 a2
-		gis( h a) %40
+		gis h a %40
 		gis1\fermata e'2
-		fis( e) d
+		fis( e) e^\critnote
 		e1 cis2
 		e fis e
 		cis1\fermata \bar "|." %45 finis
@@ -1086,7 +1086,7 @@ OFreudTenoreLyrics = \lyricmode {
 	O!
 	Freud, o!
 	Luſt, o!
-	Le --
+	Le -- _ _
 	ben, o!
 	göld -- nes %5
 	Hauß, o!
@@ -1094,7 +1094,7 @@ OFreudTenoreLyrics = \lyricmode {
 	Zier. Wir
 	wol -- len
 	kräf -- tig %10
-	ſtre --
+	ſtre -- _ _
 	ben in
 	die -- ſer
 	Sterb -- lich --
@@ -1102,7 +1102,7 @@ OFreudTenoreLyrics = \lyricmode {
 	dir. O!
 	Got -- tes
 	Ant -- litz
-	ſe --
+	ſe -- _
 	hen, o! %20
 	ſtets in
 	Frie -- de
@@ -1116,14 +1116,14 @@ OFreudTenoreLyrics = \lyricmode {
 	ſchein. O! %30
 	Herr -- lich --
 	keit ohn
-	En --
+	En -- _
 	de, mein
 	Gott, wenn %35
 	dirs ge --
 	fällt, ſo
 	nimm mich
 	auf be --
-	hen -- %40
+	hen -- _ _ %40
 	de. Nun
 	gu -- te
 	Nacht, __ _

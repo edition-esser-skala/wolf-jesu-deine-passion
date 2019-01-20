@@ -288,7 +288,7 @@
 		\header {
 			movement = \movementTitle "2.6" "CHORAL" "O! Freud, o! Luſt, o! Leben"
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new ChoirStaff <<

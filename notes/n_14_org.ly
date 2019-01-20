@@ -2543,12 +2543,12 @@ OFreudBassFigures = \figuremode {
 	r1 <2>2
 	<6>1.
 	r1 <6>2
-	q1.
+	q1. %40
 	r
 	<6>2 <6 5>1
 	r1.
 	<6>2 <6 5>1
-	r1.
+	r %45 finis
 }
 
 % Organo = {

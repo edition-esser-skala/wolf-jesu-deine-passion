@@ -1395,7 +1395,7 @@ OFreudSopranoNotes = {
 		\partial 2 \mvTr a'2\fE^\tuttiE
 		a1 gis2
 		fis1 e2
-		a1( h2)
+		a1 h2
 		cis1\fermata cis2
 		cis1 cis2 %5
 		cis1 h2
@@ -1403,7 +1403,7 @@ OFreudSopranoNotes = {
 		a\fermata a2
 		a1 gis2
 		fis1 e2 %10
-		a1( h2)
+		a1 h2
 		cis1\fermata cis2
 		cis1 cis2
 		cis1 h2
@@ -1411,7 +1411,7 @@ OFreudSopranoNotes = {
 		a\fermata a2
 		a1 cis2
 		h1 cis2
-		a1( gis2)
+		a1 gis2
 		fis1\fermata h2 %20
 		h1 gis2
 		a fis1
@@ -1432,7 +1432,7 @@ OFreudSopranoNotes = {
 		e\fermata e2
 		a1 a2
 		fis1 e2
-		h'1( cis2) %40
+		h'1 cis2 %40
 		h1\fermata cis2
 		d1 cis2
 		h1 a2
@@ -1445,7 +1445,7 @@ OFreudSopranoLyrics = \lyricmode {
 	O!
 	Freud, o!
 	Luſt, o!
-	Le --
+	Le -- _
 	ben, o!
 	göld -- nes %5
 	Hauß, o!
@@ -1453,7 +1453,7 @@ OFreudSopranoLyrics = \lyricmode {
 	Zier. Wir
 	wol -- len
 	kräf -- tig %10
-	ſtre --
+	ſtre -- _
 	ben in
 	die -- ſer
 	Sterb -- lich --
@@ -1461,7 +1461,7 @@ OFreudSopranoLyrics = \lyricmode {
 	dir. O!
 	Got -- tes
 	Ant -- litz
-	ſe --
+	ſe -- _
 	hen, o! %20
 	ſtets in
 	Frie -- de
@@ -1482,7 +1482,7 @@ OFreudSopranoLyrics = \lyricmode {
 	fällt, ſo
 	nimm mich
 	auf be --
-	hen -- %40
+	hen -- _ %40
 	de. Nun
 	gu -- te
 	Nacht, __ _
