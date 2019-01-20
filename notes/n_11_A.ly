@@ -592,8 +592,8 @@ OFreudAltoNotes = {
 		e1. %40
 		e1\fermata e2
 		a( h) a
-		gis1( fis2
-		a1) gis2
+		gis1 fis2
+		a1 gis2
 		e1\fermata \bar "|." %45 finis
 	}
 }
@@ -642,8 +642,8 @@ OFreudAltoLyrics = \lyricmode {
 	hen -- %40
 	de. Nun
 	gu -- te
-	Nacht, __
-	o!
+	Nacht, __ _
+	_ o!
 	Welt. %45 finis
 }
 

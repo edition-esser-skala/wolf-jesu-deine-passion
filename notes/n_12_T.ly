@@ -1062,7 +1062,7 @@ OFreudTenoreNotes = {
 		e1.
 		d1\fermata e2
 		d1 h2
-		h( ais) cis)
+		h( ais) cis
 		d1\fermata h2 %30
 		a!1 cis2
 		h1 h2
@@ -1076,8 +1076,8 @@ OFreudTenoreNotes = {
 		gis( h a) %40
 		gis1\fermata e'2
 		fis( e) d
-		e1( cis2
-		e fis) e
+		e1 cis2
+		e fis e
 		cis1\fermata \bar "|." %45 finis
 	}
 }
@@ -1098,7 +1098,7 @@ OFreudTenoreLyrics = \lyricmode {
 	ben in
 	die -- ſer
 	Sterb -- lich --
-	keit nach %15
+	keit __ nach %15
 	dir. O!
 	Got -- tes
 	Ant -- litz
@@ -1126,8 +1126,8 @@ OFreudTenoreLyrics = \lyricmode {
 	hen -- %40
 	de. Nun
 	gu -- te
-	Nacht, __
-	o!
+	Nacht, __ _
+	_ _ o!
 	Welt. %45 finis
 }
 

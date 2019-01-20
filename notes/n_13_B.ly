@@ -773,12 +773,102 @@ OFreudBassoNotes = {
 	\relative c {
 		\clef bass
 		\key a \major \time 3/2 \autoBeamOff \tempoOFreud
-		
+		\partial 2 \mvTr a'2\fE^\tuttiE
+		fis1 cis2
+		d1 e2
+		cis1( gis2)
+		a1\fermata a2
+		a1 a'2 %5
+		a1 e2
+		fis( d) e
+		a,1\fermata a'2
+		fis1 cis2
+		d1 e2 %10
+		cis1( gis2)
+		a1\fermata a2
+		a1 a'2
+		a1 e2
+		fis2( d) e %15
+		a,1\fermata a2
+		cis1 a2
+		e'1 cis2
+		fis1( cis2)
+		fis1\fermata gis2 %20
+		dis1 e2
+		a, h1
+		e\fermata a2
+		fis1 e2
+		d!1 e2 %25
+		a,1.
+		d1\fermata cis2
+		h1 g'2
+		e fis1
+		h,\fermata e2 %30
+		a,1 fis'2
+		h,1 e2
+		cis1.
+		d1\fermata a2
+		d1 e2 %35
+		a, h1
+		e\fermata d2
+		cis1 a2
+		d1 cis2
+		gis1( a2) %40
+		e'1\fermata a2
+		fis( gis) a
+		e1 fis2
+		cis d e
+		a,1\fermata \bar "|." %45 finis
 	}
 }
 
 OFreudBassoLyrics = \lyricmode {
-	
+	O!
+	Freud, o!
+	Luſt, o!
+	Le --
+	ben, o!
+	göld -- nes %5
+	Hauß, o!
+	ſchön -- ſte
+	Zier. Wir
+	wol -- len
+	kräf -- tig %10
+	ſtre --
+	ben in
+	die -- ſer
+	Sterb -- lich --
+	keit __ nach %15
+	dir. O!
+	Got -- tes
+	Ant -- litz
+	ſe --
+	hen, o! %20
+	ſtets in
+	Frie -- de
+	ſeyn. O!
+	bey den
+	En -- geln %25
+	ſte --
+	hen, o!
+	theu -- rer
+	Him -- mels --
+	ſchein. O! %30
+	Herr -- lich --
+	keit ohn
+	En --
+	de, mein
+	Gott, wenn %35
+	dirs ge --
+	fällt, ſo
+	nimm mich
+	auf be --
+	hen -- %40
+	de. Nun
+	gu -- te
+	Nacht, __ _
+	_ _ o!
+	Welt. %45 finis
 }
 
 % BassoNotes = {

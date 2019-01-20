@@ -1435,8 +1435,8 @@ OFreudSopranoNotes = {
 		h'1( cis2) %40
 		h1\fermata cis2
 		d1 cis2
-		h1( a2
-		cis) h1\trill
+		h1 a2
+		cis h1\trill
 		a\fermata \bar "|." %45 finis
 	}
 }
@@ -1485,8 +1485,8 @@ OFreudSopranoLyrics = \lyricmode {
 	hen -- %40
 	de. Nun
 	gu -- te
-	Nacht, __
-	o!
+	Nacht, __ _
+	_ o!
 	Welt. %45 finis
 }
 
