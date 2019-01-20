@@ -1392,12 +1392,102 @@ OFreudSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 3/2 \autoBeamOff \tempoOFreud
-		
+		\partial 2 \mvTr a'2\fE^\tuttiE
+		a1 gis2
+		fis1 e2
+		a1( h2)
+		cis1\fermata cis2
+		cis1 cis2 %5
+		cis1 h2
+		a h1
+		a\fermata a2
+		a1 gis2
+		fis1 e2 %10
+		a1( h2)
+		cis1\fermata cis2
+		cis1 cis2
+		cis1 h2
+		a h1 %15
+		a\fermata a2
+		a1 cis2
+		h1 cis2
+		a1( gis2)
+		fis1\fermata h2 %20
+		h1 gis2
+		a fis1
+		e\fermata e2
+		a1 a2
+		h1 h2 %25
+		cis1.
+		a1\fermata a2
+		d1 d2
+		cis1 cis2
+		h1\fermata h2 %30
+		cis1 cis2
+		cis1 h2
+		e1.
+		a,1\fermata cis2
+		h1 gis2 %35
+		a fis1
+		e\fermata e2
+		a1 a2
+		fis1 e2
+		h'1( cis2) %40
+		h1\fermata cis2
+		d1 cis2
+		h1( a2
+		cis) h1\trill
+		a\fermata \bar "|." %45 finis
 	}
 }
 
 OFreudSopranoLyrics = \lyricmode {
-	
+	O!
+	Freud, o!
+	Luſt, o!
+	Le --
+	ben, o!
+	göld -- nes %5
+	Hauß, o!
+	ſchön -- ſte
+	Zier. Wir
+	wol -- len
+	kräf -- tig %10
+	ſtre --
+	ben in
+	die -- ſer
+	Sterb -- lich --
+	keit nach %15
+	dir. O!
+	Got -- tes
+	Ant -- litz
+	ſe --
+	hen, o! %20
+	ſtets in
+	Frie -- de
+	ſeyn. O!
+	bey den
+	En -- geln %25
+	ſte --
+	hen, o!
+	theu -- rer
+	Him -- mels --
+	ſchein. O! %30
+	Herr -- lich --
+	keit ohn
+	En --
+	de, mein
+	Gott, wenn %35
+	dirs ge --
+	fällt, ſo
+	nimm mich
+	auf be --
+	hen -- %40
+	de. Nun
+	gu -- te
+	Nacht, __
+	o
+	Welt.
 }
 
 % SopranoNotes = {
