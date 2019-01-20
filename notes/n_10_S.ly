@@ -1490,6 +1490,18 @@ OFreudSopranoLyrics = \lyricmode {
 	Welt. %45 finis
 }
 
+DuSchoenerSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoDuSchoener
+		
+	}
+}
+
+DuSchoenerSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

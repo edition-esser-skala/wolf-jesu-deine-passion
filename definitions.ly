@@ -255,6 +255,7 @@ tempoEsSchweben = \tempoMarkup "Adagio"
 tempoHoerts = \tempoMarkup "Allegro"
 tempoMeineSeele = \tempoMarkup "Languido"
 tempoOFreud = \tempoMarkup "[Tempo deest]"
+tempoDuSchoener = \tempoMarkup "[Tempo deest]"
 
 
 

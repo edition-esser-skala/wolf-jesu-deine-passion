@@ -1095,3 +1095,11 @@ MeineSeeleViola = {
 		a\ppE r r2\fermata \bar "|." %34 finis
 	}
 }
+
+DuSchoenerViola = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDuSchoener
+		
+	}
+}

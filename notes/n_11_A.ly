@@ -647,6 +647,18 @@ OFreudAltoLyrics = \lyricmode {
 	Welt. %45 finis
 }
 
+DuSchoenerAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoDuSchoener
+		
+	}
+}
+
+DuSchoenerAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

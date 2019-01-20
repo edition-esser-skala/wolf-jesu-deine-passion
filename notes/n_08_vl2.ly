@@ -1097,3 +1097,11 @@ MeineSeeleViolinoII = {
 		h4(\pp a8) r r2\fermata \bar "|." %34 finis
 	}
 }
+
+DuSchoenerViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDuSchoener
+		
+	}
+}

@@ -871,6 +871,18 @@ OFreudBassoLyrics = \lyricmode {
 	Welt. %45 finis
 }
 
+DuSchoenerBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoDuSchoener
+		
+	}
+}
+
+DuSchoenerBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

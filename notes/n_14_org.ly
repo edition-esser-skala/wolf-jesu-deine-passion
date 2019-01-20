@@ -2551,6 +2551,18 @@ OFreudBassFigures = \figuremode {
 	r %45 finis
 }
 
+DuSchoenerOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoDuSchoener
+		\mvTr fis1~\pE-\soloE
+	}
+}
+
+DuSchoenerBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

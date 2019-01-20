@@ -1131,6 +1131,18 @@ OFreudTenoreLyrics = \lyricmode {
 	Welt. %45 finis
 }
 
+DuSchoenerTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoDuSchoener
+		
+	}
+}
+
+DuSchoenerTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

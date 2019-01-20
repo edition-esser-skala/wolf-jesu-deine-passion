@@ -284,50 +284,111 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.6" "CHORAL" "O! Freud, o! Luſt, o! Leben"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \OFreudSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \OFreudSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \OFreudAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \OFreudAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \OFreudTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \OFreudTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Baſſo"
+% 						\new Voice = "Basso" { \dynamicUp \OFreudBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \OFreudBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\OFreudOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\OFreudBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 1. = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.6" "CHORAL" "O! Freud, o! Luſt, o! Leben"
+			movement = \movementTitle "2.7" "RECITATIV" "Du schöner Morgenſtern"
 		}
-		\paper { systems-per-page = #2 }
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\DuSchoenerViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\DuSchoenerViolinoII
+						}
+					>>
+					\new Staff <<
+						\set Staff.instrumentName = "Viola"
+						\DuSchoenerViola
+					>>
+				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \OFreudSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \DuSchoenerSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \OFreudSopranoLyrics
+					\new Lyrics \lyricsto Soprano \DuSchoenerSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \OFreudAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \DuSchoenerAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \OFreudAltoLyrics
+					\new Lyrics \lyricsto Alto \DuSchoenerAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \OFreudTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \DuSchoenerTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \OFreudTenoreLyrics
+					\new Lyrics \lyricsto Tenore \DuSchoenerTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Baſſo"
-						\new Voice = "Basso" { \dynamicUp \OFreudBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \DuSchoenerBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \OFreudBassoLyrics
+					\new Lyrics \lyricsto Basso \DuSchoenerBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\OFreudOrgano
+						\DuSchoenerOrgano
 					}
 				>>
 				\new FiguredBass {
-					\OFreudBassFigures
+					\DuSchoenerBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 1. = 60 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }
