@@ -2449,6 +2449,18 @@ MeineSeeleBassFigures = \figuremode {
 	r %34 finis
 }
 
+OFreudOrgano = {
+	\relative c {
+		\clef bass
+		\key a \major \time 3/2 \tempoOFreud
+		\partial 2 \mvTr a'2\fE-\tuttiE ^\tweak TextScript.X-offset #0 ^\critnote
+	}
+}
+
+OFreudBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -223,65 +223,111 @@
 % 			\midi { \tempo 4 = 110 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.5" "CORO" "Meine Seele dürſtet nach Gott"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\MeineSeeleViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\MeineSeeleViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\MeineSeeleViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \MeineSeeleSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \MeineSeeleSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \MeineSeeleAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \MeineSeeleAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \MeineSeeleTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \MeineSeeleTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Baſſo"
+% 						\new Voice = "Basso" { \dynamicUp \MeineSeeleBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \MeineSeeleBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\MeineSeeleOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\MeineSeeleBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.5" "CORO" "Meine Seele dürſtet nach Gott"
+			movement = \movementTitle "2.6" "CHORAL" "O! Freud, o! Luſt, o! Leben"
 		}
+% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\MeineSeeleViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\MeineSeeleViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\MeineSeeleViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \MeineSeeleSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \OFreudSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \MeineSeeleSopranoLyrics
+					\new Lyrics \lyricsto Soprano \OFreudSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \MeineSeeleAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \OFreudAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \MeineSeeleAltoLyrics
+					\new Lyrics \lyricsto Alto \OFreudAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \MeineSeeleTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \OFreudTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \MeineSeeleTenoreLyrics
+					\new Lyrics \lyricsto Tenore \OFreudTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Baſſo"
-						\new Voice = "Basso" { \dynamicUp \MeineSeeleBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \OFreudBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \MeineSeeleBassoLyrics
+					\new Lyrics \lyricsto Basso \OFreudBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\MeineSeeleOrgano
+						\OFreudOrgano
 					}
 				>>
 				\new FiguredBass {
-					\MeineSeeleBassFigures
+					\OFreudBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 1. = 60 }
 		}
 	}
 }

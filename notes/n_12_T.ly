@@ -1029,6 +1029,18 @@ MeineSeeleTenoreLyrics = \lyricmode {
 	e? %32 finis
 }
 
+OFreudTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \major \time 3/2 \autoBeamOff \tempoOFreud
+		
+	}
+}
+
+OFreudTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

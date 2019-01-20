@@ -769,6 +769,18 @@ MeineSeeleBassoLyrics = \lyricmode {
 	e? %32 finis
 }
 
+OFreudBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \major \time 3/2 \autoBeamOff \tempoOFreud
+		
+	}
+}
+
+OFreudBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

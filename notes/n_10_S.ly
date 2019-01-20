@@ -1388,6 +1388,18 @@ MeineSeeleSopranoLyrics = \lyricmode {
 	e? %32 finis
 }
 
+OFreudSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/2 \autoBeamOff \tempoOFreud
+		
+	}
+}
+
+OFreudSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

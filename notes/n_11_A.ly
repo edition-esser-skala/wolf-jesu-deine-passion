@@ -545,6 +545,18 @@ MeineSeeleAltoLyrics = \lyricmode {
 	e? %32 finis
 }
 
+OFreudAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/2 \autoBeamOff \tempoOFreud
+		
+	}
+}
+
+OFreudAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
