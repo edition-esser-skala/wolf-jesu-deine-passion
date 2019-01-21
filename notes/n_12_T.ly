@@ -1135,12 +1135,170 @@ DuSchoenerTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoDuSchoener
-		
+		r4 r8 \mvTr a\pE^\soloE fis fis cis' a
+		fis4 r8 fis gis gis a h
+		eis, r16 gis gis8 h d d16 d d8 cis
+		\appoggiatura h a a r4 dis r8 dis
+		his8. his16 dis8 his fis' r16 fis fis8 e %5
+		cis16 cis cis8 r4 r8 cis gis'? e
+		cis cis16 cis cis8 his his4 r8 dis
+		fis fis16 fis32 fis fis4 r r8 es
+		es c! c f! des16 des des8 r des
+		b b16 b es b b a! c4 r8 c %10
+		ges' ges es des \appoggiatura c b4 r
+		R1
+		r4 r8 b g!4 des'
+		c b a! b
+		r ges r f %15
+		f e! r2
+		r8 g! g as b r16 b des8 c
+		\appoggiatura b? as8 as r16 as as b g8 g g16 g b as
+		\appoggiatura g f4 r r2
+		r8 g h!16 h d! h g4 r8 d %20
+		f f r d'16 g, c8 c r16 c es d
+		c8 c c h h h16 h d d d es
+		\appoggiatura d8 c c r4 r r8 es16 c
+		a!8 es' d a b b r b16 g
+		c8 r16 g fis8 g d4 d' %25
+		b8 b r h16 h c8 c16 c g8. b16
+		a8 a r a b f as as
+		g a b2( c4)\trill
+		b r r8 c f es
+		\appoggiatura es d4 r8 es b4 r %30
+		R1*14 %44
+		r2 \key a \major \tempoMeinJesus r %45
+		r4 a a gis
+		fis e a h
+		cis r r cis
+		cis cis h a
+		d cis h r %50
+		r a h cis
+		h a \appoggiatura gis16 fis8.([ gis16)] a8.([ h16)]
+		a4 r r e'
+		d cis h a
+		d( cis) h2 %55
+		a4 r \tempoSeydGetrost r2
+		R1*13 %69
+		r2 \tempoIhrMyriaden r %70
+		R1*13 %83
+		r2 \tempoMeinJesusB r
+		r4 a a gis %85
+		fis e a h
+		cis r r cis
+		cis cis h a
+		d cis h r
+		r a h cis %90
+		h a \appoggiatura gis16 fis8.([ gis16)] a8.([ h16)]
+		a4 r r e'
+		d cis h a
+		d( cis) h2\trill
+		a4 r \tempoSeydGetrostB r2 %95
+		R1*13 %108
+		r2 \tempoEinGottmensch r
+		R1*10 %119
+		r2 \tempoMeinJesusC r4 \mvTr cis\fE^\tuttiE %120
+		cis cis a a
+		cis e e\fermata e
+		e e e cis
+		fis e e\fermata \tempoSeydGetrostC r
+		R1*3 %127
+		r2 r4 \tempoOWehe cis
+		h ais d cis
+		c h cis\fermata r %130
+		r cis d fis
+		cis cis fis e
+		cis \tempoSeydGetrostD r r2
+		R1*12 %145
+		\tempoDankPreis e4 e8 e cis4 cis
+		e8 e cis e d d r4
+		d d8 fis cis cis ais r16 ais
+		h8 h r4 fis' d8 fis
+		d4 d d r8 d %150
+		d d d d d4 r8 d
+		d4 d d8 d d cis
+		a4 r r d
+		d cis a r\fermata \bar "|." %154 finis
 	}
 }
 
 DuSchoenerTenoreLyrics = \lyricmode {
+	Du ſchö -- ner Mor -- gen --
+	ſtern, wie biſt du doch ſo
+	tief von dei -- ne[m] Him -- mel he -- rab ge --
+	ſun -- ken. Ach, ſie
+	dau -- ret noch u: wächſt, die Qual des %5
+	Lei -- den -- den, Je -- ho -- vens
+	Schre -- cken ſind wie -- der ihn in
+	Schlacht -- ord -- nung ge -- stellt. Die
+	Pfei -- le des All -- mäch -- ti -- gen, ſie
+	ſte -- cken jtzt all in ſei -- ner Bruſt, die %10
+	Höl -- le fällt auf ihn.
 	
+	Er ruft: Wa --
+	rum haſt du mich,
+	Gott, ver -- %15
+	la -- ßen?
+	Und ſo, von Gott, von Gott ver --
+	la -- ßen, büßt er die Sün -- den ei -- ner gan -- zen
+	Welt.
+	Noch ein -- mal rö -- chelt er: Mich %20
+	dür -- ſtet. A -- ber ſe -- het, den lez -- ten
+	Trunk, den er er -- fle -- het, ver -- mi -- ſchen ſie mit
+	Gal -- le. Größ -- res
+	Leid war nicht zu den -- ken. Je -- ſus
+	ſpricht: Es iſt voll -- bracht. Mein %25
+	Va -- ter, ich be -- feh -- le in dei -- ne
+	Hän -- de, in dei -- ne Hän -- de
+	mei -- ne See --
+	le. Und neigt ſein
+	Haupt und ſtirbt. %30
+	
+	Mein Je -- ſus %46
+	ſtirbt, ihr Au -- gen
+	weint, ach,
+	wei -- net um den
+	Men -- ſchen -- freund. %50
+	Ach, er, der
+	Leh -- ren Got -- tes __
+	gab, ſinkt
+	in des To -- des
+	Nacht __ hi -- %55
+	nab.
+	
+	Mein Je -- ſus %85
+	ſtirbt, wie furcht -- bar
+	groß war
+	ſei -- ne Qual, wie
+	na -- mens -- los.
+	Er ſtirbt am %90
+	Creuz am Gol -- ga --
+	tha, den
+	Tod der Knech -- te
+	ſtirbt __ er
+	da. %95
+	
+	[Mein %120
+	Je -- ſus ſtirbt, ihr
+	Thrä -- nen fließt, er
+	hat für uns, für
+	uns ge -- büßt.]
+	
+	[O %128
+	we -- he dem, der
+	Sün -- de thut,] %130
+	[ihn ſchre -- cke
+	Je -- ſu theu -- res]
+	Blut.
+	
+	[Dank, Preis u: Eh -- re %146
+	wol -- len wir ihm wei -- hen,
+	an -- be -- ten im -- mer, und uns
+	freu -- en. Dank, Preis u:
+	Eh -- re dem, der %150
+	an dem Creu -- ze ſtarb, und
+	ew -- ges, ew -- ges Heyl er] --
+	warb. Hal --
+	le -- lu -- jah! %154 finis
 }
 
 % TenoreNotes = {

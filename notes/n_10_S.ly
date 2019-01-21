@@ -1494,12 +1494,111 @@ DuSchoenerSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoDuSchoener
-		
+		R1*44 %44
+		r2 \key a \major \tempoMeinJesus r4 \mvTr a'\pE^\soloE %45
+		a gis fis e
+		a h cis r
+		r cis cis cis
+		h a d cis
+		h r r a %50
+		h cis h a
+		\appoggiatura gis16 fis8.([ gis16)] a8.([ h16)] a4 r
+		r e' d cis
+		h a d cis
+		h a2 gis4 %55
+		a r \tempoSeydGetrost r2
+		R1*13 %69
+		r2 \tempoIhrMyriaden r %70
+		R1*13 %83
+		r2 \tempoMeinJesusB r4 a
+		a gis fis e %85
+		a h cis r
+		r cis cis cis
+		h a d cis
+		h r r a
+		h cis h a %90
+		\appoggiatura gis16 fis8.([ gis16)] a8.([ h16)] a4 r
+		r e' d cis
+		h a d cis
+		h a2 gis4
+		a r \tempoSeydGetrostB r2 %95
+		R1*13 %108
+		r2 \tempoEinGottmensch r
+		R1*10 %119
+		r2 \tempoMeinJesusC r4 \mvTr a\fE^\tuttiE %120
+		a gis fis e
+		a h cis\fermata cis
+		cis cis h a
+		d cis h\fermata \tempoSeydGetrostC r
+		R1*3 %127
+		r2 r4 \tempoOWehe a
+		h cis h a
+		a gis a\fermata r %130
+		r e' d cis
+		h a d h
+		a \tempoSeydGetrostD r r2
+		R1*12 %145
+		\tempoDankPreis cis4 cis8 cis e4 e
+		cis8 cis e a, d d r4
+		d d8 cis ais ais cis r16 e
+		d8 d r4 d fis8 d
+		a'4 d, c r8 c %150
+		a a c h h4 r8 h
+		g'4 g e8 e g fis
+		d4 r r d
+		g e d r\fermata \bar "|." %154 finis
 	}
 }
 
 DuSchoenerSopranoLyrics = \lyricmode {
+	Mein %45
+	Je -- ſus ſtirbt, ihr
+	Au -- gen weint,
+	ach, wei -- net
+	um den Men -- ſchen --
+	freund. Ach, %50
+	er, der Leh -- ren
+	Got -- tes __ gab,
+	ſinkt in des
+	To -- des Nacht __ _
+	_ _ hi -- %55
+	nab.
 	
+	Mein %84
+	Je -- ſus ſtirbt, wie %85
+	furcht -- bar groß
+	war ſei -- ne
+	Qual, wie na -- mens --
+	los. Er
+	ſtirbt am Creuz am %90
+	Gol -- ga -- tha,
+	den Tod der
+	Knech -- te ſtirbt __ _
+	_ _ er
+	da. %95
+	
+	[Mein %120
+	Je -- ſus ſtirbt, ihr
+	Thrä -- nen fließt, er
+	hat für uns, für
+	uns ge -- büßt.]
+	
+	O %128
+	we -- he dem, der
+	Sün -- de thut, %130
+	ihn ſchre -- cke
+	Je -- ſu theu -- res
+	Blut.
+	
+	Dank, Preis u: Eh -- re %146
+	wol -- len wir ihm wei -- hen,
+	an -- be -- ten im -- mer, und uns
+	freu -- en. Dank, Preis u:
+	Eh -- re dem, der %150
+	an dem Creu -- ze ſtarb, und
+	ew -- ges, ew -- ges Heyl er --
+	warb. Hal --
+	le -- lu -- jah! %154 finis
 }
 
 % SopranoNotes = {

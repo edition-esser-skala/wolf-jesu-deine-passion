@@ -875,12 +875,171 @@ DuSchoenerBassoNotes = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \autoBeamOff \tempoDuSchoener
-		
+		R1*31 %31
+		r2 \mvTr es8\pE^\soloE g b g
+		es4 r8 es' es d as16 as as g
+		g8 g r4 es8 g b g
+		es4 r r8 e des' c %35
+		e, e f g as4 r8 c
+		a a r a16 a c8 f, f f
+		des' des r16 des des b g8 g r g16 g
+		g8 g b es, as4 r8 c
+		c c c h h4 r8 r16 g %40
+		d'4 r h r
+		gis8 gis r4 e'! r
+		r8 e, gis a h h d h
+		c4 r8 c h h d c
+		a4 r \key a \major \tempoMeinJesus r2 %45
+		R1*10 %55
+		r4 r8 a16 cis \tempoSeydGetrost e8 a,16 cis e8 a,
+		\appoggiatura a gis8. fis16 e4 r r8 h'16 d
+		cis8 h e,16 gis h d cis8 h r h16 d
+		cis8 h dis e gis,8.([ fis32 gis] a8) fis
+		e4 r a8 a16 cis e8 g, %60
+		fis fis r4 h8 h16 h h8 a
+		gis! e r4 a16 cis h d cis8 h
+		a16 cis h d cis8 h16 h d8 cis16 cis h8 a
+		e'16([ cis)] h([ a)] h4\trill a r
+		a16 cis h d cis8 h a16 cis h d cis8 h16 h %65
+		d8 cis16 cis h8 a e'16([ cis)] d([ h)] cis[ a fis' d]
+		e[ cis d h] cis[ a h gis] a[ gis a cis,] d8[ e]
+		a,4 r r2
+		R1
+		r2 \tempoIhrMyriaden r %70
+		R1*13 %83
+		r2 \tempoMeinJesusB r
+		R1*10 %94
+		r4 r8 a'16 cis \tempoSeydGetrostB e8 a,16 cis e8 a, %95
+		\appoggiatura a gis8. fis16 e4 r r8 h'16 d
+		cis8 h^\critnote e,16 gis h d cis8 h r h16 d
+		cis8 h dis^\critnote e gis,8.([ fis32 gis] a8) fis
+		e4 r a8 a16 cis e8 g,
+		fis fis r4 h8 h16 h h8 a %100
+		gis! e r4 a16 cis h d cis8 h
+		a16 cis h d cis8 h16 h d8 cis16 cis h8 a
+		e'16([ cis)] h([ a)] h4\trill a r
+		a16 cis h d cis8 h a16 cis h d cis8 h16 h
+		d8 cis16 cis h8 a e'16([ cis)] d([ h)] cis[ a fis' d] %105
+		e[ cis d h] cis[ a h gis] a[ gis a cis,] d8[ e]
+		a,4 r r2
+		R1
+		r2 \tempoEinGottmensch r
+		R1*10 %119
+		r2 \tempoMeinJesusC r4 \mvTr a'\fE^\tuttiE %120
+		fis cis d a
+		fis' e a\fermata a,
+		cis a e' fis
+		d a e'\fermata \tempoSeydGetrostC r8 \mvTr a16\pE^\soloE cis
+		e8 a,16 cis e8 a, \appoggiatura a16 gis8. fis16 e4 %125
+		r r8 h'16 d cis8 h e,16 gis h d
+		cis8 h r h16 d cis8 h dis e
+		gis,8.([ fis32 gis] a8) fis e4 \tempoOWehe \mvTr fis\fE^\tuttiE
+		g fis eis fis
+		dis e a,8\fermata \mvTr a'16\pE^\soloE cis e8 a,16 cis^\critnote %130
+		e4 \mvTr ais,,\fE^\tuttiE h fis'
+		eis fis d! e
+		a,16 r \mvTr a'\pE^\soloE cis \tempoSeydGetrostD e8. a,16 \appoggiatura a gis8. fis16 e8 h'16 d
+		cis8 h e,16 gis h d cis8 h dis e
+		gis,8.([ fis32 gis] a8) fis e4 r %135
+		a8 a16 cis e8 g, fis fis r4
+		h8 h16 h h8 a gis! e r4
+		a16 cis h d cis8 h a16 cis h d cis8 h16 h
+		d8 cis16 cis h8 a e'16([ cis)] h([ a)] h4\trill
+		a r a16 cis h d cis8 h %140
+		a16 cis h d cis8 h16^\critnote h d8 cis16 cis h8 a
+		e'16([ cis)] d([ h)] cis[ a fis' d] e[ cis d h] cis[ a h gis]
+		a[ gis a cis,] d8[ e]	a,4 r
+		R1*2 %145
+		\tempoDankPreis \mvTr a'4\fE^\tuttiE a8 a a4 a
+		g8 g g g fis fis r4
+		fis fis8 fis e e e r16 e
+		h'8 h r4 h h8 h
+		fis4 fis fis r8 fis %150
+		fis fis fis fis g4 r8 g
+		g4 g g8 g g a
+		d,4 r r h'
+		g a d, r\fermata \bar "|." %154 finis
 	}
 }
 
 DuSchoenerBassoLyrics = \lyricmode {
+	Je -- ſus Chri -- ſtus %32
+	ſtirbt, ſo kla -- gen al -- le Him -- mel,
+	Him -- mel, Je -- ſus Chri -- ſtus
+	ſtirbt. Ver -- hül, o %35
+	Son -- ne, dich in Flohr, beb,
+	Er -- de, macht, ihr Fel -- ſen, ein Ge --
+	tüm -- mel, ihr Tod -- ten Got -- tes, kömmt aus
+	eu -- rer Gruft her -- vor! Kömmt,
+	ſchaut, was jtzt ge -- ſchieht! Er -- %40
+	ſtaunt, fühlt,
+	zit -- tert, ſchaut:
+	Die gan -- ze Schöp -- fung äch -- ze
+	laut, den[n] Je -- ſus Chriſ -- tus
+	ſtirbt. %45
 	
+	Seyd ge -- troſt, seyd ge -- troſt, ihr %56
+	Wei -- nen -- den: Tod und
+	Höl -- le ſind nun ü -- ber -- wun -- den, ü -- ber --
+	wun -- den durch des Lam -- mes
+	Bluth. Da -- rum ſey fröh -- lich, %60
+	Er -- de, da -- rum ſey fröh -- lich,
+	Er -- de. Freu -- et euch, ihr Him -- mel,
+	freu -- et euch, ihr Him -- mel, ihr Him -- mel und die da --
+	rin -- nen woh -- nen.
+	Freu -- et euch, ihr Him -- mel, freu -- et euch, ihr Him -- mel, ihr %65
+	Him -- mel und die da -- rin -- nen woh --
+	_ _ _ _
+	nen.
+	
+	Seyd ge -- troſt, seyd ge -- troſt, ihr %95
+	Wei -- nen -- den: Tod und
+	Höl -- le ſind nun ü -- ber -- wun -- den, ü -- ber --
+	wun -- den durch des Lam -- mes
+	Bluth. Da -- rum ſey fröh -- lich,
+	Er -- de, da -- rum ſey fröh -- lich, %100
+	Er -- de. Freu -- et euch, ihr Him -- mel,
+	freu -- et euch, ihr Him -- mel, ihr Him -- mel und die da --
+	rin -- nen woh -- nen.
+	Freu -- et euch, ihr Him -- mel, freu -- et euch, ihr Him -- mel, ihr
+	Him -- mel u: die da -- rin -- nen woh -- %105
+	_ _ _ _
+	nen.
+	
+	Mein %120
+	Je -- ſus ſtirbt, ihr
+	Thrä -- nen fließt, er
+	hat für uns, für
+	uns ge -- büßt. Seyd ge --
+	troſt, seyd ge -- troſt, ihr Wei -- nen -- den: %125
+	Tod und Höl -- le ſind nun ü -- ber --
+	wun -- den, ü -- ber -- wun -- den durch des
+	Lam -- mes Bluth. O
+	we -- he dem, der
+	Sün -- de thut, seyd ge -- troſt, seyd ge -- %130
+	troſt, ihn ſchre -- cke
+	Je -- ſu theu -- res
+	Blut. Seyd ge -- troſt, ihr Wei -- nen -- den: Tod und
+	Höl -- le ſind nun ü -- ber -- wun -- den durch des
+	Lam -- mes Bluth. %135
+	Da -- rum ſey fröh -- lich, Er -- de,
+	da -- rum ſey fröh -- lich, Er -- de.
+	Freu -- et euch, ihr Him -- mel, freu -- et euch, ihr Him -- mel, ihr
+	Him -- mel und die da -- rin -- nen woh --
+	nen. Freu -- et euch, ihr Him -- mel, %140
+	freu -- et euch, ihr Him -- mel, ihr Him -- mel u: die da --
+	rin -- nen woh -- _ _
+	_ _ nen.
+	
+	Dank, Preis u: Eh -- re %146
+	wol -- len wir ihm wei -- hen,
+	an -- be -- ten im -- mer, und uns
+	freu -- en. Dank, Preis u:
+	Eh -- re dem, der %150
+	an dem Creu -- ze ſtarb, und
+	ew -- ges, ew -- ges Heyl er --
+	warb. Hal --
+	le -- lu -- jah! %154 finis
 }
 
 % BassoNotes = {

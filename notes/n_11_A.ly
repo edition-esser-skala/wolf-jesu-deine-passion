@@ -651,12 +651,115 @@ DuSchoenerAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoDuSchoener
-		
+		R1*44 %44
+		r2 \key a \major \tempoMeinJesus r %45
+		R1*10 %55
+		r2 \tempoSeydGetrost r
+		R1*13 %69
+		r2 \tempoIhrMyriaden r8 \mvTr a'\pE^\soloE a a %70
+		d a a a fis fis a fis
+		d d r16 d fis d g8 g g fis
+		fis fis r fis a fis fis d
+		h'4 r8 h h h h ais
+		cis cis r e dis4 dis %75
+		dis8 dis dis cis his4 r8 dis
+		e cis his cis cis gis r4
+		r8 gis gis gis h! h cis gis
+		a!4 r16 a cis a fis8 fis a gis
+		gis4 r8 gis h h gis h %80
+		h e, d'16 d d cis cis8 cis r16 cis cis a
+		fis8. fis16 fis8 r16 fis d'4 r8 h
+		gis8. gis16 gis4 r8 eis eis fis
+		fis cis r4 \tempoMeinJesusB r2
+		R1*10 %94
+		r2 \tempoSeydGetrostB r %95
+		R1*13 %108
+		r2 \tempoEinGottmensch r8 cis gis'8. gis16
+		gis4 r8 gis h h cis gis %110
+		a4 r8 fis h h h16 h d fis,
+		gis4 r cis ais8 fis
+		cis'4 r16 cis cis cis fis8. fis16 fis8 cis ?? e''
+		d d r fis, h h d cis
+		h8. h16 h8 ais cis cis r cis %115
+		h8. fis16 fis8 fis a! a h fis
+		g!4 r16 g g h h8 e, r e16 fis
+		gis8 gis h e, a4 r16 c h a
+		d4 r16 d d c h8 h d c
+		\appoggiatura h a4 r \tempoMeinJesusC r \mvTr e\fE^\tuttiE %120
+		fis e d cis
+		fis gis a\fermata a
+		a a gis a
+		a a gis\fermata \tempoSeydGetrostC r
+		R1*3 %127
+		r2 r4 \tempoOWehe fis
+		eis cis gis' fis
+		fis e e\fermata^\critnote r %130
+		r g fis a^\critnote
+		gis fis a gis
+		e \tempoSeydGetrostD r r2
+		R1*12 %145
+		\tempoDankPreis a4 a8 a a4 a
+		a8 a a a a a r4
+		a a8 a g g g r16 g
+		fis8 fis r4 h h8 h
+		a4 a a r8 a %150
+		a a a a g4 r8 g
+		h4 h h8 h h a
+		fis4 r r fis
+		h a fis r\fermata \bar "|." %154 finis
 	}
 }
 
 DuSchoenerAltoLyrics = \lyricmode {
+	Ihr My -- ri -- %70
+	a -- den, die am Thro -- ne Got -- tes
+	kni -- en! Wa -- rum ver -- ſtum -- men eu -- re
+	Pſal -- men? Wa -- rum werft ihr ſie
+	hin, die Kro -- nen u: die
+	Pſal -- men? Ach, ſter -- ben, %75
+	ſter -- ben ſeht ihr ihn? Drum
+	ſchwei -- gen eu -- re Pſal -- men?
+	Es ſchweigt der Späh -- ren Har -- mo --
+	nie, den Kö -- nig Sa -- lems kla -- gen
+	ſie. Im Him -- mel und auf %80
+	Er -- den her -- ſchet nur ein Wil -- le, ein lau -- tes
+	Schre -- cken erſt, und dann, dann
+	trau -- ren ſie und wer -- den
+	ſtil -- le.
 	
+	Ein Gott -- mensch %109
+	ſtirbt, für Sün -- der blu -- tet %110
+	er. Ge -- dan -- ke, wer be -- greift dich,
+	wer? Groß biſt du,
+	groß vor al -- len mäch -- ti -- gen Ge --
+	dan -- ken, in wel -- chen je -- mals
+	Se -- ra -- phin ver -- ſan -- ken. Kein %115
+	Sterb -- li -- cher ver -- mag dich durch -- zu --
+	ſchaun, und ſelbst der En -- gel, den es
+	lü -- ſte durch -- zu -- ſchaun, der bebt zu --
+	rück, ihn ü -- ber -- fällt ein hei -- lig
+	Graun. [Mein %120
+	Je -- ſus ſtirbt, ihr
+	Thrä -- nen fließt, er
+	hat für uns, für
+	uns ge -- büßt.]
+	
+	[O %128
+	we -- he dem, der
+	Sün -- de thut,] %130
+	ihn [ſchre -- cke
+	Je -- ſu theu -- res]
+	Blut.
+	
+	[Dank, Preis u: Eh -- re %146
+	wol -- len wir ihm wei -- hen,
+	an -- be -- ten im -- mer, und uns
+	freu -- en. Dank, Preis u:
+	Eh -- re dem, der %150
+	an dem Creu -- ze ſtarb, und
+	ew -- ges, ew -- ges Heyl er] --
+	warb. Hal --
+	le -- lu -- jah! %154 finis
 }
 
 % AltoNotes = {
