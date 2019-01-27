@@ -1676,7 +1676,7 @@ VersoehnerSopranoLyrics = \lyricmode {
 	Ver --
 	ſöh -- ner, heil -- ges Got -- tes %15
 	Lamm, laß dei -- nen
-	Tod und dei -- ne
+	Tod und dei -- ne __
 	Wun -- den, ach laß __ ſie
 	uns in un -- ſern lez -- ten
 	Stun -- den Troſt __ für die See -- le %20
