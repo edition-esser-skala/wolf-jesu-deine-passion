@@ -1301,14 +1301,14 @@ DuSchoenerTenoreLyrics = \lyricmode {
 	le -- lu -- jah! %154 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+VersoehnerTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \major \time 4/4 \autoBeamOff \tempoVersoehner
+		
+	}
+}
+
+VersoehnerTenoreLyrics = \lyricmode {
+	
+}

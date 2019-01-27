@@ -330,138 +330,138 @@
 % 			\midi { \tempo 1. = 60 }
 % 		}
 % 	}
-	\bookpart {
-		\header {
-			movement = \movementTitle "2.7" "RECITATIV" "Du schöner Morgenſtern"
-		}
-		\score {
-			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\DuSchoenerViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\DuSchoenerViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\DuSchoenerViola
-					>>
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \DuSchoenerSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \DuSchoenerSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \DuSchoenerAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \DuSchoenerAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \DuSchoenerTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \DuSchoenerTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Baſſo"
-						\new Voice = "Basso" { \dynamicUp \DuSchoenerBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \DuSchoenerBassoLyrics
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Organo"
-						\DuSchoenerOrgano
-					}
-				>>
-				\new FiguredBass {
-					\DuSchoenerBassFigures
-				}
-			>>
-			\layout { }
-			\midi { \tempo 4 = 80 }
-		}
-	}
 % 	\bookpart {
 % 		\header {
-% 			movement = \movementTitle "2.8" "CORO" "Verſöhner, heilges Gottes Lamm"
+% 			movement = \movementTitle "2.7" "RECITATIV" "Du schöner Morgenſtern"
 % 		}
 % 		\score {
 % 			<<
 % 				\new StaffGroup <<
-% 					\new GrandStaff \with { \largerGroupDistance } <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Oboe I"
-% 							\VersoehnerOboeI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Oboe II"
-% 							\VersoehnerOboeII
-% 						}
-% 					>>
-% 				>>
-% 				\new StaffGroup <<
 % 					\new GrandStaff <<
 % 						\new Staff {
 % 							\set Staff.instrumentName = "Violino I"
-% 							\VersoehnerViolinoI
+% 							\DuSchoenerViolinoI
 % 						}
 % 						\new Staff {
 % 							\set Staff.instrumentName = "Violino II"
-% 							\VersoehnerViolinoII
+% 							\DuSchoenerViolinoII
 % 						}
 % 					>>
 % 					\new Staff <<
 % 						\set Staff.instrumentName = "Viola"
-% 						\VersoehnerViola
+% 						\DuSchoenerViola
 % 					>>
 % 				>>
 % 				\new ChoirStaff <<
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \VersoehnerSopranoNotes }
+% 						\new Voice = "Soprano" { \dynamicUp \DuSchoenerSopranoNotes }
 % 					}
-% 					\new Lyrics \lyricsto Soprano \VersoehnerSopranoLyrics
+% 					\new Lyrics \lyricsto Soprano \DuSchoenerSopranoLyrics
 % 					
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \VersoehnerAltoNotes }
+% 						\new Voice = "Alto" { \dynamicUp \DuSchoenerAltoNotes }
 % 					}
-% 					\new Lyrics \lyricsto Alto \VersoehnerAltoLyrics
+% 					\new Lyrics \lyricsto Alto \DuSchoenerAltoLyrics
 % 					
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \VersoehnerTenoreNotes }
+% 						\new Voice = "Tenore" { \dynamicUp \DuSchoenerTenoreNotes }
 % 					}
-% 					\new Lyrics \lyricsto Tenore \VersoehnerTenoreLyrics
+% 					\new Lyrics \lyricsto Tenore \DuSchoenerTenoreLyrics
 % 					
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Baſſo"
-% 						\new Voice = "Basso" { \dynamicUp \VersoehnerBassoNotes }
+% 						\new Voice = "Basso" { \dynamicUp \DuSchoenerBassoNotes }
 % 					}
-% 					\new Lyrics \lyricsto Basso \VersoehnerBassoLyrics
+% 					\new Lyrics \lyricsto Basso \DuSchoenerBassoLyrics
 % 				>>
 % 				\new StaffGroup <<
 % 					\new Staff {
 % 						\set Staff.instrumentName = "Organo"
-% 						\VersoehnerOrgano
+% 						\DuSchoenerOrgano
 % 					}
 % 				>>
 % 				\new FiguredBass {
-% 					\VersoehnerBassFigures
+% 					\DuSchoenerBassFigures
 % 				}
 % 			>>
 % 			\layout { }
-% 			\midi { \tempo 4 = 100 }
+% 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+	\bookpart {
+		\header {
+			movement = \movementTitle "2.8" "CORO" "Verſöhner, heilges Gottes Lamm"
+		}
+		\score {
+			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \largerGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\VersoehnerOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\VersoehnerOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\VersoehnerViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\VersoehnerViolinoII
+						}
+					>>
+					\new Staff <<
+						\set Staff.instrumentName = "Viola"
+						\VersoehnerViola
+					>>
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \VersoehnerSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \VersoehnerSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \VersoehnerAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \VersoehnerAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \VersoehnerTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \VersoehnerTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Baſſo"
+						\new Voice = "Basso" { \dynamicUp \VersoehnerBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \VersoehnerBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\VersoehnerOrgano
+					}
+				>>
+				\new FiguredBass {
+					\VersoehnerBassFigures
+				}
+			>>
+			\layout { }
+			\midi { \tempo 4 = 100 }
+		}
+	}
 }

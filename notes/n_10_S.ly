@@ -1601,14 +1601,14 @@ DuSchoenerSopranoLyrics = \lyricmode {
 	le -- lu -- jah! %154 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+VersoehnerSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \autoBeamOff \tempoVersoehner
+		
+	}
+}
+
+VersoehnerSopranoLyrics = \lyricmode {
+	
+}

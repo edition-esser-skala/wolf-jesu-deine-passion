@@ -2869,14 +2869,16 @@ DuSchoenerBassFigures = \figuremode {
 	r %154 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+VersoehnerOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 4/4 \tempoVersoehner
+		\mvTrr g1~\fp-\tenuto-\tuttiE
+		\kneeBeam g8 d''( h g) d( h g h)
+		d,2\pp g4 g
+	}
+}
+
+VersoehnerBassFigures = \figuremode {
+	
+}

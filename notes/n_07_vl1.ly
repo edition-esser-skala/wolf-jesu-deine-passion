@@ -1225,10 +1225,10 @@ DuSchoenerViolinoI = {
 	}
 }
 
-% VersoehnerViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key g \major \time 4/4 \tempoVersoehner
-% 		
-% 	}
-% }
+VersoehnerViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \tempoVersoehner
+		
+	}
+}

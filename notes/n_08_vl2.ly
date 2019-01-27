@@ -1225,3 +1225,11 @@ DuSchoenerViolinoII = {
 		g e fis r\fermata \bar "|." %154 finis
 	}
 }
+
+VersoehnerViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \tempoVersoehner
+		
+	}
+}

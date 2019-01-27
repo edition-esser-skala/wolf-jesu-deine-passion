@@ -1042,14 +1042,14 @@ DuSchoenerBassoLyrics = \lyricmode {
 	le -- lu -- jah! %154 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+VersoehnerBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \major \time 4/4 \autoBeamOff \tempoVersoehner
+		
+	}
+}
+
+VersoehnerBassoLyrics = \lyricmode {
+	
+}

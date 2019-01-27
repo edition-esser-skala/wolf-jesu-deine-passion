@@ -276,3 +276,11 @@ GottAmOboeI = {
 		g2 r4 \bar "S-S" %243 finis
 	}
 }
+
+VersoehnerOboeI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \tempoVersoehner
+		
+	}
+}

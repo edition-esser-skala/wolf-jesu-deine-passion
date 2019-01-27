@@ -762,14 +762,14 @@ DuSchoenerAltoLyrics = \lyricmode {
 	le -- lu -- jah! %154 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+VersoehnerAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \autoBeamOff \tempoVersoehner
+		
+	}
+}
+
+VersoehnerAltoLyrics = \lyricmode {
+	
+}
