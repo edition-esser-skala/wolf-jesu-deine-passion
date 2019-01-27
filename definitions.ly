@@ -218,6 +218,11 @@ pao = \partcombineApartOnce
 pa = \partcombineApart
 pd = \partcombineAutomatic
 
+markDaCapo = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup { \remark "Da capo" }
+}
+
 tempoMarkup =
 	#(define-music-function
 		(parser location arg)
@@ -281,6 +286,8 @@ tempoDuSchoener = \tempoMarkup "[Tempo deest]"
 	tempoSeydGetrostD = \tempoMarkupWithName "[ARIOSO]" "Vivace"
 	tempoDankPreis = \tempoMarkupWithName "[CORO]" "[Tempo deest]"
 tempoVersoehner = \tempoMarkup "Adagio"
+	tempoSieBluten = \tempoMarkup "Andante"
+	tempoSieBlutenFinis = \tempoMarkup "Adagio"
 
 
 

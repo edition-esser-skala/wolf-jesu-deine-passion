@@ -2875,10 +2875,79 @@ VersoehnerOrgano = {
 		\key g \major \time 4/4 \tempoVersoehner
 		\mvTrr g1~\fp-\tenuto-\tuttiE
 		\kneeBeam g8 d''( h g) d( h g h)
-		d,2\pp g4 g
+		d,2\pp g4 g\fE
+		g g g g
+		g r r2 %5
+		r4 e' a a,
+		d r r a\pE
+		d d\fE fis2\p
+		g4 g\f gis2\p
+		a4 a\fE ais2\pE %10
+		h4 r g\mfE a8\pE ais
+		h4 r g!\fE a
+		d,2~\fp d8 a'( fis d)
+		a2\ppE d4 d\f
+		d d d d %15
+		d r r e\pE
+		a r r e\f
+		a a, r d\pE
+		g r8 g, c4 cis
+		d d\f es2\p %20
+		d4 r d\f d\p
+		g, g\f g g
+		g\p g g g
+		r2 r8 e'\f h c
+		d4\p d, g g\f %25
+		h2\p c4 c\f
+		cis2\p d4 d\f
+		dis2\p e4 r
+		c!\mf d8\p dis e4 r
+		c\f d\p g,8 g'(\fE e c) %30
+		d4 d d, d
+		g1~\fpE
+		\kneeBeam g8 \once \slurDashed d''( h g) d( h g h)
+		d,2\ppE g4 r\fermata \bar "||"
+		\tempoSieBluten dis'8.[\f dis16 dis8. dis16] dis8.[ dis16 dis8. dis16] %35
+		h2\p e8\f e e e
+		cis8.[ cis16 cis8. cis16] h8.[ h16 h8. h16]
+		ais2\p h8\f h h h
+		d!8.[ d16 d8. d16] c!8 c r4
+		R1 %40
+		c8.[\f c16 c8. c16] h8 h r4
+		r2 r4 r8 g'
+		g g g g g g g g
+		g g g g g g, r4\fermata
+		c r f8.[ f16 f8. f16] %45
+		g8. g16 g8 f? e8. e16 e8 e
+		f8. f16 f8 e d e16 f g8 g,
+		c g r g' c g c g
+		c g r g c, g' r e
+		f4. d8 g4 c8 f, %50
+		g4 g, c r8 e
+		f4. d8 g4 c8 f,
+		g4 g, c cis8 cis
+		\tempoSieBlutenFinis fis!4 fis,! h r \markDaCapo \bar "||" %54 FINIS
 	}
 }
 
 VersoehnerBassFigures = \figuremode {
-	
+	r1
+	r
+	<6 4>4 <5 3> r2
+	r <6 4>
+	<[5 3]>1
+	r2 <7 _+>
+	r2. <_+>4
+	r <7!> <6 5>2
+	r <7 5 3>
+	<6 4>4 <5 _+> <7 5>2
+	<5 3>2. <6 4>8 <7 5>
+	r2. <6 4>8 <5 _+>
+	r1
+	<6 4>4 <5 _+> r2
+	<5 3> <6 4>
+	<5 [3]>2. <7 _+>4
+	<_!>2. <_+>4
+	<6 4> <[5 3]> r <7 3>
+	r2 <9 3>8 <8 6> <7 5>4
 }
