@@ -1605,10 +1605,113 @@ VersoehnerSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 4/4 \autoBeamOff \tempoVersoehner
-		
+		R1*2
+		r2 r4 \mvTr d'\fE^\tuttiE
+		g d8 r e e g e
+		\appoggiatura e d4 r8 g\pE h,8.([ c32 d)] \appoggiatura d8 c4\trill %5
+		\appoggiatura c8 h4 r8 g'\f g( e4) g8
+		fis d\pE cis h a4( g)\trill
+		fis c'\fE r8 c\pE c c
+		\appoggiatura c h4 r8 h d d d d
+		d cis e4\fE r8 e\pE e e %10
+		\appoggiatura e d4 g4~\mfE g8 fis16\pE e d8 cis
+		\appoggiatura cis? d4 r g8\fE fis16 e d8 cis
+		d4 r r2
+		r r4 a\fE
+		fis' fis8 r g d d h %15
+		\appoggiatura h a4 r8 d\pE d( h4) d8
+		c! e\fE e4~ e8([ c)] h([ d)]
+		d c r e\pE e( d4) c8
+		h d d4~ d8 c c h
+		h a d4~\fE d8 cis16\pE cis g'8 cis, %20
+		\appoggiatura cis? d4 e~\fE e8 d16\pE c h8 a
+		g4 r8 d'\fE f4 f8 r
+		e\pE e g e \appoggiatura e d4 r8 g
+		h,8.([ c32 d)] \appoggiatura d8 c4\trill \appoggiatura c8 h g'\fE g e
+		d4(\pE c)\trill h d\fE %25
+		r8^\critnote f,\pE f f e4 r8 e'
+		e g, g g g fis fis'4\fE
+		r8 a,\pE a a \appoggiatura a g4 c~\mfE
+		c8 h16\pE a g8 fis \appoggiatura fis g4 e'~\fE
+		e8 d16\pE c h8 a g4 g'8\fE c, %30
+		h2 a\trill
+		g4 r r2
+		R1
+		r2 r4 r8\fermata h\fE \bar "||"
+		\tempoSieBluten h4( c8.) c16 c4 r8 fis\pE %35
+		fis([ c h)] a \appoggiatura a g4 r8 h\fE
+		e4. e8 e4 r8 e\pE
+		e([ g fis)] e \appoggiatura e d!4 r8 h\fE
+		f'4. f8 e a, r4
+		c8([\pE h e)] d d c r a\fE %40
+		fis'!4. fis8 g g, r4
+		h8([\pE c)] a([ c)] c h r d\fE
+		\tempoOWollust f([ e)] e g e d f4
+		f?8([ e)] e g e d r4\fermata
+		e8. e16 f8 g a8. g16 f8 e %45
+		d8. d16 e8^\critnote f g8. f16 e8 d
+		c8. c16 d8 e f4 r8 d
+		e([ d16 f] e8) d16([ f)] e8 d r d
+		e([ d16 f] e8) d16([ f)] e8 d r g
+		g f16([ e)] f4.( e16[ d] e8) f %50
+		e4 d\trill c r8 g'
+		g f16([ e)] f4. e16([ d)] e8 f
+		e4 d\trill c h8 h
+		\tempoOWollustFinis h4 ais h r \markDaCapo \bar "||" %54 FINIS
 	}
 }
 
 VersoehnerSopranoLyrics = \lyricmode {
+	Ver -- %3
+	ſöh -- ner, heil -- ges Got -- tes
+	Lamm, laß dei -- nen %5
+	Tod, laß dei -- nen
+	Tod u: dei -- ne Wun --
+	den, ach, ach laß ſie
+	uns in un -- ſer[n] lez -- ten
+	Stun -- de[n], ach, ach laß ſie %10
+	uns Troſt __ für die See -- le
+	ſeyn, Troſt für die See -- le
+	ſeyn.
+	Ver --
+	ſöh -- ner, heil -- ges Got -- tes %15
+	Lamm, laß dei -- nen
+	Tod und dei -- ne
+	Wun -- den, ach laß __ ſie
+	uns in un -- ſern lez -- ten
+	Stun -- den Troſt __ für die See -- le %20
+	ſeyn, Troſt __ für die See -- le
+	ſeyn. Ver -- ſöh -- ner,
+	heil -- ges Got -- tes Lamm, laß
+	dei -- nen Tod u: dei -- ne
+	Wun -- den, ach, %25
+	ach laß ſie uns in
+	un -- ſern lez -- ten Stun -- den, ach,
+	ach laß ſie uns Troſt __
+	für die See -- le ſeyn, Troſt __
+	für die See -- le ſeyn, für die %30
+	See -- le
+	ſeyn.
 	
+	Sie
+	blu -- ten jtzt, bald %35
+	ſtrah -- len ſie, ſie
+	blu -- ten jtzt, bald
+	ſtrah -- len ſie, Ge --
+	richt dem Sün -- der,
+	Huld __ dem From -- men, Ge -- %40
+	richt dem Sün -- der,
+	Huld dem From -- men. O!
+	Wol -- lust, o! Wol -- lust, o!
+	Wol -- lust, o! Wol -- lust!
+	Wir, wir wer -- den nie in dein Ge -- %45
+	richt, wir wer -- den nie in dein Ge --
+	richt, in dein Ge -- richt, Ver --
+	ſöh -- ner, kom -- men, Ver --
+	ſöh -- ner, kom -- men: Dein
+	Blut macht un -- ſre %50
+	Her -- zen rein, dein
+	Blut macht un -- ſre, un -- ſre
+	Her -- zen rein, un -- ſre
+	Her -- zen rein. %54 FINIS
 }

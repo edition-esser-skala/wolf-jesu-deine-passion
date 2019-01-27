@@ -2914,8 +2914,8 @@ VersoehnerOrgano = {
 		d!8.[ d16 d8. d16] c!8 c r4
 		R1 %40
 		c8.[\f c16 c8. c16] h8 h r4
-		r2 r4 r8 g'
-		g g g g g g g g
+		r2 r4 r8 g'\fE
+		\tempoOWollust g g g g g g g g
 		g g g g g g, r4\fermata
 		c r f8.[ f16 f8. f16] %45
 		g8. g16 g8 f? e8. e16 e8 e
@@ -2926,7 +2926,7 @@ VersoehnerOrgano = {
 		g4 g, c r8 e
 		f4. d8 g4 c8 f,
 		g4 g, c cis8 cis
-		\tempoSieBlutenFinis fis!4 fis,! h r \markDaCapo \bar "||" %54 FINIS
+		\tempoOWollustFinis fis!4 fis,! h r \markDaCapo \bar "||" %54 FINIS
 	}
 }
 
@@ -2935,17 +2935,17 @@ VersoehnerBassFigures = \figuremode {
 	r
 	<6 4>4 <5 3> r2
 	r <6 4>
-	<[5 3]>1
+	<[5 3]>1 %5
 	r2 <7 _+>
 	r2. <_+>4
 	r <7!> <6 5>2
 	r <7 5 3>
-	<6 4>4 <5 _+> <7 5>2
+	<6 4>4 <5 _+> <7 5>2 %10
 	<5 3>2. <6 4>8 <7 5>
 	r2. <6 4>8 <5 _+>
 	r1
 	<6 4>4 <5 _+> r2
-	<5 3> <6 4>
+	<5 3> <6 4> %15
 	<5 [3]>2. <7 _+>4
 	<_!>2. <_+>4
 	<6 4> <[5 3]> r <7 3>

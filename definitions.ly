@@ -287,7 +287,8 @@ tempoDuSchoener = \tempoMarkup "[Tempo deest]"
 	tempoDankPreis = \tempoMarkupWithName "[CORO]" "[Tempo deest]"
 tempoVersoehner = \tempoMarkup "Adagio"
 	tempoSieBluten = \tempoMarkup "Andante"
-	tempoSieBlutenFinis = \tempoMarkup "Adagio"
+	tempoOWollust = \tempoMarkup "Allegretto"
+	tempoOWollustFinis = \tempoMarkup "Adagio"
 
 
 
