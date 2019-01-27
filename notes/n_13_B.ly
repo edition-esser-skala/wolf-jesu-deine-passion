@@ -925,20 +925,20 @@ DuSchoenerBassoNotes = {
 		R1
 		r2 \tempoEinGottmensch r
 		R1*10 %119
-		r2 \tempoMeinJesusC r4 \mvTr a'\fE^\tuttiE %120
+		r2 \tempoMeinJesusC r4 a' %120
 		fis cis d a
 		fis' e a\fermata a,
 		cis a e' fis
-		d a e'\fermata \tempoSeydGetrostC r8 \mvTr a16\pE^\soloE cis
+		d a e'\fermata \tempoSeydGetrostC r8 a16 cis
 		e8 a,16 cis e8 a, \appoggiatura a16 gis8. fis16 e4 %125
 		r r8 h'16 d cis8 h e,16 gis h d
 		cis8 h r h16 d cis8 h dis e
-		gis,8.([ fis32 gis] a8) fis e4 \tempoOWehe \mvTr fis\fE^\tuttiE
+		gis,8.([ fis32 gis] a8) fis e4 \tempoOWehe fis
 		g fis eis fis
-		dis e a,8\fermata \mvTr a'16\pE^\soloE cis e8 a,16 cis^\critnote %130
-		e4 \mvTr ais,,\fE^\tuttiE h fis'
+		dis e a,8\fermata a'16 cis e8 a,16 cis^\critnote %130
+		e4 ais,, h fis'
 		eis fis d! e
-		a,16 r \mvTr a'\pE^\soloE cis \tempoSeydGetrostD e8. a,16 \appoggiatura a gis8. fis16 e8 h'16 d
+		a,16\fermata r a' cis \tempoSeydGetrostD e8. a,16 \appoggiatura a gis8. fis16 e8 h'16 d
 		cis8 h e,16 gis h d cis8 h dis e
 		gis,8.([ fis32 gis] a8) fis e4 r %135
 		a8 a16 cis e8 g, fis fis r4

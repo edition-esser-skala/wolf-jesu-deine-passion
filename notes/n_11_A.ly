@@ -678,14 +678,14 @@ DuSchoenerAltoNotes = {
 		gis4 r8 gis h h cis gis %110
 		a4 r8 fis h h h16 h d fis,
 		gis4 r cis ais8 fis
-		cis'4 r16 cis cis cis fis8. fis16 fis8 cis ?? e''
+		cis'4 r16 cis cis cis e8. e16 e8 cis
 		d d r fis, h h d cis
 		h8. h16 h8 ais cis cis r cis %115
 		h8. fis16 fis8 fis a! a h fis
 		g!4 r16 g g h h8 e, r e16 fis
 		gis8 gis h e, a4 r16 c h a
 		d4 r16 d d c h8 h d c
-		\appoggiatura h a4 r \tempoMeinJesusC r \mvTr e\fE^\tuttiE %120
+		\appoggiatura h a4 r \tempoMeinJesusC r e %120
 		fis e d cis
 		fis gis a\fermata a
 		a a gis a
@@ -696,9 +696,9 @@ DuSchoenerAltoNotes = {
 		fis e e\fermata^\critnote r %130
 		r g fis a^\critnote
 		gis fis a gis
-		e \tempoSeydGetrostD r r2
+		e\fermata \tempoSeydGetrostD r r2
 		R1*12 %145
-		\tempoDankPreis a4 a8 a a4 a
+		\tempoDankPreis \mvTr a4\fE^\tuttiE a8 a a4 a
 		a8 a a a a a r4
 		a a8 a g g g r16 g
 		fis8 fis r4 h h8 h

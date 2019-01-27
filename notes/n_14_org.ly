@@ -2620,7 +2620,7 @@ DuSchoenerOrgano = {
 		cis8 e a16 e gis e fis a e a d, a' fis a
 		cis,8 fis d e a, a'16\f gis a fis e d
 		cis8\p e a16 e gis e cis8 e a16 e gis e %65
-		fis a e a d, a' fis a cis, a' h, a' a, a' d h
+		fis a e a d, a' fis a cis, a' h, gis' a, a' d h
 		cis a h gis a cis, d e fis gis a cis, d8 e
 		a, a'16\f gis a fis e d cis a fis' d e cis d h
 		cis a a' gis a fis e d cis e fis cis d8 e
@@ -2659,7 +2659,7 @@ DuSchoenerOrgano = {
 		cis8 e a16 e gis e fis a e a d, a' fis a
 		cis,8 fis d e a, a'16\f gis a fis e d
 		cis8\pE e a16 e gis e cis8 e a16 e gis e
-		fis a e a d, a' fis a cis, a' h, a' a, a' d h %105
+		fis a e a d, a' fis a cis, a' h, gis' a, a' d h %105
 		cis a h gis a cis, d e fis gis a cis, d8 e
 		a,8 a'16\f gis a fis e d cis a fis' d e cis d h
 		cis a a' gis a fis e d cis e fis cis d8 e
@@ -2674,20 +2674,20 @@ DuSchoenerOrgano = {
 		e
 		d!2 c!
 		f!1
-		r4 e \tempoMeinJesusC a, \mvTr a'\fE-\tuttiE %120
+		r4 e \tempoMeinJesusC a, a' %120
 		fis cis d a
 		fis' e a\fermata a,
 		cis a e' fis
-		d a e'\fermata \tempoSeydGetrostC \mvTr fis\pE-\soloE
-		cis r8 d e4 r16 e gis h %125
+		d a e'\fermata \tempoSeydGetrostC fis
+		cis r8 d e4 r16 e\fE gis h %125
 		gis e gis h gis e gis h a8 e[\p gis e]
 		a e gis e a e r e
-		h' a h h, e e, \tempoOWehe \mvTr fis'4\fE-\tuttiE
+		h' a h h, e e, \tempoOWehe fis'4
 		g fis eis fis
 		dis e a,\fermata r %130
 		r ais h fis'
 		eis fis d! e
-		a, \tempoSeydGetrostD r8 \mvTr d\pE-\soloE^\tweak TextScript.X-offset #0 ^\critnote e4 r16 e\f gis h
+		a,\fermata \tempoSeydGetrostD r8 d ^\critnote e4 r16 e\f gis h
 		a8 e[\p gis e] a e r e
 		h' a h h, e e16\fE fis e d cis h %135
 		cis a cis e cis a cis e d a d fis d a d fis
@@ -2696,7 +2696,7 @@ DuSchoenerOrgano = {
 		fis a e a d, a' fis a cis,8 fis d e
 		a, a'16\ff gis a fis e d cis8\pE e a16 e gis e %140
 		cis8 e a16 e gis e fis a e a d, a' fis a
-		cis, a' h, a' a, a' d h cis a h gis a cis, d e
+		cis, a' h, gis' a, a' d h cis a h gis a cis, d e
 		fis gis a cis, d8 e a, a'16\f gis a fis e d
 		cis a fis' d e cis d h cis a a' gis a fis e d
 		cis e fis cis d8 e a,4 a %145
@@ -2723,7 +2723,7 @@ DuSchoenerBassFigures = \figuremode {
 	<6\\ 5- _!>1
 	r2 r16. <_->32 r4.
 	r16. <6- _->32 r4. r16 <_!> \bassFigureExtendersOn q8 q8. q16 \bassFigureExtendersOff %10
-	<5- _->2... <_!>16
+	<6 4 _->2... <_!>16
 	<6- _->8. \bassFigureExtendersOn q16 <6! _-\!>8. <6! _->16 \bassFigureExtendersOff <_->8 <5- _-> <6 5- _-> <_!>
 	<_->2 <_!>4. <6 _->8
 	<6> <\t> r <6! _-> <2!> <\t> r <5- _->
@@ -2763,10 +2763,10 @@ DuSchoenerBassFigures = \figuremode {
 	<5 _+> <[4+] 2> <6>2
 	<6 5> <6 5>
 	<6>4 q q q %50
-	q2. q4
-	<5> <8 3> <5> <8 3>
+	q2 <[6]>4 <6>
+	<5> <[6]> <5> <8 3>
 	<6>2 <6 5>
-	<6 4>4 <8 3> r2
+	<6 4>4 <[6]> q2
 	<[6 5]>2 q %55
 	r <6>
 	r <6>
@@ -2778,8 +2778,8 @@ DuSchoenerBassFigures = \figuremode {
 	q4. q8 q <6 4> <6 5> r
 	<6>4 <6 5> r2
 	<6>4. q8 q4. q8 %65
-	q <6 4> <6 5> r <6> q r4
-	<6>8 q r4 r2
+	q <6 4> <6 5> r <6> q r q
+	q q r4 r2
 	r1
 	<6>
 	r2 <_+> %70
@@ -2799,14 +2799,14 @@ DuSchoenerBassFigures = \figuremode {
 	r4 <_+>2.
 	<6>4 <6 5> r <5 3> %85
 	<3>2. <6>4
-	<5 _+> <[4+] 2> <6>2
+	<5 _+> <4+ 2> <6>2
 	<6 5> <6 5>
 	<6>4 q q q
-	q2. q4 %90
-	<5> <8 3> <5> <8 3>
+	q2 <6>4 <6> %90
+	<5> <6> <5> <8 3>
 	<6>2 <6 5>
-	<6 4>4 <8 3> r2
-	<[6 5]>2 q
+	<6 4>4 <6> q2
+	<6 5>2 q
 	r <6> %95
 	r <6>
 	r4 <6> r <6>
@@ -2817,16 +2817,16 @@ DuSchoenerBassFigures = \figuremode {
 	q4. q8 q <6 4> <6 5> r
 	<6>4 <6 5> r2
 	<6>4. q8 q4. q8
-	q <6 4> <6 5> r <6> q r4 %105
-	<6>8 q r4 r2
+	q <6 4> <6 5> r <6> q r q %105
+	q q r4 r2
 	r1
 	<6>
 	r2 <6>
 	r1 %110
 	r2 <6>
 	r4 <[_+]> <6>2
-	r1
-	<3>
+	r2 <[5]>
+	<3>1
 	<7>4 <6> <5 _+>2 %115
 	<6> <5!>
 	<[_!]>1
@@ -2854,7 +2854,7 @@ DuSchoenerBassFigures = \figuremode {
 	q <6 4> <6 5> r <6>4 <6 5>
 	r2 <6>4. q8 %140
 	q4. q8 q <6 4> <6 5> r
-	<6> q r4 q8 q4.
+	<6> q r q q q4.
 	r1
 	<6>
 	<6> %145

@@ -280,6 +280,7 @@ tempoDuSchoener = \tempoMarkup "[Tempo deest]"
 	tempoOWehe = \tempoMarkupWithName "CHORAL" "[Tempo deest]"
 	tempoSeydGetrostD = \tempoMarkupWithName "[ARIOSO]" "Vivace"
 	tempoDankPreis = \tempoMarkupWithName "[CORO]" "[Tempo deest]"
+tempoVersoehner = \tempoMarkup "Adagio"
 
 
 

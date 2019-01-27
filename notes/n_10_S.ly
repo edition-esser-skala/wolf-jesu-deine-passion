@@ -1525,7 +1525,7 @@ DuSchoenerSopranoNotes = {
 		R1*13 %108
 		r2 \tempoEinGottmensch r
 		R1*10 %119
-		r2 \tempoMeinJesusC r4 \mvTr a\fE^\tuttiE %120
+		r2 \tempoMeinJesusC r4 a %120
 		a gis fis e
 		a h cis\fermata cis
 		cis cis h a
@@ -1536,9 +1536,9 @@ DuSchoenerSopranoNotes = {
 		a gis a\fermata r %130
 		r e' d cis
 		h a d h
-		a \tempoSeydGetrostD r r2
+		a\fermata \tempoSeydGetrostD r r2
 		R1*12 %145
-		\tempoDankPreis cis4 cis8 cis e4 e
+		\tempoDankPreis \mvTr cis4\fE^\tuttiE cis8 cis e4 e
 		cis8 cis e a, d d r4
 		d d8 cis ais ais cis r16 e
 		d8 d r4 d fis8 d

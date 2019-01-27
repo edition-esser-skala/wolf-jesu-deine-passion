@@ -1196,7 +1196,7 @@ DuSchoenerTenoreNotes = {
 		R1*13 %108
 		r2 \tempoEinGottmensch r
 		R1*10 %119
-		r2 \tempoMeinJesusC r4 \mvTr cis\fE^\tuttiE %120
+		r2 \tempoMeinJesusC r4 cis %120
 		cis cis a a
 		cis e e\fermata e
 		e e e cis
@@ -1207,9 +1207,9 @@ DuSchoenerTenoreNotes = {
 		c h cis\fermata r %130
 		r cis d fis
 		cis cis fis e
-		cis \tempoSeydGetrostD r r2
+		cis\fermata \tempoSeydGetrostD r r2
 		R1*12 %145
-		\tempoDankPreis e4 e8 e cis4 cis
+		\tempoDankPreis \mvTr e4\fE^\tuttiE e8 e cis4 cis
 		e8 e cis e d d r4
 		d d8 fis cis cis ais r16 ais
 		h8 h r4 fis' d8 fis

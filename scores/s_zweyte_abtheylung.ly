@@ -391,4 +391,77 @@
 			\midi { \tempo 4 = 80 }
 		}
 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.8" "CORO" "Verſöhner, heilges Gottes Lamm"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \largerGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\VersoehnerOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\VersoehnerOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\VersoehnerViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\VersoehnerViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\VersoehnerViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \VersoehnerSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \VersoehnerSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \VersoehnerAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \VersoehnerAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \VersoehnerTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \VersoehnerTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Baſſo"
+% 						\new Voice = "Basso" { \dynamicUp \VersoehnerBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \VersoehnerBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\VersoehnerOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\VersoehnerBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
 }

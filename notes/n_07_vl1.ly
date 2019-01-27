@@ -1101,14 +1101,134 @@ DuSchoenerViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoDuSchoener
-		
+		a'1~\p
+		a2 gis2~
+		gis1
+		fis8 \slurDashed a16(\f fis) fis( dis) dis( cis) \slurSolid his4 r
+		dis'1\p %5
+		cis4 r16 r32 cis\f cis16. cis32 gis'4 r
+		r2 r16 r32 dis dis16. dis32 dis16. dis32 dis16. dis32
+		fis4 r16 r32 fis fis16. fis32 fis16. fis32 fis16. fis32 a4
+		r2 r16 r32 f f16. f32 f4
+		r16 r32 es es16. es32 es4 r16 f\f \tuplet 3/2 8 { f([ c) c]-!\p c(\f a) a-!\p a([\f f) f]\p-! } %10
+		ges'4\f r r r8 r16 f,\f
+		\tuplet 3/2 8 { ges([ es) es]-!\p es(\f c) c-!\p c[(\f a!) a]-!\p a'!(\f f) f-!\p } b16. f32 ges16. des32 es16. es32 f16. f32
+		b,4 r r r8 b'\pp
+		a!( as) r g! ges( f) r ges
+		f( e!) r es d!( des) r des %15
+		\once \slurDashed c( h!) r c b as g f'
+		e!4 r r2
+		R1*13 %30
+		r8 \mvTr b'-!\pE-\markup { \remark "staccato con sordini" } d-! es-! r as,-! f'-! es-!
+		r es-! as,-! g-! r2
+		r8 b-! d-! es-! r as,-! f'-! es-!
+		r es-! as,-! g-! r2
+		r16 r32 es\fE es16. es32 es16. es32 es16. es32 e4 r %35
+		r2 r16 r32 f f16. f32 f16. f32 f16. f32
+		es4 r r2
+		r16 r32 b\p b16. b32 b16. b32 b16. b32 des4 r
+		r2 r16 r32 c c16. c32 c4
+		es r d r %40
+		r8 r16 d d8 d r r16 d d8 d
+		r r16 e! e8 e r16 r32 e e16. e32 e16. e32 e16. e32
+		e4 r r2
+		a4 r f r
+		r e-\markup { \remark "col’arco, senza sordini" } \key a \major \tempoMeinJesus a,8(-. a'-.) a(-. a-.) %45
+		a(-. a-.) gis(-. gis-.) fis(-. fis-.) e(-. e-.)
+		a-\simileE a h h cis cis h h
+		gis gis cis cis cis cis cis cis
+		h h a a d d cis cis
+		h h a a gis gis a a %50
+		h h cis cis h h a a
+		fis fis fis fis a a a a
+		a a cis cis d d cis cis
+		h h a a d d cis cis
+		h h a a a a gis gis %55
+		a a a a \tempoSeydGetrost a4 r8 a
+		gis4 r16 e\f gis h gis e gis h gis e gis h
+		a8 e[\p gis e] a e gis e
+		a e r e h' a h h,
+		e e16\f fis e d cis h cis\p a cis e cis a cis e %60
+		d a d fis d a d fis dis h dis fis dis h dis fis
+		e\f h e gis e h e gis cis,8\p e a16 e gis e
+		cis8 e a16 e gis e fis a e a d, a' fis a
+		cis,8 fis d e a, a'16\fE gis a fis e d
+		cis8\p e a16 e gis e cis8 e a16 e gis e %65
+		fis a e a d, a' fis a cis, a' h, gis' a, a' d h
+		cis a h gis a cis, d e fis gis a cis, d8 e
+		a,8 a'16\f gis a fis e d cis a fis' d e cis d h
+		cis a a' gis a fis e d cis e fis cis d8 e
+		a,8.[ a16 h8 cis] \tempoIhrMyriaden d4 r %70
+		R1*13 %83
+		r2 \tempoMeinJesusB r8 a'(-.\p a-. a-.)
+		a(-. a-.) gis(-. gis-.) fis(-. fis-.) e(-. e-.) %85
+		a-\simileE a h h cis cis h h
+		gis gis cis cis cis cis cis cis
+		h h a a d d cis cis
+		h h a a gis gis a a
+		h h cis cis h h a a %90
+		fis fis fis fis a a a a
+		a a cis cis d d cis cis
+		h h a a d d cis cis
+		h h a a a a gis gis
+		a a a a \tempoSeydGetrostB a4 r8 a %95
+		gis4 r16 e\f gis h gis e gis h gis e gis h
+		a8 e[\p gis e] a e gis e
+		a e r e h' a h h,
+		e e16\f fis e d cis h cis\p a cis e cis a cis e
+		d a d fis d a d fis dis h dis fis dis h dis fis %100
+		e\f h e gis e h e gis cis,8\p e a16 e gis e
+		cis8 e a16 e gis e fis a e a d, a' fis a
+		cis,8 fis d e a, a'16\f gis a fis e d
+		cis8\pE e a16 e gis e cis8 e a16 e gis e
+		fis a e a d, a' fis a cis, a' h, gis' a, a' d h %105
+		cis a h gis a cis, d e fis gis a cis, d8 e
+		a,8 a'16\f gis a fis e d cis a fis' d e cis d h
+		cis a a' gis a fis e d cis e fis cis d8 e
+		a,8.[ a'16 gis8 fis] \tempoEinGottmensch eis4 r
+		R1*10 %119
+		r2 \tempoMeinJesusC r4 a %120
+		a gis fis e
+		a h cis\fermata cis
+		cis cis h a
+		d cis h\fermata \tempoSeydGetrostC r
+		r r8 a gis4 r16 e\f gis h %125
+		gis e gis h gis e gis h a8 e[\p gis e]
+		a e gis e a e r e
+		h' a h h, e4 \tempoOWehe a
+		h cis h a
+		a gis a\fermata r %130
+		r e' d cis
+		h a d h\trill
+		a\fermata \tempoSeydGetrostD r8 a gis4 r16 e\f gis e
+		a8 e[\p gis e] a e r e
+		h' a h h, e e16\f fis e d cis h %135
+		cis\p a cis e cis a cis e d a d fis d a d fis
+		dis h dis fis dis h dis fis e\f h e gis e h e gis
+		cis,8\p e a16 e gis e cis8 e a16 e gis e
+		fis a e a d, a' fis a cis,8 fis d e
+		a, a'16\ff gis a fis e d cis8\pE e a16 e gis e %140
+		cis8 e a16 e gis e fis a e a d, a' fis a
+		cis, a' h, gis' a, a' d h cis a h gis a cis, d e
+		fis gis a cis, d8 e a,8 a'16\f gis a fis e d
+		cis a fis' d e cis d h cis a a' gis a fis e d
+		cis e fis cis d8 e a, a' cis e %145
+		a1~
+		a2 a8 d, fis a
+		d2 g,
+		fis8.[ fis16 fis8. fis16] fis2
+		a a8.[ a16 a8. a16] %150
+		a2 g8.[ g16 g8. g16]
+		h8.[ h16 h8. h16] e,2
+		r4 e d d'
+		d cis d r\fermata \bar "|." %154 finis
 	}
 }
 
-% ViolinoI = {
+% VersoehnerViolinoI = {
 % 	\relative c' {
 % 		\clef treble
-% 		
+% 		\key g \major \time 4/4 \tempoVersoehner
 % 		
 % 	}
 % }
