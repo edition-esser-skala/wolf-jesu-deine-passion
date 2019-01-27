@@ -1098,7 +1098,7 @@ MeineSeeleViola = {
 
 DuSchoenerViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \major \time 4/4 \tempoDuSchoener
 		cis1~\p
 		cis2 h2~
