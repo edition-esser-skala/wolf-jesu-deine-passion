@@ -1305,10 +1305,113 @@ VersoehnerTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key g \major \time 4/4 \autoBeamOff \tempoVersoehner
-		
+		R1*2
+		r2 r4 \mvDll g'\fE^\tuttiE
+		d h8 r c c e c
+		\appoggiatura c h4 r r8 d\pE d dis %5
+		e4 r8 e\fE e( cis4) e8
+		d! d\pE d d d4( cis)\trill
+		d r d d8 d
+		d h h d f4 f
+		f8 e r4 g g8 g %10
+		fis8 r r4 g8\mfE h,16\pE h a8 e'
+		\appoggiatura e d4 r d8\fE h16 h a8 a
+		a4 r r2
+		r r4 d\fE
+		d d8 r d g g d %15
+		d4 r r8 e\pE e e
+		e4 r8 a,\fE e'4. e8
+		e e r4 r8 fis\pE fis fis
+		d4 r8 d e e e e
+		d d r4 g,8 es'16 es es8 es %20
+		a,4 r d8\fE d16\pE d d8 d
+		h4 r8 h\fE d4 d8 r
+		c\pE c e c \appoggiatura c h4 r
+		r8 d d dis e e\fE d c
+		h4(\pE a)\trill g r %25
+		g g8 g g e' e c
+		b4 b b8 a r4
+		c c8 c h4 e~\mfE
+		e8 d16\pE c h8 a g4 r
+		e'8\fE e16\pE e d8 d h4 e8\fE e %30
+		d2. c4
+		h r r2
+		R1
+		r2 r4 r8\fermata e\fE \bar "||"
+		\tempoSieBluten fis4. fis8 fis4 r8 dis\pE %35
+		dis?4. dis8 h4 r8 e\fE
+		e4( g8.) g16 g4 r8 g\pE
+		g4. g8 fis4 r8 d!\fE
+		gis4. gis8 a e r4
+		r2 r4 r8 c\fE %40
+		es4. es8 d h r4
+		r2 r4 r8 h\fE
+		\tempoOWollust d([ c)] c e c h d4
+		d8([ c)] c e c h r4\fermata
+		c8. c16 d8 e f8. e16 d8 c %45
+		h8. h16 c8 d e8. d16 c8 h
+		a8. a16 h8 c d4 r8 h
+		c([ h16 d] c8) h16([ d)] c8 h r h
+		c h16 d c8 d c h r c
+		c4. d8 d4( c8) c %50
+		c4 h e r8 c
+		c4. d8 d4( c8) c
+		c4 h e e8 e
+		\tempoOWollustFinis d4 cis d r \markDaCapo \bar "||" %54 finis
 	}
 }
 
 VersoehnerTenoreLyrics = \lyricmode {
+	[Ver -- %3
+	ſöh -- ner, heil -- ges Got -- tes
+	Lamm,] laß dei -- nen %5
+	Tod, laß dei -- nen
+	Tod u: dei -- ne Wun --
+	den, ach, laß ſie
+	uns in un -- ſer lez -- ten
+	Stun -- de, ach, laß ſie %10
+	uns Troſt für die See -- le
+	ſeyn, Troſt für die See -- le
+	ſeyn.
+	[Ver --
+	ſöh -- ner, heil -- ges Got -- tes %15
+	Lamm, laß dei -- nen
+	Tod und dei -- ne
+	Wun -- den, ach, laß ſie
+	uns in un -- ſern lez -- ten
+	Stun -- den Troſt für die See -- le %20
+	ſeyn, Troſt für die See -- le
+	ſeyn. Ver -- ſöh -- ner,]
+	heil -- ges Got -- tes Lamm,
+	laß dei -- nen Tod u: dei -- ne
+	Wun -- den, %25
+	ach, laß ſie uns in un -- ſern
+	lez -- ten Stun -- den,
+	ach, laß ſie uns Troſt __
+	für die See -- le ſeyn,
+	Troſt für die See -- le ſeyn, für die %30
+	See -- le
+	ſeyn.
 	
+	Sie
+	[blu -- ten jtzt, bald %35
+	ſtrah -- len ſie, ſie
+	blu -- ten jtzt, bald
+	ſtrah -- len ſie,] Ge --
+	richt dem Sün -- der,
+	Ge -- %40
+	richt dem Sün -- der.
+	O!
+	[Wol -- lust, o! Wol -- lust, o!
+	Wol -- lust, o! Wol -- lust!]
+	Wir, wir wer -- den nie in dein Ge -- %45
+	richt, wir wer -- den nie in dein Ge --
+	richt, in dein Ge -- richt, Ver --
+	ſöh -- ner, kom -- men, Ver --
+	ſöh -- ner, Ver -- ſöh -- ner, kom -- men: Dein
+	Blut macht un -- ſre %50
+	Her -- zen rein, dein
+	Blut macht un -- ſre
+	Her -- zen rein, un -- ſre
+	Her -- zen rein. %54 FINIS
 }

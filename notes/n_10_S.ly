@@ -1606,7 +1606,7 @@ VersoehnerSopranoNotes = {
 		\clef treble
 		\key g \major \time 4/4 \autoBeamOff \tempoVersoehner
 		R1*2
-		r2 r4 \mvTr d'\fE^\tuttiE
+		r2 r4 \mvDll d'\fE^\tuttiE
 		g d8 r e e g e
 		\appoggiatura e d4 r8 g\pE h,8.([ c32 d)] \appoggiatura d8 c4\trill %5
 		\appoggiatura c8 h4 r8 g'\f g( e4) g8
@@ -1667,9 +1667,9 @@ VersoehnerSopranoLyrics = \lyricmode {
 	Lamm, laß dei -- nen %5
 	Tod, laß dei -- nen
 	Tod u: dei -- ne Wun --
-	den, ach, ach laß ſie
-	uns in un -- ſer[n] lez -- ten
-	Stun -- de[n], ach, ach laß ſie %10
+	den, ach, ach, laß ſie
+	uns in un -- ſer lez -- ten
+	Stun -- de, ach, ach, laß ſie %10
 	uns Troſt __ für die See -- le
 	ſeyn, Troſt für die See -- le
 	ſeyn.
@@ -1677,7 +1677,7 @@ VersoehnerSopranoLyrics = \lyricmode {
 	ſöh -- ner, heil -- ges Got -- tes %15
 	Lamm, laß dei -- nen
 	Tod und dei -- ne __
-	Wun -- den, ach laß __ ſie
+	Wun -- den, ach, laß __ ſie
 	uns in un -- ſern lez -- ten
 	Stun -- den Troſt __ für die See -- le %20
 	ſeyn, Troſt __ für die See -- le
@@ -1685,9 +1685,9 @@ VersoehnerSopranoLyrics = \lyricmode {
 	heil -- ges Got -- tes Lamm, laß
 	dei -- nen Tod u: dei -- ne
 	Wun -- den, ach, %25
-	ach laß ſie uns in
+	ach, laß ſie uns in
 	un -- ſern lez -- ten Stun -- den, ach,
-	ach laß ſie uns Troſt __
+	ach, laß ſie uns Troſt __
 	für die See -- le ſeyn, Troſt __
 	für die See -- le ſeyn, für die %30
 	See -- le

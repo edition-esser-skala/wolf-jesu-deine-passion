@@ -767,7 +767,7 @@ VersoehnerAltoNotes = {
 		\clef treble
 		\key g \major \time 4/4 \autoBeamOff \tempoVersoehner
 		R1*2
-		r2 r4 h'\fE
+		r2 r4 \mvDll h'\fE^\tuttiE
 		h g8 r g g g g
 		g4 r8 h\pE g8.([ a32 h)] \appoggiatura h8 a4 %5
 		\appoggiatura a8^\critnote g4 r8 h\fE a4 a
@@ -793,7 +793,7 @@ VersoehnerAltoNotes = {
 		r8 d\pE d d c4 r8 g'
 		g e e e d d a'4\fE
 		r8 fis\pE fis fis \appoggiatura fis e4 r
-		g8 e16 e d8 fis e4 \once \tieDashed c'~\fE
+		g8\mfE e16\pE e d8 fis e4 \once \tieDashed c'~\fE
 		c8 h16\pE a g8 fis g4 g8\fE g %30
 		g2 fis
 		d4 r r2
@@ -828,9 +828,9 @@ VersoehnerAltoLyrics = \lyricmode {
 	Lamm, laß dei -- nen %5
 	Tod, laß dei -- nen
 	Tod u: dei -- ne Wun --
-	den, ach, ach laß ſie
-	uns in un -- ſer[n] lez -- ten
-	Stun -- de[n], ach, ach laß ſie %10
+	den, ach, ach, laß ſie
+	uns in un -- ſer lez -- ten
+	Stun -- de, ach, ach, laß ſie %10
 	uns Troſt __ für die See -- le
 	ſeyn, Troſt für die See -- le
 	ſeyn.]
@@ -838,7 +838,7 @@ VersoehnerAltoLyrics = \lyricmode {
 	ſöh -- ner, heil -- ges Got -- tes %15
 	Lamm, laß dei -- nen
 	Tod und dei -- ne __
-	Wun -- den, ach laß __ ſie
+	Wun -- den, ach, laß __ ſie
 	uns in un -- ſern lez -- ten
 	Stun -- den Troſt für die See -- le %20
 	ſeyn, Troſt __ für die See -- le
@@ -846,9 +846,9 @@ VersoehnerAltoLyrics = \lyricmode {
 	heil -- ges Got -- tes Lamm, laß
 	dei -- nen Tod u: dei -- ne
 	Wun -- den, ach, %25
-	ach laß ſie uns in
+	ach, laß ſie uns in
 	un -- ſern lez -- ten Stun -- den, ach,
-	ach laß ſie uns
+	ach, laß ſie uns
 	Troſt für die See -- le ſeyn, Troſt __
 	für die See -- le ſeyn, für die %30
 	See -- le
