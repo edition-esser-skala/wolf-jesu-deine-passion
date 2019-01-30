@@ -1229,6 +1229,59 @@ VersoehnerViolinoI = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 4/4 \tempoVersoehner
-		
+		r8 h''-!\p g( d) h-! g( d g)
+		\once \tieDashed h,1~\fp
+		h8 g'\pp( fis a,) g-\parenthesize-! h(\f d g)
+		r h( d g) r e( g c)
+		r d,( g h) r d,(\p d, c') %5
+		r h(\f d g) g2
+		fis4 r r8 \once \slurDashed fis(\pE e cis')
+		r a,(\f c! e) a2\fp
+		r8 h,(\f d g) h2\p
+		r8 \once \slurDashed cis,(\f e a) cis4.\fpE e,8 %10
+		\appoggiatura e-\critnote d4 g~\mf g8 fis16\p e d8 cis
+		\appoggiatura cis d4 h'~\f h8 a16 g fis8 e
+		d-\parenthesize-! a'(\p fis d) a2\fp~
+		a8 \once \slurDashed cis(\pp e, g) fis-\parenthesize-! a(\f d fis)
+		r c( fis a) r d,( g h) %15
+		r d,, d'4~ d8 gis^\critnote\p \once \slurDashed gis( d)
+		r2 r8 c\f( h d)
+		r c e4~ e8 d\p( d, c')
+		r4 r8 d d( c) c( h)
+		r d, d'2\fE cis4\p %20
+		\appoggiatura cis8 d4 e4~\f e8 d16\p c h8 a
+		r g(\f h d) r f( h d)
+		r e,(\p g c) r d,( g h)
+		r d,( d, c') r h(\f g' e)
+		r h'(\p a c,) r d,(\f f a) %25
+		d2\p r8 e,(\f g c)
+		e2\p r8 fis,!(\f a d)
+		fis4.\p a,8 \appoggiatura a g4 c4~\mf
+		c8 h16\p a g8 fis \appoggiatura fis g4 e'~\f
+		e8 d16 c h8\p a g8 h(\f d g) %30
+		r d,( g h) d-! fis( a c)
+		h-\parenthesize-! d(\p h g) d-! h( g h)
+		d,1\fp~ \noBreak
+		d8 \once \slurDashed h'(\pp a c,) c4( h8)\fermata r \bar "||"
+		\tempoSieBluten h'4\f c8. c16 c8.[ c16 c8. c16] \noBreak %35
+		dis2\p e32\f e e e h'[ h h h] g^\critnote g g g e[ e e e]
+		g8.[ g16 g8. g16] g8.[ cis16 cis8. cis16]
+		cis2\p h32\f h h h d[ d d d] fis, fis fis fis d[ d d d]
+		h8.[ gis'16 gis8. gis16] a8 a, c4~\p
+		c8( h e d) \appoggiatura e16 d8 c r a\f %40
+		fis'8.[ fis16 fis8. fis16] g8 g, h'4~\p
+		h8 a( a, c) c h r d\f
+		\tempoOWollust f( e) \once \slurDashed e( g) e d f4-\tenuto
+		f8( e) e( g) \appoggiatura f?16 e8 d r4\fermata
+		e8.[ e16 f8. g16] a8.[ g16 f8. e16] %45
+		d8.[ d16 e8. f16] g8.[ f16 e8. d16]
+		c8.[ c16 d8. e16] f4 r8 d
+		e d r d e d16 f e8 d16 f
+		e8 d r d16 f e8 d g4~
+		g8 f16 e f4~ f8 e16 d e8 f %50
+		e4 d c8 e g4~
+		g8 f16 e f4~ f8 e16 d e8 f
+		e4 d c h8 h
+		\tempoOWollustFinis h4 cis h r \markDaCapo \bar "||" %54 FINIS
 	}
 }
