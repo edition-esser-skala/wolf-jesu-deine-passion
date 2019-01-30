@@ -1313,7 +1313,7 @@ VersoehnerTenoreNotes = {
 		d! d\pE d d d4( cis)\trill
 		d r d d8 d
 		d h h d f4 f
-		f8 e r4 g g8 g %10
+		f8 e r4 g! g8 g %10
 		fis8 r r4 g8\mfE h,16\pE h a8 e'
 		\appoggiatura e d4 r d8\fE h16 h a8 a
 		a4 r r2

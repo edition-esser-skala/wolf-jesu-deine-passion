@@ -1238,7 +1238,7 @@ VersoehnerViolinoI = {
 		fis4 r r8 \once \slurDashed fis(\pE e cis')
 		r a,(\f c! e) a2\fp
 		r8 h,(\f d g) h2\p
-		r8 \once \slurDashed cis,(\f e a) cis4.\fpE e,8 %10
+		r8 \once \slurDashed cis,(\f e a) cis4.\p e,8 %10
 		\appoggiatura e-\critnote d4 g~\mf g8 fis16\p e d8 cis
 		\appoggiatura cis d4 h'~\f h8 a16 g fis8 e
 		d-\parenthesize-! a'(\p fis d) a2\fp~
@@ -1258,7 +1258,7 @@ VersoehnerViolinoI = {
 		e2\p r8 fis,!(\f a d)
 		fis4.\p a,8 \appoggiatura a g4 c4~\mf
 		c8 h16\p a g8 fis \appoggiatura fis g4 e'~\f
-		e8 d16 c h8\p a g8 h(\f d g) %30
+		e8 d16\p c h8 a g8 h(\f e-\critnote g) %30
 		r d,( g h) d-! fis( a c)
 		h-\parenthesize-! d(\p h g) d-! h( g h)
 		d,1\fp~ \noBreak

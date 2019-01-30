@@ -1228,6 +1228,59 @@ VersoehnerViola = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 4/4 \tempoVersoehner
-		
+		\once \tieDashed g1~\fp
+		\kneeBeam g8 d''( h g) d( h g h)
+		d,2\pp d4 g'\f
+		r8 g( h d) r g,( c e)
+		r g,( h d) r d,\pE \once \slurDashed d( dis) %5
+		e4 g8\f h e,2
+		a,4 r a2\p
+		a8-\parenthesize-! \once \slurDashed d(\fE fis a) d,2\fp
+		r8 d(\fE g^\critnote h) f2\p
+		r8 e(\fE a cis) g!2\p %10
+		fis4 r h,\mf a8\pE g'
+		\appoggiatura g-\critnote fis4 r g8\fE h a a,
+		\once \tieDashed d2~\fpE d8 \once \slurDashed a'( fis d)
+		a2~\pp a8 d(\f fis a)
+		r fis( a c!) r g( h d) %15
+		d,4 r8 h e2~\fp
+		e4 r8 a,\f e'4 e,
+		a r8 a d2~\fpE
+		d4 r8 g e4 e
+		d r8 d\fE es2\p %20
+		a,4 r d\fE d\pE
+		r8 h(\fE d g) r h( d f,)
+		r g(\pE c e) r g,( h d)
+		r d, d( dis) e4 g,\fE
+		r8 d''(\pE d, fis) r g,(\fE h d) %25
+		g,2\p r8 g(\fE c e)
+		b2\p r8 \once \slurDashed a(\fE d fis!)
+		c!2\p h4 r
+		c8\mf e\p d c h4 r
+		e\fE d\pE h8 g'(\fE c, g') %30
+		r g,( h d) a-\parenthesize-! a'( d, fis)
+		\once \tieDashed g,1~\fpE
+		\kneeBeam g8 \once \slurDashed d''( h g) \once \slurDashed d( h g h) \noBreak
+		d,2\ppE d4 r\fermata \bar "||"
+		\tempoSieBluten fis'8.[\fE fis16 fis8. fis16] fis8.[ fis16 fis8. fis16] \noBreak %35
+		fis2\p h,32\f h h h e[ e e e] h' h h h g[ g g g]
+		g8.[ cis16 cis8. cis16] cis8.[ e16 e8. g,16]
+		g2\p fis32\f fis fis fis h[ h h h] h h h h fis[ fis fis fis]
+		d!8.[ h'16 h8. h16] a8 c,! r a\pE
+		e'4 e, a r %40
+		es'8.[\fE es16 es8. es16] d8 h r g\p
+		d'4 d, g r8 g'\f
+		\tempoOWollust g g g g g g g g
+		g g g g g g, r4\fermata
+		g'4 r c,8.[ a'16 a8. a16] %45
+		d,8.[ g16 h8. a16] g8.[ g16 g8. g16]
+		c,8.[ a'16 a8.^\critnote g16] f8 g16 a h8 g
+		g g r g g g g g
+		g g r g g g r c,
+		c4. d8 d4 c8 c %50
+		c4 h c r8 c
+		c4. c8 d4 g,8 c
+		c4 h c e8 e
+		\tempoOWollustFinis d4 fis! fis r \markDaCapo \bar "||" %54 FINIS
 	}
 }

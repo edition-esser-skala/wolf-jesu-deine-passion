@@ -1239,13 +1239,13 @@ VersoehnerViolinoII = {
 		d4 r r8 a(\p cis e)
 		r fis,(\f a c) c2\fp
 		r8 g(\f h d) d2\p
-		r8 a(\f cis e) e4.\fpE cis8 %10
+		r8 a(\f cis e) e4.\p cis8 %10
 		h4 h~\mf h8 a16\p g fis8 e
 		\appoggiatura e-\critnote d4 g'~\f g8 fis16 e d8 cis
 		d-! fis(\p d a) fis2\fp~
 		fis8 \once \slurDashed g(\pp cis, e) d-\parenthesize-! fis(\f a d)
 		r a( c! fis) r h,( d g) %15
-		r d, h'4~ h8 d^\critnote d( h)
+		r d, h'4~ h8 d^\critnote\p d( h)
 		r2 r8 a\f( gis h)
 		r a c4~ c8 h\p( d, fis)
 		r4 r8 h h( a) a( g)
@@ -1259,7 +1259,7 @@ VersoehnerViolinoII = {
 		g2\p r8 d(\f fis! a)
 		a4.\p fis8 \appoggiatura fis-\critnote e4 e4~\mf
 		e8 d16\p c h8 a g4 c'~\f
-		c8 h16 a g8\p fis g8 d(\f g h) %30
+		c8 h16\p a g8 fis g8 d(\f g c) %30
 		r h,( d g) fis-! d'( fis a)
 		g-\parenthesize-! h(\p g d) h-! g( d g)
 		h,1\fp~ \noBreak
