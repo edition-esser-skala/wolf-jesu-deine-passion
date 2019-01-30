@@ -1230,6 +1230,59 @@ VersoehnerViolinoII = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 4/4 \tempoVersoehner
-		
+		r8 d''-!\p h( g) d-! h( g h)
+		\once \tieDashed d,1~\fp
+		d8 h'\pp( a c,) h-! d(\f g h)
+		r d( g h) r c,( e g)
+		r h,( d g) r \once \slurDashed h,(\p d, a') %5
+		r g(\f h e) cis2
+		d4 r r8 a(\p cis e)
+		r fis,(\f a c) c2\fp
+		r8 g(\f h d) d2\p
+		r8 a(\f cis e) e4.\fpE cis8 %10
+		h4 h~\mf h8 a16\p g fis8 e
+		\appoggiatura e-\critnote d4 g'~\f g8 fis16 e d8 cis
+		d-! fis(\p d a) fis2\fp~
+		fis8 \once \slurDashed g(\pp cis, e) d-\parenthesize-! fis(\f a d)
+		r a( c! fis) r h,( d g) %15
+		r d, h'4~ h8 d^\critnote d( h)
+		r2 r8 a\f( gis h)
+		r a c4~ c8 h\p( d, fis)
+		r4 r8 h h( a) a( g)
+		g fis r fis\fE g2\p %20
+		\appoggiatura g8-\critnote fis4 c'!4~\f c8 h16\p a g8 fis
+		r d(\f g h) r d( f h)
+		r c,(\p e g) r h,( d g)
+		r h,( d, a') r g(\f d c')
+		r g'(\p fis a,) r h,(\f d f) %25
+		f2\p r8 c(\f e g)
+		g2\p r8 d(\f fis! a)
+		a4.\p fis8 \appoggiatura fis-\critnote e4 e4~\mf
+		e8 d16\p c h8 a g4 c'~\f
+		c8 h16 a g8\p fis g8 d(\f g h) %30
+		r h,( d g) fis-! d'( fis a)
+		g-\parenthesize-! h(\p g d) h-! g( d g)
+		h,1\fp~ \noBreak
+		h8 \once \slurDashed g'(\pp fis a,) a4( g8)\fermata r \bar "||"
+		\tempoSieBluten a'8.[\f a16 a8. a16] a8.[ a16 a8. a16] \noBreak %35
+		a2\p g32\f g g g g'[ g g g] e e e e h[ h h h]
+		e8.[ e16 e8. e16] e8.[ g16 g8. e16]
+		e2\p d!32\f d d d fis[ fis fis fis] d d d d h[ h h h]
+		f'8.[ f16 f8. f16] e8 e, a4~\p
+		a8 gis( c h) \appoggiatura c16 h8 a r a\f %40
+		a8.[ a16 a8. a16] g8 h g'4~\p
+		g8 \once \slurDashed fis( fis, a) a g r h\f
+		\tempoOWollust d( c) \once \slurDashed c( e) c h d4^\tenuto
+		d8( c) \once \slurDashed c( e) \appoggiatura d16 c8 h r4\fermata
+		c8.[ c16 d8. e16] f8.[ e16 d8. c16] %45
+		h8.[ h16 c8. d16] e8.[ d16 c8. h16]
+		a8.[ a16 h8. c16] d4 r8 h
+		c h r h c h16 d c8 h16 d
+		c8 h r h16 d c8 h r h
+		a4. a8 h4( c8) a %50
+		g4 g e r8 g
+		a4. a8 h4( c8) a
+		g4 g e g8 g
+		\tempoOWollustFinis fis!4 ais h r \markDaCapo \bar "||" %54 FINIS
 	}
 }
