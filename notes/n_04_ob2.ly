@@ -274,6 +274,39 @@ VersoehnerOboeII = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 4/4 \tempoVersoehner
-		
+		R1*2
+		r2 r4 h'\fE
+		h2 c
+		\appoggiatura c8 h4 r8 h\pE g8.( a32 h) \appoggiatura h8 a4\trill %5
+		\appoggiatura a8 g4 e'2.\fE
+		d8 fis,\pE a g fis4 e\trill
+		d a'4.\fE a8\pE a a
+		\appoggiatura a g4 r8 g f f4 f8
+		f e g4.\fE g8\pE g g %10
+		fis4 h~\mfE h8 a16\pE g fis8 e
+		\appoggiatura e-\critnote d4 g'~\fE g8 fis16 e d8 cis
+		d4 r r2
+		r r4 fis,\fE
+		a2 g %15
+		\appoggiatura g8 fis4 h~ h8 gis\pE gis( h)
+		a c c4~\fE c8 \once \slurDashed a( gis h)
+		h a c4~ c8 h\pE \once \slurDashed h( a)
+		g! h h4~ h8 a a( g)
+		g fis r fis\fE g4\pE g'8 g, %20
+		\appoggiatura g-\critnote fis4 c'!~\fE c8 h16\pE a g8 fis
+		g4 r8 h\fE d2
+		c4.\pE^\critnote c8 \appoggiatura c h4 r8 h
+		g8.( a32 h) \appoggiatura h8 a4\trill g8 h\fE d c
+		h4\pE a\trill g a(\fE %25
+		h8) d,\pE d f \appoggiatura f e4 r8 g
+		g e4 e8 d4 a'~\fE
+		a8 fis\pE fis fis \appoggiatura fis e4 c'~\mfE
+		c8 h16\pE a g8 fis \appoggiatura fis g4 c~\fE
+		c8 h16\pE a g8 fis g4 g8\fE c %30
+		h2 a\trill
+		g4 r r2
+		R1 \noBreak
+		R\fermataMarkup \bar "||"
+		\tempoSieBluten R1*20 \markDaCapo \bar "||" %54 FINIS
 	}
 }

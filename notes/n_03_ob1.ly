@@ -304,8 +304,8 @@ VersoehnerOboeI = {
 		g4 r8 d'\fE f2
 		e4.\pE e8 \appoggiatura e d4 r8 h'
 		h,8.( c32 d) \appoggiatura d8 c4\trill h8 g'4\fE e8
-		d4\pE c\trill h d~\fE %25
-		d8 f,\pE f f \appoggiatura f e4 r8 e'
+		d4\pE c\trill h c(\fE %25
+		d8) f,\pE f f \appoggiatura f e4 r8 e'
 		e g,4 g8 g fis fis'4~\fE
 		fis8 a,\pE a a \appoggiatura a g4 c~\mfE
 		c8 h16\pE a g8 fis \appoggiatura fis g4 e'~\fE
