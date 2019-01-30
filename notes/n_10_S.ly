@@ -1636,9 +1636,9 @@ VersoehnerSopranoNotes = {
 		e8 d16\pE c h8 a g4 g'8\fE c, %30
 		h2 a\trill
 		g4 r r2
-		R1
+		R1 \noBreak
 		r2 r4 r8\fermata h\fE \bar "||"
-		\tempoSieBluten h4( c8.) c16 c4 r8 fis\pE %35
+		\tempoSieBluten h4( c8.) c16 c4 r8 fis\pE \noBreak %35
 		fis([ c h)] a \appoggiatura a g4 r8 h\fE
 		e4. e8 e4 r8 e\pE
 		e([ g fis)] e \appoggiatura e d!4 r8 h\fE

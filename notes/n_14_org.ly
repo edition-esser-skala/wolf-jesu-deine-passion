@@ -2883,8 +2883,8 @@ VersoehnerOrgano = {
 		d d\fE fis2\p
 		g4 g\f gis2\p
 		a4 a\fE ais2\pE %10
-		h4 r g\mfE a8\pE ais
-		h4 r g!\fE a
+		h4 r g!\mfE a8\pE ais
+		h4 r g\fE a
 		d,2~\fp d8 a'( fis d)
 		a2\ppE d4 d\f
 		d d d d %15
@@ -2905,9 +2905,9 @@ VersoehnerOrgano = {
 		c\f d\p g,8 g'(\fE e c) %30
 		d4 d d, d
 		g1~\fpE
-		\kneeBeam g8 \once \slurDashed d''( h g) d( h g h)
+		\kneeBeam g8 \once \slurDashed d''( h g) d( h g h) \noBreak
 		d,2\ppE g4 r\fermata \bar "||"
-		\tempoSieBluten dis'8.[\f dis16 dis8. dis16] dis8.[ dis16 dis8. dis16] %35
+		\tempoSieBluten dis'8.[\f dis16 dis8. dis16] dis8.[ dis16 dis8. dis16] \noBreak %35
 		h2\p e8\f e e e
 		cis8.[ cis16 cis8. cis16] h8.[ h16 h8. h16]
 		ais2\p h8\f h h h

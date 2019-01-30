@@ -797,9 +797,9 @@ VersoehnerAltoNotes = {
 		c8 h16\pE a g8 fis g4 g8\fE g %30
 		g2 fis
 		d4 r r2
-		R1
+		R1 \noBreak
 		r2 r4 r8\fermata g\fE \bar "||"
-		\tempoSieBluten a4. a8 a4 r8 a\pE %35
+		\tempoSieBluten a4. a8 a4 r8 a\pE \noBreak %35
 		a4. fis8 e4 r8 g\fE
 		g4( cis8.)^\critnote cis16 cis4 r8 cis\pE
 		cis4. cis8 h4 r8 h\fE

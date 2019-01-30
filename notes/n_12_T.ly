@@ -1336,9 +1336,9 @@ VersoehnerTenoreNotes = {
 		e'8\fE e16\pE e d8 d h4 e8\fE e %30
 		d2. c4
 		h r r2
-		R1
+		R1 \noBreak
 		r2 r4 r8\fermata e\fE \bar "||"
-		\tempoSieBluten fis4. fis8 fis4 r8 dis\pE %35
+		\tempoSieBluten fis4. fis8 fis4 r8 dis\pE \noBreak %35
 		dis?4. dis8 h4 r8 e\fE
 		e4( g8.) g16 g4 r8 g\pE
 		g4. g8 fis4 r8 d!\fE

@@ -1046,10 +1046,113 @@ VersoehnerBassoNotes = {
 	\relative c {
 		\clef bass
 		\key g \major \time 4/4 \autoBeamOff \tempoVersoehner
-		
+		R1*2
+		r2 r4 \mvDll g'\fE^\tuttiE
+		g g8 r g g g g
+		g4 r r2 %5
+		r8 e e e a4 r
+		r8 d,\pE fis g a2
+		d,4 r fis fis8 fis
+		g g g g gis4 gis
+		a8 a, r4 ais' ais8 ais %10
+		h4 r g!8\mfE g16\pE g a8 ais
+		h4 r g8\fE g16 g a8 a,
+		d4 r r2
+		r r4 d\fE
+		d' d,8 r d d d d %15
+		d4 r r8 e\pE e e
+		a4 r r8 e\fE e e
+		a a, r4 r8 d\pE d d
+		g4 r8 g, c c cis cis
+		d d r4 es8 es16 es es8 es %20
+		d4 r d8\fE d16\pE d d8 d
+		g4 r8 g\fE g,4 g'8 r
+		g\pE g g g g4 r
+		r2 r8 e\fE h c
+		d2\pE g,4 r %25
+		h h8 h c c c c
+		cis4 cis d8 d r4
+		dis dis8 dis e4 r
+		c!8\mfE c16\pE c d8 dis e4 r
+		c8\fE c16\pE c d8 d g,4 c8\fE c %30
+		d2 d
+		g,4 r r2
+		R1 \noBreak
+		r2 r4 r8\fermata e'\fE \bar "||"
+		\tempoSieBluten dis4. dis8 dis4 r8 dis\pE \noBreak %35
+		h4. h8 e4 r8 e\fE
+		cis4. cis8 h4 r8 h\pE
+		ais4. ais'8 h4 r8 h\fE
+		d!4. d8 c! c r4
+		r2 r4 r8 a\fE %40
+		c4. c8 h h r4
+		r2 r4 r8 g\fE
+		\tempoOWollust g4 g8 g g g, g'4
+		g g8 g g g, r4\fermata
+		c r f8.^\critnote f16 f8 f %45
+		g8.^\critnote g16 g8 f e8. e16 e8 e
+		f8. f16 f8 e d4 r8 g
+		c8 g16 g c8 g c g r g
+		c g16 g c8 g c g r e
+		f4. d8 g4( c8) f, %50
+		g4 g, c r8 e
+		f4. d8 g4( c8) f,
+		g4 g, c cis8 cis
+		\tempoOWollustFinis fis4 fis, h r \markDaCapo \bar "||" %54 finis
 	}
 }
 
 VersoehnerBassoLyrics = \lyricmode {
+	Ver -- %3
+	ſöh -- ner, heil -- ges Got -- tes
+	Lamm, %5
+	laß dei -- nen Tod
+	und dei -- ne Wun --
+	den, ach, laß ſie
+	uns in un -- ſer lez -- ten
+	Stun -- de, ach, laß ſie %10
+	uns Troſt für die See -- le
+	ſeyn, Troſt für die See -- le
+	ſeyn.
+	Ver --
+	ſöh -- ner, heil -- ges Got -- tes %15
+	Lamm, laß dei -- nen
+	Tod und dei -- ne
+	Wun -- den, ach, laß ſie
+	uns in un -- ſern lez -- ten
+	Stun -- den Troſt für die See -- le %20
+	ſeyn, Troſt für die See -- le
+	ſeyn. Ver -- ſöh -- ner,
+	heil -- ges Got -- tes Lamm,
+	laß dei -- ne
+	Wun -- den, %25
+	ach, laß ſie uns in un -- ſern
+	lez -- ten Stun -- den,
+	ach, laß ſie uns
+	Troſt für die See -- le ſeyn,
+	Troſt für die See -- le ſeyn, für die %30
+	See -- le
+	ſeyn.
 	
+	Sie
+	blu -- ten jtzt, bald %35
+	ſtrah -- len ſie, ſie
+	blu -- ten jtzt, bald
+	ſtrah -- len ſie, Ge --
+	richt dem Sün -- der,
+	Ge -- %40
+	richt dem Sün -- der.
+	O!
+	Wol -- lust, o! Wol -- lust, o!
+	Wol -- lust, o! Wol -- lust!
+	Wir, wir, wir wer -- den %45
+	nie in dein Ge -- richt, wir wer -- den
+	nie in dein Ge -- richt, Ver --
+	ſöh -- ner, Ver -- ſöh -- ner, kom -- men, Ver --
+	ſöh -- ner, Ver -- ſöh -- ner, kom -- men: Dein
+	Blut macht un -- ſre %50
+	Her -- zen rein, dein
+	Blut macht un -- ſre
+	Her -- zen rein, un -- ſre
+	Her -- zen rein. %54 FINIS
 }
