@@ -790,7 +790,7 @@ VersoehnerAltoNotes = {
 		c\pE g g g g4 r8 h
 		g8.([ a32 h)] \appoggiatura h8-\critnote a4\trill g8 g\fE g g
 		g4(\pE fis) g4 f\fE %25
-		r8 d\pE d d c4 r8 g'
+		r8 d\pE d d \appoggiatura d^\critnote c4 r8 g'
 		g e e e d d a'4\fE
 		r8 fis\pE fis fis \appoggiatura fis e4 r
 		g8\mfE e16\pE e d8 fis e4 \once \tieDashed c'~\fE

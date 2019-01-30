@@ -1620,7 +1620,7 @@ VersoehnerSopranoNotes = {
 		r r4 a\fE
 		fis' fis8 r g d d h %15
 		\appoggiatura h a4 r8 d\pE d( h4) d8
-		c! e\fE e4~ e8([ c)] h([ d)]
+		c! e e4~\fE e8([ c)] h([ d)]
 		d c r e\pE e( d4) c8
 		h d d4~ d8 c c h
 		h a d4~\fE d8 cis16\pE cis g'8 cis, %20
@@ -1629,7 +1629,7 @@ VersoehnerSopranoNotes = {
 		e\pE e g e \appoggiatura e d4 r8 g
 		h,8.([ c32 d)] \appoggiatura d8 c4\trill \appoggiatura c8 h g'\fE g e
 		d4(\pE c)\trill h d\fE %25
-		r8^\critnote f,\pE f f e4 r8 e'
+		r8^\critnote f,\pE f f \appoggiatura f^\critnote e4 r8 e'
 		e g, g g g fis fis'4\fE
 		r8 a,\pE a a \appoggiatura a g4 c~\mfE
 		c8 h16\pE a g8 fis \appoggiatura fis g4 e'~\fE
