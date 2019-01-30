@@ -1234,7 +1234,7 @@ VersoehnerViolinoI = {
 		h8 g'\pp( fis a,) g-\parenthesize-! h(\f d g)
 		r h( d g) r e( g c)
 		r d,( g h) r d,(\p d, c') %5
-		r h(\f d g) g2
+		r h(\f e-\critnote g) g2
 		fis4 r r8 \once \slurDashed fis(\pE e cis')
 		r a,(\f c! e) a2\fp
 		r8 h,(\f d g) h2\p

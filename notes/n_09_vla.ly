@@ -442,7 +442,7 @@ WohlDemViola = {
 
 ErDessenViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \major \time 4/4 \tempoErDessen
 		d8.[\fE g16 g8. h16] h8.[ d16 d8. h16]
 		h1\p~
@@ -1226,7 +1226,7 @@ DuSchoenerViola = {
 
 VersoehnerViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \major \time 4/4 \tempoVersoehner
 		\once \tieDashed g1~\fp
 		\kneeBeam g8 d''( h g) d( h g h)
@@ -1236,7 +1236,7 @@ VersoehnerViola = {
 		e4 g8\f h e,2
 		a,4 r a2\p
 		a8-\parenthesize-! \once \slurDashed d(\fE fis a) d,2\fp
-		r8 d(\fE g^\critnote h) f2\p
+		r8 d(\fE g-\critnote h) f2\p
 		r8 e(\fE a cis) g!2\p %10
 		fis4 r h,\mf a8\pE g'
 		\appoggiatura g-\critnote fis4 r g8\fE h a a,

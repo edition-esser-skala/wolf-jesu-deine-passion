@@ -1278,7 +1278,7 @@ VersoehnerViolinoII = {
 		h8.[ h16 c8. d16] e8.[ d16 c8. h16]
 		a8.[ a16 h8. c16] d4 r8 h
 		c h r h c h16 d c8 h16 d
-		c8 h r h16 d c8 h r h
+		c8 h r h16 d c8 h r g-\critnote
 		a4. a8 h4( c8) a %50
 		g4 g e r8 g
 		a4. a8 h4( c8) a
