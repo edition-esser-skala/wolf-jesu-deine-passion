@@ -177,11 +177,11 @@
 				\new StaffGroup <<
 					\new GrandStaff \with { \largerGroupDistance } <<
 						\new Staff {
-							\set Staff.instrumentName = "Corno I"
+							\set Staff.instrumentName = \markup { \center-column { "Corno I" "[ex D]" } }
 							\HoertsCornoI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "Corno II"
+							\set Staff.instrumentName = \markup { \center-column { "Corno II" "[ex D]" } }
 							\HoertsCornoII
 						}
 					>>

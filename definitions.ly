@@ -208,6 +208,23 @@ largerGroupDistance = {
        (padding . -100)
 			 (stretchability . 0)) }
 
+ossiaChoirStaff = {
+	\override StaffGrouper.staffgroup-staff-spacing =
+		#'((basic-distance . 12)
+			 (minimum-distance . 12)
+			 (padding . -100)
+			 (stretchability . 0))
+}
+
+ossiaStaff = {
+	\set fontSize = #-3
+	\override StaffSymbol.staff-space = #(magstep -3)
+	\override StaffSymbol.thickness = #(magstep -3)
+}
+
+ossiaLyrics = {
+	\set fontSize = #-1
+}
 
 mvTr = \once \override TextScript.X-offset = #2
 mvTrh = \once \override TextScript.X-offset = #2.5
@@ -389,7 +406,7 @@ tempoVersoehner = \tempoMarkup "Adagio"
 		\Score
 		\override MetronomeMark.font-series = #'medium
 		\compressFullBarRests
-		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
+% 		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
 	\context {
 		\StaffGroup

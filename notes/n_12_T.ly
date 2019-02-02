@@ -365,7 +365,7 @@ LieblichTenoreNotes = {
 		a4. a,8 h4.\trill a8
 		a4 r r2
 		R1*9 \bar "||" %76
-		\key a \minor \tempoWeintVerbrecher
+		\key a \minor \newSpacingSection \tempoWeintVerbrecher
 			e'4 r8 c c h r4 \noBreak
 		f'4. d8 d c r4
 		cis4. cis8 d a f'4~
@@ -557,28 +557,28 @@ IchFalleTenoreNotes = {
 		h ais
 		h e
 		cis ais\fermata
-		d1
+		d1 %5
 		h2 h
 		h h
 		e cis
 		d\fermata d
-		d cis
+		d cis %10
 		h ais
 		h e
 		cis ais\fermata
 		d1
-		h2 h
+		h2 h %15
 		h h
 		e cis
 		d\fermata fis
 		fis a
-		a d,
+		a d, %20
 		d cis
 		fis\fermata a
 		g fis
 		fis d
-		fis fis
-		dis?1\fermata
+		fis fis %25
+		dis?1\fermata \bar "|." %26 finis
 	}
 }
 
@@ -1357,7 +1357,7 @@ VersoehnerTenoreNotes = {
 		c4 h e r8 c
 		c4. d8 d4( c8) c
 		c4 h e e8 e
-		\tempoOWollustFinis d4 cis d r \markDaCapo \bar "||" %54 finis
+		\tempoOWollustFinis d4 cis d r \markDaCapo \bar "|." %54 finis
 	}
 }
 

@@ -7,7 +7,7 @@
 project = Wolf_Jesu_deine_Passion
 zipname = Wolf_Jesu_deine_Passion_Engraving_Files
 notes = A B cor1 cor2 fl1 fl2 ob1 ob2 org S T vl1 vl2 vla
-parts = b cor1 cor2 coro fl1 fl2 ob1 ob2 org vl1 vl2 vla
+parts = b cor12 coro fl1 fl2 ob1 ob2 org vl1 vl2 vla
 movements = erste_abtheylung zweyte_abtheylung
 
 

@@ -1049,6 +1049,124 @@ IchFalleBassFigures = \figuremode {
 	<[_+]>1 %26 finis
 }
 
+ErDessenSoliNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoErDessen
+		R1
+		r4 \mvTr h\pE^\markup { \remark "Tenore" } r8 h16 h d8 h
+		g g h g c a c h
+		h4 r r2
+		r4 e cis8 cis cis r16 e %5
+		ais,8 ais cis16 cis cis d e8 e16 e e e fis cis
+		dis4 r r2
+		r8 dis dis dis fis8. dis16 dis8 h
+		g'4 r r8 g g e
+		cis8. a16 a'4 r8 cis, d e %10
+		fis fis r4 r8 d d cis
+		e a, r e'16 cis g8. g16 g8 a
+		\appoggiatura g fis fis r d'16 a c!4 c
+		r8 c e8. d16 c4 c
+		c8 c c h h4 r %15
+		r r8 d f!8. f16 f8 e
+		d8. d16 h8 e c c r a
+		cis4 cis e8 cis h a
+		d4 r16 f! f e d8 d d c
+		\appoggiatura h a4 r4 r2 %20
+		r2 r8 c f a,
+		b r16 b b8 g e' e r e
+		g b, b a a4 r8 a
+		c f, es' es d4 r8 d
+		f8. d16 d8 b e e g e %25
+		\appoggiatura d16 cis8 cis r4 e r
+		r r8 cis16 a f'8. f16 f8 d
+		g e cis d a4 r
+		\clef treble r4 f'^\markup { \remark "Alto" } d8 d r d'16 cis
+		d4 r8 d, fis fis fis g %30
+		a4 r8 a c! c c a
+		b b r16 b b c d8 b b a
+		a4 r es'8 es d d16 c
+		h!8 h d g, c4 r8 c
+		cis4 cis cis8 cis cis d %35
+		d d r a a fis fis g
+		a a c! h! h4 r16 d h c
+		d4 r8 h h h d g,
+		c4 r8 g b4 b
+		des8. des16 des8 c \appoggiatura b a! a b c %40
+		des des r4 r8 des b as
+		g g g es b'4 r16 b g as
+		b8. b16 b8 g es es r b'
+		es4 b g8 g b g
+		es es r4 r8 b' c des %45
+		c4 c des8. b16 g8 as
+		\appoggiatura g8 f4 r r r8 es'
+		c c c b a!8. a16 b8 c
+		b4 r16 b b c des8. des16 des8 r16 b
+		g8 b des c c c r c %50
+		h4 h h8 h d g,
+		c4 r8 c a! a r4
+		es'4. d8 \appoggiatura c h!4. d8
+		f4. es8 h! h r4
+		R1\fermataMarkup \bar "|." %55 finis
+	}
+}
+
+ErDessenSoliLyrics = \lyricmode {
+	Er, deſ -- ſen All -- machts %2
+	Ruf der Wel -- ten -- heer aus nichts er --
+	schuff,
+	er, Je -- ſus, wird, o %5
+	Lie -- be, wird ein Spott der Sün -- der und ih -- rer Mord -- luſt
+	Raub.
+	Sie for -- dern un -- ge -- ſtüm ſein
+	Blut, ſein Blut kom
+	ü -- ber uns und un -- ſre %10
+	Kin -- der. So wüh -- ten
+	al -- le. Blut ent -- flie -- ßet ihm drauf
+	ſtrohm -- weis. Gleich den Lö -- wen,
+	gleich jun -- gen Lö -- wen
+	fal -- len ſie ihn an. %15
+	Zum Hohn muß ihn ein
+	Pur -- pur -- kleid um -- ge -- ben. Der
+	Pö -- bel beugt vor ihm ſein
+	Knie und lä -- ſtert ihm mit ſtol -- zer
+	Müh. %20
+	Seht, welch ein
+	Menſch, ſpricht ſelbst der Rich -- ter, der
+	nie ſo viel ge -- fühlt. Doch
+	mehr ent -- flamt ihr Grim, be --
+	red -- ter wird der Mund der Bö -- ſe -- %25
+	wich -- ter, ſtürmt,
+	bis ihn Pon -- ti -- us zum
+	Tod am Creutz ver -- dammt.
+	Seht, Chri -- ſten, welch ein
+	Mensch: Vor -- hin war er ſo %30
+	ſchön, war tau -- ſen -- den er --
+	koh -- ren, dem fein -- ſten Gol -- de gleich ſein
+	Haupt. Jtzt iſt ihm al -- ler
+	Ho -- heit Glanz ge -- raubt, mit
+	Dor -- nen ſieht man es durch -- %35
+	boh -- ren. Sein Au -- ge, daß uns
+	ſan -- fte Luſt ge -- bahr, wo -- rin ein
+	Blick, ein Blick in E -- den
+	war, iſt geiſt -- los,
+	to -- des -- quahl zu ſe -- hen, nur noch %40
+	of -- fen. Und ſei -- ne
+	Wan -- gen und ſein Mund, die lau -- ter
+	Sü -- ßig -- kei -- ten trof -- fen, wie
+	Ro -- ſen und wie Mir -- hen --
+	trop -- fen, ſind nun von %45
+	Schlä -- gen auf -- ge -- ſchwellt und
+	wund. Ach,
+	ſei -- ne gan -- ze lieb -- li -- che Ge --
+	ſtalt, vor -- hin wie Li -- ba -- non, wie
+	Ze -- dern aus -- er -- weh -- let, iſt %50
+	E -- lend und vor trau -- ren
+	alt, den er wird,
+	ach, zu ſehr, zu
+	ſehr ge -- quä -- let. %54 finis
+}
+
 ErDessenOrgano = {
 	\relative c {
 		\clef bass
@@ -2549,6 +2667,166 @@ OFreudBassFigures = \figuremode {
 	r1.
 	<6>2 <6 5>1
 	r %45 finis
+}
+
+DuSchoenerSoliNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoDuSchoener
+		r4 r8 \mvTr a\pE^\markup { \remark "Tenore" } fis fis cis' a
+		fis4 r8 fis gis gis a h
+		eis, r16 gis gis8 h d d16 d d8 cis
+		\appoggiatura h a a r4 dis r8 dis
+		his8. his16 dis8 his fis' r16 fis fis8 e %5
+		cis16 cis cis8 r4 r8 cis gis'? e
+		cis cis16 cis cis8 his his4 r8 dis
+		fis fis16 fis32 fis fis4 r r8 es
+		es c! c f! des16 des des8 r des
+		b b16 b es b b a! c4 r8 c %10
+		ges' ges es des \appoggiatura c b4 r
+		R1
+		r4 r8 b g!4 des'
+		c b a! b
+		r ges r f %15
+		f e! r2
+		r8 g! g as b r16 b des8 c
+		\appoggiatura b? as8 as r16 as as b g8 g g16 g b as
+		\appoggiatura g f4 r r2
+		r8 g h!16 h d! h g4 r8 d %20
+		f f r d'16 g, c8 c r16 c es d
+		c8 c c h h h16 h d d d es
+		\appoggiatura d8 c c r4 r r8 es16 c
+		a!8 es' d a b b r b16 g
+		c8 r16 g fis8 g d4 d' %25
+		b8 b r h16 h c8 c16 c g8. b16
+		a8 a r a b f as as
+		g a b2( c4)\trill
+		b r r8 c f es
+		\appoggiatura es d4 r8 es b4 r %30
+		R1
+		r2 \clef bass es,8^\markup { \remark "Baſſo" } g b g
+		es4 r8 es' es d as16 as as g
+		g8 g r4 es8 g b g
+		es4 r r8 e des' c %35
+		e, e f g as4 r8 c
+		a a r a16 a c8 f, f f
+		des' des r16 des des b g8 g r g16 g
+		g8 g b es, as4 r8 c
+		c c c h h4 r8 r16 g %40
+		d'4 r h r
+		gis8 gis r4 e'! r
+		r8 e, gis a h h d h
+		c4 r8 c h h d c
+		a4 r \key a \major r2 %45
+		R1*24 %69
+		r2 \clef treble r8 a'^\markup { \remark "Alto" } a a %70
+		d a a a fis fis a fis
+		d d r16 d fis d g8 g g fis
+		fis fis r fis a fis fis d
+		h'4 r8 h h h h ais
+		cis cis r e dis4 dis %75
+		dis8 dis dis cis his4 r8 dis
+		e cis his cis cis gis r4
+		r8 gis gis gis h! h cis gis
+		a!4 r16 a cis a fis8 fis a gis
+		gis4 r8 gis h h gis h %80
+		h e, d'16 d d cis cis8 cis r16 cis cis a
+		fis8. fis16 fis8 r16 fis d'4 r8 h
+		gis8. gis16 gis4 r8 eis eis fis
+		fis cis r4 r2
+		R1*24 %108
+		r2 r8 cis^\markup { \remark "Alto" } gis'8. gis16
+		gis4 r8 gis h h cis gis %110
+		a4 r8 fis h h h16 h d fis,
+		gis4 r cis ais8 fis
+		cis'4 r16 cis cis cis e8. e16 e8 cis
+		d d r fis, h h d cis
+		h8. h16 h8 ais cis cis r cis %115
+		h8. fis16 fis8 fis a! a h fis
+		g!4 r16 g g h h8 e, r e16 fis
+		gis8 gis h e, a4 r16 c h a
+		d4 r16 d d c h8 h d c
+		\appoggiatura h a4 r r2 %120
+		R1*33 %153
+		R1\fermataMarkup \bar "|." %154 finis
+	}
+}
+
+DuSchoenerSoliLyrics = \lyricmode {
+	Du ſchö -- ner Mor -- gen --
+	ſtern, wie biſt du doch ſo
+	tief von dei -- ne[m] Him -- mel he -- rab ge --
+	ſun -- ken. Ach, ſie
+	dau -- ret noch u: wächſt, die Qual des %5
+	Lei -- den -- den, Je -- ho -- vens
+	Schre -- cken ſind wie -- der ihn in
+	Schlacht -- ord -- nung ge -- stellt. Die
+	Pfei -- le des All -- mäch -- ti -- gen, ſie
+	ſte -- cken jtzt all in ſei -- ner Bruſt, die %10
+	Höl -- le fällt auf ihn.
+	
+	Er ruft: Wa --
+	rum haſt du mich,
+	Gott, ver -- %15
+	la -- ßen?
+	Und ſo, von Gott, von Gott ver --
+	la -- ßen, büßt er die Sün -- den ei -- ner gan -- zen
+	Welt.
+	Noch ein -- mal rö -- chelt er: Mich %20
+	dür -- ſtet. A -- ber ſe -- het, den lez -- ten
+	Trunk, den er er -- fle -- het, ver -- mi -- ſchen ſie mit
+	Gal -- le. Größ -- res
+	Leid war nicht zu den -- ken. Je -- ſus
+	ſpricht: Es iſt voll -- bracht. Mein %25
+	Va -- ter, ich be -- feh -- le in dei -- ne
+	Hän -- de, in dei -- ne Hän -- de
+	mei -- ne See --
+	le. Und neigt ſein
+	Haupt und ſtirbt. %30
+	
+	Je -- ſus Chri -- ſtus %32
+	ſtirbt, ſo kla -- gen al -- le Him -- mel,
+	Him -- mel, Je -- ſus Chri -- ſtus
+	ſtirbt. Ver -- hül, o %35
+	Son -- ne, dich in Flohr, beb,
+	Er -- de, macht, ihr Fel -- ſen, ein Ge --
+	tüm -- mel, ihr Tod -- ten Got -- tes, kömmt aus
+	eu -- rer Gruft her -- vor! Kömmt,
+	ſchaut, was jtzt ge -- ſchieht! Er -- %40
+	ſtaunt, fühlt,
+	zit -- tert, ſchaut:
+	Die gan -- ze Schöp -- fung äch -- ze
+	laut, den[n] Je -- ſus Chriſ -- tus
+	ſtirbt. %45
+	
+	Ihr My -- ri -- %70
+	a -- den, die am Thro -- ne Got -- tes
+	kni -- en! Wa -- rum ver -- ſtum -- men eu -- re
+	Pſal -- men? Wa -- rum werft ihr ſie
+	hin, die Kro -- nen u: die
+	Pſal -- men? Ach, ſter -- ben, %75
+	ſter -- ben ſeht ihr ihn? Drum
+	ſchwei -- gen eu -- re Pſal -- men?
+	Es ſchweigt der Späh -- ren Har -- mo --
+	nie, den Kö -- nig Sa -- lems kla -- gen
+	ſie. Im Him -- mel und auf %80
+	Er -- den her -- ſchet nur ein Wil -- le, ein lau -- tes
+	Schre -- cken erſt, und dann, dann
+	trau -- ren ſie und wer -- den
+	ſtil -- le.
+	
+	Ein Gott -- mensch %109
+	ſtirbt, für Sün -- der blu -- tet %110
+	er. Ge -- dan -- ke, wer be -- greift dich,
+	wer? Groß biſt du,
+	groß vor al -- len mäch -- ti -- gen Ge --
+	dan -- ken, in wel -- chen je -- mals
+	Se -- ra -- phin ver -- ſan -- ken. Kein %115
+	Sterb -- li -- cher ver -- mag dich durch -- zu --
+	ſchaun, und ſelbst der En -- gel, den es
+	lü -- ſte durch -- zu -- ſchaun, der bebt zu --
+	rück, ihn ü -- ber -- fällt ein hei -- lig
+	Graun. %120 finis
 }
 
 DuSchoenerOrgano = {

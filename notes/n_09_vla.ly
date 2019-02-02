@@ -4,6 +4,45 @@
 
 \version "2.18.0"
 
+JesuDeineViola = {
+	\relative c' {
+		\clef alto
+		\key g \major \time 4/4 \tempoJesuDeine
+		d2\fE d
+		h d
+		d e
+		a,1\fermata
+		a2 a %5
+		d d
+		e( d)
+		h1\fermata
+		d2 h
+		e e %10
+		e e
+		h1\fermata
+		h2 d!
+		d d
+		c( e) %15
+		e1\fermata
+		e2 e
+		d d
+		d d
+		d1\fermata %20
+		g2 d
+		g a4( fis)
+		e1
+		d\fermata
+		d2 d %25
+		c a
+		e'4( d) d2
+		d1\fermata
+		d2 f
+		e d %30
+		d2.( c4)
+		h1\fermata \bar "|." %32 finis
+	}
+}
+
 OWelchViola = {
 	\relative c' {
 		\clef alto
@@ -365,7 +404,7 @@ LieblichViola = {
 		d4~ d8.^\critnote dis16 e4 e,
 		a r r8 a' a fis \noBreak %75
 		cis4 gis a r \bar "||"
-		\key a \minor \tempoWeintVerbrecher
+		\key a \minor \newSpacingSection \tempoWeintVerbrecher
 			r8 c(\pE h a) r f'(^\critnote dis e) \noBreak
 		r4 h8\f f' f-!\p e-! r4
 		e2\f f4\p r8 d
@@ -437,6 +476,39 @@ WohlDemViola = {
 		h4^\critnote r8 h a4 r8 h
 		a8. d16 cis h a g fis d' cis h a g fis e
 		d4 r r2\fermata \bar "|." %23 finis
+	}
+}
+
+IchFalleViola = {
+	\relative c' {
+		\clef alto
+		\key h \minor \time 4/4 \tempoIchFalle
+		\partial 2 d2\fE d cis
+		h ais
+		h e
+		cis ais\fermata
+		d1 %5
+		h2 h
+		h h
+		e cis
+		d\fermata d
+		d cis %10
+		h ais
+		h e
+		cis ais\fermata
+		d1
+		h2 h %15
+		h h
+		e cis
+		d\fermata fis
+		fis a
+		a d, %20
+		d cis
+		fis\fermata a
+		g fis
+		fis d
+		fis fis %25
+		dis?1\fermata \bar "|." %26 finis
 	}
 }
 
@@ -532,6 +604,46 @@ ErIstUmViola = {
 		r8 g g( as) as( g) %30
 		g(\pp f) f( es) es( d)
 		\appoggiatura d4 es2.\fermata \bar "|."
+	}
+}
+
+SchreibeDeineViola = {
+	\relative c' {
+		\clef alto
+		\key as \lydian \time 4/4 \tempoSchreibeDeine
+		c2\fE b
+		as g
+		b b
+		b g\fermata
+		c es %5
+		es f
+		es es
+		c1\fermata
+		c2 b
+		as g %10
+		b b
+		b g\fermata
+		c es
+		es f
+		es es %15
+		c1\fermata
+		es2 f
+		es f
+		c des
+		g,1\fermata %20
+		c2 c
+		c c
+		des? es
+		es1\fermata
+		es2 es %25
+		f c
+		c f
+		e c\fermata
+		f f
+		f4( des?) es2 %30
+		es es
+		es2.( des?4)
+		c1\fermata \bar "|." %33 FINIS
 	}
 }
 
@@ -1093,6 +1205,59 @@ MeineSeeleViola = {
 		cis4 r8 a' d,4 e
 		a, r8 a\p d,4 e
 		a\ppE r r2\fermata \bar "|." %34 finis
+	}
+}
+
+OFreudViola = {
+	\relative c' {
+		\clef alto
+		\key a \major \time 3/2 \tempoOFreud
+		\partial 2 cis2\fE
+		cis1 cis2
+		a1 gis2
+		a cis h
+		a1\fermata e'2
+		e1 e2 %5
+		e1 e2
+		cis( d) h
+		cis1\fermata cis2
+		cis1 cis2
+		a1 gis2 %10
+		a cis h
+		a1\fermata e'2
+		e1 e2
+		e1 e2
+		cis( d) h %15
+		cis1\fermata cis2
+		a1 e'2
+		e1 eis2
+		fis2 cis1
+		a1\fermata h2 %20
+		h1 h2
+		cis h1
+		gis\fermata a2
+		a( cis) cis
+		d( fis) e %25
+		e1.
+		d1\fermata e2
+		d1 h2
+		h( ais) cis
+		d1\fermata h2 %30
+		a!1 cis2
+		d1^\critnote h2
+		cis1 e2
+		d1\fermata e2
+		h1 h2 %35
+		cis h1
+		gis\fermata gis2
+		a1 cis2
+		a1 a2
+		gis h a %40
+		gis1\fermata e'2
+		fis( e) e^\critnote
+		e1 cis2
+		e fis e
+		cis1\fermata \bar "|." %45 finis
 	}
 }
 

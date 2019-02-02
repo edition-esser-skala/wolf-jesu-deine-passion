@@ -4,6 +4,45 @@
 
 \version "2.18.0"
 
+JesuDeineViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \tempoJesuDeine
+		g'2\fE fis
+		e fis
+		g g
+		fis1\fermata
+		g2 fis %5
+		a g
+		g( fis)
+		d1\fermata
+		g2 g
+		g gis %10
+		a4( e) e2
+		dis1\fermata
+		e2 fis
+		g! e
+		e( a) %15
+		gis1\fermata
+		gis?2 a
+		a a
+		g! fis
+		g1\fermata %20
+		h2 a
+		h4( cis) d( h)
+		a2( g)
+		fis1\fermata
+		a2 g %25
+		g fis
+		g4( a) g2
+		fis1\fermata
+		g2 g
+		g g %30
+		g( fis)
+		d1\fermata \bar "|." %32 finis
+	}
+}
+
 OWelchViolinoII = {
 	\relative c' {
 		\clef treble
@@ -369,7 +408,7 @@ LieblichViolinoII = {
 		d8( fis16.) e32 e8( d16.) cis32 cis8( h16.) a32 a8( gis!16.) h32
 		a8 \once \slurDashed a16( cis) e( cis) a'( eis) eis4( fis8) e32( d cis h) \noBreak %75
 		\slurDashed a16( e) e'( a,) \slurSolid \appoggiatura { a[ h] } h4\trill a8 e32( cis) d( h) a8 r \bar "||"
-		\key a \minor \tempoWeintVerbrecher
+		\key a \minor \newSpacingSection \tempoWeintVerbrecher
 			r8 a'(\pE gis a) a-! gis-! r4 \noBreak
 		d'4.\f h8\p h-! a-! r4
 		cis2\f d8 a a4~
@@ -441,6 +480,39 @@ WohlDemViolinoII = {
 		d8 h16 cis d4~ d16 a h cis \once \tieDashed d4~
 		d8 cis16 h a g fis e d8 cis16 h a g fis e
 		d4 r r2\fermata \bar "|." %23 finis
+	}
+}
+
+IchFalleViolinoII = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \tempoIchFalle
+		\partial 2 fis2\fE fis fis
+		fis fis
+		d g
+		fis cis\fermata
+		fis1 %5
+		fis2 e
+		dis d
+		g fis
+		fis\fermata fis
+		fis fis %10
+		fis fis
+		d g
+		fis cis\fermata
+		fis1
+		fis2 e %15
+		dis d
+		g fis
+		fis\fermata ais
+		h cis
+		d a! %20
+		h a
+		a\fermata d
+		cis h
+		ais h
+		h ais %25
+		fis1\fermata \bar "|." %26 finis
 	}
 }
 
@@ -536,6 +608,46 @@ ErIstUmViolinoII = {
 		c2 r4 %30
 		r g\pp g
 		g2.\fermata \bar "|." %32 finis
+	}
+}
+
+SchreibeDeineViolinoII = {
+	\relative c' {
+		\clef treble
+		\key as \lydian \time 4/4 \tempoSchreibeDeine
+		es2\fE es
+		es es
+		f es
+		d! b\fermata
+		f' g %5
+		as as
+		as g
+		es1\fermata
+		es2 es
+		es es %10
+		f es
+		d! b\fermata
+		f'2 g
+		as as
+		as g %15
+		es1\fermata
+		as2 as
+		as as
+		g f
+		e1\fermata %20
+		g2 ges
+		f^\critnote a
+		b4( g!) as2
+		g1\fermata
+		as2 b %25
+		as g
+		f f
+		g f\fermata
+		a c
+		b4( g) as2 %30
+		g as
+		as( g)
+		es1\fermata \bar "|." %33 FINIS
 	}
 }
 
@@ -1095,6 +1207,59 @@ MeineSeeleViolinoII = {
 		a8 a16( h) cis4 r8 d16( h) r8 gis16( h)
 		a8 \slurDashed a,16(\p h) cis4 r8 d16( h) r8 gis16( h)
 		h4(\pp a8) r r2\fermata \bar "|." %34 finis
+	}
+}
+
+OFreudViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/2 \tempoOFreud
+		\partial 2 e2\fE
+		fis1 e2
+		d1 h2
+		e1.
+		e1\fermata a2
+		a1 a2 %5
+		a1 gis2
+		fis1 gis2
+		e1\fermata e2
+		fis1 e2
+		d1 h2 %10
+		e1.
+		e1\fermata a2
+		a1 a2
+		a1 gis2
+		fis1 gis2 %15
+		e1\fermata e2
+		e1 a2
+		gis1 gis2
+		fis1 eis2
+		cis1\fermata e2 %20
+		fis1 e2
+		e1 dis2
+		h1\fermata cis2
+		fis1 fis2
+		fis( a) gis %25
+		a1.
+		fis1\fermata a2
+		fis1 g2
+		g? fis1
+		fis\fermata gis2 %30
+		e1 a2
+		fis1 gis2
+		a1 g2
+		fis1\fermata a2
+		fis1 e2 %35
+		e1 dis2
+		h1\fermata h2
+		cis( e) e
+		d!1 e2
+		e1. %40
+		e1\fermata e2
+		a( h) a
+		gis1 fis2
+		a1 gis2
+		e1\fermata \bar "|." %45 finis
 	}
 }
 
