@@ -333,7 +333,7 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.7" "CORO" "Wohl dem, dem die Uebertretungen vergeben sind"
+			movement = \movementTitle "1.7" "CORO" "Wohl dem, dem die Uebertretungen vergeben ſind"
 		}
 		\score {
 			<<

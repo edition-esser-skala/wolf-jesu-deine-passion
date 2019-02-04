@@ -134,7 +134,7 @@ OWelchTenoreNotes = {
 OWelchTenoreLyrics = \lyricmode {
 	O welch ein kläg -- lich %2
 	Bild, wo -- rin mein Je -- ſus mir er --
-	schei -- net:
+	ſchei -- net:
 	Er %5
 	zagt und zit -- tert,
 	To -- de’s Angſt er -- füllt sein Herz.
@@ -142,10 +142,10 @@ OWelchTenoreLyrics = \lyricmode {
 	weint blut -- gen Him -- mel,
 	weint, und blut -- ger Schweiß fließt in die %10
 	Thrä -- nen.
-	Du schau -- er --
-	vol -- le -- ste der Sze -- nen, Geth --
-	se -- ma -- ne, Geth --
-	se -- ma -- ne. %15
+	Du ſchau -- er --
+	vol -- le -- ſte der Sze -- nen, Geth --
+	ſe -- ma -- ne, Geth --
+	ſe -- ma -- ne. %15
 	Mein Va -- ter,
 	ſpricht er jtzt, mein
 	Va -- ter, ich
@@ -159,7 +159,7 @@ OWelchTenoreLyrics = \lyricmode {
 	ſtärkt.
 	In -- deſ -- ſen ſind die
 	Jün -- ger an Ki -- dron ein -- ge --
-	schla -- fen. Je -- ſus Fin -- ger be -- rührt sie
+	ſchla -- fen. Je -- ſus Fin -- ger be -- rührt ſie
 	ſanft. Er ſpricht: Der %30
 	Geiſt __ iſt wil -- lig,
 	eu -- er Leib nur nicht.
@@ -281,7 +281,7 @@ VerraetherTenoreLyrics = \lyricmode {
 	hö -- re Waf -- fen klin -- gen. Du
 	kömmst, mit dir der Mör -- der fre -- che
 	Schaar. Ach Gott, nun
-	brin -- gen ſie den Heil -- [’]gen zu den %10
+	brin -- gen ſie den Heil -- gen zu den %10
 	Tod -- ten.
 	Doch ſe -- het:
 	Oh -- ne Furcht ſtellt ſich der Stärk -- re
@@ -291,12 +291,12 @@ VerraetherTenoreLyrics = \lyricmode {
 	Tod -- ten.
 	Ge --
 	lin -- de ruft er jezt: Ihr
-	Fei -- gen, dies ist die Ge -- %20
+	Fei -- gen, dies iſt die Ge -- %20
 	walt der Fin -- ſter -- niß und eu -- re
 	Stun -- de. Den ich muß ihn
 	trin -- ken, den Kelch, den
 	mir mein Va -- ter reicht,
-	sonst kont ich leicht mehr als %25
+	ſonſt kont ich leicht mehr als %25
 	"12" Le -- gi -- o -- nen En -- gel win -- ken.
 	Und nun wird
 	er ge -- bun -- den, fort ge -- führt zum
@@ -309,7 +309,7 @@ VerraetherTenoreLyrics = \lyricmode {
 	ſpricht. Und Pe -- trus %35
 	ſtockt, und ei -- ne Zäh -- re vol -- ler
 	Reu -- e netzt des Ver -- rä -- thers An -- ge --
-	sicht. %38 finis
+	ſicht. %38 finis
 }
 
 LieblichTenoreNotes = {
@@ -529,7 +529,7 @@ WohlDemTenoreNotes = {
 WohlDemTenoreLyrics = \lyricmode {
 	Wohl dem, wohl dem, dem die
 	Ue -- ber -- tre -- tun -- gen ver --
-	ge -- ben sind, wohl
+	ge -- ben ſind, wohl
 	dem, wohl [dem, dem die
 	Sün -- de, die Sün -- de be -- %5
 	de -- cket ist,]
@@ -539,7 +539,7 @@ WohlDemTenoreLyrics = \lyricmode {
 	dem die %10
 	Sün -- de be -- de -- cket ist, wohl
 	dem, dem die Ue -- ber -- tre -- tun --
-	gen ver -- ge -- ben [sind], dem die
+	gen ver -- ge -- ben [ſind], dem die
 	Sün -- de be -- de -- cket ist, wohl
 	dem, wohl dem, [dem die %15
 	Sün -- de, die Sün -- de be --
@@ -651,7 +651,7 @@ ErDessenTenoreNotes = {
 ErDessenTenoreLyrics = \lyricmode {
 	Er, deſ -- ſen All -- machts %2
 	Ruf der Wel -- ten -- heer aus nichts er --
-	schuff,
+	ſchuff,
 	er, Je -- ſus, wird, o %5
 	Lie -- be, wird ein Spott der Sün -- der und ih -- rer Mord -- luſt
 	Raub.
@@ -941,7 +941,7 @@ EsSchwebenTenoreLyrics = \lyricmode {
 	was des Men -- ſchen See -- le nie ge --
 	dacht hat, lei -- det er.
 	Al -- lein, ſo bit -- ter ſein
-	Schmerz ist, will er doch die ed -- el -- ſte der %15
+	Schmerz iſt, will er doch die ed -- el -- ſte der %15
 	Müt -- ter, Ma -- ri -- a, Troſt er --
 	thei -- len, und be -- fieh -- let jet -- zo dies
 	ſei -- nem Lieb -- ling an, der
@@ -1229,7 +1229,7 @@ DuSchoenerTenoreLyrics = \lyricmode {
 	dau -- ret noch u: wächſt, die Qual des %5
 	Lei -- den -- den, Je -- ho -- vens
 	Schre -- cken ſind wie -- der ihn in
-	Schlacht -- ord -- nung ge -- stellt. Die
+	Schlacht -- ord -- nung ge -- ſtellt. Die
 	Pfei -- le des All -- mäch -- ti -- gen, ſie
 	ſte -- cken jtzt all in ſei -- ner Bruſt, die %10
 	Höl -- le fällt auf ihn.

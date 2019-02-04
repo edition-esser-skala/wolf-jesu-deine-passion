@@ -1114,7 +1114,7 @@ ErDessenSoliNotes = {
 ErDessenSoliLyrics = \lyricmode {
 	Er, deſ -- ſen All -- machts %2
 	Ruf der Wel -- ten -- heer aus nichts er --
-	schuff,
+	ſchuff,
 	er, Je -- ſus, wird, o %5
 	Lie -- be, wird ein Spott der Sün -- der und ih -- rer Mord -- luſt
 	Raub.
@@ -1140,7 +1140,7 @@ ErDessenSoliLyrics = \lyricmode {
 	bis ihn Pon -- ti -- us zum
 	Tod am Creutz ver -- dammt.
 	Seht, Chri -- ſten, welch ein
-	Mensch: Vor -- hin war er ſo %30
+	Menſch: Vor -- hin war er ſo %30
 	ſchön, war tau -- ſen -- den er --
 	koh -- ren, dem fein -- ſten Gol -- de gleich ſein
 	Haupt. Jtzt iſt ihm al -- ler
@@ -2760,7 +2760,7 @@ DuSchoenerSoliLyrics = \lyricmode {
 	dau -- ret noch u: wächſt, die Qual des %5
 	Lei -- den -- den, Je -- ho -- vens
 	Schre -- cken ſind wie -- der ihn in
-	Schlacht -- ord -- nung ge -- stellt. Die
+	Schlacht -- ord -- nung ge -- ſtellt. Die
 	Pfei -- le des All -- mäch -- ti -- gen, ſie
 	ſte -- cken jtzt all in ſei -- ner Bruſt, die %10
 	Höl -- le fällt auf ihn.

@@ -356,7 +356,7 @@ HeiligerSopranoLyrics = \lyricmode {
 	daß ſie
 	küh -- ner, %135
 	daß ſie
-	frei -- jer
+	frey -- er
 	ſich dem
 	Chor der
 	Him -- mel %140
@@ -383,7 +383,7 @@ HeiligerSopranoLyrics = \lyricmode {
 	daß ſie %165
 	küh -- ner,
 	daß ſie
-	frei -- jer
+	frey -- er
 	ſich dem
 	Chor der %170
 	Him -- mel

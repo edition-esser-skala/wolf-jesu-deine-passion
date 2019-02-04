@@ -249,7 +249,7 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.7" "CORO" "Wohl dem, dem die Uebertretungen vergeben sind"
+			movement = \movementTitle "1.7" "CORO" "Wohl dem, dem die Uebertretungen vergeben ſind"
 		}
 		\score {
 			<<
@@ -653,7 +653,7 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.7" "RECITATIV" "Du schöner Morgenſtern"
+			movement = \movementTitle "2.7" "RECITATIV" "Du ſchöner Morgenſtern"
 		}
 		\score {
 			<<

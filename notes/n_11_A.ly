@@ -181,7 +181,7 @@ WohlDemAltoNotes = {
 WohlDemAltoLyrics = \lyricmode {
 	Wohl dem, wohl dem, dem die
 	Ue -- ber -- tre -- tun -- gen ver --
-	ge -- ben sind, wohl
+	ge -- ben ſind, wohl
 	dem, [wohl dem, dem die
 	Sün -- de, die Sün -- de be -- %5
 	de -- cket ist,]
@@ -300,7 +300,7 @@ ErDessenAltoNotes = {
 
 ErDessenAltoLyrics = \lyricmode {
 	Seht, Chri -- ſten, welch ein %29
-	Mensch: Vor -- hin war er ſo %30
+	Menſch: Vor -- hin war er ſo %30
 	ſchön, war tau -- ſen -- den er --
 	koh -- ren, dem fein -- ſten Gol -- de gleich ſein
 	Haupt. Jtzt iſt ihm al -- ler
@@ -727,7 +727,7 @@ DuSchoenerAltoLyrics = \lyricmode {
 	trau -- ren ſie und wer -- den
 	ſtil -- le.
 	
-	Ein Gott -- mensch %109
+	Ein Gott -- menſch %109
 	ſtirbt, für Sün -- der blu -- tet %110
 	er. Ge -- dan -- ke, wer be -- greift dich,
 	wer? Groß biſt du,

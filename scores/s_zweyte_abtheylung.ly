@@ -11,7 +11,6 @@
 	systems-per-page = #1
 }
 
-% showLastLength = r2.*100
 #(set-global-staff-size 15.87)
 
 \book {
@@ -332,7 +331,7 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.7" "RECITATIV" "Du schöner Morgenſtern"
+			movement = \movementTitle "2.7" "RECITATIV" "Du ſchöner Morgenſtern"
 		}
 		\score {
 			<<

@@ -192,7 +192,7 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.7" "CORO" "Wohl dem, dem die Uebertretungen vergeben sind"
+			movement = \movementTitle "1.7" "CORO" "Wohl dem, dem die Uebertretungen vergeben ſind"
 		}
 		\paper { systems-per-page = #5 }
 		\score {
@@ -441,7 +441,7 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.7" "RECITATIV" "Du schöner Morgenſtern"
+			movement = \movementTitle "2.7" "RECITATIV" "Du ſchöner Morgenſtern"
 		}
 		\paper {
 			systems-per-page = #5

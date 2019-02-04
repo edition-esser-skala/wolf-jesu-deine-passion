@@ -184,7 +184,7 @@ WohlDemBassoLyrics = \lyricmode {
 	dem die %10
 	Sün -- de be -- de -- cket ist, wohl
 	dem, dem die Ue -- ber -- tre -- tun --
-	gen ver -- ge -- ben [sind], dem die
+	gen ver -- ge -- ben [ſind], dem die
 	Sün -- de be -- de -- cket ist, wohl
 	dem, wohl dem, dem die %15
 	Sün -- de, die Sün -- de be --
