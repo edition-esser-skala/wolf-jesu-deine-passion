@@ -1,11 +1,11 @@
-% (c) 2019 by Wolfgang Esser-Skala.
+% (c) 2020 by Wolfgang Esser-Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 \version "2.18.0"
 
 TenoreIncipit = \markup {
-	"Tenore" \hspace #-16 \score {
+	"Tenore" \hspace #-18.2 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
@@ -55,7 +55,7 @@ JesuDeineTenoreNotes = {
 }
 
 JesuDeineTenoreLyrics = \lyricmode {
-	[Je -- ſu,
+	Je -- ſu,
 	dei -- ne
 	Paſ -- ſi --
 	on
@@ -70,7 +70,7 @@ JesuDeineTenoreLyrics = \lyricmode {
 	Geiſt und
 	An -- dacht
 	ſchen -- %15
-	ken. 
+	ken.
 	In dem
 	Bild jetz --
 	und er --
@@ -78,7 +78,7 @@ JesuDeineTenoreLyrics = \lyricmode {
 	Je -- ſu,
 	mei -- nem
 	Her --
-	zen, 
+	zen,
 	wie du, %25
 	un -- ſer
 	Heil zu
@@ -86,7 +86,7 @@ JesuDeineTenoreLyrics = \lyricmode {
 	lit -- teſt
 	al -- le %30
 	Schmer --
-	zen.] %32 finis
+	zen. %32 finis
 }
 
 OWelchTenoreNotes = {
@@ -200,28 +200,28 @@ MeinHerzTenoreNotes = {
 }
 
 MeinHerzTenoreLyrics = \lyricmode {
-	Mein [Herz iſt be -- reit, Gott,
-	mein Herz iſt be -- reit,]
-	
-	daß [ich %6
-	ſin -- ge und lo -- be,]
+	Mein \xE Herz iſt be -- reit, Gott,
+	mein Herz iſt be -- reit, \x
+
+	daß \xE ich %6
+	ſin -- ge und lo -- be, \x
 	ſin -- ge und lo -- be,
 	lo --
 	%10
 	_ _
-	be, [mein Herz iſt be -- reit, Gott, mein Herz iſt] be --
+	be, \xE mein Herz iſt be -- reit, Gott, mein Herz iſt \x be --
 	reit,
-	
+
 	daß ich ſin -- ge und %17
-	lo -- [be, sin -- ge und
+	lo -- \xE be, sin -- ge und
 	lo -- be, sin -- ge und
-	lo] -- _ _ _ %20
+	lo -- _ _ _ %20
 	_ _ _ _
 	_ _ _ _
-	be, [Gott, mein Herz iſt be --
-	reit, mein Herz iſt] be -- [reit, daß ich
-	ſin -- ge, ſin -- ge und lo] -- %25
-	be, daß ich
+	\x be, \xE Gott, mein Herz iſt be --
+	reit, mein Herz iſt \x be -- \xE reit, daß ich
+	ſin -- ge, ſin -- ge und lo -- %25
+	\x be, daß ich
 	ſin -- ge und lo -- be,
 	ſin -- ge und lo --
 	be. %29 finis
@@ -287,7 +287,7 @@ VerraetherTenoreLyrics = \lyricmode {
 	Oh -- ne Furcht ſtellt ſich der Stärk -- re
 	dar. Er ſpricht ein Wort, da
 	ſtür -- zen ſie zu Bo -- den, da %15
-	lie -- gen ſie be -- täut u: wie die
+	lie -- gen ſie be -- täut und wie die
 	Tod -- ten.
 	Ge --
 	lin -- de ruft er jezt: Ihr
@@ -297,7 +297,7 @@ VerraetherTenoreLyrics = \lyricmode {
 	trin -- ken, den Kelch, den
 	mir mein Va -- ter reicht,
 	ſonſt kont ich leicht mehr als %25
-	"12" Le -- gi -- o -- nen En -- gel win -- ken.
+	zwölf Le -- gi -- o -- nen En -- gel win -- ken.
 	Und nun wird
 	er ge -- bun -- den, fort ge -- führt zum
 	Ka -- i -- phas. Nur
@@ -426,7 +426,7 @@ LieblichTenoreLyrics = \lyricmode {
 	Wan -- gen füllt, die der
 	Reu -- _ e __ Wan -- gen
 	füllt.
-	
+
 	Lieb -- lich, %39
 	lieb -- lich fließt __ die %40
 	Zäh -- re, lieb -- lich,
@@ -456,15 +456,15 @@ LieblichTenoreLyrics = \lyricmode {
 	füllt, der Reu -- %65
 	e Wan -- gen
 	füllt.
-	
+
 	Weint, Ver -- bre -- cher! %77
 	Weint, Ver -- bre -- cher!
 	Eu -- re Sün -- den kön --
-	nen ei -- nen til -- ger, ei -- nen %80
-	til -- ger fin -- den.
+	nen ei -- nen Til -- ger, ei -- nen %80
+	Til -- ger fin -- den.
 	Eu -- re Sün -- den kön --
-	nen ei -- nen til -- ger, ei -- nen
-	til -- ger fin -- den, weint,
+	nen ei -- nen Til -- ger, ei -- nen
+	Til -- ger fin -- den, weint,
 	weint! Des %85
 	Mit -- lers ſanf -- tes
 	Her -- ze ſchmilzt bey
@@ -472,16 +472,16 @@ LieblichTenoreLyrics = \lyricmode {
 	Schmer -- _ _ _ _
 	_ _ ze, und ſein %90
 	Zür -- nen wird ge --
-	ſtilt, ſein Zür -- nen
+	ſtillt, ſein Zür -- nen
 	wird ge -- ſtillt.
 	Weint, Ver -- bre -- cher!
 	Weint, Ver -- bre -- cher! %95
 	Eu -- re Sün -- den kön --
-	nen ei -- nen til -- ger, ei -- nen
-	til -- ger fin -- den.
+	nen ei -- nen Til -- ger, ei -- nen
+	Til -- ger fin -- den.
 	Eu -- re Sün -- den kön --
-	nen ei -- nen til -- ger, ei -- nen %100
-	til -- ger fin -- den, weint,
+	nen ei -- nen Til -- ger, ei -- nen %100
+	Til -- ger fin -- den, weint,
 	weint! Des
 	Mit -- lers ſanf -- tes
 	Her -- ze ſchmilzt bey
@@ -489,8 +489,8 @@ LieblichTenoreLyrics = \lyricmode {
 	Schmer -- _ _ _ _
 	_ _ ze, und ſein
 	Zür -- nen wird ge --
-	ſtilt, u: ſein Zür -- nen
-	wird ge -- ſtilt, und ſein %110
+	ſtillt, und ſein Zür -- nen
+	wird ge -- ſtillt, und ſein %110
 	Zür -- nen wird ge --
 	ſtillt, ſein
 	Zür -- nen wird ge --
@@ -530,23 +530,23 @@ WohlDemTenoreLyrics = \lyricmode {
 	Wohl dem, wohl dem, dem die
 	Ue -- ber -- tre -- tun -- gen ver --
 	ge -- ben ſind, wohl
-	dem, wohl [dem, dem die
+	dem, wohl \xE dem, dem die
 	Sün -- de, die Sün -- de be -- %5
-	de -- cket ist,]
-	
+	de -- cket ist, \x
+
 	wohl
 	dem,
 	dem die %10
 	Sün -- de be -- de -- cket ist, wohl
 	dem, dem die Ue -- ber -- tre -- tun --
-	gen ver -- ge -- ben [ſind], dem die
+	gen ver -- ge -- ben \xE ſind \x, dem die
 	Sün -- de be -- de -- cket ist, wohl
-	dem, wohl dem, [dem die %15
+	dem, wohl dem, \xE dem die %15
 	Sün -- de, die Sün -- de be --
 	de -- cket ist, wohl
 	dem, wohl dem, dem die
 	Sün -- de, die Sün -- de be --
-	de -- cket ist.] %20 finis
+	de -- cket ist. %20 finis
 }
 
 IchFalleTenoreNotes = {
@@ -682,7 +682,7 @@ ErIstUmTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \minor \time 3/4 \autoBeamOff \tempoErIstUm
-		\mvDll es4\fE^\tuttiE g f
+		\mvTr es4\fE^\tuttiE g f
 		es f es
 		c as es'
 		d( c) h
@@ -716,7 +716,7 @@ ErIstUmTenoreNotes = {
 }
 
 ErIstUmTenoreLyrics = \lyricmode {
-	Er [iſt um
+	Er \xE iſt um
 	un -- ſe -- re
 	Miſ -- ſe -- that
 	wil -- len
@@ -736,14 +736,14 @@ ErIstUmTenoreLyrics = \lyricmode {
 	wil -- len
 	iſt er ſo ver --
 	wun -- det, %20
-	iſt er ſo] zer --
+	iſt er ſo \x zer --
 	ſchla -- gen,
-	[iſt er ſo
+	\xE iſt er ſo
 	zer -- ſchla --
 	gen, %25
 	iſt er ſo
 	zer -- ſchla --
-	gen.] %28 finis
+	gen. %28 finis
 }
 
 SchreibeDeineTenoreNotes = {
@@ -791,7 +791,7 @@ SchreibeDeineTenoreLyrics = \lyricmode {
 	dei -- ne
 	blut -- gen
 	Wun -- den
-	mir, Her[r], %5
+	mir, Herr, %5
 	in mein
 	Herz hi --
 	nein,
@@ -882,17 +882,17 @@ NunIstTenoreLyrics = \lyricmode {
 	Herz aus ſei -- ner Höh -- le. Da
 	hängt er! Seht, ſein Kleid in Blut ge --
 	taucht! Seht, Frev -- ler, de -- ren %20
-	O -- dem Rach u: Un -- ſin haucht.
-	
+	O -- dem Rach und Un -- ſin haucht.
+
 	Wie
 	Stim -- men gro -- ßer Wa -- ßer und ſtar -- ker
 	Don -- ner rauſcht die Stim -- me ſein -- er %25
 	Ha -- ßer,
-	
+
 	auf ih -- rer Stir -- ne glüth Ver --
-	der -- ben. Todt u: Höl -- le
-	[öff -- nen ih -- re Ra -- chen.] %30
-	
+	der -- ben. Todt und Höl -- le
+	\xE öff -- nen ih -- re Ra -- chen. \x %30
+
 	A -- ber
 	Je -- ſus ruft: Ver --
 	gib es, ver -- gib es ih -- nen,
@@ -1002,30 +1002,30 @@ MeineSeeleTenoreLyrics = \lyricmode {
 	ben -- di -- gen Gott.
 	Ach, ach! %5
 	Wenn wer -- de ich da -- hin
-	kom -- men? 
-	
+	kom -- men?
+
 	Ach,
-	ach! Wenn wer -- de [ich da -- hin %10
+	ach! Wenn wer -- de \xE ich da -- hin %10
 	kom -- men, daß ich Got -- tes An -- ge -- ſicht
-	ſchau -- e?]
-	
+	ſchau -- e?
+
 	Mei -- ne See -- le %15
 	dür -- ſtet nach Gott,
 	nach dem le --
 	ben -- di -- gen Gott.
 	Ach, ach!
 	Wenn wer -- de ich da -- hin %20
-	kom -- men? [Ach, ach! Ach,
-	ach!] Wenn [wer -- de ich da -- hin
-	kom -- men, daß ich Got -- tes An -- ge -- ſicht]
+	kom -- men? \xE Ach, ach! Ach,
+	ach! \x Wenn \xE wer -- de ich da -- hin
+	kom -- men, daß ich Got -- tes An -- ge -- ſicht \x
 	ſchau -- e?
 	Wenn wer -- de ich da -- hin %25
 	kom -- men? Ach,
 	ach! Wenn wer -- de ich da -- hin
-	kom -- men, [daß ich Got -- tes An -- ge -- ſicht
-	ſchau] -- e? Ach, ach! Wenn
-	[wer -- de ich da -- hin kom -- men, daß ich %30
-	Got -- tes An -- ge] -- ſicht ſchau --
+	kom -- men, \xE daß ich Got -- tes An -- ge -- ſicht
+	ſchau -- \x e? Ach, ach! Wenn
+	\xE wer -- de ich da -- hin kom -- men, daß ich %30
+	Got -- tes An -- ge -- \x ſicht ſchau --
 	e? %32 finis
 }
 
@@ -1224,16 +1224,16 @@ DuSchoenerTenoreNotes = {
 DuSchoenerTenoreLyrics = \lyricmode {
 	Du ſchö -- ner Mor -- gen --
 	ſtern, wie biſt du doch ſo
-	tief von dei -- ne[m] Him -- mel he -- rab ge --
+	tief von dei -- nem Him -- mel he -- rab ge --
 	ſun -- ken. Ach, ſie
-	dau -- ret noch u: wächſt, die Qual des %5
+	dau -- ret noch und wächſt, die Qual des %5
 	Lei -- den -- den, Je -- ho -- vens
-	Schre -- cken ſind wie -- der ihn in
+	Schre -- cken ſind wi -- der ihn in
 	Schlacht -- ord -- nung ge -- ſtellt. Die
 	Pfei -- le des All -- mäch -- ti -- gen, ſie
 	ſte -- cken jtzt all in ſei -- ner Bruſt, die %10
 	Höl -- le fällt auf ihn.
-	
+
 	Er ruft: Wa --
 	rum haſt du mich,
 	Gott, ver -- %15
@@ -1252,7 +1252,7 @@ DuSchoenerTenoreLyrics = \lyricmode {
 	mei -- ne See --
 	le. Und neigt ſein
 	Haupt und ſtirbt. %30
-	
+
 	Mein Je -- ſus %46
 	ſtirbt, ihr Au -- gen
 	weint, ach,
@@ -1264,7 +1264,7 @@ DuSchoenerTenoreLyrics = \lyricmode {
 	in des To -- des
 	Nacht __ hi -- %55
 	nab.
-	
+
 	Mein Je -- ſus %85
 	ſtirbt, wie furcht -- bar
 	groß war
@@ -1276,28 +1276,28 @@ DuSchoenerTenoreLyrics = \lyricmode {
 	Tod der Knech -- te
 	ſtirbt __ er
 	da. %95
-	
-	[Mein %120
+
+	\xE Mein %120
 	Je -- ſus ſtirbt, ihr
 	Thrä -- nen fließt, er
 	hat für uns, für
-	uns ge -- büßt.]
-	
-	[O %128
+	uns ge -- büßt.
+
+	O %128
 	we -- he dem, der
-	Sün -- de thut,] %130
-	[ihn ſchre -- cke
-	Je -- ſu theu -- res]
+	Sün -- de thut, %130
+	ihn ſchre -- cke
+	Je -- ſu theu -- res \x
 	Blut.
-	
-	[Dank, Preis u: Eh -- re %146
+
+	\xE Dank, Preis und Eh -- re %146
 	wol -- len wir ihm wei -- hen,
 	an -- be -- ten im -- mer, und uns
-	freu -- en. Dank, Preis u:
+	freu -- en. Dank, Preis und
 	Eh -- re dem, der %150
 	an dem Creu -- ze ſtarb, und
-	ew -- ges, ew -- ges Heyl er] --
-	warb. Hal --
+	ew -- ges, ew -- ges Heyl er --
+	\x warb. Hal --
 	le -- lu -- jah! %154 finis
 }
 
@@ -1306,7 +1306,7 @@ VersoehnerTenoreNotes = {
 		\clef "treble_8"
 		\key g \major \time 4/4 \autoBeamOff \tempoVersoehner
 		R1*2
-		r2 r4 \mvDll g'\fE^\tuttiE
+		r2 r4 \mvTr g'\fE^\tuttiE
 		d h8 r c c e c
 		\appoggiatura c h4 r r8 d\pE d dis %5
 		e4 r8 e\fE e( cis4) e8
@@ -1362,18 +1362,18 @@ VersoehnerTenoreNotes = {
 }
 
 VersoehnerTenoreLyrics = \lyricmode {
-	[Ver -- %3
+	\xE Ver -- %3
 	ſöh -- ner, heil -- ges Got -- tes
-	Lamm,] laß dei -- nen %5
+	Lamm, \x laß dei -- nen %5
 	Tod, laß dei -- nen
-	Tod u: dei -- ne Wun --
+	Tod und dei -- ne Wun --
 	den, ach, laß ſie
 	uns in un -- ſer lez -- ten
 	Stun -- de, ach, laß ſie %10
 	uns Troſt für die See -- le
 	ſeyn, Troſt für die See -- le
 	ſeyn.
-	[Ver --
+	\xE Ver --
 	ſöh -- ner, heil -- ges Got -- tes %15
 	Lamm, laß dei -- nen
 	Tod und dei -- ne
@@ -1381,9 +1381,9 @@ VersoehnerTenoreLyrics = \lyricmode {
 	uns in un -- ſern lez -- ten
 	Stun -- den Troſt für die See -- le %20
 	ſeyn, Troſt für die See -- le
-	ſeyn. Ver -- ſöh -- ner,]
+	ſeyn. Ver -- ſöh -- ner, \x
 	heil -- ges Got -- tes Lamm,
-	laß dei -- nen Tod u: dei -- ne
+	laß dei -- nen Tod und dei -- ne
 	Wun -- den, %25
 	ach, laß ſie uns in un -- ſern
 	lez -- ten Stun -- den,
@@ -1392,18 +1392,18 @@ VersoehnerTenoreLyrics = \lyricmode {
 	Troſt für die See -- le ſeyn, für die %30
 	See -- le
 	ſeyn.
-	
+
 	Sie
-	[blu -- ten jtzt, bald %35
+	\xE blu -- ten jtzt, bald %35
 	ſtrah -- len ſie, ſie
 	blu -- ten jtzt, bald
-	ſtrah -- len ſie,] Ge --
+	ſtrah -- len ſie, \x Ge --
 	richt dem Sün -- der,
 	Ge -- %40
 	richt dem Sün -- der.
 	O!
-	[Wol -- lust, o! Wol -- lust, o!
-	Wol -- lust, o! Wol -- lust!]
+	\xE Wol -- lust, o! Wol -- lust, o!
+	Wol -- lust, o! Wol -- lust! \x
 	Wir, wir wer -- den nie in dein Ge -- %45
 	richt, wir wer -- den nie in dein Ge --
 	richt, in dein Ge -- richt, Ver --

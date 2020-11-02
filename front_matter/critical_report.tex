@@ -1,0 +1,872 @@
+\documentclass[parskip=full]{scrreprt}
+
+\RedeclareSectionCommand[pagestyle=plain,afterskip=10pt plus 1pt]{chapter}
+\setkomafont{chapter}{\mdseries\headingfont\fontsize{40}{40}\selectfont\color{black!80}}
+\setkomafont{pageheadfoot}{\normalsize}
+
+\def\pnumbox#1{#1\hspace*{8cm}}
+\def\gobble#1{}
+\DeclareTOCStyleEntry[
+  indent=0pt,
+  beforeskip=0pt,
+  entryformat=\itshape,
+  entrynumberformat=\textcolor{oldred},
+  numwidth=2em,
+  linefill=\hfill,
+  pagenumberbox=\pnumbox,
+  pagenumberformat=\itshape
+]{tocline}{part}
+
+% use commented values if there are no parts
+\DeclareTOCStyleEntry[
+  indent=0pt,
+  beforeskip=0pt,
+  entrynumberformat=\textcolor{oldred},
+  numwidth=2em,
+  linefill=\hfill,
+  pagenumberbox=\pnumbox
+]{tocline}{section}
+
+\DeclareTOCStyleEntry[
+  indent=0pt,
+  beforeskip=-\parskip,
+  entrynumberformat=\gobble,
+  entryformat=\ltseries,
+  numwidth=2em,
+  linefill=\hfill,
+  pagenumberbox=\pnumbox,
+  pagenumberformat=\ltseries
+]{tocline}{subsection}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+
+\usepackage{fontspec}
+
+\setmainfont{Source Sans Pro}[
+  ItalicFont = Source Sans Pro Italic,
+  BoldFont = Source Sans Pro Bold,
+  BoldItalicFont = Source Sans Pro Bold Italic,
+  FontFace = {lt}{n}{Source Sans Pro Light},
+  FontFace = {lt}{it}{Source Sans Pro Light Italic},
+  FontFace = {sb}{n}{Source Sans Pro Semibold},
+  FontFace = {sb}{it}{Source Sans Pro Semibold Italic},
+  Numbers = Proportional,
+  Ligatures = Common
+]
+\DeclareRobustCommand{\ltseries}{\fontseries{lt}\selectfont}
+\DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}
+\DeclareTextFontCommand{\textlt}{\ltseries}
+\DeclareTextFontCommand{\textsb}{\sbseries}
+
+\newfontfamily\headingfont{Fredericka the Great}
+
+\usepackage[pass]{geometry}
+\newgeometry{twoside,inner=20mm,outer=40mm,top=20mm,bottom=40mm}
+
+\usepackage{url}
+\urlstyle{same}
+
+\usepackage{microtype}
+\microtypesetup{verbose=silent}
+
+\usepackage{booktabs,array,longtable}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+
+\usepackage{graphicx}
+
+\usepackage{xcolor}
+\definecolor{oldred}{rgb}{.8313,0,0}
+
+\usepackage{pdfpages}
+
+\usepackage{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\cfoot[\thepage]{\thepage}
+\pagenumbering{roman}
+
+\usepackage{enumitem}
+\setlist[description]{%
+	labelindent=2em,%
+	labelwidth=6.5em,%
+	leftmargin=8.5em,%
+	labelsep=0pt,
+	first=\ltseries,%
+	font=\normalfont\itshape\ltseries%
+}
+\def\lyrefitem#1{\item[\lyref{#1}]}
+
+
+\makeatletter
+
+\def\@firstofthree#1#2#3{#1}
+\def\@secondofthree#1#2#3{#2}
+\def\@thirdofthree#1#2#3{#3}
+\def\@firstoffour#1#2#3#4{#1}
+\def\@secondoffour#1#2#3#4{#2}
+\def\@thirdoffour#1#2#3#4{#3}
+\def\@fourthoffour#1#2#3#4{#4}
+\def\Dotfill{\leavevmode\cleaders\hb@xt@ .75em{\hss .\hss }\hfill \kern \z@}
+
+\def\lyrefnumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstofthree{#1}}
+\def\lyreftitle#1{\expandafter\@setref\csname r@#1\endcsname\@secondofthree{#1}}
+\def\lyrefpage#1{\expandafter\@setref\csname r@#1\endcsname\@thirdofthree{#1}}
+
+\def\lyrefgenrenumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstoffour{#1}}
+\def\lyrefgenregenre#1{\expandafter\@setref\csname r@#1\endcsname\@secondoffour{#1}}
+\def\lyrefgenretitle#1{\expandafter\@setref\csname r@#1\endcsname\@thirdoffour{#1}}
+\def\lyrefgenrepage#1{\expandafter\@setref\csname r@#1\endcsname\@fourthoffour{#1}}
+
+\def\lyrefpart#1{%
+	\begingroup%
+	\makebox[0pt][l]{\sbseries\color{oldred}\lyrefnumber{#1}}\hspace*{2em}%
+	\makebox[0pt][l]{\sbseries\lyreftitle{#1}}\hspace*{6.5em}%
+	\hfill\sbseries\lyrefpage{#1}%
+	\endgroup%
+}
+\def\lyrefsection#1{%
+	\begingroup%
+	\makebox[0pt][l]{\color{oldred}\lyrefgenrenumber{#1}}\hspace*{2em}%
+	\makebox[0pt][l]{\ltseries\lyrefgenregenre{#1}}\hspace*{6.5em}%
+	\lyrefgenretitle{#1}\Dotfill\lyrefgenrepage{#1}%
+	\endgroup%
+}
+\InputIfFileExists{../out/lilypond.ref}{}{\InputIfFileExists{../lilypond.ref}{}{}}
+
+
+\newcommand\fancytitlehead{
+	\headingfont%
+	\fontsize{80}{80}\selectfont\textcolor{black!80}{\@ifundefined{@shortname}{\@lastname}{\@shortname}.}\\[15pt]%
+	\fontsize{55}{55}\selectfont\@ifundefined{@shorttitle}{\@title}{\@shorttitle}.%
+}
+
+
+\def\firstname#1{\def\@firstname{#1}}
+\def\lastname#1{\def\@lastname{#1}}
+\def\shortname#1{\def\@shortname{#1}}
+\def\shorttitle#1{\def\@shorttitle{#1}}
+\def\namesuffix#1{\def\@namesuffix{#1}}
+\def\instrumentation#1{\def\@instrumentation{#1}}
+\def\parts#1{\def\@parts{#1}}
+
+\firstname{\relax}
+\lastname{\relax}
+\namesuffix{\relax}
+\instrumentation{\relax}
+\parts{\relax}
+
+
+\def\maketitle{%
+\begin{titlepage}%
+	\Large%
+	{\@titlehead}%
+	\vfill%
+	{\strut\@firstname}\\%
+	{\sbseries\color{oldred}\strut\@lastname}\\%
+	{\strut\@namesuffix}%
+	\vfill%
+	{\sbseries\@title}\\%
+	{\@subtitle}\\[\baselineskip]%
+	{\itshape\@instrumentation}%
+	\vfill%
+	{\itshape\@parts}\hspace*{\fill}\raisebox{0pt}[0pt][0pt]{\includegraphics{ees_logo}}%
+\end{titlepage}%
+}
+
+
+\newif\iftemplate\templatetrue
+\newif\ifprintreport\printreportfalse
+\directlua{
+scores = {
+  fl1 = "Flauto I",
+  fl2 = "Flauto II",
+  ob1 = "Oboe I",
+  ob2 = "Oboe II",
+  cor = "Corno I, II in D/Es/G",
+  vl1 = "Violino I",
+  vl2 = "Violino II",
+  vla = "Viola",
+  soli = "Soli",
+  coro = "Coro",
+  org = "Organo",
+  b = "Bassi",
+  full_score = "Full Score"
+}
+
+last_arg = arg[\string#arg]
+texio.write("Last argument: " .. last_arg)
+if not (scores[last_arg] == nil) then
+  tex.print("\string\\def\string\\lypdfname{" .. last_arg .. "}")
+  tex.print("\string\\parts{" .. scores[last_arg] .. "}")
+  if (last_arg == "full_score") then
+    tex.print("\string\\printreporttrue")
+  end
+end
+}
+
+
+\@ifundefined{lypdfname}{%
+  \templatefalse
+  \printreporttrue
+  \parts{Draft}
+}{\templatetrue}
+
+\makeatother
+
+
+
+
+
+
+\begin{document}
+\frenchspacing
+
+\titlehead{\fancytitlehead}
+\firstname{Ernst Wilhelm}
+\lastname{Wolf}
+\title{Jesu, deine Passion}
+\subtitle{Passions-Oratorium\\(D-B Mus.ms 23262)}
+\instrumentation{2 S, A, T, B (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 cor, 2 vl, vla, b, org}
+\maketitle
+
+
+\thispagestyle{empty}
+
+\vspace*{\fill}
+
+\raisebox{-4mm}{\includegraphics{byncsaeu}}\hspace*{1em}Wolfgang Esser-Skala, 2020
+
+© 2020 by Wolfgang Esser-Skala. This edition is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit \url{http://creativecommons.org/licenses/by-nc-sa/4.0/}.
+
+Music engraving by LilyPond 2.18.0 (\url{http://www.lilypond.org}).\\
+Front matter typeset with Source Sans Pro and Fredericka the Great.
+
+\textit{First version, November 2020}
+
+\vspace*{2cm}
+
+\ifprintreport
+\chapter*{Critical Report.}
+
+This edition bases upon a copy in the Königliche Bibliothek zu Berlin, which has been digitized by the Staatsbibliothek zu Berlin – Preußischer Kulturbesitz. The digital version of the manuscript is available at \url{http://resolver.staatsbibliothek-berlin.de/SBB0000A77E00000000} (siglum Mus.ms. 23262).
+
+In general, this edition closely follows the manuscript. Any changes that were introduced by the editor are indicated by italic type (lyrics, dynamics and directions), parentheses (expressive marks and bass figures) or dashes (slurs and ties). Accidentals are used according to modern conventions. Asterisks denote changes that are clarified in the detailed remarks below.\footnote{Abbreviations: A, alto; B, bass; b, basses; cor, horn; fl, flute; Ms, manuscript; ob, oboe; org, organ; r, rest; S, soprano; T, tenor; vl, violin; vla, viola.}
+
+\bigskip
+
+\begin{longtable}{lll L{10cm}}
+	\toprule
+	\itshape Mov. & \itshape Bar & \itshape Staff & \itshape Note \\
+	\midrule \endhead
+	1.2  & 29  & T       & 8th sixteenth in Ms: ces16 \\
+	1.3	 & 65  & vl 2    & grace note missing in Ms \\
+	     & 69  & vl 2    & grace note missing in Ms \\
+	     & 72  & vla     & 1st/2nd quarter in Ms: bes2 (no tremolo repeat) \\
+	     & 99  & vl 2    & last eighth in Ms: f′8 \\
+	     & 177 & org     & bar in Ms: es4. \\
+	1.4  & 11  & A       & 1st sixteenth in Ms: f′16 \\
+	     & 12  & vl 2    & last sixteenth in Ms: g′16 \\
+	     & 18  & vl 1, 2 & 4th sixteenth in Ms: f″16 \\
+	     & 23  & vl 2    & 4th quarter in Ms: bes′16–c″16–d″16–es″16 \\
+	     & 24  & A       & 4th eighth in Ms: g′16–g′16 \\
+	     & 25  & T       & 4th eighth in Ms: f′8 \\
+	     & 28  & A       & 8th sixteenth missing in Ms \\
+	1.6  & 2   & vl 2    & 3rd quarter: grace note missing in Ms \\
+	     & 3   & fl 1    & 3rd quarter: grace note missing in Ms \\
+	     & 7   & vl 2    & 1st quarter: grace note missing in Ms \\
+	     & 12  & fl 1    & 4th eight: grace note missing in Ms \\
+	     & 13  & fl 2    & 1st quarter in Ms: cis″8.–b′32–a′32 \\
+	     & 18  & vl 2    & 3rd quarter: grace note missing in Ms \\
+	     & 18  & vla     & bar in Ms: e′4–e4–a4–r4 \\
+	     & 21ff & T      & This rhythm is written as 16–8.–32 throughout the Aria\newline (bars 21, 22, 29, 44, 45, 47, 48, 56, and 83). \\
+	     & 26  & vla     & 3rd eighth in Ms: b8 \\
+	     & 35  & vl 2    & 1st quarter: grace note missing in Ms \\
+	     & 37  & vl 1    & 2nd quarter: grace note missing in Ms \\
+	     & 41  & vl 2    & 1st quarter: grace note missing in Ms \\
+	     & 44  & vl 2    & 1st half of bar in Ms: e″8–d″16–cis″16–cis″8–b′16–a′16 \\
+	     & 48  & fl 2    & 1st half of bar in Ms: cis″8–b′16.–a′32–a′8–gis′16–b′32 \\
+	     & 50  & vl 2    & 2nd half of bar missing in Ms \\
+	     & 58  & fl 1    & 3rd eighth in Ms: a′8 \\
+	     & 60  & vl 2    & 1st quarter: grace note missing in Ms \\
+	     & 61  & vl 2    & 1st quarter: grace note missing in Ms \\
+	     & 74  & vla     & 2nd quarter in Ms: d′8–dis′8 \\
+	     & 77  & vla     & 6th eighth in Ms: e′8 \\
+	     & 82  & vl 1    & 6th eighth in Ms: a′8 \\
+	     & 98  & vl 1, 2 & last quarter in Ms: a′16–e′16–c′16–a16 \\
+	1.7  & 5   & vl 1    & last eighth in Ms: a″8 \\
+	     &  7  & org     & 2nd half of bar in Ms: cis4.–d8 \\
+	     & 15  & A       & 1st quarter in Ms: b′4 \\
+	     & 16  & vl 1, s & last eighth in Ms: fis″8 \\
+	     & 16  & vl 2    & last eighth in Ms: cis″8 \\
+	     & 18  & S       & 3rd quarter in Ms: fis″4 \\
+	     & 19  & vl 1    & last eighth in Ms: fis″8 \\
+	     & 19  & vl 2    & last eighth in Ms: cis″8 \\
+	     & 19  & vla     & last eighth in Ms: a′8 \\
+	     & 21  & vla     & bar in Ms: b′4–r8–a′8–a′4.–b′8 \\
+	1.9  & 7   & vla     & 2nd half of bar in Ms: a′8–a′8–a′8–a′8 \\
+	     & 30  & vla     & bar in Ms: a′1 \\
+	     & 50  & org     & 2nd half note in Ms: Bes2 \\
+	1.11 & 22  & S       & 2nd half note in Ms: g′2 \\
+	2.1  & 10  & org     & 2nd half note in Ms: as2 \\
+	     & 14  & T       & 8th sixteenth in Ms: b′16 \\
+	     & 24  & T       & 3rd quarter in Ms: e′8.–e′16 \\
+	2.2  & 1f  & vl 2    & in Ms unison with vl 1 \\
+	     & 10  & org     & bar in Ms: d2. \\
+	     & 14  & ob 2    & grace note missing in Ms \\
+	     & 14  & vl 2    & 2nd/3rd quarter in Ms: g′4–fis′4 \\
+	     & 22  & vl 2    & in Ms unison with vl 1 \\
+	     & 25f & vl 2    & in Ms unison with vl 1 \\
+	     & 26  & ob 2    & 2nd/3rd quarter in Ms: g′4–fis′4 \\
+	     & 42  & ob 2    & grace note missing in Ms \\
+	     & 46  & ob 2    & grace note missing in Ms \\
+	     & 47  & vl 2    & 2nd/3rd quarter in Ms: b′8–a′8–a′8–g′8 \\
+	     & 63  & vla     & 1st quarter in Ms: d′8–b′8 \\
+	     & 68–71 & vl 2  & in Ms unison with vl 1 \\
+	     & 71  & vl 2    & 3rd quarter in Ms: a′4 \\
+	     & 81  & ob 2    & 1st note in Ms: cis″8 \\
+	     & 81  & ob 2, vl 2 & 2nd/3rd quarter in Ms: d″4–cis″4 \\
+	     & 83  & ob 2    & grace note missing in Ms \\
+	     & 84f & vl 2    & in Ms unison with vl 1 \\
+	     & 85  & ob 2    & grace note missing in Ms \\
+	     & 101 & ob 2    & bar in Ms: (grace c″4)–b′2. \\
+	     & 108 & vl 2    & grace note missing in Ms \\
+	     & 112 & ob 1    & 2nd/3rd quarter in Ms: g″4–fis″4 \\
+	     & 112 & vl 2, S 2 & 2nd/3rd quarter in Ms: g′4–fis′4 \\
+	     & 112 & S 1     & 2nd/3rd quarter in Ms: (grace a′4)–g′2 \\
+	     & 113 & S 1     & 1st quarter in Ms: fis′4 \\
+	     & 123 & vla     & 1st quarter in Ms: fis′4 \\
+	     & 128 & vla     & bar in Ms: e′2–r4 \\
+	     & 130 & ob 2, vl 2 & 2nd/3rd quarter in Ms: g′4–fis′4 \\
+	     & 130 & S 2     & 1st eighth: grace note missing in Ms \\
+	     & 138 & ob 2    & 2nd/3rd quarter in Ms: g′4–fis′4 \\
+	     & 145–148 & vl 2 & in Ms unison with vl 1 \\
+	     & 148 & vla     & bar in Ms: g′4–r4–r4 \\
+	     & 150 & vl 1    & 1st quarter in Ms: c″4 \\
+	     & 157f & vl 2   & in Ms unison with vl 1 \\
+	     & 158 & ob 2    & 2nd/3rd quarter in Ms: g′4–fis′4 \\
+	     & 165 & vl 2    & in Ms unison with vl 1 \\
+	     & 166 & ob 2    & 2nd/3rd quarter in Ms: g′4–fis′4 \\
+	     & 166 & vl 2    & 2nd/3rd quarter in Ms: (grace h′4)–a′2 \\
+	     & 168 & ob 2    & 2nd/3rd quarter in Ms: g′4–fis′4 \\
+	     & 195f & vl 2   & in Ms unison with vl 1 \\
+	     & 215 & vla     & bar in Ms: a2. \\
+	     & 219 & ob 2, S 2 & grace note missing in Ms \\
+	     & 223 & S 1     & bar in Ms: bes′2–cis″4 \\
+	     & 226 & S 2     & grace note missing in Ms \\
+	     & 234 & org     & bar in Ms: d2. \\
+	     & 237f & vl 2   & in Ms unison with vl 1 \\
+	     & 238 & ob 2    & 2nd/3rd quarter in Ms: g′4–fis′4 \\
+	     & 242 & ob 2    & 2nd/3rd quarter in Ms: g′4–fis′4 \\
+	2.3  & 5   & vl, vla & bar missing in Ms \\
+	2.4  & 7   & vl 2    & last sixteenth in Ms: a′16 \\
+	     & 8   & vl 2    & last sixteenth in Ms: a′16 \\
+	     & 12  & vla     & bar in Ms: fis′4.–fis′8–fis′4 \\
+	     & 23  & vla     & 3rd quarter in Ms: a′16–g′16–fis′16–e′16 \\
+	     & 44  & B       & 3rd quarter in Ms: g4 \\
+	     & 67  & cor 2   & 1st quarter in Ms: a′4 \\
+	     & 67  & vla     & 3rd quarter in Ms: fis′4 \\
+	     & 74  & vl 2    & grace note missing in Ms \\
+	     & 85  & vla     & bar in Ms: e′4–r4–r4 \\
+	     & 113 & vl 1, 2 & last sixteenth in Ms: g′16 \\
+	     & 163 & cor 1   & 1st quarter in Ms: g″4 \\
+	     & 176 & B       & last sixteenth in Ms: b16 \\
+	     & 195 & B       & bar in Ms: B2–r4 \\
+	2.5  & 2   & vl 2    & grace note missing in Ms \\
+	     & 23  & A       & 7th eighth missing in Ms \\
+	     & 28  & org     & 1st eighth in Ms: d8 \\
+	     & 29  & vl 2    & 3rd quarter in Ms: fis′4 \\
+	2.6  & 32  & T       & bar in Ms: b1–b2 \\
+	     & 42  & T       & last half note in Ms: d′2 \\
+	2.7  &  7  & vl 2    & c″ instead of bis′ in Ms \\
+	     & 97  & B       & 2nd eighth in Ms: a8 \\
+	     & 98  & B       & 3rd eighth in Ms: cis′8 \\
+	     & 130 & A       & 3rd quarter in Ms: fis′4 \\
+	     & 130 & B       & last sixteenth in Ms: e′16 \\
+	     & 131 & A       & last quarter in Ms: fis′4 \\
+	     & 133 & org     & 4th eighth in Ms: cis8 \\
+	     & 141 & B       & 4th to 6th eighth in Ms: b8–b8–d′16–cis′16 \\
+	     & 154 & vla     & 3rd quarter in Ms: gis′4 \\
+	2.8  & 6   & vl 1    & 3rd eighth in Ms: d″8 \\
+	     & 6   & A       & grace note missing in Ms \\
+	     & 9   & vla     & 3rd eighth in Ms: fis′8 \\
+	     & 11  & vl 1    & grace note missing in Ms \\
+	     & 12  & ob 2    & grace note missing in Ms \\
+	     & 12  & vl 2    & grace note missing in Ms \\
+	     & 12  & vla     & grace note missing in Ms \\
+	     & 16  & vl 1    & 6th/7th eighth in Ms: bis″8–bis″8 \\
+	     & 16  & vl 2    & 6th eighth in Ms: b′8 \\
+	     & 20  & vl 1    & 1st quarter in Ms: r8–d′8 \\
+	     & 21  & ob 2    & grace note missing in Ms \\
+	     & 21  & vl 2    & grace note missing in Ms \\
+	     & 23  & ob 2    & 1st half of bar in Ms: c″2 \\
+	     & 26  & S       & 1st half of bar in Ms: r8–f′8.–f′16–f′8;\newline 2nd half of bar: grace note missing in Ms \\
+	     & 26  & A       & grace note missing in Ms \\
+	     & 28  & vl 2    & grace note missing in Ms \\
+	     & 30  & vl 1    & 7th eighth in Ms: d″8 \\
+	     & 36  & vl 1    & 7th eighth in Ms: a″32–a″32–a″32–a″32 \\
+	     & 37  & A       & 2nd quarter in Ms: cis″8–cis″8 \\
+	     & 45  & B       & 3rd quarter in Ms: f8–f8 \\
+	     & 46  & S       & 2nd quarter in Ms: e″8.–f″16 \\
+	     & 46  & B       & 1st quarter in Ms: g8–g8 \\
+	     & 47  & vla     & 2nd quarter in Ms: a′8–g′8 \\
+	     & 49  & vl 2    & last eighth in Ms: b′8 \\
+	\bottomrule
+\end{longtable}
+
+Bass figures appear in the following movements (bars in parentheses): 1.1, 1.2, 1.5, 1.6 (1–16), 1.9, 2.1, 2.3 (1–13), 2.7 (18–56, 72–84, 112–120, 125, 129–132, 147–152), and 2.8 (1–19). The remaining bass figures were added by the editor.
+
+This edition has been compiled and checked with utmost diligence. Nevertheless, errors and mistakes cannot be totally excluded. Please report any errors and mistakes to \url{wolfgang@esser-skala.at} or create an issue or pull request on the edition’s GitHub page \url{https://github.com/skafdasschaf/wolf-jesu-deine-passion}. Your help will be greatly appreciated.
+
+\bigskip
+\textit{Salzburg, November 2020\\
+Wolfgang Esser-skala}
+
+\cleardoublepage
+\chapter*{Contents.}
+
+\lyrefpart{ersteabtheylung}
+
+\lyrefsection{jesudeine}
+
+\begin{description}
+	\item[Coro]
+	Jesu, deine Passion\\
+	will ich jetzt bedenken.\\
+	Wollest mir vom Himmelsthron\\
+	Geist und Andacht schenken.\\
+	In dem Bild jetzund erschein,\\
+	Jesu, meinem Herzen,\\
+	wie du, unser Heil zu sein,\\
+	littest alle Schmerzen.
+\end{description}
+
+
+\lyrefsection{owelchein}
+
+\begin{description}
+	\item[Tenore]
+	O welch ein kläglich Bild,\\
+	worin mein Jesus mir erscheinet:\\
+	Er zagt und zittert,\\
+	Tode’s Angst erfüllt sein Herz.\\
+	Sein Auge weinet, weint blutgen Himmel,\\
+	weint, und blutger Schweiß fließt in die Thränen.\\
+	Du schauervolleste der Szenen, Gethsemane.\\
+	Mein Vater, spricht er jtzt,\\
+	mein Vater, ich weiß, du kanst es.\\
+	Gieb, daß dieser Kelch vorübergehe.\\
+	Jedoch mein Wille nicht, der deinige geschehe.\\
+	So betet er und merkt,\\
+	daß ihn ein Engel Gottes stärkt.\\
+	Indessen sind die Jünger an Kidron eingeschlafen.\\
+	Jesus Finger berührt sie sanft.\\
+	Er spricht: Der Geist ist willig,\\
+	euer Leib nur nicht.\\
+	Wacht, meine Lieben, wacht und betet.
+\end{description}
+
+
+\lyrefsection{heiligerauch}
+
+\begin{description}
+	\item[Tenore]
+	Heiliger, auch ich bin Erde.\\
+	Dieser schwere Theil von Erde,\\
+	dieser Endlichkeit Gefühl\\
+	drückt auch meine Seele nieder,\\
+	wie sie durch Gebeth und Lieder\\
+	sich zu dir erheben will.\\
+	Schau zum Endlichen herunter,\\
+	mache du die Seele munter,\\
+	taufe sie mit deinem Feuer,\\
+	daß sie kühner, daß sie freyer\\
+	sich dem Chor der Himmel nahn,\\
+	in ihr Loblied stammlen kan.
+\end{description}
+
+
+\lyrefsection{meinherz}
+
+\begin{description}
+	\item[Coro]
+	Mein Herz ist bereit, Gott,\\
+	mein Herz ist bereit,\\
+	daß ich singe und lobe.\\\relax
+	[Ps 57:8]
+\end{description}
+
+
+\lyrefsection{verraether}
+
+\begin{description}
+	\item[Tenore]
+	Verräther! Wie, dir muß es doch gelingen?\\
+	Ach Gott, ich höre schon, ich höre Waffen klingen.\\
+	Du kömmst, mit dir der Mörder freche Schaar.\\
+	Ach Gott, nun bringen sie den Heilgen zu den Todten.\\
+	Doch sehet: Ohne Furcht stellt sich der Stärkre dar.\\
+	Er spricht ein Wort, da stürzen sie zu Boden,\\
+	da liegen sie betäut und wie die Todten.\\
+	Gelinde ruft er jezt: Ihr Feigen,\\
+	dies ist die Gewalt der Finsterniß und eure Stunde.\\
+	Den ich muß ihn trinken, den Kelch,\\
+	den mir mein Vater reicht,\\
+	sonst kont ich leicht mehr als zwölf Legionen Engel winken.\\
+	Und nun wird er gebunden, fort geführt zum Kaiphas.\\
+	Nur Petrus folget ihm, gerührt von Mitleid,\\
+	aber kurz ist seine Treue.\\
+	Er schwört, er kenne diesen Menschen nicht.\\
+	Der Gottmensch sieht ihn an, indem ers spricht.\\
+	Und Petrus stockt, und eine Zähre voller Reue\\
+	netzt des Verräthers Angeſicht.
+\end{description}
+
+
+\lyrefsection{lieblichfliesst}
+
+\begin{description}
+	\item[Tenore]
+	Lieblich, lieblich fließt die Zähre,\\
+	holde Tugend, dir zur Ehre,\\
+	die der Reue Wangen füllt.\\
+	Weint, Verbrecher! Eure Sünden\\
+	können einen Tilger finden.\\
+	Des Mitlers sanftes Herze\\
+	schmilzt bey eurem heißen Schmerze,\\
+	und sein Zürnen wird gestilt.
+\end{description}
+
+
+\lyrefsection{wohldem}
+
+\begin{description}
+	\item[Coro]
+	Wohl dem, dem die Uebertretungen vergeben sind,\\
+	wohl dem, dem die Sünde bedecket ist.\\\relax
+	[Ps 32:1]
+\end{description}
+
+
+\lyrefsection{ichfalle}
+
+\begin{description}
+	\item[Coro]
+	Ich falle dir, mein Gott, zu Füßen,\\
+	ich falle dir in deinen Arm.\\
+	Ich komm mit wahrer Reu und Buße,\\
+	ich schrei um Glauben, ach erbarm!\\
+	Erbarme dich bey meiner Schuld\\
+	und habe doch mit mir Gedult!
+\end{description}
+
+
+\lyrefsection{erdessen}
+
+\begin{description}
+	\item[Tenore]
+	Er, dessen Allmachts Ruf\\
+	der Weltenheer aus nichts erschuff,\\
+	er, Jesus, wird, o Liebe,\\
+	wird ein Spott der Sünder\\
+	und ihrer Mordlust Raub.\\
+	Sie fordern ungestüm sein Blut,\\
+	sein Blut kom über uns und unsre Kinder.\\
+	So wühten alle.\\
+	Blut entfließet ihm drauf strohmweis.\\
+	Gleich den Löwen, gleich jungen Löwen\\
+	fallen sie ihn an.\\
+	Zum Hohn muß ihn ein Purpurkleid umgeben.\\
+	Der Pöbel beugt vor ihm sein Knie\\
+	und lästert ihm mit stolzer Müh.\\
+	Seht, welch ein Mensch, spricht selbst der Richter,\\
+	der nie so viel gefühlt.\\
+	Doch mehr entflamt ihr Grim,\\
+	beredter wird der Mund der Bösewichter\\
+	stürmt, bis ihn Pontius zum Tod am Creutz verdammt.
+	
+	\item[Alto]
+	Seht, Christen, welch ein Mensch:\\
+	Vorhin war er so schön,\\
+	war tausenden erkohren,\\
+	dem feinsten Golde gleich sein Haupt.\\
+	Jtzt ist ihm aller Hoheit Glanz geraubt,\\
+	mit Dornen sieht man es durchbohren.\\
+	Sein Auge, daß uns sanfte Lust gebahr,\\
+	worin ein Blick, ein Blick in Eden war,\\
+	ist geistlos, todesquahl zu sehen, nur noch offen.\\
+	Und seine Wangen und sein Mund,\\
+	die lauter Süßigkeiten troffen,\\
+	wie Rosen und wie Mirhentropfen,\\
+	sind nun von Schlägen aufgeschwellt und wund.\\
+	Ach, seine ganze liebliche Gestalt,\\
+	vorhin wie Libanon, wie Zedern auserwehlet,\\
+	ist Elend und vor trauren alt,\\
+	den er wird, ach, zu sehr, zu sehr gequälet.
+\end{description}
+
+
+\lyrefsection{eristum}
+
+\begin{description}
+	\item[Coro]
+	Er ist um unsere Missethat willen so verwundet,\\
+	und um unsere Sünden willen so zerschlagen.\\\relax
+	[Isa 53:5]
+\end{description}
+
+
+\lyrefsection{schreibedeine}
+
+\begin{description}
+	\item[Coro]
+	Schreibe deine blutgen Wunden\\
+	mir, Herr, in mein Herz hinein,\\
+	daß sie mögen alle Stunden\\
+	bey mir unvergeßen seyn.\\
+	Du bist doch mein liebstes Guth,\\
+	da mein ganzes Herze ruht.\\
+	Laß mich hier zu deinen Füßen\\
+	deine Lieb und Gunst genießen.
+\end{description}
+
+
+\lyrefpart{zweyteabtheylung}
+
+\lyrefsection{nunist}
+
+\begin{description}
+	\item[Tenore]
+	Nun ist die feyerliche Stunde des großen Opfers da.\\
+	Nun wirds erwürgt, das Lam, erwürgt am Golgatha.\\
+	Wie viel mußt du für unsre Schulden am Creuz,\\
+	Versöhner Gottes, dulden?\\
+	Da hängt er, seine Hand und Füßen sind durchgraben.\\
+	Ach, ein ganzes Labyrinth von Qualen ist um seine Seele gewebt.\\
+	O flöge doch sein Herz aus seiner Höhle.\\
+	Da hängt er! Seht, sein Kleid in Blut getaucht!\\
+	Seht, Frevler, deren Odem Rach und Unsin haucht.\\
+	Wie Stimmen großer Waßer und starker Donner\\
+	rauscht die Stimme seiner Haßer,\\
+	auf ihrer Stirne glüth Verderben.\\
+	Todt und Hölle öffnen ihre Rachen.\\
+	Aber Jesus ruft: Vergib es, vergib es ihnen, Vater.
+\end{description}
+
+\clearpage
+\lyrefsection{gottam}
+
+\begin{description}
+	\item[Soprano 1, 2]
+	Gott am Creutze, lehre mich,\\
+	meinen Bruder sanft begegnen.\\
+	Gott am Creutze, lehre mich,\\
+	dir gleich meine Feinde seegnen.\\
+	O! wie himmlisch, lehrts dein Herz.\\
+	Wehe denen, welche nicht\\
+	ihrem Bruder gern verzeihen.\\
+	Gott wird einsten im Gericht\\
+	ihnen wieder nicht verzeihen.\\
+	Ach, ihr Lohn ist Ewger Schmertz.
+\end{description}
+
+
+\lyrefsection{esschweben}
+
+\begin{description}
+	\item[Tenore]
+	Es schweben Seraphim von fern\\
+	am Schädelrollen Hügel.\\
+	Tief staunend über ihren Herrn\\
+	bedecken sie mit ihren Flügeln das Antlitz.\\
+	Jesus leidet, sagen sie,\\
+	ja was des Menschen Seele nie gedacht hat, leidet er.\\
+	Allein, so bitter sein Schmerz ist,\\
+	will er doch die edelste der Mütter, Maria, Trost ertheilen,\\
+	und befiehlet jetzo dies seinem Liebling an,\\
+	der Liebling schüzt Maria.\\
+	Jesus wird erheitert und verkündigt drauf einen Sünder,\\
+	den sein Glaub entsündigt, Erbarmung,\\
+	und der Seel Unsterblichkeit.\\
+	Ich sage, spricht er, dir, du wirst noch heut\\
+	im Paradiese mit mir seyn.
+\end{description}
+
+
+\lyrefsection{hoerts}
+
+\begin{description}
+	\item[Basso]
+	Hörts, Christen, das ist unser Glaube,\\
+	die Seele reißt sich aus dem Staube,\\
+	ihr Wesen ist Unsterblichkeit.\\
+	Heil allen, die sich höhers Leben\\
+	durch eine schöne That erstreben:\\
+	Euch Hoffenden wirds gegeben nach dieser Zeit.
+\end{description}
+
+
+\lyrefsection{meineseele}
+
+\begin{description}
+	\item[Coro]
+	Meine Seele dürstet nach Gott,\\
+	nach dem lebendigen Gott.\\
+	Ach! Wenn werde ich dahin kommen,\\
+	daß ich Gottes Angesicht schaue?\\\relax
+	[Ps 42:3]
+\end{description}
+
+
+\lyrefsection{ofreud}
+
+\begin{description}
+	\item[Coro]
+	O! Freud, o! Lust, o! Leben,\\
+	o! göldnes Hauß, o! schönste Zier.\\
+	Wir wollen kräftig streben\\
+	in dieser Sterblichkeit nach dir.\\
+	O! Gottes Antlitz sehen,\\
+	o! stets in Friede seyn.\\
+	O! bey den Engeln stehen,\\
+	o! theurer Himmelsschein.\\
+	O! Herrlichkeit ohn Ende,\\
+	mein Gott, wenn dirs gefällt,\\
+	so nimm mich auf behende.\\
+	Nun gute Nacht, o! Welt.
+\end{description}
+
+
+\lyrefsection{duschoener}
+
+\begin{description}
+	\item[Tenore]
+	Du schöner Morgenstern, wie bist du doch so tief\\
+	von deinem Himmel herab gesunken.\\
+	Ach, sie dauret noch und wächst,\\
+	die Qual des Leidenden,\\
+	Jehovens Schrecken sind wider ihn\\
+	in Schlachtordnung gestellt.\\
+	Die Pfeile des Allmächtigen,\\
+	sie stecken jtzt all in seiner Brust,\\
+	die Hölle fällt auf ihn.\\
+	Er ruft: Warum hast du mich, Gott, verlaßen?\\
+	Und so, von Gott verlaßen,\\
+	büßt er die Sünden einer ganzen Welt.\\
+	Noch einmal röchelt er: Mich dürstet.\\
+	Aber sehet, den lezten Trunk, den er erflehet,\\
+	vermischen sie mit Galle.\\
+	Größres Leid war nicht zu denken.\\
+	Jesus spricht: Es ist vollbracht.\\
+	Mein Vater, ich befehle in deine Hände meine Seele.\\
+	Und neigt sein Haupt und stirbt.
+	
+	\item[Basso]
+	Jesus Christus stirbt, so klagen alle Himmel.\\
+	Verhül, o Sonne, dich in Flohr,\\
+	beb, Erde, macht, ihr Felsen, ein Getümmel,\\
+	ihr Todten Gottes, kömmt aus eurer Gruft hervor!\\
+	Kömmt, schaut, was jtzt geschieht!\\
+	Erstaunt, fühlt, zittert, schaut:\\
+	Die ganze Schöpfung ächze laut,\\
+	denn Jesus Christus stirbt.
+	
+	\item[Sop., Tenore]
+	Mein Jesus stirbt, ihr Augen weint,\\
+	ach, weinet um den Menschenfreund.\\
+	Ach, er, der Lehren Gottes gab,\\
+	sinkt in des Todes Nacht hinab.
+	
+	\item[Basso]
+	Seyd getrost, ihr Weinenden:\\
+	Tod und Hölle sind nun überwunden\\
+	durch des Lammes Bluth.\\
+	Darum sey fröhlich, Erde,\\
+	freuet euch, ihr Himmel und die darinnen wohnen.
+	
+	\item[Alto]
+	Ihr Myriaden, die am Throne Gottes knien!\\
+	Warum verstummen eure Psalmen?\\
+	Warum werft ihr sie hin, die Kronen und die Palmen?\\
+	Ach, sterben, sterben seht ihr ihn?\\
+	Drum schweigen eure Psalmen?\\
+	Es schweigt der Spähren Harmonie,\\
+	den König Salems klagen sie.\\
+	Im Himmel und auf Erden herschet nur ein Wille,\\
+	ein lautes Schrecken erst, und dann,\\
+	dann trauren sie und werden stille.
+	
+	\item[Sop., Tenore]
+	Mein Jesus stirbt, wie furchtbar groß\\
+	war seine Qual, wie namenslos.\\
+	Er stirbt am Creuz am Golgatha,\\
+	den Tod der Knechte stirbt er da.
+	
+	\item[Basso]
+	Seyd getrost, ihr Weinenden:\\
+	Tod und Hölle sind nun überwunden\\
+	durch des Lammes Bluth.\\
+	Darum sey fröhlich, Erde,\\
+	freuet euch, ihr Himmel und die darinnen wohnen.
+	
+	\item[Alto]
+	Ein Gottmensch stirbt, für Sünder blutet er.\\
+	Gedanke, wer begreift dich, wer?\\
+	Groß bist du, groß vor allen mächtigen Gedanken,\\
+	in welchen jemals Seraphin versanken.\\
+	Kein Sterblicher vermag dich durchzuschaun,\\
+	und selbst der Engel, den es lüste durchzuschaun,\\
+	der bebt zurück, ihn überfällt ein heilig Graun.
+	
+	\item[Coro]
+	Mein Jesus stirbt, ihr Thränen fließt,\\
+	er hat für uns, für uns gebüßt.
+	
+	\item[Basso]
+	Seyd getrost, ihr Weinenden:\\
+	Tod und Hölle sind nun überwunden\\
+	durch des Lammes Bluth.
+	
+	\item[Coro]
+	O wehe dem, der Sünde thut,\\
+	ihn schrecke Jesu theures Blut.
+	
+	\item[Basso]
+	Seyd getrost, ihr Weinenden:\\
+	Tod und Hölle sind nun überwunden\\
+	durch des Lammes Bluth.\\
+	Darum sey fröhlich, Erde,\\
+	freuet euch, ihr Himmel und die darinnen wohnen.
+	
+	\item[Coro]
+	Dank, Preis und Ehre wollen wir ihm weihen,\\
+	anbeten immer, und uns freuen.\\
+	Dank, Preis und Ehre dem, der an dem Creuze starb,\\
+	und ewges Heyl erwarb. Hallelujah!
+\end{description}
+
+
+\lyrefsection{versoehner}
+
+\begin{description}
+	\item[Coro]
+	Versöhner, heilges Gottes Lamm,\\
+	laß deinen Tod und deine Wunden,\\
+	ach, laß sie uns in unser lezten Stunde\\
+	Trost für die Seele seyn.\\
+	Sie bluten jtzt, bald strahlen sie,\\
+	Gericht dem Sünder, Huld dem Frommen.\\
+	O! Wollust! Wir werden nie\\
+	in dein Gericht, Versöhner, kommen:\\
+	Dein Blut macht unsre Herzen rein.
+\end{description}
+
+
+\cleardoublepage
+\fi
+
+\iftemplate
+\includepdf[pages=-]{../out/\lypdfname.pdf}
+\fi
+
+\end{document}

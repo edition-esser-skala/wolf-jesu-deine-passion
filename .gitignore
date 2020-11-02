@@ -1,14 +1,14 @@
-Front page/*.pdf
-Front page/*.png
-Final scores/*
-Critical report/*.pdf
-Manuscript/*
-*.kilepr
+final/*
+manuscript/*
+out/*
 *.zip
-*.pdf
-*.mid
+master.pdf
+front_matter/critical_report.pdf
 *.midi
-*.eps
-.~lock*
-*.kate-swp
+*.aux
+*.log
+*.bbl
+*.blg
+*.toc
 *.ps
+*.ref

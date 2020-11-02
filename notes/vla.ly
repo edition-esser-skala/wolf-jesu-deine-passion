@@ -1,4 +1,4 @@
-% (c) 2019 by Wolfgang Esser-Skala.
+% (c) 2020 by Wolfgang Esser-Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
@@ -265,7 +265,7 @@ MeinHerzViola = {
 	\relative c' {
 		\clef alto
 		\key b \major \time 4/4 \tempoMeinHerz
-		\mvDll b8\fE d f es16 d f4 r
+		b8\fE d f es16 d f4 r
 		f,8 f' f d16 f f4 r
 		r2 r4 r16 d es f
 		g a b a g a g f e4 r
@@ -301,7 +301,7 @@ VerraetherViola = {
 	\relative c' {
 		\clef alto
 		\key c \major \time 4/4 \tempoVerraether
-		\mvDll b8\fE r b r d4~ d8. as'16
+		b8\fE r b r d4~ d8. as'16
 		as( f) f( d) d( h) h( c) c e' e e e4
 		R1
 		r2 r16 f, f c' c c c c

@@ -1,4 +1,4 @@
-% (c) 2019 by Wolfgang Esser-Skala.
+% (c) 2020 by Wolfgang Esser-Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
@@ -8,10 +8,10 @@ HoertsCornoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \tempoHoerts
-		c'8\fE e e e d d
+		\partcombineChords c'8\fE e e e d d \pd
 		c c e e g g
 		a a g g h h
-		c4 c, r
+		c4 \pao c, r
 		g'8.[ c16 h8. a16 g8. f16] %5
 		e8. d16 c4 r
 		c,2.~
@@ -24,7 +24,7 @@ HoertsCornoI = {
 		a8 a g g e e
 		c4 r r %15
 		fis r a
-		h r r
+		\partcombineChordsOnce h r r
 		h8 h a a fis fis
 		g2.~
 		g~ %20
@@ -34,7 +34,7 @@ HoertsCornoI = {
 		a2 g8. f16
 		e4 c'( h) %25
 		c2 r4
-		c,-! f-! g-!
+		\pa c,-! f-! \pd g-!
 		c2 r4
 		R2.
 		f,4-! d-! g-! \noBreak %30
@@ -63,9 +63,9 @@ HoertsCornoI = {
 		g8\ff g g g a a
 		g g g g g g
 		g g g g fis fis %65
-		g g g,4 r
+		g g \pao g,4 r
 		g' fis fis
-		g g8.[ f!16 e8. d16]
+		g \pa g8.[ f!16 e8. d16] \pd
 		e8\p e e e g g
 		c4 r r %70
 		R2.*4
@@ -92,8 +92,8 @@ HoertsCornoI = {
 		g2 r4
 		R2.*2 %106
 		R2.\fermataMarkup
-		c,,2\f r4
-		c'2 r4
+		\pao c,,2\f r4
+		\pao c'2 r4
 		c' r r %110
 		R2.*5 %115
 		d,2.~\pE
@@ -101,8 +101,8 @@ HoertsCornoI = {
 		g2.~
 		g~
 		g~ %120
-		g8. c16 f,4 g
-		e8\f c, c c c c
+		g8. c16 \pao f,4 g
+		e8\f[ c, c c c c]
 		g'2.~\p
 		g~
 		g %125
@@ -113,7 +113,7 @@ HoertsCornoI = {
 		g2.~ %130
 		g4 r r
 		R2.
-		e2\f r4
+		\pao e2\f r4
 		R2.
 		e2\f r4 %135
 		R2.*2
@@ -132,7 +132,7 @@ HoertsCornoI = {
 		e4 c' h\trill %150
 		c2 r4
 		R2.
-		f,4 d g \noBreak
+		\pa f,4 d \pd g \noBreak
 		c,2 r4\fermata \bar "||"
 		e,2.~\p \noBreak %155
 		e2.~
@@ -159,7 +159,7 @@ HoertsCornoI = {
 		g~
 		g~
 		g %200
-		c,4 a' a
+		\pao c,4 a' a
 		a2 g8. f16
 		e4 c' h
 		c2 r4

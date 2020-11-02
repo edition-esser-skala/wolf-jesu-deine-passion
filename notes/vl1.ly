@@ -1,4 +1,4 @@
-% (c) 2019 by Wolfgang Esser-Skala.
+% (c) 2020 by Wolfgang Esser-Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
@@ -269,7 +269,7 @@ MeinHerzViolinoI = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \tempoMeinHerz
-		\mvDll b8\fE b' b a16 b c4 r
+		b8\fE b' b a16 b c4 r
 		f,8 c' c b16 c d4 r
 		r16 b a g f g f es d4 r
 		r2 r16 c' b a g a g f
@@ -305,7 +305,7 @@ VerraetherViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoVerraether
-		\mvDll b16\fE c32 d es f g a b16 b32 c d es f g as16( f) f( d) d( h) h( as)
+		b16\fE c32 d es f g a b16 b32 c d es f g as16( f) f( d) d( h) h( as)
 		\slurDashed as( f) f( d) d( h) h( c) \slurSolid \kneeBeam c b'' b b b4
 		R1
 		r2 r16 c-\parenthesize-! c( as) as( f) f( as)
@@ -332,7 +332,7 @@ LieblichViolinoI = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 4/4 \tempoLieblich
-		\mvDll cis'8.\fE( d32 e) cis8 r cis8.( d32 e) cis8 r
+		cis'8.\fE( d32 e) cis8 r cis8.( d32 e) cis8 r
 		a'8.( gis32 fis) e8 d \appoggiatura e16 d8\trill cis16 cis h( a) gis( fis)
 		e( d) cis8 a''16( e) d( cis) \appoggiatura gis'32 \once \slurDashed fis16( e) e8 a16( e) d( cis)
 		\appoggiatura gis'32 \once \slurDashed fis16( e) e8 a,8. g'?16 g( fis) fis( e) \slurDashed e( d) d( cis) \slurSolid
@@ -730,7 +730,7 @@ GottAmViolinoI = {
 		h4 e8([ d)] c([ h)]
 		h4\trill a r
 		R2. %35
-		e4 \tuplet 3/2 4 { g8 fis e h' a g } 
+		e4 \tuplet 3/2 4 { g8 fis e h' a g }
 		fis4 a a
 		a \tuplet 3/2 4 { d8 cis h a g fis }
 		fis4 \slurDashed h8( a) a([ g)] \slurSolid
@@ -853,7 +853,7 @@ GottAmViolinoI = {
 		r h\f h
 		h \tuplet 3/2 4 { g'8 fis e d c h }
 		\appoggiatura fis'16 \tuplet 3/2 4 { e8 d c } \appoggiatura h4 a2\trill
-		g4 d'(-.\p d-.) 
+		g4 d'(-.\p d-.)
 		d( g) d %160
 		r \once \slurDashed d(-. d-.)
 		d( h') d,

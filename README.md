@@ -1,67 +1,42 @@
-# Ernſt Wilhelm Wolf: Jeſu, deine Paſſion
+# Ernst Wilhelm Wolf: Jesu, deine Passion
 
 Engraving files for LilyPond 2.18.0
 
-Firſt verſion, February 2019
+First version, November 2020
 
 
-## Build inſtructions
+## Requirements
 
-Uſe the `make` tool for building ſcores. Specify one of the following **targets** to create:
+* LilyPond >= 2.18.0
+* LuaLaTeX >= 1.10.0
+* GNU Make >= 4.1
+* The Source Sans and Fredericka the Great fonts from Google Fonts
 
-* **org** etc.: individual parts
-* **parts**: all parts
-* **movements**: all movements
-* **score**: full ſcore
-* **all**: full ſcore and all parts
-* **archive**: ZIP file with all ſources
-* **info**: ſhow all available targets
 
-PDF files will be ſtored in a ſubfolder *./pdf*, MIDI files in a ſubfolder *./midi*.
+## Build instructions
 
-The file *master.ly* allows you to work with an editor like Kile: Change the included movement/parts file in this ſcript to generate files *master.pdf* and *master.midi*, which can be opened via the ViewPDF and OpenMIDI functionalities.
+Use `make` for building scores:
+* `make final/scores` generates all publication-ready scores in folder `final/`.
+* `make info` lists other available build targets.
+
+Alternatively, the file *master.ly* allows you to work with a text editor (e.g., Atom):
+Change the included scores file in this script to generate files *master.pdf* and *master.midi*.
 
 
 ## Files
 
-* *Makefile* – the configuration file for make.
-* *definitions.ly* – contains general definitions.
-* *master.ly* – allows building movements/parts from within Kile.
-* Individual voices in folder *notes*:
-    * n_01_fl1.ly
-    * n_02_fl2.ly
-    * n_03_ob1.ly
-    * n_04_ob2.ly
-    * n_05_cor1.ly
-    * n_06_cor2.ly
-    * n_07_vl1.ly
-    * n_08_vl2.ly
-    * n_09_vla.ly
-    * n_10_S.ly
-    * n_11_A.ly
-    * n_12_T.ly
-    * n_13_B.ly
-    * n_14_org.ly
-* Movement definitions in folder *scores*:
-    * s_erste_abtheylung.ly
-    * s_zweyte_abtheylung.ly
-* Parts definitions in folder *parts*:
-    * p_b.ly
-    * p_cor12.ly
-    * p_coro.ly
-    * p_fl1.ly
-    * p_fl2.ly
-    * p_ob1.ly
-    * p_ob2.ly
-    * p_org.ly
-    * p_vl1.ly
-    * p_vl2.ly
-    * p_vla.ly
+* *definitions.ly* – contains general definitions
+* *Makefile* – configuration file for `make`
+* *master.ly* – allows building scores without using `make`
+* *README.md* – this file
+* *front_matter/* – LuaLaTeX files and images for typesetting front matter
+* *notes/* – LY files containing individual voices
+* *scores/* – LY files containing score definitions
 
 
 ## Copyright
 
-(c) 2019 by Wolfgang Eſſer-Skala.
+(c) 2020 by Wolfgang Esser-Skala.
 
-This file is licenſed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Licenſe.
-To view a copy of this licenſe, viſit http://creativecommons.org/licenses/by-nc-sa/4.0/.
+This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.

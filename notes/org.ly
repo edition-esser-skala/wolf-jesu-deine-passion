@@ -1,4 +1,4 @@
-% (c) 2019 by Wolfgang Esser-Skala.
+% (c) 2020 by Wolfgang Esser-Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
@@ -125,7 +125,7 @@ OWelchBassFigures = \figuremode {
 	<7- 5>2.. <6>8
 	<_->2 <[6]>
 	<_+> <4 2>8 <5 _+> <6! 4> <6 4\+>
-	<7 5> <[8 6!]> <7! [5]>8 <6! [4]> <4\+ 2>2 %5
+	<7 5> <[8 6!]> \bo <7! [5]>8 \bc <6! [4]> <4\+ 2>2 %5
 	r <6 5>
 	r <[_-]>
 	<6 4!> <_+>
@@ -151,9 +151,9 @@ OWelchBassFigures = \figuremode {
 	<5- 3>
 	r1
 	r2 r8 <6->4. %30
-	r8 <6- [_-]> <[6 4-]> <[2-]> r4 <4 [2-]>8 <6- [_-]>
-	r <[5-] 3> <6 [_-]> <3> r4 <4 [2-]>8 <6- [_-]>
-	<5->4. <6>8 r4 <4 [2-]>8 <6- [_-]>
+	r8 <6- [_-]> <[6 4-]> <[2-]> r4 \bo <4 [2-]>8 \bc <6- [_-]>
+	r <[5-] 3> <6 [_-]> <3> r4 \bo <4 [2-]>8 \bc <6- [_-]>
+	<5->4. <6>8 r4 \bo <4 [2-]>8 \bc <6- [_-]>
 	<6- [_-]>1
 	r8 <_-> <6 [_-]> <3> r2 %35 finis
 }
@@ -685,7 +685,7 @@ VerraetherBassFigures = \figuremode {
 	r2.. <[6\\]>8 %35
 	r <[5+] _+>4. r8 <6 _+> r <6\\ _+>
 	r <[5+]>4. r8 <6\\ 4+ [2+]>4.
-	r4 <[5+ _+]> <[5+ _+]>2 %38 finis
+	r4 \bo <[5+ _+]> \bc <[5+ _!]>2 %38 finis
 }
 
 LieblichOrgano = {
@@ -815,18 +815,18 @@ LieblichOrgano = {
 LieblichBassFigures = \figuremode {
 	r2. <6>4
 	r <6 4>8 <5 [3]> <4 2> <3> r4
-	r2 <[6 4]>8 <[5 3]>4.
-	<[6 4]>8 <[5 3]>4 <6 [5!]>8 r4. <7 5>8
+	r2 \bo <[6 4]>8 \bc <[5 3]>4.
+	\bo <[6 4]>8 \bc <[5 3]>4 <6 [5!]>8 r4. <7 5>8
 	r2 <6 4>4 <5 _+> %5
-	r2 <[6 4]>4 <[5 3]>
+	r2 \bo <[6 4]>4 \bc <[5 3]>
 	r2.. <_+>8
 	r1
 	r1*2 %10
 	r8 <7 5>4 <6 5>8 r2
 	r8 <7 5!>4 <6 [5!]>8 r4.. <[6 5]>16
 	<6 4>4 <5 3> r2
-	r8 <[2+]> <[3]> <6> <6 4>4 <5 3>
-	r2 r8 <[2+]> <[3]> <[6]> %15
+	r8 \bo <[2+]> \bc <[3]> <6> <6 4>4 <5 3>
+	r2 r8 \bo <[2+]> <3> \bc <[6]> %15
 	<6 4>4 <5 3> r2
 	r2. <6>4
 	r <6 4>8 <5 3> <4 2> <3> r4
@@ -1250,7 +1250,7 @@ ErDessenBassFigures = \figuremode {
 	<4\+ 2>
 	<6>
 	r4 <_+> <5>8. <6>16 <6 _->4 %20
-	<[5 4-]> <\l [3]>2.
+	\bo <[5 4-]> \bc <[\l 3]>2.
 	<7 4- 2>1
 	<\t \t \t>2 <8 3>
 	r1
@@ -1260,7 +1260,7 @@ ErDessenBassFigures = \figuremode {
 	<6>2. <_+>4
 	r1
 	r2 <4\+ 2> %30
-	<\t \t>1
+	r1
 	<_->
 	<6>2 <7- 5>
 	<4! 2> <6>
@@ -1979,7 +1979,7 @@ GottAmBassFigures = \figuremode {
 	<6 4>2. %225
 	<5! _+>
 	<_!>2 <6 5!>4
-	<4!> <3> <6 5>
+	<9 4!> <8 3> <6 5>
 	<4> <_+> <6>
 	<9 7> <8 6> <7 5> %230
 	<6 4> <5 3> r
@@ -2035,7 +2035,7 @@ EsSchwebenBassFigures = \figuremode {
 	<_+>1
 	<[5+]>
 	<6>
-	<[6+] 4>4 <5 _+> <7 [\t \t]>2
+	<6+ 4>4 <5 _+> <7 [_+]>2
 	<_+>1 %5
 	r
 	q
@@ -2764,7 +2764,7 @@ DuSchoenerSoliLyrics = \lyricmode {
 	Pfei -- le des All -- mäch -- ti -- gen, ſie
 	ſte -- cken jtzt all in ſei -- ner Bruſt, die %10
 	Höl -- le fällt auf ihn.
-	
+
 	Er ruft: Wa --
 	rum haſt du mich,
 	Gott, ver -- %15
@@ -2783,7 +2783,7 @@ DuSchoenerSoliLyrics = \lyricmode {
 	mei -- ne See --
 	le. Und neigt ſein
 	Haupt und ſtirbt. %30
-	
+
 	Je -- ſus Chri -- ſtus %32
 	ſtirbt, ſo kla -- gen al -- le Him -- mel,
 	Him -- mel, Je -- ſus Chri -- ſtus
@@ -2798,7 +2798,7 @@ DuSchoenerSoliLyrics = \lyricmode {
 	Die gan -- ze Schöp -- fung äch -- ze
 	laut, den[n] Je -- ſus Chriſ -- tus
 	ſtirbt. %45
-	
+
 	Ihr My -- ri -- %70
 	a -- den, die am Thro -- ne Got -- tes
 	kni -- en! Wa -- rum ver -- ſtum -- men eu -- re
@@ -2814,7 +2814,7 @@ DuSchoenerSoliLyrics = \lyricmode {
 	Schre -- cken erſt, und dann, dann
 	trau -- ren ſie und wer -- den
 	ſtil -- le.
-	
+
 	Ein Gott -- mensch %109
 	ſtirbt, für Sün -- der blu -- tet %110
 	er. Ge -- dan -- ke, wer be -- greift dich,
@@ -3018,8 +3018,8 @@ DuSchoenerBassFigures = \figuremode {
 	<6> r8 <[_+]> <6> q %25
 	<_->4 <4! 2> <6>8 <[_-]> r <6 [5-]>
 	r4 <[2]>8 <6 _-> <6>4. <6 [5-]>8
-	<[5-]> <6! [_-]> <[6-]> <[_-]> <[5-]> <[6-]> <[6 5-]>4
-	r4 <[6- _-]>8 <[5-]> <6>4. <5->8
+	<[5-]> <6! [_-]> \bo <[6- \l]> <_-> <5-> <6-> \bc <[6 5-]>4
+	r4 \bo <[6- _-]>8 \bc <[5- \l]> <6>4. <5->8
 	<6 4 [2-]>1 %30
 	<[5-]>
 	r
@@ -3044,8 +3044,8 @@ DuSchoenerBassFigures = \figuremode {
 	q2 <[6]>4 <6>
 	<5> <[6]> <5> <8 3>
 	<6>2 <6 5>
-	<6 4>4 <[6]> q2
-	<[6 5]>2 q %55
+	<6 4>4 \bo <[6]> \bc q2
+	\bo <[6 5]>2 \bc q %55
 	r <6>
 	r <6>
 	r4 <6> r <6>
@@ -3151,9 +3151,9 @@ VersoehnerOrgano = {
 	\relative c {
 		\clef bass
 		\key g \major \time 4/4 \tempoVersoehner
-		\mvTrr g1~\fp-\tenuto-\tuttiE
+		\mvTrr g1~\fp-\tenuto-\soloE
 		\kneeBeam g8 d''( h g) d( h g h)
-		d,2\pp g4 g\fE
+		d,2\pp g4 \mvTr g\fE-\tuttiE
 		g g g g
 		g r r2 %5
 		r4 e' a a,
@@ -3163,8 +3163,8 @@ VersoehnerOrgano = {
 		a4 a\fE ais2\pE %10
 		h4 r g!\mfE a8\pE ais
 		h4 r g\fE a
-		d,2~\fp d8 a'( fis d)
-		a2\ppE d4 d\f
+		\mvTrr d,2~\fp-\soloE d8 a'( fis d)
+		a2\ppE d4 \mvTr d\f-\tuttiE
 		d d d d %15
 		d r r e\pE
 		a r r e\f
@@ -3182,10 +3182,10 @@ VersoehnerOrgano = {
 		c!\mf d8\p dis e4 r
 		c\f d\p g,8 g'(\fE e c) %30
 		d4 d d, d
-		g1~\fpE
+		\mvTrr g1~\fpE-\soloE
 		\kneeBeam g8 \once \slurDashed d''( h g) d( h g h) \noBreak
 		d,2\ppE g4 r\fermata \bar "||"
-		\tempoSieBluten dis'8.[\f dis16 dis8. dis16] dis8.[ dis16 dis8. dis16] \noBreak %35
+		\tempoSieBluten \mvTr dis'8.[\f-\tuttiE dis16 dis8. dis16] dis8.[ dis16 dis8. dis16] \noBreak %35
 		h2\p e8\f e e e
 		cis8.[ cis16 cis8. cis16] h8.[ h16 h8. h16]
 		ais2\p h8\f h h h

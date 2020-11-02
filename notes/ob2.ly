@@ -1,4 +1,4 @@
-% (c) 2019 by Wolfgang Esser-Skala.
+% (c) 2020 by Wolfgang Esser-Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
@@ -8,7 +8,7 @@ MeinHerzOboeII = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \tempoMeinHerz
-		r8 \mvDll d\fE f f16 g a4 a
+		r8 d\fE f f16 g a4 a
 		r8 a f g16 a b4 b8 b
 		b4 b8 b b16 c d es f8 b,
 		r4 c8 c c4 c8 c
@@ -43,7 +43,7 @@ GottAmOboeII = {
 		\clef treble
 		\key g \major \time 3/4 \tempoGottAm
 		r4 h'\fE fis
-		e g8 fis g4
+		e g8[ fis] g4
 		g2 fis4
 		g4 h(-. h-.)
 		h \tuplet 3/2 4 { e8 d c h a g } %5
@@ -55,9 +55,9 @@ GottAmOboeII = {
 		a( h) g
 		r g\f g
 		g \tuplet 3/2 4 { g'8 fis e d c h }
-		\tuplet 3/2 4 { g h a } \appoggiatura g4 fis2\trill-\critnote
+		\appoggiatura a16 \tuplet 3/2 4 { g8_\critnote h a } \appoggiatura g4 fis2\trill-\critnote
 		g4 r r %15
-		r h(-.\pE h-.)
+		r h(-.\p h-.)
 		\once \slurDashed h( d) h
 		\once \slurDashed h( d) h
 		g e'2~\fE
@@ -121,8 +121,8 @@ GottAmOboeII = {
 		d4 h2~
 		h4 \appoggiatura a g2-\critnote
 		fis4 a2
-		\tuplet 3/2 4 { g8 fis e } \appoggiatura d4 cis2\trillE %85
-		d4 a'\pE fis'
+		\appoggiatura a16 \tuplet 3/2 4 { g8_\critnote fis e } \appoggiatura d4 cis2\trillE %85
+		\pa d4 a'\pE fis'
 		\appoggiatura e8 d4. cis8 d4
 		e, \tuplet 3/2 4 { g8 fis e h' a g }
 		fis4 a a
@@ -140,7 +140,7 @@ GottAmOboeII = {
 		r h e
 		\appoggiatura d c2 c4
 		c d c
-		h h8([ a)] a([ g)] %105
+		h \pd h8([ a)] a([ g)] %105
 		g4\trillE fis r
 		h'2.
 		g
@@ -156,8 +156,8 @@ GottAmOboeII = {
 		c8. e16 \tuplet 3/2 4 { d8 c h a g fis }
 		g4 \tuplet 3/2 4 { f'8 e d f e d }
 		e8. g16 \tuplet 3/2 4 { fis8 e d c h a } %120
-		h4 d2\fE
-		c8(\pE h) h( a) a( g)
+		h4 d2\f
+		c8(\p h) h( a) a( g)
 		\appoggiatura g4 fis2 r4
 		r \once \slurDashed h(-.\pp h-.)
 		h( c) a %125
@@ -166,7 +166,7 @@ GottAmOboeII = {
 		r g(-.\p g-.)
 		g g2
 		\tuplet 3/2 4 { c8 h a } \appoggiatura g4 fis2\trillE-\critnote %130
-		g4 r r
+		\pao g4 r r
 		r \once \slurDashed h-.(\pp h-.)
 		h( d) h
 		h( g') h,
@@ -178,9 +178,9 @@ GottAmOboeII = {
 		e4 \appoggiatura d c2\fE %140
 		h4\p \once \tieDashed g2~
 		g8. a16 \appoggiatura g4 fis2\trill
-		g4 \tuplet 3/2 4 { h'8\f a g fis e d }
-		\tuplet 3/2 4 { c\pE h a } \appoggiatura g4 fis2\trill
-		g4 h\f fis %145
+		\pao g4 \tuplet 3/2 4 { h'8\f a g fis e d }
+		\tuplet 3/2 4 { c\p h a } \appoggiatura g4 fis2\trill
+		\pao g4 h\f fis %145
 		e2.
 		g2 fis4
 		g4 h h
@@ -194,7 +194,7 @@ GottAmOboeII = {
 		r g\f g
 		g2 \tuplet 3/2 4 { h8 a g }
 		\tuplet 3/2 4 { c h a } \appoggiatura g4 fis2\trill-\critnote
-		g4 r r
+		\pao g4 r r
 		r h(-.\p h-.)  %160
 		h( d) h
 		h( d) h
@@ -202,15 +202,15 @@ GottAmOboeII = {
 		e4 \appoggiatura d c2\trillE
 		h4 g2 %165
 		\tuplet 3/2 4 { c8 h a } \appoggiatura g4 fis2\trillE-\critnote
-		g4 \tuplet 3/2 4 { h'8 a g fis e d }
+		\pao g4 \tuplet 3/2 4 { h'8 a g fis e d }
 		\tuplet 3/2 4 { c h a } \appoggiatura g4 fis2\trillE-\critnote
-		g2 r4\fermata
-		\key g \minor R2.*6 %175
+		\pao g2 r4\fermata
+		\key g \minor \pa R2.*6 %175
 		r4 d'\pE c
 		\appoggiatura c h2 c4
 		R2.*5 %182
 		g2 \once \tieDashed c4~
-		c b( a)
+		c \pd b( a)
 		es'( d) c %185
 		b8. c16 \appoggiatura b4 a2
 		b4( g) f
@@ -221,9 +221,9 @@ GottAmOboeII = {
 		a2.\fE
 		b4\pE c d
 		b8. c16 \appoggiatura b4 a2\trillE
-		b4 b\fE \tuplet 3/2 4 { d8 c b } %195
+		\pao b4 b\fE \tuplet 3/2 4 { d8 c b } %195
 		\tuplet 3/2 4 { es d c } \appoggiatura b4 a2\trill
-		b4 r r
+		\pa b4 r r
 		R2.
 		r4 c'\pE h
 		c r r %200
@@ -247,10 +247,10 @@ GottAmOboeII = {
 		\tuplet 3/2 4 { c8 b a } \appoggiatura g4 fis2\trillE
 		g4 b2~
 		b4 \appoggiatura a g2
-		f!4 d' r
+		\pd f!4 d' r
 		R2.\fermataMarkup %225
 		R
-		\key g \major r4 d\f d
+		\key g \major r4 \pao d\f d
 		\appoggiatura d c!2 e4
 		\appoggiatura e d2 g,8 h
 		h4 \once \slurDashed a8( g) g'[ g,] %230
@@ -262,11 +262,11 @@ GottAmOboeII = {
 		r g\fE g
 		g g2
 		\tuplet 3/2 4 { c8 h a } \appoggiatura g4 fis2\trill-\critnote
-		g4 e'2~
+		\pao g4 e'2~
 		e4 \appoggiatura d c2\trillE %240
 		h4 g2
 		\tuplet 3/2 4 { c8 h a } \appoggiatura g4 fis2\trill-\critnote
-		g2 r4 \bar "S-S" %243 finis
+		\pao g2 r4 \bar "S-S" %243 finis
 	}
 }
 

@@ -1,4 +1,4 @@
-% (c) 2019 by Wolfgang Esser-Skala.
+% (c) 2020 by Wolfgang Esser-Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
@@ -8,7 +8,7 @@ MeinHerzOboeI = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \tempoMeinHerz
-		r8 \mvDll b'\fE b a16 b c4 f
+		r8 b'\fE b a16 b c4 f
 		r8 c c b16 c d4 b8 b
 		b4 b8 b b16 c d es f8 b,
 		r4 c8 c c4 c8 c
@@ -43,7 +43,7 @@ GottAmOboeI = {
 		\clef treble
 		\key g \major \time 3/4 \tempoGottAm
 		r4 d'\fE h
-		\appoggiatura a g4.\trill fis8 g4
+		\appoggiatura a g4.\trill fis8 \pao g4
 		a \tuplet 3/2 4 { c8 h a e' d c }
 		h4 d(-. d-.)
 		d \tuplet 3/2 4 { g8 fis e d c h } %5
@@ -56,20 +56,20 @@ GottAmOboeI = {
 		r h\f h
 		h \tuplet 3/2 4 { g'8 fis e d c h }
 		\appoggiatura fis'16 \tuplet 3/2 4 { e8 d c } \appoggiatura h4 a2\trill
-		g4 \once \slurDashed r r %15
+		\pao g4 \once \slurDashed r r %15
 		r d'(-.\p d-.)
 		d( g) d
 		d( h') d,
-		R2.
-		fis2.\fE %20
+		\pa R2.
+		fis\fE \pd %20
 		g4 \tuplet 3/2 4 { h8 a g fis e d }
 		\tuplet 3/2 4 { e d c } \appoggiatura h4 a2
-		g4 r r
+		\pao g4 r r
 		fis'2.
-		g4 \tuplet 3/2 4 { h8 a g fis e d } %25
+		g4 \tuplet 3/2 4 { \pa h8 a g fis e d \pd } %25
 		\tuplet 3/2 4 { e d c } \appoggiatura h4 a2\trill
-		g2 r4 \bar "S-|"
-		r d'\pE h
+		\pao g2 r4 \bar "S-|"
+		\pa r d'\pE h
 		\appoggiatura a8 g4. fis8 g4
 		a \tuplet 3/2 4 { c8 h a e' d c } %30
 		h4 d d
@@ -83,14 +83,14 @@ GottAmOboeI = {
 		\appoggiatura d cis2 r4
 		r cis e
 		\appoggiatura e8 d4. cis8 d4 %45
-		h4( e) \once \tieDashed g~
+		h4( e) \once \tieDashed \pd g~
 		g fis8([ e)] e( d)
 		d4\trill cis r
 		a'2.
 		fis %50
 		g
 		e
-		fis4 d a
+		fis4 d \pao a
 		h g'( fis)
 		e \appoggiatura d cis2\trill %55
 		d4 \tuplet 3/2 4 { a8 g fis h a g }
@@ -99,27 +99,27 @@ GottAmOboeI = {
 		a4 \tuplet 3/2 4 { fis'8 e d g fis e }
 		d4 r r %60
 		cis2\fE cis4
-		d4\pE \tuplet 3/2 4 { fis8 e d cis h a }
+		d4\p \tuplet 3/2 4 { fis8 e d cis h a }
 		\tuplet 3/2 4 { h8 g' e } \appoggiatura d4 cis2\trill
-		d4 r r
+		d4 \pa r r \pd
 		cis2\fE cis4 %65
-		d4\pE \tuplet 3/2 4 { fis8 e d cis h a }
+		d4\pE \tuplet 3/2 4 { \pa fis8 e d cis h a \pd }
 		\tuplet 3/2 4 { h8 g' e } \appoggiatura d4 cis2\trill
 		d4 a'\f fis
-		\appoggiatura e8 \once \slurDashed d4.( cis8) d4
+		\appoggiatura e8 \once \slurDashed d4.( cis8) \pao d4
 		e \tuplet 3/2 4 { g8 fis e h' a g } %70
 		fis4 a, a
 		a \tuplet 3/2 4 { d8 cis h a g fis }
 		fis4 h8([ a)] g( fis)
 		fis4 e r
-		r a'(-.\pE a-.) %75
+		r a'(-.\p a-.) %75
 		a( h) g
 		r g(-. g-.)
 		g( a) fis
 		r fis\f fis
-		fis \tuplet 3/2 4 { d'8 cis h a g fis } %80
+		fis \tuplet 3/2 4 { \pa d'8 cis h a g fis \pd } %80
 		\tuplet 3/2 4 { h a g } \appoggiatura fis4 e2\trill
-		d4 r r
+		\pa d4 r r \pd
 		cis2.
 		d4 \tuplet 3/2 4 { fis8 e d cis h a }
 		\appoggiatura cis?16 \tuplet 3/2 4 { h8 a g } \appoggiatura fis4 e2\trill %85

@@ -1,11 +1,11 @@
-% (c) 2019 by Wolfgang Esser-Skala.
+% (c) 2020 by Wolfgang Esser-Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 \version "2.18.0"
 
 AltoIncipit = \markup {
-	"Alto" \hspace #-15 \score {
+	"Alto" \hspace #-16.8 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
@@ -55,7 +55,7 @@ JesuDeineAltoNotes = {
 }
 
 JesuDeineAltoLyrics = \lyricmode {
-	[Je -- ſu,
+	Je -- ſu,
 	dei -- ne
 	Paſ -- ſi --
 	on
@@ -70,7 +70,7 @@ JesuDeineAltoLyrics = \lyricmode {
 	Geiſt und
 	An -- dacht
 	ſchen -- %15
-	ken. 
+	ken.
 	In dem
 	Bild jetz --
 	und er --
@@ -78,7 +78,7 @@ JesuDeineAltoLyrics = \lyricmode {
 	Je -- ſu,
 	mei -- nem
 	Her --
-	zen, 
+	zen,
 	wie du, %25
 	un -- ſer
 	Heil zu
@@ -86,7 +86,7 @@ JesuDeineAltoLyrics = \lyricmode {
 	lit -- teſt
 	al -- le %30
 	Schmer --
-	zen.] %32 finis
+	zen. %32 finis
 }
 
 MeinHerzAltoNotes = {
@@ -122,28 +122,28 @@ MeinHerzAltoNotes = {
 }
 
 MeinHerzAltoLyrics = \lyricmode {
-	Mein [Herz iſt be -- reit, Gott,
-	mein Herz iſt] be -- reit,
-	
+	Mein \xE Herz iſt be -- reit, Gott,
+	mein Herz iſt \x be -- reit,
+
 	daß ich %6
 	ſin -- ge und lo -- be,
 	ſin -- ge und lo -- be,
 	lo -- _ _ _
 	_ _ _ _ %10
 	_ _ _ _
-	be, [mein Herz iſt be -- reit, Gott, mein Herz iſt] be --
+	be, \xE mein Herz iſt be -- reit, Gott, mein Herz iſt \x be --
 	reit,
-	
+
 	daß ich ſin -- ge und %17
-	lo -- [be, sin -- ge und
+	lo --  \xE be, sin -- ge und
 	lo -- be, sin -- ge und
-	lo] -- %20
-	
+	lo -- %20
+
 	_ _
-	be, [Gott, mein Herz iſt be --
-	reit, mein Herz iſt] be -- reit, [daß ich
-	ſin -- ge, ſin -- ge und lo] -- %25
-	be,
+	\x be, \xE Gott, mein Herz iſt be --
+	reit, mein Herz iſt \x be -- reit, \xE daß ich
+	ſin -- ge, ſin -- ge und lo -- %25
+	\x be,
 	daß ich ſin -- ge und
 	lo -- be, und lo --
 	be. %29 finis
@@ -182,10 +182,10 @@ WohlDemAltoLyrics = \lyricmode {
 	Wohl dem, wohl dem, dem die
 	Ue -- ber -- tre -- tun -- gen ver --
 	ge -- ben ſind, wohl
-	dem, [wohl dem, dem die
+	dem, \xE wohl dem, dem die
 	Sün -- de, die Sün -- de be -- %5
-	de -- cket ist,]
-	
+	de -- cket ist, \x
+
 	wohl
 	dem, dem die Ue -- ber -- tre -- tun --
 	gen ver -- ge -- ben, und dem die %10
@@ -193,12 +193,12 @@ WohlDemAltoLyrics = \lyricmode {
 	dem,
 	dem die
 	Sün -- de be -- de -- cket ist, wohl
-	dem, wohl dem, [dem die %15
+	dem, wohl dem, \xE dem die %15
 	Sün -- de, die Sün -- de be --
 	de -- cket ist, wohl
 	dem, wohl dem, dem die
 	Sün -- de, die Sün -- de be --
-	de -- cket ist.] %20 finis
+	de -- cket ist. %20 finis
 }
 
 IchFalleAltoNotes = {
@@ -235,7 +235,7 @@ IchFalleAltoNotes = {
 }
 
 IchFalleAltoLyrics = \lyricmode {
-	[Ich fal -- le
+	Ich fal -- le
 	dir, mein
 	Gott, zu
 	Fü -- ßen,
@@ -260,7 +260,7 @@ IchFalleAltoLyrics = \lyricmode {
 	ha -- be
 	doch mit
 	mir Ge -- %25
-	dult!] %26 finis
+	dult! %26 finis
 }
 
 ErDessenAltoNotes = {
@@ -331,7 +331,7 @@ ErIstUmAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \minor \time 3/4 \autoBeamOff \tempoErIstUm
-		\mvDll g'4\fE^\tuttiE g g
+		\mvTr g'4\fE^\tuttiE g g
 		g g g
 		as h c
 		g2 g4
@@ -365,7 +365,7 @@ ErIstUmAltoNotes = {
 }
 
 ErIstUmAltoLyrics = \lyricmode {
-	Er [iſt um
+	Er \xE iſt um
 	un -- ſe -- re
 	Miſ -- ſe -- that
 	wil -- len
@@ -392,7 +392,7 @@ ErIstUmAltoLyrics = \lyricmode {
 	gen, %25
 	iſt er ſo
 	zer -- ſchla --
-	gen.] %28 finis
+	gen. %28 finis
 }
 
 SchreibeDeineAltoNotes = {
@@ -436,11 +436,11 @@ SchreibeDeineAltoNotes = {
 }
 
 SchreibeDeineAltoLyrics = \lyricmode {
-	[Schrei -- be
+	Schrei -- be
 	dei -- ne
 	blut -- gen
 	Wun -- den
-	mir, Her[r], %5
+	mir, Herr, %5
 	in mein
 	Herz hi --
 	nein,
@@ -468,7 +468,7 @@ SchreibeDeineAltoLyrics = \lyricmode {
 	Lieb und %30
 	Gunſt ge --
 	nie --
-	ßen.] %33 FINIS
+	ßen. %33 FINIS
 }
 
 MeineSeeleAltoNotes = {
@@ -521,10 +521,10 @@ MeineSeeleAltoLyrics = \lyricmode {
 	wer -- de ich da -- hin kom -- men,
 	daß ich Got -- tes An -- ge -- ſicht
 	ſchau -- e? Ach,
-	ach! Wenn wer -- de [ich da -- hin %10
+	ach! Wenn wer -- de \xE ich da -- hin %10
 	kom -- men, daß ich Got -- tes An -- ge -- ſicht
-	ſchau -- e?]
-	
+	ſchau -- e? \x
+
 	Mei -- ne See -- le dür -- %15
 	ſtet nach Gott,
 	nach dem le -- ben --
@@ -532,16 +532,16 @@ MeineSeeleAltoLyrics = \lyricmode {
 	Ach, ach!
 	%20
 	Ach,
-	ach! Wenn [wer -- de ich da -- hin
-	kom -- men, daß ich Got -- tes An -- ge -- ſicht]
+	ach! Wenn \xE wer -- de ich da -- hin
+	kom -- men, daß ich Got -- tes An -- ge -- ſicht \x
 	ſchau -- e?
 	Wenn %25
 	wer -- de ich da -- hin kom -- men?
 	Wenn wer -- de ich da -- hin
-	kom -- men, [daß ich Got -- tes An -- ge -- ſicht
+	kom -- men, \xE daß ich Got -- tes An -- ge -- ſicht
 	ſchau -- e? Wenn
 	wer -- de ich da -- hin kom -- men, daß ich %30
-	Got -- tes An -- ge] -- ſicht ſchau --
+	Got -- tes An -- ge -- \x ſicht ſchau --
 	e? %32 finis
 }
 
@@ -715,7 +715,7 @@ DuSchoenerAltoLyrics = \lyricmode {
 	a -- den, die am Thro -- ne Got -- tes
 	kni -- en! Wa -- rum ver -- ſtum -- men eu -- re
 	Pſal -- men? Wa -- rum werft ihr ſie
-	hin, die Kro -- nen u: die
+	hin, die Kro -- nen und die
 	Pſal -- men? Ach, ſter -- ben, %75
 	ſter -- ben ſeht ihr ihn? Drum
 	ſchwei -- gen eu -- re Pſal -- men?
@@ -726,7 +726,7 @@ DuSchoenerAltoLyrics = \lyricmode {
 	Schre -- cken erſt, und dann, dann
 	trau -- ren ſie und wer -- den
 	ſtil -- le.
-	
+
 	Ein Gott -- menſch %109
 	ſtirbt, für Sün -- der blu -- tet %110
 	er. Ge -- dan -- ke, wer be -- greift dich,
@@ -738,27 +738,27 @@ DuSchoenerAltoLyrics = \lyricmode {
 	ſchaun, und ſelbst der En -- gel, den es
 	lü -- ſte durch -- zu -- ſchaun, der bebt zu --
 	rück, ihn ü -- ber -- fällt ein hei -- lig
-	Graun. [Mein %120
+	Graun. \xE Mein %120
 	Je -- ſus ſtirbt, ihr
 	Thrä -- nen fließt, er
 	hat für uns, für
-	uns ge -- büßt.]
-	
-	[O %128
+	uns ge -- büßt.
+
+	O %128
 	we -- he dem, der
-	Sün -- de thut,] %130
-	ihn [ſchre -- cke
-	Je -- ſu theu -- res]
+	Sün -- de thut, \x %130
+	ihn \xE ſchre -- cke
+	Je -- ſu theu -- res \x
 	Blut.
-	
-	[Dank, Preis u: Eh -- re %146
+
+	\xE Dank, Preis und Eh -- re %146
 	wol -- len wir ihm wei -- hen,
 	an -- be -- ten im -- mer, und uns
-	freu -- en. Dank, Preis u:
+	freu -- en. Dank, Preis und
 	Eh -- re dem, der %150
 	an dem Creu -- ze ſtarb, und
-	ew -- ges, ew -- ges Heyl er] --
-	warb. Hal --
+	ew -- ges, ew -- ges Heyl er --
+	\x warb. Hal --
 	le -- lu -- jah! %154 finis
 }
 
@@ -767,7 +767,7 @@ VersoehnerAltoNotes = {
 		\clef treble
 		\key g \major \time 4/4 \autoBeamOff \tempoVersoehner
 		R1*2
-		r2 r4 \mvDll h'\fE^\tuttiE
+		r2 r4 \mvTr h'\fE^\tuttiE
 		h g8 r g g g g
 		g4 r8 h\pE g8.([ a32 h)] \appoggiatura h8 a4 %5
 		\appoggiatura a8^\critnote g4 r8 h\fE a4 a
@@ -823,18 +823,18 @@ VersoehnerAltoNotes = {
 }
 
 VersoehnerAltoLyrics = \lyricmode {
-	[Ver -- %3
+	\xE Ver -- %3
 	ſöh -- ner, heil -- ges Got -- tes
 	Lamm, laß dei -- nen %5
 	Tod, laß dei -- nen
-	Tod u: dei -- ne Wun --
+	Tod und dei -- ne Wun --
 	den, ach, ach, laß ſie
 	uns in un -- ſer lez -- ten
 	Stun -- de, ach, ach, laß ſie %10
 	uns Troſt __ für die See -- le
 	ſeyn, Troſt für die See -- le
-	ſeyn.]
-	[Ver --
+	ſeyn.
+	Ver --
 	ſöh -- ner, heil -- ges Got -- tes %15
 	Lamm, laß dei -- nen
 	Tod und dei -- ne __
@@ -842,9 +842,9 @@ VersoehnerAltoLyrics = \lyricmode {
 	uns in un -- ſern lez -- ten
 	Stun -- den Troſt für die See -- le %20
 	ſeyn, Troſt __ für die See -- le
-	ſeyn.] [Ver -- ſöh -- ner,]
-	heil -- ges Got -- tes Lamm, laß
-	dei -- nen Tod u: dei -- ne
+	ſeyn. Ver -- ſöh -- ner,
+	\x heil -- ges Got -- tes Lamm, laß
+	dei -- nen Tod und dei -- ne
 	Wun -- den, ach, %25
 	ach, laß ſie uns in
 	un -- ſern lez -- ten Stun -- den, ach,
@@ -853,18 +853,18 @@ VersoehnerAltoLyrics = \lyricmode {
 	für die See -- le ſeyn, für die %30
 	See -- le
 	ſeyn.
-	
+
 	Sie
-	[blu -- ten jtzt, bald %35
+	\xE blu -- ten jtzt, bald %35
 	ſtrah -- len ſie, ſie
 	blu -- ten jtzt, bald
-	ſtrah -- len ſie,] Ge --
+	ſtrah -- len ſie, \x Ge --
 	richt dem Sün -- der,
 	Huld __ dem From -- men, Ge -- %40
 	richt dem Sün -- der,
 	Huld dem From -- men. O!
 	Wol -- lust, o! Wol -- lust, o!
-	[Wol -- lust, o! Wol -- lust!]
+	\xE Wol -- lust, o! Wol -- lust! \x
 	Wir, wir, wir wer -- den %45
 	nie in dein Ge -- richt, wir wer -- den
 	nie in dein Ge -- richt, Ver --

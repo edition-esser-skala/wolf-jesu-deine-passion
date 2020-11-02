@@ -1,68 +1,52 @@
-# (c) 2019 by Wolfgang Esser-Skala.
+# (c) 2020 by Wolfgang Esser-Skala.
 # This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 # To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 
 # change the following variables according to your project
 project = Wolf_Jesu_deine_Passion
-zipname = Wolf_Jesu_deine_Passion_Engraving_Files
-notes = A B cor1 cor2 fl1 fl2 ob1 ob2 org S T vl1 vl2 vla
-parts = b cor12 coro fl1 fl2 ob1 ob2 org vl1 vl2 vla
-movements = erste_abtheylung zweyte_abtheylung
+notes = fl1 fl2 ob1 ob2 cor1 cor2 vl1 vl2 vla S A T B org
+scores = full_score fl1 fl2 ob1 ob2 cor12 vl1 vl2 vla coro b org
 
-
+# general definitions
+zipname = $(project:%=%_engraving_files)
 .DEFAULT_GOAL := info
-# determine how many processors are present
 CPU_CORES = `cat /proc/cpuinfo | grep -m1 "cpu cores" | sed s/".*: "//`
-# The command to run lilypond
 LILY_CMD = lilypond -ddelete-intermediate-files \
                     -dno-point-and-click -djob-count=$(CPU_CORES)
 
-# The suffixes used in this Makefile.
-.SUFFIXES: .ly .pdf .midi
+# dependencies of scores:
+# (a) individual scores (e.g., `make full_score')
+$(scores): %: out/%.pdf
+$(scores:%=out/%.pdf): out/%.pdf: scores/%.ly $(notes:%=notes/%.ly) definitions.ly
+	mkdir -p out
+	$(LILY_CMD) -o out $<
 
-# Input and output files are searched in the directories
-# listed in the VPATH variable.
-VPATH = ./notes ./midi ./parts ./pdf ./scores
+# (b) all scores (`make scores')
+.PHONY: scores
+scores: $(scores)
 
 
-# The pattern rule to create PDF and MIDI files from a LY input file.
-# The .pdf output files are put into the `PDF' subdirectory, and the
-# .midi files go into the `MIDI' subdirectory.
-%.pdf %.midi: %.ly
-	$(LILY_CMD) $<
-	if [ -f "$*.pdf" ]; then mv "$*.pdf" pdf/; fi
-	if [ -f "$*.midi" ]; then mv "$*.midi" midi/; fi
+# dependencies of final scores (i.e., front matter + notes):
+# (a) individual final scores (e.g., `make final/full_score'):
+$(scores:%=final/%): %: %.pdf
+$(scores:%=final/%.pdf): final/%.pdf: front_matter/critical_report.tex out/%.pdf
+	mkdir -p final
+	for i in 1 2; do \
+	  cd front_matter; \
+	  lualatex -output-directory=../final -jobname=$* critical_report.tex $* ;\
+  done
+	rm final/$*.aux
+	rm final/$*.log
 
-# The dependencies of the parts:
-# (a) Individual parts (e.g., `make b')
-$(parts): %: p_%.pdf
-$(parts:%=p_%.pdf): p_%.pdf: p_%.ly $(notes:%=notes/n_??_%.ly) definitions.ly
-
-# (b) All parts (`make parts')
-.PHONY: parts
-parts: $(parts)
-
-# The dependencies of the movements:
-# (a) Individual movements (e.g., `make kyrie')
-$(movements): %: s_%.pdf
-$(movements:%=s_%.pdf): s_%.pdf: s_%.ly $(notes:%=notes/n_??_%.ly) definitions.ly
-
-# (b) All movements (`make movements')
-.PHONY: movements
-movements: $(movements)
-
-# The dependencies of the full score (`make score'):
-.PHONY: score
-score: $(movements)
-	pdfunite $(movements:%=pdf/s_%.pdf) pdf/full_score.pdf
-
-# make scores and parts
-all: score parts
+# (b) all final scores (`make final/scores'):
+.PHONY: final/scores
+final/scores: $(scores:%=final/%)
 
 archive:
-	zip $(zipname).zip README.md Makefile \
-	*.ly notes/*.ly parts/*.ly scores/*.ly
+	zip $(zipname).zip README.md Makefile *.ly \
+	notes/*.ly scores/*.ly \
+	front_matter/byncsaeu.pdf front_matter/ees_logo.pdf front_matter/*.tex
 
 space := $(subst ,, )
 sep := ", "
@@ -70,11 +54,9 @@ info:
 	@color=`tput setaf 6; tput bold`; \
 	reset=`tput sgr0`; \
 	echo "Specify one of the following $${color}targets$${reset} to create:\n" \
-	"* $${color}$(subst $(space),$(sep),$(movements))$${reset}: individual movements\n" \
-	"* $${color}$(subst $(space),$(sep),$(parts))$${reset}: individual parts\n" \
-	"* $${color}parts$${reset}: all parts\n" \
-	"* $${color}movements$${reset}: all movements\n" \
-	"* $${color}score$${reset}: full score\n" \
-	"* $${color}all$${reset}: full score and all parts\n" \
+	"* $${color}$(subst $(space),$(sep),$(scores))$${reset}: individual scores (LilyPond output only)\n" \
+	"* $${color}$(subst $(space),$(sep),$(scores:%=final/%))$${reset}: individual final scores (LilyPond output + front matter)\n" \
+	"* $${color}scores$${reset}: all scores\n" \
+	"* $${color}final/scores$${reset}: all final scores\n" \
 	"* $${color}archive$${reset}: ZIP file with all sources\n" \
 	"* $${color}info$${reset}: prints this message"

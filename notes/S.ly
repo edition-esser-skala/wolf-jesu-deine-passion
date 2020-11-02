@@ -1,11 +1,11 @@
-% (c) 2019 by Wolfgang Esser-Skala.
+% (c) 2020 by Wolfgang Esser-Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 \version "2.18.0"
 
 SopranoIncipit = \markup {
-	"Soprano" \hspace #-17 \score {
+	"Soprano" \hspace #-19 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
@@ -55,7 +55,7 @@ JesuDeineSopranoNotes = {
 }
 
 JesuDeineSopranoLyrics = \lyricmode {
-	[Je -- ſu,
+	Je -- ſu,
 	dei -- ne
 	Paſ -- ſi --
 	on
@@ -70,7 +70,7 @@ JesuDeineSopranoLyrics = \lyricmode {
 	Geiſt und
 	An -- dacht
 	ſchen -- %15
-	ken. 
+	ken.
 	In dem
 	Bild jetz --
 	und er --
@@ -78,7 +78,7 @@ JesuDeineSopranoLyrics = \lyricmode {
 	Je -- ſu,
 	mei -- nem
 	Her --
-	zen, 
+	zen,
 	wie du, %25
 	un -- ſer
 	Heil zu
@@ -86,7 +86,7 @@ JesuDeineSopranoLyrics = \lyricmode {
 	lit -- teſt
 	al -- le %30
 	Schmer --
-	zen.] %32 finis
+	zen. %32 finis
 }
 
 HeiligerSopranoNotes = {
@@ -253,7 +253,7 @@ HeiligerSopranoLyrics = \lyricmode {
 	Hei -- %16
 	li --
 	ger,
-	
+
 	hei -- li -- %20
 	ger, auch
 	ich __ bin
@@ -285,13 +285,13 @@ HeiligerSopranoLyrics = \lyricmode {
 	_ _
 	_ _ _
 	_ %50
-	
+
 	_ _ ben
 	will, ſich zu
 	dir er --
 	he -- ben %55
 	will.
-	
+
 	Hei -- li -- %62
 	ger,
 	auch ich __ bin
@@ -327,7 +327,7 @@ HeiligerSopranoLyrics = \lyricmode {
 	_ _
 	_ %95
 	_
-	
+
 	_ _ _
 	_ _ _ _
 	_ _ _ ben %100
@@ -339,7 +339,7 @@ HeiligerSopranoLyrics = \lyricmode {
 	ſich zu dir er -- he --
 	ben
 	will.
-	
+
 	Schau zum %120
 	End -- li --
 	chen he --
@@ -348,7 +348,7 @@ HeiligerSopranoLyrics = \lyricmode {
 	du die %125
 	See -- le
 	mun -- ter,
-	
+
 	tau -- fe %130
 	ſie mit
 	dei -- nem
@@ -366,16 +366,16 @@ HeiligerSopranoLyrics = \lyricmode {
 	ſtamm --
 	len %145
 	kan.
-	
+
 	Schau zum %151
 	End -- li --
 	chen he --
 	run -- ter,
 	ma -- che %155
-	[du] die
+	du die
 	See -- le
 	mun -- ter,
-	
+
 	tau -- fe %161
 	ſie mit
 	dei -- nem
@@ -448,14 +448,14 @@ MeinHerzSopranoLyrics = \lyricmode {
 	_ _ _ _
 	be, mein Herz iſt be -- reit, Gott, mein Herz iſt be --
 	reit,
-	
+
 	daß ich ſin -- ge und %17
-	lo -- [be, sin -- ge und
-	lo] -- _
+	lo -- \xE be, sin -- ge und
+	lo -- _
 	_ _ _ _ %20
 	_ _ _ _
 	_ _ _ _
-	be, Gott, mein Herz iſt be --
+	\x be, Gott, mein Herz iſt be --
 	reit, mein Herz iſt be -- reit, daß ich
 	ſin -- ge, ſin -- ge und lo -- %25
 	be, daß ich ſin -- ge und
@@ -495,12 +495,12 @@ WohlDemSopranoNotes = {
 
 WohlDemSopranoLyrics = \lyricmode {
 	Wohl dem, wohl dem,
-	
+
 	wohl
 	dem, wohl dem, dem die
 	Sün -- de, die Sün -- de be -- %5
 	de -- cket ist,
-	
+
 	wohl
 	dem, dem die Ue -- ber -- tre -- tun --
 	gen ver -- ge -- ben, und dem die %10
@@ -550,7 +550,7 @@ IchFalleSopranoNotes = {
 }
 
 IchFalleSopranoLyrics = \lyricmode {
-	[Ich fal -- le
+	Ich fal -- le
 	dir, mein
 	Gott, zu
 	Fü -- ßen,
@@ -575,14 +575,14 @@ IchFalleSopranoLyrics = \lyricmode {
 	ha -- be
 	doch mit
 	mir Ge -- %25
-	dult!] %26 finis
+	dult! %26 finis
 }
 
 ErIstUmSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \minor \time 3/4 \autoBeamOff \tempoErIstUm
-		\mvDll c'4\fE^\tuttiE c c
+		\mvTr c'4\fE^\tuttiE c c
 		es d c
 		es d c
 		h( as) g
@@ -687,11 +687,11 @@ SchreibeDeineSopranoNotes = {
 }
 
 SchreibeDeineSopranoLyrics = \lyricmode {
-	[Schrei -- be
+	Schrei -- be
 	dei -- ne
 	blut -- gen
 	Wun -- den
-	mir, Her[r], %5
+	mir, Herr, %5
 	in mein
 	Herz hi --
 	nein,
@@ -719,7 +719,7 @@ SchreibeDeineSopranoLyrics = \lyricmode {
 	Lieb und %30
 	Gunſt ge --
 	nie --
-	ßen.] %33 FINIS
+	ßen. %33 FINIS
 }
 
 GottAmSopranoINotes = {
@@ -883,7 +883,7 @@ GottAmSopranoILyrics = \lyricmode {
 	Bru -- der
 	ſanft be --
 	geg -- nen.
-	
+
 	Gott am %40
 	Creut -- ze,
 	leh -- re
@@ -913,7 +913,7 @@ GottAmSopranoILyrics = \lyricmode {
 	himm -- liſch
 	lehrts dein
 	Herz.
-	
+
 	Gott am %92
 	Creu -- ze,
 	leh -- re
@@ -929,7 +929,7 @@ GottAmSopranoILyrics = \lyricmode {
 	Bru -- der
 	ſanft be -- %105
 	geg -- nen.
-	
+
 	O! wie
 	himm -- liſch,
 	o! wie %110
@@ -968,7 +968,7 @@ GottAmSopranoILyrics = \lyricmode {
 	Herz,
 	lehrts dein
 	Herz. %145
-	
+
 	We -- he %170
 	de -- nen,
 	wel -- che
@@ -976,7 +976,7 @@ GottAmSopranoILyrics = \lyricmode {
 	Bru -- der
 	gern ver -- %175
 	zei -- hen.
-	
+
 	Ach, __ %182
 	ihr
 	Lohn iſt
@@ -991,7 +991,7 @@ GottAmSopranoILyrics = \lyricmode {
 	Lohn iſt
 	Ew -- ger
 	Schmertz. %195
-	
+
 	We -- he
 	de -- nen,
 	wel -- che
@@ -999,7 +999,7 @@ GottAmSopranoILyrics = \lyricmode {
 	Bru -- der
 	gern ver --
 	zei -- hen.
-	
+
 	Ach, __ %209
 	ihr %210
 	Lohn iſt
@@ -1188,7 +1188,7 @@ GottAmSopranoIILyrics = \lyricmode {
 	mei -- ne __
 	Fein -- de
 	seeg -- nen.
-	
+
 	O! wie %50
 	himm -- liſch,
 	o! wie
@@ -1208,7 +1208,7 @@ GottAmSopranoIILyrics = \lyricmode {
 	himm -- liſch
 	lehrts dein
 	Herz.
-	
+
 	Gott am %86
 	Creut -- ze,
 	leh -- re
@@ -1216,7 +1216,7 @@ GottAmSopranoIILyrics = \lyricmode {
 	mei -- ne %90
 	Fein -- de
 	seeg -- nen,
-	
+
 	Gott am %98
 	Creut -- ze,
 	leh -- re %100
@@ -1246,11 +1246,11 @@ GottAmSopranoIILyrics = \lyricmode {
 	O! wie
 	himm -- liſch, %125
 	o! wie
-	[himm -- liſch,
+	\xE himm -- liſch,
 	o! wie
 	himm -- liſch
 	lehrts dein %130
-	Herz. O! wie]
+	Herz. O! wie \x
 	himm -- liſch,
 	o! wie
 	himm -- liſch,
@@ -1265,7 +1265,7 @@ GottAmSopranoIILyrics = \lyricmode {
 	Herz,
 	lehrts dein
 	Herz. %145
-	
+
 	Gott wird %176
 	ein -- ſten
 	im __ Ge --
@@ -1286,7 +1286,7 @@ GottAmSopranoIILyrics = \lyricmode {
 	Lohn iſt
 	Ew -- ger
 	Schmertz. %195
-	
+
 	Gott wird %203
 	ein -- ſten
 	im __ Ge -- %205
@@ -1367,7 +1367,7 @@ MeineSeeleSopranoLyrics = \lyricmode {
 	ach! Wenn wer -- de ich da -- hin %10
 	kom -- men, daß ich Got -- tes An -- ge -- ſicht
 	ſchau -- e?
-	
+
 	Mei -- ne See -- le dür -- %15
 	ſtet nach Gott,
 	nach dem le -- ben --
@@ -1563,7 +1563,7 @@ DuSchoenerSopranoLyrics = \lyricmode {
 	To -- des Nacht __ _
 	_ _ hi -- %55
 	nab.
-	
+
 	Mein %84
 	Je -- ſus ſtirbt, wie %85
 	furcht -- bar groß
@@ -1576,24 +1576,24 @@ DuSchoenerSopranoLyrics = \lyricmode {
 	Knech -- te ſtirbt __ _
 	_ _ er
 	da. %95
-	
-	[Mein %120
+
+	\xE Mein %120
 	Je -- ſus ſtirbt, ihr
 	Thrä -- nen fließt, er
 	hat für uns, für
-	uns ge -- büßt.]
-	
+	uns ge -- büßt. \x
+
 	O %128
 	we -- he dem, der
 	Sün -- de thut, %130
 	ihn ſchre -- cke
 	Je -- ſu theu -- res
 	Blut.
-	
-	Dank, Preis u: Eh -- re %146
+
+	Dank, Preis und Eh -- re %146
 	wol -- len wir ihm wei -- hen,
 	an -- be -- ten im -- mer, und uns
-	freu -- en. Dank, Preis u:
+	freu -- en. Dank, Preis und
 	Eh -- re dem, der %150
 	an dem Creu -- ze ſtarb, und
 	ew -- ges, ew -- ges Heyl er --
@@ -1606,7 +1606,7 @@ VersoehnerSopranoNotes = {
 		\clef treble
 		\key g \major \time 4/4 \autoBeamOff \tempoVersoehner
 		R1*2
-		r2 r4 \mvDll d'\fE^\tuttiE
+		r2 r4 \mvTr d'\fE^\tuttiE
 		g d8 r e e g e
 		\appoggiatura e d4 r8 g\pE h,8.([ c32 d)] \appoggiatura d8 c4\trill %5
 		\appoggiatura c8 h4 r8 g'\f g( e4) g8
@@ -1666,7 +1666,7 @@ VersoehnerSopranoLyrics = \lyricmode {
 	ſöh -- ner, heil -- ges Got -- tes
 	Lamm, laß dei -- nen %5
 	Tod, laß dei -- nen
-	Tod u: dei -- ne Wun --
+	Tod und dei -- ne Wun --
 	den, ach, ach, laß ſie
 	uns in un -- ſer lez -- ten
 	Stun -- de, ach, ach, laß ſie %10
@@ -1683,7 +1683,7 @@ VersoehnerSopranoLyrics = \lyricmode {
 	ſeyn, Troſt __ für die See -- le
 	ſeyn. Ver -- ſöh -- ner,
 	heil -- ges Got -- tes Lamm, laß
-	dei -- nen Tod u: dei -- ne
+	dei -- nen Tod und dei -- ne
 	Wun -- den, ach, %25
 	ach, laß ſie uns in
 	un -- ſern lez -- ten Stun -- den, ach,
@@ -1692,7 +1692,7 @@ VersoehnerSopranoLyrics = \lyricmode {
 	für die See -- le ſeyn, für die %30
 	See -- le
 	ſeyn.
-	
+
 	Sie
 	blu -- ten jtzt, bald %35
 	ſtrah -- len ſie, ſie

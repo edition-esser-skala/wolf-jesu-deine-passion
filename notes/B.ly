@@ -1,4 +1,4 @@
-% (c) 2019 by Wolfgang Esser-Skala.
+% (c) 2020 by Wolfgang Esser-Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
@@ -59,7 +59,7 @@ JesuDeineBassoLyrics = \lyricmode {
 	Geiſt und
 	An -- dacht
 	ſchen -- %15
-	ken. 
+	ken.
 	In dem
 	Bild jetz --
 	und er --
@@ -67,7 +67,7 @@ JesuDeineBassoLyrics = \lyricmode {
 	Je -- ſu,
 	mei -- nem
 	Her --
-	zen, 
+	zen,
 	wie du, %25
 	un -- ſer
 	Heil zu
@@ -113,11 +113,11 @@ MeinHerzBassoNotes = {
 }
 
 MeinHerzBassoLyrics = \lyricmode {
-	Mein [Herz iſt be -- reit, Gott,
-	mein Herz iſt] be -- reit,
-	
-	daß [ich %6
-	ſin -- ge und lo -- be,]
+	Mein \xE Herz iſt be -- reit, Gott,
+	mein Herz iſt \x be -- reit,
+
+	daß \xE ich %6
+	ſin -- ge und lo -- be, \x
 	ſin -- ge und lo -- be,
 	lo --
 	%10
@@ -131,7 +131,7 @@ MeinHerzBassoLyrics = \lyricmode {
 	lo -- be, sin -- ge und
 	lo -- be, sin -- ge und
 	lo -- %20
-	
+
 	_
 	be, Gott, mein Herz iſt be --
 	reit, mein Herz iſt be -- reit, daß ich
@@ -173,18 +173,18 @@ WohlDemBassoNotes = {
 
 WohlDemBassoLyrics = \lyricmode {
 	Wohl dem, wohl dem,
-	
+
 	wohl
 	dem, wohl dem, dem die
 	Sün -- de, die Sün -- de be -- %5
 	de -- cket ist,
-	
+
 	wohl
 	dem,
 	dem die %10
 	Sün -- de be -- de -- cket ist, wohl
 	dem, dem die Ue -- ber -- tre -- tun --
-	gen ver -- ge -- ben [ſind], dem die
+	gen ver -- ge -- ben \xE ſind \x, dem die
 	Sün -- de be -- de -- cket ist, wohl
 	dem, wohl dem, dem die %15
 	Sün -- de, die Sün -- de be --
@@ -228,7 +228,7 @@ IchFalleBassoNotes = {
 }
 
 IchFalleBassoLyrics = \lyricmode {
-	[Ich fal -- le
+	Ich fal -- le
 	dir, mein
 	Gott, zu
 	Fü -- ßen,
@@ -253,14 +253,14 @@ IchFalleBassoLyrics = \lyricmode {
 	ha -- be
 	doch mit
 	mir Ge -- %25
-	dult!] %26 finis
+	dult! %26 finis
 }
 
 ErIstUmBassoNotes = {
 	\relative c {
 		\clef bass
 		\key c \minor \time 3/4 \autoBeamOff \tempoErIstUm
-		\mvDll c'4\fE^\tuttiE es d
+		\mvTr c'4\fE^\tuttiE es d
 		c c c
 		as as as
 		g2 f4
@@ -309,7 +309,7 @@ ErIstUmBassoLyrics = \lyricmode {
 	um un -- ſe -- re
 	Sün -- den
 	wil -- len
-	
+
 	iſt er ſo %23
 	zer -- ſchla --
 	gen, %25
@@ -359,11 +359,11 @@ SchreibeDeineBassoNotes = {
 }
 
 SchreibeDeineBassoLyrics = \lyricmode {
-	[Schrei -- be
+	Schrei -- be
 	dei -- ne
 	blut -- gen
 	Wun -- den
-	mir, Her[r], %5
+	mir, Herr, %5
 	in mein
 	Herz hi --
 	nein,
@@ -391,7 +391,7 @@ SchreibeDeineBassoLyrics = \lyricmode {
 	Lieb und %30
 	Gunſt ge --
 	nie --
-	ßen.] %33 FINIS
+	ßen. %33 FINIS
 }
 
 HoertsBassoNotes = {
@@ -582,7 +582,7 @@ HoertsBassoLyrics = \lyricmode {
 	ihr We -- ſen iſt Un --
 	ſterb -- lich --
 	keit.
-	
+
 	Hörts, Chri -- ſten, %68
 	hörts, das __
 	iſt un -- ſer %70
@@ -615,13 +615,13 @@ HoertsBassoLyrics = \lyricmode {
 	_ _
 	_ _ _
 	_
-	
+
 	lich -- %104
 	keit, %105
 	ihr We -- ſen
 	iſt Un -- ſterb -- lich --
 	keit.
-	
+
 	Chri -- ſten, %110
 	hörts,
 	das iſt un -- ſer __
@@ -651,7 +651,7 @@ HoertsBassoLyrics = \lyricmode {
 	ihr We -- ſen iſt
 	Un -- ſterb -- lich --
 	keit.
-	
+
 	Heil al -- len, %155
 	die ſich hö -- hers
 	Le -- ben durch
@@ -671,7 +671,7 @@ HoertsBassoLyrics = \lyricmode {
 	Zeit,
 	nach die -- ſer
 	Zeit.
-	
+
 	Heil al -- len, %175
 	die __ ſich hö -- hers
 	Le -- ben durch
@@ -741,14 +741,14 @@ MeineSeeleBassoLyrics = \lyricmode {
 	nach dem le --
 	ben -- di -- gen Gott.
 	Ach, ach! %5
-	
+
 	Wenn wer -- de ich da -- hin
 	kom -- men?
 	Ach,
 	ach! Wenn wer -- de ich da -- hin %10
 	kom -- men, daß ich Got -- tes An -- ge -- ſicht
 	ſchau -- e?
-	
+
 	Mei -- ne See -- le %15
 	dür -- ſtet nach Gott,
 	nach dem le --
@@ -762,10 +762,10 @@ MeineSeeleBassoLyrics = \lyricmode {
 	%25
 	Wenn wer -- de ich da -- hin
 	kom -- men? Wenn wer -- de ich da -- hin
-	kom -- men, [daß ich Got -- tes An -- ge -- ſicht
-	ſchau -- e?] Wenn
-	[wer -- de ich da -- hin kom -- men, daß ich %30
-	Got -- tes An -- ge] -- ſicht ſchau --
+	kom -- men, \xE daß ich Got -- tes An -- ge -- ſicht
+	ſchau -- e? \x Wenn
+	\xE wer -- de ich da -- hin kom -- men, daß ich %30
+	Got -- tes An -- ge -- \x ſicht ſchau --
 	e? %32 finis
 }
 
@@ -975,9 +975,9 @@ DuSchoenerBassoLyrics = \lyricmode {
 	ſtaunt, fühlt,
 	zit -- tert, ſchaut:
 	Die gan -- ze Schöp -- fung äch -- ze
-	laut, den[n] Je -- ſus Chriſ -- tus
+	laut, denn Je -- ſus Chriſ -- tus
 	ſtirbt. %45
-	
+
 	Seyd ge -- troſt, seyd ge -- troſt, ihr %56
 	Wei -- nen -- den: Tod und
 	Höl -- le ſind nun ü -- ber -- wun -- den, ü -- ber --
@@ -991,7 +991,7 @@ DuSchoenerBassoLyrics = \lyricmode {
 	Him -- mel und die da -- rin -- nen woh --
 	_ _ _ _
 	nen.
-	
+
 	Seyd ge -- troſt, seyd ge -- troſt, ihr %95
 	Wei -- nen -- den: Tod und
 	Höl -- le ſind nun ü -- ber -- wun -- den, ü -- ber --
@@ -1002,10 +1002,10 @@ DuSchoenerBassoLyrics = \lyricmode {
 	freu -- et euch, ihr Him -- mel, ihr Him -- mel und die da --
 	rin -- nen woh -- nen.
 	Freu -- et euch, ihr Him -- mel, freu -- et euch, ihr Him -- mel, ihr
-	Him -- mel u: die da -- rin -- nen woh -- %105
+	Him -- mel und die da -- rin -- nen woh -- %105
 	_ _ _ _
 	nen.
-	
+
 	Mein %120
 	Je -- ſus ſtirbt, ihr
 	Thrä -- nen fließt, er
@@ -1027,14 +1027,14 @@ DuSchoenerBassoLyrics = \lyricmode {
 	Freu -- et euch, ihr Him -- mel, freu -- et euch, ihr Him -- mel, ihr
 	Him -- mel und die da -- rin -- nen woh --
 	nen. Freu -- et euch, ihr Him -- mel, %140
-	freu -- et euch, ihr Him -- mel, ihr Him -- mel u: die da --
+	freu -- et euch, ihr Him -- mel, ihr Him -- mel und die da --
 	rin -- nen woh -- _ _
 	_ _ nen.
-	
-	Dank, Preis u: Eh -- re %146
+
+	Dank, Preis und Eh -- re %146
 	wol -- len wir ihm wei -- hen,
 	an -- be -- ten im -- mer, und uns
-	freu -- en. Dank, Preis u:
+	freu -- en. Dank, Preis und
 	Eh -- re dem, der %150
 	an dem Creu -- ze ſtarb, und
 	ew -- ges, ew -- ges Heyl er --
@@ -1047,7 +1047,7 @@ VersoehnerBassoNotes = {
 		\clef bass
 		\key g \major \time 4/4 \autoBeamOff \tempoVersoehner
 		R1*2
-		r2 r4 \mvDll g'\fE^\tuttiE
+		r2 r4 \mvTr g'\fE^\tuttiE
 		g g8 r g g g g
 		g4 r r2 %5
 		r8 e e e a4 r
@@ -1133,7 +1133,7 @@ VersoehnerBassoLyrics = \lyricmode {
 	Troſt für die See -- le ſeyn, für die %30
 	See -- le
 	ſeyn.
-	
+
 	Sie
 	blu -- ten jtzt, bald %35
 	ſtrah -- len ſie, ſie

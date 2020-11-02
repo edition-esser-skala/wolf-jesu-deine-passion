@@ -1,4 +1,4 @@
-% (c) 2019 by Wolfgang Esser-Skala.
+% (c) 2020 by Wolfgang Esser-Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
@@ -55,7 +55,7 @@ LieblichFlautoII = {
 		e( d) d8 dis16( e) e( fis) fis( e) e8 gis,16( a) a( h)
 		a8 r r4 r2 %50
 		R1*3
-		r2 d8\pE d4 \once \slurDashed cis16( h)
+		r2 d8\p d4 \once \slurDashed cis16( h)
 		a8 cis r4 g'8 g4 \once \slurDashed fis16( e) %55
 		d8( fis16.) e32 e8( d16.) cis32 cis8( h16.) a32 a8( gis!16.) h32
 		a8 cis r4 r r8 e32( d cis h)
@@ -80,6 +80,6 @@ LieblichFlautoII = {
 		r2 r4 \key a \major \tempoLieblich cis16(\fE d) d( e)
 		e( d) d8 dis16( e) e( fis) \once \slurDashed fis( e) e8 gis16( a) a( h) %115
 		a8 cis r4 r r8 e,32( d cis h)
-		a8 \once \slurDashed e'16( a,) gis4\trillE a r \bar "S-S" %117 finis
+		a8 \once \slurDashed e'16( a,) gis4\trill a r \bar "S-S" %117 finis
 	}
 }
