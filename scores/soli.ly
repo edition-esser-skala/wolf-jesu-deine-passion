@@ -110,6 +110,56 @@
 	}
 	\bookpart {
 		\header {
+			genre = "A C C O M P A G N A T O"
+			number = "1.2"
+			title = "O welch ein kläglich Bild"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #20
+			system-system-spacing.minimum-distance = #20
+			systems-per-page = #6
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "T"
+						\new Voice = "Tenore" { \dynamicUp \OWelchTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \OWelchTenoreLyrics
+				>>
+				\new Staff { \OWelchOrgano }
+				\new FiguredBass { \OWelchBassFigures }
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			genre = "A R I A"
+			number = "1.3"
+			title = "Heiliger, auch ich bin Erde"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #20
+			system-system-spacing.minimum-distance = #20
+			systems-per-page = #6
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "S"
+						\new Voice = "Soprano" { \dynamicUp \HeiligerSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \HeiligerSopranoLyrics
+				>>
+				\new Staff { \HeiligerOrgano }
+				\new FiguredBass { \HeiligerBassFigures }
+			>>
+		}
+	}
+	\bookpart {
+		\header {
 			genre = "C O R O"
 			number = "1.4"
 			title = "Mein Herz iſt bereit"
@@ -143,6 +193,56 @@
 				>>
 				\new Staff { \MeinHerzOrgano }
 				\new FiguredBass { \MeinHerzBassFigures }
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			genre = "A C C O M P A G N A T O"
+			number = "1.5"
+			title = "Verräther! Wie, dir muß es doch gelingen?"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #20
+			system-system-spacing.minimum-distance = #20
+			systems-per-page = #6
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "T"
+						\new Voice = "Tenore" { \dynamicUp \VerraetherTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \VerraetherTenoreLyrics
+				>>
+				\new Staff { \VerraetherOrgano }
+				\new FiguredBass { \VerraetherBassFigures }
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			genre = "A R I A"
+			number = "1.6"
+			title = "Lieblich fließt die Zähre"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #20
+			system-system-spacing.minimum-distance = #20
+			systems-per-page = #6
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "T"
+						\new Voice = "Tenore" { \dynamicUp \LieblichTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \LieblichTenoreLyrics
+				>>
+				\new Staff { \LieblichOrgano }
+				\new FiguredBass { \LieblichBassFigures }
 			>>
 		}
 	}
@@ -224,6 +324,37 @@
 	}
 	\bookpart {
 		\header {
+			genre = "A C C O M P A G N A T O"
+			number = "1.9"
+			title = "Er, deſſen Allmachts Ruf"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #4
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "A"
+						\new Voice = "Alto" { \dynamicUp \ErDessenAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \ErDessenAltoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "T"
+						\new Voice = "Tenore" { \dynamicUp \ErDessenTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \ErDessenTenoreLyrics
+				>>
+				\new Staff { \ErDessenOrgano }
+				\new FiguredBass { \ErDessenBassFigures }
+			>>
+		}
+	}
+	\bookpart {
+		\header {
 			genre = "C O R O"
 			number = "1.10"
 			title = "Er iſt um unſere Miſſethat willen ſo verwundet"
@@ -295,6 +426,112 @@
 				>>
 				\new Staff { \SchreibeDeineOrgano }
 				\new FiguredBass { \SchreibeDeineBassFigures }
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			genre = "A C C O M P A G N A T O"
+			number = "2.1"
+			title = "Nun iſt die feyerliche Stunde des großen Opfers da"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #20
+			system-system-spacing.minimum-distance = #20
+			systems-per-page = #6
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "T"
+						\new Voice = "Tenore" { \dynamicUp \NunIstTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \NunIstTenoreLyrics
+				>>
+				\new Staff { \NunIstOrgano }
+				\new FiguredBass { \NunIstBassFigures }
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			genre = "D U E T T O"
+			number = "2.2"
+			title = "Gott am Creutze, lehre mich"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #4
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "S 1"
+						\new Voice = "SopranoI" { \dynamicUp \GottAmSopranoINotes }
+					}
+					\new Lyrics \lyricsto SopranoI \GottAmSopranoILyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "S 2"
+						\new Voice = "SopranoII" { \dynamicUp \GottAmSopranoIINotes }
+					}
+					\new Lyrics \lyricsto SopranoII \GottAmSopranoIILyrics
+				>>
+				\new Staff { \GottAmOrgano }
+				\new FiguredBass { \GottAmBassFigures }
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			genre = "A C C O M P A G N A T O"
+			number = "2.3"
+			title = "Es ſchweben Seraphim von fern"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #20
+			system-system-spacing.minimum-distance = #20
+			systems-per-page = #6
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "T"
+						\new Voice = "Tenore" { \dynamicUp \EsSchwebenTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \EsSchwebenTenoreLyrics
+				>>
+				\new Staff { \EsSchwebenOrgano }
+				\new FiguredBass { \EsSchwebenBassFigures }
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			genre = "A R I A"
+			number = "2.4"
+			title = "Hörts, Chriſten, das iſt unſer Glaube"
+		}
+		\paper {
+			system-system-spacing.basic-distance = #20
+			system-system-spacing.minimum-distance = #20
+			systems-per-page = #6
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "B"
+						\new Voice = "Basso" { \dynamicUp \HoertsBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \HoertsBassoLyrics
+				>>
+				\new Staff { \HoertsOrgano }
+				\new FiguredBass { \HoertsBassFigures }
 			>>
 		}
 	}

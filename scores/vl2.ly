@@ -1,4 +1,4 @@
-% (c) 2019 by Wolfgang Esser-Skala.
+% (c) 2020 by Wolfgang Esser-Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
@@ -7,347 +7,283 @@
 \include "../definitions.ly"
 
 \paper {
-	#(set-paper-size "a4" 'portrait)
-	indent = 2\cm
+	indent = 1\cm
 	top-margin = 1.5\cm
 	system-separator-markup = ##f
 	system-system-spacing =
-    #'((basic-distance . 17)
-       (minimum-distance . 17)
+    #'((basic-distance . 18)
+       (minimum-distance . 18)
        (padding . -100)
        (stretchability . 0))
-	
+
 	top-system-spacing =
-    #'((basic-distance . 17)
-       (minimum-distance . 17)
+    #'((basic-distance . 12)
+       (minimum-distance . 12)
        (padding . -100)
        (stretchability . 0))
-	
+
 	top-markup-spacing =
     #'((basic-distance . 0)
        (minimum-distance . 0)
        (padding . -100)
        (stretchability . 0))
-		
+
 	markup-system-spacing =
-    #'((basic-distance . 17)
-       (minimum-distance . 17)
+    #'((basic-distance . 12)
+       (minimum-distance . 12)
        (padding . -100)
        (stretchability . 0))
-	
-	last-bottom-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . 0)
-       (stretchability . 1.0e7))
-	
+
 	systems-per-page = #9
 }
 
 #(set-global-staff-size 17.82)
 
+\layout {
+	\context {
+		\Staff
+		instrumentName = "vl 2"
+	}
+}
 
 \book {
 	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "1" "E R S T E   A B T H E Y L U N G"
-	}
-	\bookpart {
 		\header {
-			movement = \movementTitle "1.1" "CHORAL" "Jeſu, deine Paſſion"
+			genre = "C H O R A L"
+			number = "1.1"
+			title = "Jeſu, deine Pasſion"
 		}
-		\paper { systems-per-page = #4 }
+		\paper { indent = 2\cm systems-per-page = #4 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\JesuDeineViolinoII
-					}
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Violino II"
+					\JesuDeineViolinoII
+				}
 			>>
 		}
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.2" "RECITATIV" "O welch ein kläglich Bild"
+			genre = "A C C O M P A G N A T O"
+			number = "1.2"
+			title = "O welch ein kläglich Bild"
 		}
-		\paper { systems-per-page = #5 }
+		\paper { systems-per-page = #6 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\OWelchViolinoII
-					}
-				>>
+				\new Staff { \OWelchViolinoII }
 			>>
 		}
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.3" "ARIA" "Heiliger, auch ich bin Erde"
+			genre = "A R I A"
+			number = "1.3"
+			title = "Heiliger, auch ich bin Erde"
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\HeiligerViolinoII
-					}
-				>>
+				\new Staff { \HeiligerViolinoII }
 			>>
 		}
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.4" "CORO" "Mein Herz iſt bereit"
+			genre = "C O R O"
+			number = "1.4"
+			title = "Mein Herz iſt bereit"
 		}
 		\paper { page-count = #1 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\MeinHerzViolinoII
-					}
-				>>
+				\new Staff { \MeinHerzViolinoII }
 			>>
 		}
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.5" "RECITATIV" "Verräther!"
+			genre = "A C C O M P A G N A T O"
+			number = "1.5"
+			title = "Verräther! Wie, dir muß es doch gelingen?"
 		}
 		\paper { systems-per-page = #6 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\VerraetherViolinoII
-					}
-				>>
+				\new Staff { \VerraetherViolinoII }
 			>>
 		}
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.6" "ARIA" "Lieblich fließt die Zähre"
+			genre = "A R I A"
+			number = "1.6"
+			title = "Lieblich fließt die Zähre"
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\LieblichViolinoII
-					}
-				>>
+				\new Staff { \LieblichViolinoII }
 			>>
 		}
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.7" "CORO" "Wohl dem, dem die Uebertretungen vergeben ſind"
+			genre = "C O R O"
+			number = "1.7"
+			title = "Wohl dem, dem die Uebertretungen vergeben ſind"
 		}
 		\paper { systems-per-page = #6 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\WohlDemViolinoII
-					}
-				>>
+				\new Staff { \WohlDemViolinoII }
 			>>
 		}
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.8" "CHORAL" "Ich falle dir, mein Gott, zu Füßen"
+			genre = "C H O R A L"
+			number = "1.8"
+			title = "Ich falle dir, mein Gott, zu Füßen"
 		}
 		\paper { systems-per-page = #4 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\IchFalleViolinoII
-					}
-				>>
+				\new Staff { \IchFalleViolinoII }
 			>>
 		}
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.9" "RECITATIV" "Er, deſſen Allmachts Ruf"
+			genre = "A C C O M P A G N A T O"
+			number = "1.9"
+			title = "Er, deſſen Allmachts Ruf"
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\ErDessenViolinoII
-					}
-				>>
+				\new Staff { \ErDessenViolinoII }
 			>>
 		}
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.10" "CORO" "Er iſt um unſere Miſſethat willen ſo verwundet"
+			genre = "C O R O"
+			number = "1.10"
+			title = "Er iſt um unſere Miſſethat willen ſo verwundet"
 		}
-		\paper { systems-per-page = #6 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\ErIstUmViolinoII
-					}
-				>>
+				\new Staff { \ErIstUmViolinoII }
 			>>
 		}
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.11" "CHORAL" "Schreibe deine blutge Wunden"
+			genre = "C H O R A L"
+			number = "1.11"
+			title = "Schreibe deine blutge Wunden"
 		}
 		\paper { systems-per-page = #4 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\SchreibeDeineViolinoII
-					}
-				>>
+				\new Staff { \SchreibeDeineViolinoII }
 			>>
 		}
 	}
 	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "2" "Z W E Y T E   A B T H E Y L U N G"
-	}
-	\bookpart {
 		\header {
-			movement = \movementTitle "2.1" "RECITATIV" "Nun iſt die feyerliche Stunde des großen Opfers da"
+			genre = "A C C O M P A G N A T O"
+			number = "2.1"
+			title = "Nun iſt die feyerliche Stunde des großen Opfers da"
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\NunIstViolinoII
-					}
-				>>
+				\new Staff { \NunIstViolinoII }
 			>>
 		}
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.2" "DUETTO" "Gott am Creutze, lehre mich"
+			genre = "D U E T T O"
+			number = "2.2"
+			title = "Gott am Creutze, lehre mich"
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\GottAmViolinoII
-					}
-				>>
+				\new Staff { \GottAmViolinoII }
 			>>
 		}
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.3" "RECITATIV" "Es ſchweben Seraphim von fern"
+			genre = "A C C O M P A G N A T O"
+			number = "2.3"
+			title = "Es ſchweben Seraphim von fern"
 		}
-		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\EsSchwebenViolinoII
-					}
-				>>
+				\new Staff { \EsSchwebenViolinoII }
 			>>
 		}
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.4" "ARIA" "Hörts, Chriſten, das iſt unſer Glaube"
+			genre = "A R I A"
+			number = "2.4"
+			title = "Hörts, Chriſten, das iſt unſer Glaube"
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\HoertsViolinoII
-					}
-				>>
+				\new Staff { \HoertsViolinoII }
 			>>
 		}
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.5" "CORO" "Meine Seele dürſtet nach Gott"
+			genre = "C O R O"
+			number = "2.5"
+			title = "Meine Seele dürſtet nach Gott"
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\MeineSeeleViolinoII
-					}
-				>>
+				\new Staff { \MeineSeeleViolinoII }
 			>>
 		}
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.6" "CHORAL" "O! Freud, o! Luſt, o! Leben"
+			genre = "C H O R A L"
+			number = "2.6"
+			title = "O! Freud, o! Luſt, o! Leben"
 		}
 		\paper { systems-per-page = #6 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\OFreudViolinoII
-					}
-				>>
+				\new Staff { \OFreudViolinoII }
 			>>
 		}
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.7" "RECITATIV" "Du ſchöner Morgenſtern"
+			genre = "A C C O M P A G N A T O   /   C O R O"
+			number = "2.7"
+			title = "Du ſchöner Morgenſtern"
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\DuSchoenerViolinoII
-					}
-				>>
+				\new Staff { \DuSchoenerViolinoII }
 			>>
 		}
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.8" "CORO" "Verſöhner, heilges Gottes Lamm"
+			genre = "C O R O"
+			number = "2.8"
+			title = "Verſöhner, heilges Gottes Lamm"
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino II"
-						\VersoehnerViolinoII
-					}
-				>>
+				\new Staff { \VersoehnerViolinoII }
 			>>
 		}
 	}
