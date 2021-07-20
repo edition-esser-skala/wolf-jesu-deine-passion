@@ -1,0 +1,16 @@
+composer: Wolf, Ernst Wilhelm
+title: Jesu, deine Passion
+id: (D-B Mus.ms. 23262)
+genre: passion
+scoring: 2 S, A, T, B (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 cor (D), 2 vl, vla, b, org
+sources:
+  1:
+    siglum: D-B
+    shelfmark: Mus.ms. 23262
+    type: manuscript copy
+    date: ca. 1810
+    rism: 452521904
+    url: http://resolver.staatsbibliothek-berlin.de/SBB0000A77E00000000
+github: wolf-jesu-deine-passion
+imslp: Jesu,_deine_Passion_(Wolf,_Ernst_Wilhelm)
+notes:
