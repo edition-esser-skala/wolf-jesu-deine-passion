@@ -1,54 +1,13 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  indent = 1\cm
-  top-margin = 1.5\cm
-  system-separator-markup = ##f
-  system-system-spacing =
-    #'((basic-distance . 18)
-       (minimum-distance . 18)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-  markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  systems-per-page = #9
-}
-
-#(set-global-staff-size 17.82)
-
-\layout {
-  \context {
-    \Staff
-    instrumentName = "org"
-  }
-}
+#(define option-instrument-name "org")
+\include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "1.1"
-      title = "Jeſu, deine Pasſion"
-    }
+    \section "1.1" "Choral" "Jeſu, deine Pasſion"
+    \addTocLabel "jesudeine"
     \paper { indent = 2\cm systems-per-page = #4 }
     \score {
       <<
@@ -61,11 +20,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A C C O M P A G N A T O"
-      number = "1.2"
-      title = "O welch ein kläglich Bild"
-    }
+    \section "1.2" "Accompagnato" "O welch ein kläglich Bild"
+    \addTocLabel "owelchein"
     \paper { systems-per-page = #5 }
     \score {
       <<
@@ -82,11 +38,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A R I A"
-      number = "1.3"
-      title = "Heiliger, auch ich bin Erde"
-    }
+    \section "1.3" "Aria" "Heiliger, auch ich bin Erde"
+    \addTocLabel "heiligerauch"
     \score {
       <<
         \new Staff { \HeiligerOrgano }
@@ -95,11 +48,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "1.4"
-      title = "Mein Herz iſt bereit"
-    }
+    \section "1.4" "Coro" "Mein Herz iſt bereit"
+    \addTocLabel "meinherz"
     \score {
       <<
         \new Staff { \MeinHerzOrgano }
@@ -108,11 +58,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A C C O M P A G N A T O"
-      number = "1.5"
-      title = "Verräther! Wie, dir muß es doch gelingen?"
-    }
+    \section "1.5" "Accompagnato" "Verräther! Wie, dir muß es doch gelingen?"
+    \addTocLabel "verraether"
     \paper { systems-per-page = #5 }
     \score {
       <<
@@ -129,11 +76,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A R I A"
-      number = "1.6"
-      title = "Lieblich fließt die Zähre"
-    }
+    \section "1.6" "Aria" "Lieblich fließt die Zähre"
+    \addTocLabel "lieblichfliesst"
     \score {
       <<
         \new Staff { \LieblichOrgano }
@@ -142,11 +86,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "1.7"
-      title = "Wohl dem, dem die Uebertretungen vergeben ſind"
-    }
+    \section "1.7" "Coro" "Wohl dem, dem die Uebertretungen vergeben ſind"
+    \addTocLabel "wohldem"
     \paper { systems-per-page = #6 }
     \score {
       <<
@@ -156,11 +97,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "1.8"
-      title = "Ich falle dir, mein Gott, zu Füßen"
-    }
+    \section "1.8" "Choral" "Ich falle dir, mein Gott, zu Füßen"
+    \addTocLabel "ichfalle"
     \paper { systems-per-page = #4 }
     \score {
       <<
@@ -170,11 +108,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A C C O M P A G N A T O"
-      number = "1.9"
-      title = "Er, deſſen Allmachts Ruf"
-    }
+    \section "1.9" "Accompagnato" "Er, desſen Allmachts Ruf"
+    \addTocLabel "erdessen"
     \paper { systems-per-page = #5 }
     \score {
       <<
@@ -191,11 +126,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "1.10"
-      title = "Er iſt um unſere Miſſethat willen ſo verwundet"
-    }
+    \section "1.10" "Coro" "Er ist um unſere Misſethat willen ſo verwundet"
+    \addTocLabel "eristum"
     \paper { systems-per-page = #6 }
     \score {
       <<
@@ -205,11 +137,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "1.11"
-      title = "Schreibe deine blutge Wunden"
-    }
+    \section "1.11" "Choral" "Schreibe deine blutge Wunden"
+    \addTocLabel "schreibedeine"
     \paper { systems-per-page = #4 }
     \score {
       <<
@@ -219,11 +148,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A C C O M P A G N A T O"
-      number = "2.1"
-      title = "Nun iſt die feyerliche Stunde des großen Opfers da"
-    }
+    \section "2.1" "Accompagnato" "Nun iſt die feyerliche Stunde des großen Opfers da"
+    \addTocLabel "nunist"
     \paper { systems-per-page = #5 }
     \score {
       <<
@@ -240,11 +166,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "D U E T T O"
-      number = "2.2"
-      title = "Gott am Creutze, lehre mich"
-    }
+    \section "2.2" "Duetto" "Gott am Creutze, lehre mich"
+    \addTocLabel "gottam"
     \score {
       <<
         \new Staff { \GottAmOrgano }
@@ -253,11 +176,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A C C O M P A G N A T O"
-      number = "2.3"
-      title = "Es ſchweben Seraphim von fern"
-    }
+    \section "2.3" "Accompagnato" "Es ſchweben Seraphim von fern"
+    \addTocLabel "esschweben"
     \paper { systems-per-page = #5 }
     \score {
       <<
@@ -274,11 +194,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A R I A"
-      number = "2.4"
-      title = "Hörts, Chriſten, das iſt unſer Glaube"
-    }
+    \section "2.4" "Aria" "Hörts, Chriſten, das iſt unſer Glaube"
+    \addTocLabel "hoerts"
     \score {
       <<
         \new Staff { \HoertsOrgano }
@@ -287,11 +204,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "2.5"
-      title = "Meine Seele dürſtet nach Gott"
-    }
+    \section "2.5" "Coro" "Meine Seele dürſtet nach Gott"
+    \addTocLabel "meineseele"
     \score {
       <<
         \new Staff { \MeineSeeleOrgano }
@@ -300,11 +214,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "2.6"
-      title = "O! Freud, o! Luſt, o! Leben"
-    }
+    \section "2.6" "Choral" "O! Freud, o! Luſt, o! Leben"
+    \addTocLabel "ofreud"
     \paper { systems-per-page = #6 }
     \score {
       <<
@@ -314,11 +225,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A C C O M P A G N A T O   /   C O R O"
-      number = "2.7"
-      title = "Du ſchöner Morgenſtern"
-    }
+    \section "2.7" "Acc./Coro" "Du ſchöner Morgenſtern"
+    \addTocLabel "duschoener"
     \paper { systems-per-page = #5 }
     \score {
       <<
@@ -335,11 +243,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "2.8"
-      title = "Verſöhner, heilges Gottes Lamm"
-    }
+    \section "2.8" "Coro" "Verſöhner, heilges Gottes Lamm"
+    \addTocLabel "versoehner"
     \score {
       <<
         \new Staff { \VersoehnerOrgano }

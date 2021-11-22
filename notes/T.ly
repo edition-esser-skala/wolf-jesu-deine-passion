@@ -1,16 +1,5 @@
 \version "2.22.0"
 
-TenoreIncipit = \markup {
-  "Tenore" \hspace #-19.4 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef tenor s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-0.6
-}
-
 JesuDeineTenoreNotes = {
   \relative c' {
     \clef "treble_8"
@@ -53,7 +42,7 @@ JesuDeineTenoreNotes = {
 JesuDeineTenoreLyrics = \lyricmode {
   Je -- ſu,
   dei -- ne
-  Paſ -- ſi --
+  Pas -- ſi --
   on
   will ich %5
   jetzt be --
@@ -645,7 +634,7 @@ ErDessenTenoreNotes = {
 }
 
 ErDessenTenoreLyrics = \lyricmode {
-  Er, deſ -- ſen All -- machts %2
+  Er, des -- ſen All -- machts %2
   Ruf der Wel -- ten -- heer aus nichts er --
   ſchuff,
   er, Je -- ſus, wird, o %5
@@ -714,7 +703,7 @@ ErIstUmTenoreNotes = {
 ErIstUmTenoreLyrics = \lyricmode {
   Er \xE iſt um
   un -- ſe -- re
-  Miſ -- ſe -- that
+  Mis -- ſe -- that
   wil -- len
   ſo __ ver -- %5
   wun -- det,
@@ -725,7 +714,7 @@ ErIstUmTenoreLyrics = \lyricmode {
   ſo __ zer --
   ſchl -- agen.
   Um un -- ſe -- re
-  Miſ -- ſe  -- that
+  Mis -- ſe -- that
   wil -- len, %15
   um un -- ſe -- re
   Sün -- den

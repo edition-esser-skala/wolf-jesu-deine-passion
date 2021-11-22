@@ -1,16 +1,5 @@
 \version "2.22.0"
 
-SopranoIncipit = \markup {
-  "Soprano" \hspace #-20.2 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef soprano s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-0.6
-}
-
 JesuDeineSopranoNotes = {
   \relative c' {
     \clef treble
@@ -53,7 +42,7 @@ JesuDeineSopranoNotes = {
 JesuDeineSopranoLyrics = \lyricmode {
   Je -- ſu,
   dei -- ne
-  Paſ -- ſi --
+  Pas -- ſi --
   on
   will ich %5
   jetzt be --
@@ -614,7 +603,7 @@ ErIstUmSopranoNotes = {
 ErIstUmSopranoLyrics = \lyricmode {
   Er iſt um
   un -- ſe -- re
-  Miſ -- ſe -- that
+  Mis -- ſe -- that
   wil -- len
   ſo ver -- %5
   wun -- det,
@@ -625,7 +614,7 @@ ErIstUmSopranoLyrics = \lyricmode {
   ſo zer --
   ſchl -- agen.
   Um un -- ſe -- re
-  Miſ -- ſe  -- that
+  Mis -- ſe -- that
   wil -- len, %15
   um un -- ſe -- re
   Sün -- den

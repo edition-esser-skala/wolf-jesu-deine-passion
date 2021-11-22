@@ -1,16 +1,5 @@
 \version "2.22.0"
 
-AltoIncipit = \markup {
-  "Alto" \hspace #-18 \score {
-    \new Staff \with {
-      \remove Time_signature_engraver
-    } {
-      \clef alto s4 \bar empty
-    }
-    \layout { }
-  } \hspace #-0.6
-}
-
 JesuDeineAltoNotes = {
   \relative c' {
     \clef treble
@@ -53,7 +42,7 @@ JesuDeineAltoNotes = {
 JesuDeineAltoLyrics = \lyricmode {
   Je -- ſu,
   dei -- ne
-  Paſ -- ſi --
+  Pas -- ſi --
   on
   will ich %5
   jetzt be --
@@ -363,7 +352,7 @@ ErIstUmAltoNotes = {
 ErIstUmAltoLyrics = \lyricmode {
   Er \xE iſt um
   un -- ſe -- re
-  Miſ -- ſe -- that
+  Mis -- ſe -- that
   wil -- len
   ſo ver -- %5
   wun -- det,
@@ -374,7 +363,7 @@ ErIstUmAltoLyrics = \lyricmode {
   ſo zer --
   ſchl -- agen.
   Um un -- ſe -- re
-  Miſ -- ſe  -- that
+  Mis -- ſe -- that
   wil -- len, %15
   um un -- ſe -- re
   Sün -- den
@@ -689,7 +678,7 @@ DuSchoenerAltoNotes = {
     R1*3 %127
     r2 r4 \tempoOWehe fis
     eis cis gis' fis
-    fis e e\fermata^\critnote r %130
+    fis e e\fermata^\tweak TextScript.X-offset #3 ^\critnote r %130
     r g fis a^\critnote
     gis fis a gis
     e\fermata \tempoSeydGetrostD r r2

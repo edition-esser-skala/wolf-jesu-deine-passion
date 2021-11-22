@@ -42,7 +42,7 @@ JesuDeineBassoNotes = {
 JesuDeineBassoLyrics = \lyricmode {
   Je -- ſu,
   dei -- ne
-  Paſ -- ſi --
+  Pas -- ſi --
   on
   will ich %5
   jetzt be --
@@ -289,7 +289,7 @@ ErIstUmBassoNotes = {
 ErIstUmBassoLyrics = \lyricmode {
   Er iſt um
   un -- ſe -- re
-  Miſ -- ſe -- that
+  Mis -- ſe -- that
   wil -- len
   ſo __ ver -- %5
   wun -- det,
@@ -300,7 +300,7 @@ ErIstUmBassoLyrics = \lyricmode {
   ſo __ zer --
   ſchl -- agen.
   Um un -- ſe -- re
-  Miſ -- ſe  -- that
+  Mis -- ſe -- that
   wil -- len, %15
   um un -- ſe -- re
   Sün -- den

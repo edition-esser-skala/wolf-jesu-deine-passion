@@ -1,29 +1,14 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
+\include "score_settings/full-score.ly"
 
-\paper {
-  #(define (page-post-process layout pages) (ly:create-ref-file layout pages))
-}
-
-#(set-global-staff-size 15.87)
 
 \book {
+  \part "ersteabtheylung" "1" "Erſte Abtheylung"
   \bookpart {
-    \paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-    \partTitle "1" "E R S T E   A B T H E Y L U N G"
-    \tocLabel "ersteabtheylung" "1" "Erste Abtheylung"
-    \partMark
-    \pageBreak
-    \markup \null
-  }
-  \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "1.1"
-      title = "Jeſu, deine Pasſion"
-    }
-    \tocLabelLong "jesudeine" "1.1" "Choral" "Jesu, deine Passion"
+    \section "1.1" "Choral" "Jeſu, deine Pasſion"
+    \addTocLabel "jesudeine"
     \paper {
       indent = 3\cm
       system-system-spacing.basic-distance = #35
@@ -34,25 +19,19 @@
       <<
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \SopranoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipit "Soprano" "soprano" #-20 #-0.8
             \new Voice = "Soprano" { \dynamicUp \JesuDeineSopranoNotes }
           }
           \new Lyrics \lyricsto Soprano \JesuDeineSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \AltoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipit "Alto" "alto" #-17.8 #-0.8
             \new Voice = "Alto" { \dynamicUp \JesuDeineAltoNotes }
           }
           \new Lyrics \lyricsto Alto \JesuDeineAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \TenoreIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipit "Tenore" "tenor" #-19.2 #-0.8
             \new Voice = "Tenore" { \dynamicUp \JesuDeineTenoreNotes }
           }
           \new Lyrics \lyricsto Tenore \JesuDeineTenoreLyrics
@@ -76,12 +55,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A C C O M P A G N A T O"
-      number = "1.2"
-      title = "O welch ein kläglich Bild"
-    }
-    \tocLabelLong "owelchein" "1.2" "Accompagnato" "O welch ein kläglich Bild"
+    \section "1.2" "Accompagnato" "O welch ein kläglich Bild"
+    \addTocLabel "owelchein"
     \paper {
       system-system-spacing.basic-distance = #35
       system-system-spacing.minimum-distance = #35
@@ -115,7 +90,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "b" "org" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             \OWelchOrgano
           }
         >>
@@ -126,12 +101,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A R I A"
-      number = "1.3"
-      title = "Heiliger, auch ich bin Erde"
-    }
-    \tocLabelLong "heiligerauch" "1.3" "Aria" "Heiliger, auch ich bin Erde"
+    \section "1.3" "Aria" "Heiliger, auch ich bin Erde"
+    \addTocLabel "heiligerauch"
     \paper {
       system-system-spacing.basic-distance = #35
       system-system-spacing.minimum-distance = #35
@@ -165,7 +136,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "b" "org" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             \HeiligerOrgano
           }
         >>
@@ -176,12 +147,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "1.4"
-      title = "Mein Herz iſt bereit"
-    }
-    \tocLabelLong "meinherz" "1.4" "Coro" "Mein Herz ist bereit"
+    \section "1.4" "Coro" "Mein Herz iſt bereit"
+    \addTocLabel "meinherz"
     \score {
       <<
         \new StaffGroup <<
@@ -241,7 +208,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "b" "org" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             \MeinHerzOrgano
           }
         >>
@@ -252,12 +219,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A C C O M P A G N A T O"
-      number = "1.5"
-      title = "Verräther! Wie, dir muß es doch gelingen?"
-    }
-    \tocLabelLong "verraether" "1.5" "Accompagnato" "Verräther! Wie, dir muß es doch gelingen?"
+    \section "1.5" "Accompagnato" "Verräther! Wie, dir muß es doch gelingen?"
+    \addTocLabel "verraether"
     \paper {
       system-system-spacing.basic-distance = #35
       system-system-spacing.minimum-distance = #35
@@ -291,7 +254,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "b" "org" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             \VerraetherOrgano
           }
         >>
@@ -302,13 +265,9 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A R I A"
-      number = "1.6"
-      title = "Lieblich fließt die Zähre"
-    }
+    \section "1.6" "Aria" "Lieblich fließt die Zähre"
+    \addTocLabel "lieblichfliesst"
     \paper { systems-per-page = #2 }
-    \tocLabelLong "lieblichfliesst" "1.6" "Aria" "Lieblich fließt die Zähre"
     \score {
       <<
         \new StaffGroup <<
@@ -343,7 +302,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "b" "org" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             \LieblichOrgano
           }
         >>
@@ -354,12 +313,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "1.7"
-      title = "Wohl dem, dem die Uebertretungen vergeben ſind"
-    }
-    \tocLabelLong "wohldem" "1.7" "Coro" "Wohl dem, dem die Uebertretungen vergeben sind"
+    \section "1.7" "Coro" "Wohl dem, dem die Uebertretungen vergeben ſind"
+    \addTocLabel "wohldem"
     \score {
       <<
         \new StaffGroup <<
@@ -406,7 +361,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "b" "org" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             \WohlDemOrgano
           }
         >>
@@ -417,12 +372,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "1.8"
-      title = "Ich falle dir, mein Gott, zu Füßen"
-    }
-    \tocLabelLong "ichfalle" "1.8" "Choral" "Ich falle dir, mein Gott, zu Füßen"
+    \section "1.8" "Choral" "Ich falle dir, mein Gott, zu Füßen"
+    \addTocLabel "ichfalle"
     \paper {
       system-system-spacing.basic-distance = #35
       system-system-spacing.minimum-distance = #35
@@ -457,7 +408,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "b" "org" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             \IchFalleOrgano
           }
         >>
@@ -468,13 +419,9 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A C C O M P A G N A T O"
-      number = "1.9"
-      title = "Er, deſſen Allmachts Ruf"
-    }
+    \section "1.9" "Accompagnato" "Er, desſen Allmachts Ruf"
+    \addTocLabel "erdessen"
     \paper { systems-per-page = #2 }
-    \tocLabelLong "erdessen" "1.9" "Accompagnato" "Er, dessen Allmachts Ruf"
     \score {
       <<
         \new StaffGroup <<
@@ -509,7 +456,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "b" "org" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             \ErDessenOrgano
           }
         >>
@@ -520,12 +467,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "1.10"
-      title = "Er iſt um unſere Miſſethat willen ſo verwundet"
-    }
-    \tocLabelLong "eristum" "1.10" "Coro" "Er ist um unsere Missethat willen so verwundet"
+    \section "1.10" "Coro" "Er ist um unſere Misſethat willen ſo verwundet"
+    \addTocLabel "eristum"
     \score {
       <<
         \new StaffGroup <<
@@ -572,7 +515,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "b" "org" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             \ErIstUmOrgano
           }
         >>
@@ -583,12 +526,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "1.11"
-      title = "Schreibe deine blutge Wunden"
-    }
-    \tocLabelLong "schreibedeine" "1.11" "Choral" "Schreibe deine blutge Wunden"
+    \section "1.11" "Choral" "Schreibe deine blutge Wunden"
+    \addTocLabel "schreibedeine"
     \paper {
       system-system-spacing.basic-distance = #35
       system-system-spacing.minimum-distance = #35
@@ -623,7 +562,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "b" "org" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             \SchreibeDeineOrgano
           }
         >>
@@ -633,21 +572,11 @@
       \midi { \tempo 2 = 90 }
     }
   }
+  \insertEmptyPage
+  \part "zweyteabtheylung" "2" "Zweyte Abtheylung"
   \bookpart {
-    \paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-    \partTitle "2" "Z W E Y T E   A B T H E Y L U N G"
-    \tocLabel "zweyteabtheylung" "2" "Zweyte Abtheylung"
-    \partMark
-    \pageBreak
-    \markup \null
-  }
-  \bookpart {
-    \header {
-      genre = "A C C O M P A G N A T O"
-      number = "2.1"
-      title = "Nun iſt die feyerliche Stunde des großen Opfers da"
-    }
-    \tocLabelLong "nunist" "2.1" "Accompagnato" "Nun ist die feyerliche Stunde des großen Opfers da"
+    \section "2.1" "Accompagnato" "Nun iſt die feyerliche Stunde des großen Opfers da"
+    \addTocLabel "nunist"
     \paper {
       system-system-spacing.basic-distance = #35
       system-system-spacing.minimum-distance = #35
@@ -681,7 +610,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "b" "org" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             \NunIstOrgano
           }
         >>
@@ -692,12 +621,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "D U E T T O"
-      number = "2.2"
-      title = "Gott am Creutze, lehre mich"
-    }
-    \tocLabelLong "gottam" "2.2" "Duetto" "Gott am Creutze, lehre mich"
+    \section "2.2" "Duetto" "Gott am Creutze, lehre mich"
+    \addTocLabel "gottam"
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -747,7 +672,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "b" "org" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             \GottAmOrgano
           }
         >>
@@ -758,12 +683,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A C C O M P A G N A T O"
-      number = "2.3"
-      title = "Es ſchweben Seraphim von fern"
-    }
-    \tocLabelLong "esschweben" "2.3" "Accompagnato" "Es schweben Seraphim von fern"
+    \section "2.3" "Accompagnato" "Es ſchweben Seraphim von fern"
+    \addTocLabel "esschweben"
     \paper {
       system-system-spacing.basic-distance = #35
       system-system-spacing.minimum-distance = #35
@@ -797,7 +718,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "b" "org" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             \EsSchwebenOrgano
           }
         >>
@@ -808,18 +729,14 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A R I A"
-      number = "2.4"
-      title = "Hörts, Chriſten, das iſt unſer Glaube"
-    }
-    \tocLabelLong "hoerts" "2.4" "Aria" "Hörts, Christen, das ist unser Glaube"
+    \section "2.4" "Aria" "Hörts, Chriſten, das iſt unſer Glaube"
+    \addTocLabel "hoerts"
     \paper { systems-per-page = #2 }
     \score {
       <<
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup { \center-column { "cor (D)" "1, 2" } }
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
             \set Staff.soloText = \markup \remark \medium "cor 1"
             \set Staff.soloIIText = \markup \remark \medium "cor 2"
             \partCombine \HoertsCornoI \HoertsCornoII
@@ -851,7 +768,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "b" "org" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             \HoertsOrgano
           }
         >>
@@ -862,12 +779,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "2.5"
-      title = "Meine Seele dürſtet nach Gott"
-    }
-    \tocLabelLong "meineseele" "2.5" "Coro" "Meine Seele dürstet nach Gott"
+    \section "2.5" "Coro" "Meine Seele dürſtet nach Gott"
+    \addTocLabel "meineseele"
     \score {
       <<
         \new StaffGroup <<
@@ -914,7 +827,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "b" "org" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             \MeineSeeleOrgano
           }
         >>
@@ -925,12 +838,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C H O R A L"
-      number = "2.6"
-      title = "O! Freud, o! Luſt, o! Leben"
-    }
-    \tocLabelLong "ofreud" "2.6" "Choral" "O! Freud, o! Lust, o! Leben"
+    \section "2.6" "Choral" "O! Freud, o! Luſt, o! Leben"
+    \addTocLabel "ofreud"
     \paper {
       system-system-spacing.basic-distance = #35
       system-system-spacing.minimum-distance = #35
@@ -965,7 +874,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "b" "org" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             \OFreudOrgano
           }
         >>
@@ -976,15 +885,22 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "A C C O M P A G N A T O   /   C O R O"
-      number = "2.7"
-      title = "Du ſchöner Morgenſtern"
+    \section "2.7" "Acc./Coro" "Du ſchöner Morgenſtern"
+    \addTocLabel "duschoener"
+    \paper {
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      system-system-spacing.basic-distance = #17
+      system-system-spacing.minimum-distance = #17
+      systems-per-page = #2
     }
-    \tocLabelLong "duschoener" "2.7" "Acc./Coro" "Du schöner Morgenstern"
     \score {
       <<
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
@@ -1001,7 +917,7 @@
             \DuSchoenerViola
           >>
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \smallChoirStaffDistance } <<
           \new Staff {
             \set Staff.instrumentName = "S"
             \new Voice = "Soprano" { \dynamicUp \DuSchoenerSopranoNotes }
@@ -1028,7 +944,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "b" "org" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             \DuSchoenerOrgano
           }
         >>
@@ -1039,12 +955,8 @@
     }
   }
   \bookpart {
-    \header {
-      genre = "C O R O"
-      number = "2.8"
-      title = "Verſöhner, heilges Gottes Lamm"
-    }
-    \tocLabelLong "versoehner" "2.8" "Coro" "Versöhner, heilges Gottes Lamm"
+    \section "2.8" "Coro" "Verſöhner, heilges Gottes Lamm"
+    \addTocLabel "versoehner"
     \score {
       <<
         \new StaffGroup <<
@@ -1104,7 +1016,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "b" "org" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             \VersoehnerOrgano
           }
         >>
