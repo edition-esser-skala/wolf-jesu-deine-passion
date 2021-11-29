@@ -108,9 +108,9 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "A" "T" }
-            \new Voice = "Soli" { \dynamicUp \ErDessenSoliNotes }
+            \new Voice = "Soli" { \dynamicUp \ErDessenTenoreNotes }
           }
-          \new Lyrics \lyricsto Soli \ErDessenSoliLyrics
+          \new Lyrics \lyricsto Soli \ErDessenTenoreLyrics
         >>
         \new Staff { \ErDessenOrgano }
       >>

@@ -421,7 +421,11 @@
   \bookpart {
     \section "1.9" "Accompagnato" "Er, desſen Allmachts Ruf"
     \addTocLabel "erdessen"
-    \paper { systems-per-page = #2 }
+    \paper {
+      system-system-spacing.basic-distance = #30
+      system-system-spacing.minimum-distance = #30
+      systems-per-page = #2
+    }
     \score {
       <<
         \new StaffGroup <<
@@ -443,13 +447,7 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \ErDessenAltoNotes }
-          }
-          \new Lyrics \lyricsto Alto \ErDessenAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
+            \set Staff.instrumentName = \markup \center-column { "A" "T" }
             \new Voice = "Tenore" { \dynamicUp \ErDessenTenoreNotes }
           }
           \new Lyrics \lyricsto Tenore \ErDessenTenoreLyrics
@@ -1007,7 +1005,7 @@
             \new Voice = "Tenore" { \dynamicUp \VersoehnerTenoreNotes }
           }
           \new Lyrics \lyricsto Tenore \VersoehnerTenoreLyrics
-
+  
           \new Staff {
             \set Staff.instrumentName = "B"
             \new Voice = "Basso" { \dynamicUp \VersoehnerBassoNotes }

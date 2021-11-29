@@ -628,7 +628,32 @@ ErDessenTenoreNotes = {
     \appoggiatura d16 cis8 cis r4 e r
     r r8 cis16 a f'8. f16 f8 d
     g e cis d a4 r
-    R1*26 %54
+    \clef treble r4 \mvTr f'\pE^\soloE d8 d r d'16 cis
+    d4 r8 d, fis fis fis g %30
+    a4 r8 a c! c c a
+    b b r16 b b c d8 b b a
+    a4 r es'8 es d d16 c
+    h!8 h d g, c4 r8 c
+    cis4 cis cis8 cis cis d %35
+    d d r a a fis fis g
+    a a c! h! h4 r16 d h c
+    d4 r8 h h h d g,
+    c4 r8 g b4 b
+    des8. des16 des8 c \appoggiatura b a! a b c %40
+    des des r4 r8 des b as
+    g g g es b'4 r16 b g as
+    b8. b16 b8 g es es r b'
+    es4 b g8 g b g
+    es es r4 r8 b' c des %45
+    c4 c des8. b16 g8 as
+    \appoggiatura g8 f4 r r r8 es'
+    c c c b a!8. a16 b8 c
+    b4 r16 b b c des8. des16 des8 r16 b
+    g8 b des c c c r c %50
+    h4 h h8 h d g,
+    c4 r8 c a! a r4
+    es'4. d8 \appoggiatura c h!4. d8
+    f4. es8 h! h r4
     R1\fermata \bar "|." %55 finis
   }
 }
@@ -660,7 +685,33 @@ ErDessenTenoreLyrics = \lyricmode {
   red -- ter wird der Mund der Bö -- ſe -- %25
   wich -- ter, ſtürmt,
   bis ihn Pon -- ti -- us zum
-  Tod am Creutz ver -- dammt. %28 finis
+  Tod am Creutz ver -- dammt.
+  Seht, Chri -- ſten, welch ein
+  Menſch: Vor -- hin war er ſo %30
+  ſchön, war tau -- ſen -- den er --
+  koh -- ren, dem fein -- ſten Gol -- de gleich ſein
+  Haupt. Jtzt iſt ihm al -- ler
+  Ho -- heit Glanz ge -- raubt, mit
+  Dor -- nen ſieht man es durch -- %35
+  boh -- ren. Sein Au -- ge, daß uns
+  ſan -- fte Luſt ge -- bahr, wo -- rin ein
+  Blick, ein Blick in E -- den
+  war, iſt geiſt -- los,
+  to -- des -- quahl zu ſe -- hen, nur noch %40
+  of -- fen. Und ſei -- ne
+  Wan -- gen und ſein Mund, die lau -- ter
+  Sü -- ßig -- kei -- ten trof -- fen, wie
+  Ro -- ſen und wie Mir -- hen --
+  trop -- fen, ſind nun von %45
+  Schlä -- gen auf -- ge -- ſchwellt und
+  wund. Ach,
+  ſei -- ne gan -- ze lieb -- li -- che Ge --
+  ſtalt, vor -- hin wie Li -- ba -- non, wie
+  Ze -- dern aus -- er -- weh -- let, iſt %50
+  E -- lend und vor trau -- ren
+  alt, den er wird,
+  ach, zu ſehr, zu
+  ſehr ge -- quä -- let. %54 finis
 }
 
 ErIstUmTenoreNotes = {
