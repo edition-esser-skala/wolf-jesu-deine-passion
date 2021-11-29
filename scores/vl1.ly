@@ -21,9 +21,16 @@
   \bookpart {
     \section "1.2" "Accompagnato" "O welch ein kläglich Bild"
     \addTocLabel "owelchein"
-    \paper { systems-per-page = #6 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \OWelchTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \OWelchTenoreLyrics
+        >>
         \new Staff { \OWelchViolinoI }
       >>
     }
@@ -50,9 +57,16 @@
   \bookpart {
     \section "1.5" "Accompagnato" "Verräther! Wie, dir muß es doch gelingen?"
     \addTocLabel "verraether"
-    \paper { systems-per-page = #6 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \VerraetherTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \VerraetherTenoreLyrics
+        >>
         \new Staff { \VerraetherViolinoI }
       >>
     }
@@ -89,8 +103,16 @@
   \bookpart {
     \section "1.9" "Accompagnato" "Er, desſen Allmachts Ruf"
     \addTocLabel "erdessen"
+    \paper { systems-per-page = #5 }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "A" "T" }
+            \new Voice = "Tenore" { \dynamicUp \ErDessenTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \ErDessenTenoreLyrics
+        >>
         \new Staff { \ErDessenViolinoI }
       >>
     }
@@ -117,8 +139,16 @@
   \bookpart {
     \section "2.1" "Accompagnato" "Nun iſt die feyerliche Stunde des großen Opfers da"
     \addTocLabel "nunist"
+    \paper { systems-per-page = #5 }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \NunIstTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \NunIstTenoreLyrics
+        >>
         \new Staff { \NunIstViolinoI }
       >>
     }
@@ -135,9 +165,16 @@
   \bookpart {
     \section "2.3" "Accompagnato" "Es ſchweben Seraphim von fern"
     \addTocLabel "esschweben"
-    \paper { systems-per-page = #3 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \EsSchwebenTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \EsSchwebenTenoreLyrics
+        >>
         \new Staff { \EsSchwebenViolinoI }
       >>
     }
@@ -173,8 +210,16 @@
   \bookpart {
     \section "2.7" "Acc./Coro" "Du ſchöner Morgenſtern"
     \addTocLabel "duschoener"
+    \paper { systems-per-page = #5 }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "A" "T" "B" }
+            \new Voice = "Soli" { \dynamicUp \DuSchoenerSoliNotes }
+          }
+          \new Lyrics \lyricsto Soli \DuSchoenerSoliLyrics
+        >>
         \new Staff { \DuSchoenerViolinoI }
       >>
     }
