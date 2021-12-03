@@ -1,8 +1,11 @@
-composer: Wolf, Ernst Wilhelm
+composer:
+  last: Wolf
+  first: Ernst Wilhelm
 title: Jesu, deine Passion
 subtitle: Passions-Oratorium
 genre: passion
 scoring: 2 S, A, T, B (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 cor (D), 2 vl, vla, b, org
+license: cc-by-nc-sa-4.0
 sources:
   B1:
     siglum: D-B
@@ -10,6 +13,7 @@ sources:
     date: ca. 1810
     rism: 452521904
     url: http://resolver.staatsbibliothek-berlin.de/SBB0000A77E00000000
+    license: CC BY-NC-SA 4.0
     principal: true
 imslp: Jesu,_deine_Passion_(Wolf,_Ernst_Wilhelm)
 parts:
